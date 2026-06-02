@@ -1,0 +1,725 @@
+{
+  "version": 1,
+  "source_file": "work\\clean\\generative_ai_labor_demand.clean.md",
+  "manifest_file": "work\\chunks\\generative_ai_labor_demand\\manifest.json",
+  "section_count": 40,
+  "entries": [
+    {
+      "rank": 1,
+      "source_term": "GPT",
+      "translation": "",
+      "status": "draft",
+      "score": 38,
+      "examples": [
+        "used inside organizations. Since the public release of ChatGPT in late 2022, large language models have become increasingly embedded in writing, coding, data anal",
+        "ed Oaxaca–Blinder decomposition comparing the pre- and post-GPT periods (Oaxaca, 1973; Oaxaca and Sierminska, 2025). This regression-based decomposition allows us"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 2,
+      "source_term": "posting-level",
+      "translation": "",
+      "status": "draft",
+      "score": 28,
+      "examples": [
+        "overing all sectors of the economy, we construct a dynamic, posting-level measure of generative AI exposure with a two-stage large language model pipeline. The pipeline iden",
+        "rns of labor-demand reorganization. We construct a dynamic, posting-level measure of generative AI exposure using a two-stage large language model (LLM) pipeline. In the fir"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 3,
+      "source_term": "occupation-level",
+      "translation": "",
+      "status": "draft",
+      "score": 24,
+      "examples": [
+        "rspective implicit in much of the emerging evidence linking occupation-level exposure to employment, productivity, wages, or job postings (Brynjolfsson et al., 2025b; Hampole e",
+        "e positions on average, revealing a seniority gradient that occupation-level measures cannot capture. Second, labor demand adjusts through both hiring reallocation and job rede"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 4,
+      "source_term": "O*NET",
+      "translation": "",
+      "status": "draft",
+      "score": 19,
+      "examples": [
+        "anyAIexposuremeasurescombineoccupationaltaskinformationfrom O*NET with external assessments of AI capabilities to construct occupation-level exposure indices (Frey a",
+        "erative AI and LLMs. Much of this work continues to rely on O*NET task or ability information, but adapts the exposure concept to the capabilities of language models"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 5,
+      "source_term": "within-cell",
+      "translation": "",
+      "status": "draft",
+      "score": 19,
+      "examples": [
+        "ft hiring away from jobs with higher baseline exposure. The within-cell exposure effect also becomes negative around the same period and grows in magnitude thereafter, ind",
+        "% of the decline in aggregate generative AI exposure, while within-cell job redesign accounts for 39. 46%. The interaction term accounts for the remaining 8. 54%. Thus, th"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 6,
+      "source_term": "LLM",
+      "translation": "",
+      "status": "draft",
+      "score": 17,
+      "examples": [
+        "erative AI exposure using a two-stage large language model (LLM) pipeline. In the first stage, we extract tasks from each job description andmatchthosetaskstoskill",
+        "25). Recent work extends this approach to generative AI and LLMs. Much of this work continues to rely on O*NET task or ability information, but adapts the exposure"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 7,
+      "source_term": "Blinder decomposition",
+      "translation": "",
+      "status": "draft",
+      "score": 16,
+      "examples": [
+        "d their interaction. The second method is a weighted Oaxaca–Blinder decomposition comparing the pre- and post-GPT periods (Oaxaca, 1973; Oaxaca and Sierminska, 2025). This regressio",
+        "they post and the tasks embedded in those jobs. The Oaxaca–Blinder decomposition reinforces these conclusions while clarifying the observable dimensions behind compositional adjust"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 8,
+      "source_term": "pre-GPT",
+      "translation": "",
+      "status": "draft",
+      "score": 15,
+      "examples": [
+        "lic diffusion of generative AI tools and provides a stable pre-GPT benchmark. Our goal is to decompose the change in **aggregate exposure between period 0 and period",
+        "a–Blinder decomposition compares two aggregate periods: the pre-GPT period and the post-GPT period. It decomposes the change in mean exposure into an explained compone"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 9,
+      "source_term": "NAICS",
+      "translation": "",
+      "status": "draft",
+      "score": 14,
+      "examples": [
+        "ped to a standardized O*NET occupation code and a two-digit NAICS industry code, which allow us to compare jobs acrossoccupationsandsectors. WealsouseLightcast’sjobs",
+        "second dimension is industry, measured using the two-digit NAICS code. Even within the same occupation, jobs may involve different tasks across industries. For exam"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 10,
+      "source_term": "post-GPT",
+      "translation": "",
+      "status": "draft",
+      "score": 14,
+      "examples": [
+        "eighted Oaxaca–Blinder decomposition comparing the pre- and post-GPT periods (Oaxaca, 1973; Oaxaca and Sierminska, 2025). This regression-based decomposition allows us",
+        "most associated with the exposure gap between the pre- and post-GPT periods. Thus, Kitagawa identifies the adjustment margins, while Oaxaca–Blinder helps characterize"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 11,
+      "source_term": "remote-work",
+      "translation": "",
+      "status": "draft",
+      "score": 12,
+      "examples": [
+        "tics, especially occupation, industry, seniority, location, remote-work status, internship status, and employment type, account for the compositional change in exposure. T",
+        "such as ChatGPT Enterprise (OpenAI, 2023). tics, including remote-work arrangement, industry, employment type, and internship status, also contribute, although more modes"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 12,
+      "source_term": "full-time",
+      "translation": "",
+      "status": "draft",
+      "score": 10,
+      "examples": [
+        "non-intern postings; and the employment-type block includes full-time, part-time, and parttime/full-time postings. After omitting one reference category per block, the s",
+        "ment-type block includes full-time, part-time, and parttime/full-time postings. After omitting one reference category per block, the specification includes approximately"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 13,
+      "source_term": "hiring reallocation",
+      "translation": "",
+      "status": "draft",
+      "score": 10,
+      "examples": [
+        "er time. Second, labor demand adjusts through both margins. Hiring reallocation explains the largest share of the aggregatedeclineinexposure, accountingfor52%onaverage, whilewithi",
+        "or demand; Job ladder; Dynamic AI exposure; Job postings; **Hiring reallocation; Job redesign; Organizational reconfiguration** ∗Zaiyan Wei gratefully acknowledges research suppor"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 14,
+      "source_term": "entry-level",
+      "translation": "",
+      "status": "draft",
+      "score": 8,
+      "examples": [
+        "e roles. 1 Media accounts have described fewer openings for entry-level white-collar workers (Iscenko and Millet, 2026). Recent academic studies have asked whether employm",
+        "erevidencequestionsthisinterpretation, arguingthatdeclinesinentry-levelhiring may reflect broader macroeconomic forces rather than AI-driven substitution (Iscenko and Mill"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 15,
+      "source_term": "labor demand",
+      "translation": "",
+      "status": "draft",
+      "score": 8,
+      "examples": [
+        "**Generative AI and the Reorganization of Labor Demand** **Fangyan Wang∗, Zaiyan Wei, and Yang Wang** **Mitch Daniels School of Business, Purdue Universit",
+        "ransform work, but less is known about how firms reorganize labor demand as the technology diffuses. Existing research has largely focused on which occupations are exposed"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 16,
+      "source_term": "labor-demand",
+      "translation": "",
+      "status": "draft",
+      "score": 8,
+      "examples": [
+        "arts of the labor market combine into aggregate patterns of labor-demand reorganization. We construct a dynamic, posting-level measure of generative AI exposure using a two",
+        "e paper shifts the empirical focus from job displacement to labor-demand reorganization. Much of the current debate asks whether highly exposed occupations decline (Brynjol"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 17,
+      "source_term": "labor-market",
+      "translation": "",
+      "status": "draft",
+      "score": 8,
+      "examples": [
+        "osed to generative AI (Brynjolfsson et al., 2025a). Yet the labor-market effects of a new technology need not appear only as fewer jobs in exposed occupations. Firms may al",
+        "It changes as employers revise what they ask workers to do. Labor-marketadjustmentthentakesplaceevenwhenbroadoccupationallabelsremainunchanged. This distinction is also imp"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 18,
+      "source_term": "posting-level measure",
+      "translation": "",
+      "status": "draft",
+      "score": 8,
+      "examples": [
+        "overing all sectors of the economy, we construct a dynamic, posting-level measure of generative AI exposure with a two-stage large language model pipeline. The pipeline identifies t",
+        "rns of labor-demand reorganization. We construct a dynamic, posting-level measure of generative AI exposure using a two-stage large language model (LLM) pipeline. In the first stage"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 19,
+      "source_term": "SSRN",
+      "translation": "",
+      "status": "draft",
+      "score": 8,
+      "examples": [
+        "acking employment changes in AI-exposed jobs.” Available at SSRN 5384519. Chen, Wilbur Xinyuan, Suraj Srinivasan, and Saleh Zakerinia. 2025. “Displacement or comple",
+        "ffects of generative artificial intelligence.” Available at SSRN 5136877. Hosseini Maasoum, Seyed Mahdi, and Guy Lichtinger. 2025. “Generative AI as senioritybiased"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 20,
+      "source_term": "three-fold",
+      "translation": "",
+      "status": "draft",
+      "score": 8,
+      "examples": [
+        "thods to separate the margins of adjustment. The first is a three-fold extension of the Kitagawa decomposition (Kitagawa, 1955). We consider aggregate generative AI expos",
+        "ation; the second is job redesign. Our main analysis uses a three-fold extension of the Kitagawa decomposition (Kitagawa, 1955). This decomposition expresses changes in a"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 21,
+      "source_term": "Three-Fold",
+      "translation": "",
+      "status": "draft",
+      "score": 8,
+      "examples": [
+        "thods to separate the margins of adjustment. The first is a three-fold extension of the Kitagawa decomposition (Kitagawa, 1955). We consider aggregate generative AI expos",
+        "ation; the second is job redesign. Our main analysis uses a three-fold extension of the Kitagawa decomposition (Kitagawa, 1955). This decomposition expresses changes in a"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 22,
+      "source_term": "high-exposure",
+      "translation": "",
+      "status": "draft",
+      "score": 7,
+      "examples": [
+        "lve over time. The decline is especially concentrated among high-exposure occupations, while low- and medium-exposure occupations are more stable. Exposure also varies shar",
+        "xposure, β, over the full sample period: low-, middle-, and high-exposure occupations. It then plots the quarterly change in mean exposure for each group. The dashed horizon"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 23,
+      "source_term": "job redesign",
+      "translation": "",
+      "status": "draft",
+      "score": 7,
+      "examples": [
+        "; Dynamic AI exposure; Job postings; **Hiring reallocation; Job redesign; Organizational reconfiguration** ∗Zaiyan Wei gratefully acknowledges research support from the Dav",
+        "usly. We interpret these components as hiring reallocation, job redesign, and their interaction. The second method is a weighted Oaxaca–Blinder decomposition comparing the"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 24,
+      "source_term": "level exposure",
+      "translation": "",
+      "status": "draft",
+      "score": 7,
+      "examples": [
+        "mplicit in much of the emerging evidence linking occupation-level exposure to employment, productivity, wages, or job postings (Brynjolfsson et al., 2025b; Hampole et al., 20",
+        "quality. We then aggregate task-level labels into a posting-level exposure index. Thisdesignadaptsthetask-basedlogicofpriorexposuremeasurestothelevelatwhichfirms actually des"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 25,
+      "source_term": "Oaxaca-Blinder decomposition",
+      "translation": "",
+      "status": "draft",
+      "score": 7,
+      "examples": [],
+      "notes": ""
+    },
+    {
+      "rank": 26,
+      "source_term": "two-digit",
+      "translation": "",
+      "status": "draft",
+      "score": 7,
+      "examples": [
+        "ing is mapped to a standardized O*NET occupation code and a two-digit NAICS industry code, which allow us to compare jobs acrossoccupationsandsectors. WealsouseLightcast",
+        "ve AI. The second dimension is industry, measured using the two-digit NAICS code. Even within the same occupation, jobs may involve different tasks across industries. Fo"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 27,
+      "source_term": "AI-exposed",
+      "translation": "",
+      "status": "draft",
+      "score": 6,
+      "examples": [
+        ") document sizable relative employment declines in the most AI-exposed occupations after the release of ChatGPT. Liu et al. (2025) find corresponding declines in job post",
+        "omic conditions. Iscenko and Millet (2026) show that highly AI-exposed occupations are concentrated in rate-sensitive sectors such as information, finance, and profession"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 28,
+      "source_term": "ChatGPT",
+      "translation": "",
+      "status": "draft",
+      "score": 6,
+      "examples": [
+        "tool used inside organizations. Since the public release of ChatGPT in late 2022, large language models have become increasingly embedded in writing, coding, data anal",
+        "inciding with the arrival of enterprise-grade tools such as ChatGPT Enterprise (OpenAI, 2023). tics, including remote-work arrangement, industry, employment type, and"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 29,
+      "source_term": "generative AI",
+      "translation": "",
+      "status": "draft",
+      "score": 6,
+      "examples": [
+        "**Generative AI and the Reorganization of Labor Demand** **Fangyan Wang∗, Zaiyan Wei, and Yang Wang** **Mitch Danie",
+        "e economy, we construct a dynamic, posting-level measure of generative AI exposure with a two-stage large language model pipeline. The pipeline identifies the tasks describe"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 30,
+      "source_term": "job postings",
+      "translation": "",
+      "status": "draft",
+      "score": 6,
+      "examples": [
+        ", what jobs contain, or both. Using a nationwide dataset of job postings in the United States, covering all sectors of the economy, we construct a dynamic, posting-level me",
+        "nerative AI; Labor demand; Job ladder; Dynamic AI exposure; Job postings; **Hiring reallocation; Job redesign; Organizational reconfiguration** ∗Zaiyan Wei gratefully ackno"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 31,
+      "source_term": "Job-Characteristic",
+      "translation": "",
+      "status": "draft",
+      "score": 6,
+      "examples": [
+        "es the explained component into contributions from observed job-characteristic blocks. Negative values indicate that shifts in the distribution of a characteristic are associate",
+        "osure fixed. ### Figure 10: Explained Component by Observed Job-Characteristic Block: Pre-GPT vs. Post-GPT The dominant observable source of the explained decline is occupation."
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 32,
+      "source_term": "Kitagawa decomposition",
+      "translation": "",
+      "status": "draft",
+      "score": 6,
+      "examples": [
+        "s of adjustment. The first is a three-fold extension of the Kitagawa decomposition (Kitagawa, 1955). We consider aggregate generative AI exposure as a weighted average of exposure ac",
+        "distinguish two mechanisms of labor-demand adjustment. The Kitagawa decompositionseparateschangesinaggregateexposureintohiringreallocationacrossjobsandtask redesign within comparabl"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 33,
+      "source_term": "Lightcast",
+      "translation": "",
+      "status": "draft",
+      "score": 6,
+      "examples": [
+        "about the content of jobs. We use a nationwide dataset from Lightcast that contains all online job postings in the United States and covers all sectors of the economy fr",
+        ", labor demand, and the job ladder. Section 3 describes the Lightcast job-posting data and sampling procedure. Following that, Section 4 presents the construction of the"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 34,
+      "source_term": "occupation-level exposure",
+      "translation": "",
+      "status": "draft",
+      "score": 6,
+      "examples": [
+        "rspective implicit in much of the emerging evidence linking occupation-level exposure to employment, productivity, wages, or job postings (Brynjolfsson et al., 2025b; Hampole et al., 20",
+        "generative AI. We build on this work by moving from static occupation-level exposure measures to a dynamic, posting-level measure that captures variation within occupations and over ti"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 35,
+      "source_term": "of generative AI exposure",
+      "translation": "",
+      "status": "draft",
+      "score": 6,
+      "examples": [
+        "the economy, we construct a dynamic, posting-level measure of generative AI exposure with a two-stage large language model pipeline. The pipeline identifies the tasks described in each",
+        "organization. We construct a dynamic, posting-level measure of generative AI exposure using a two-stage large language model (LLM) pipeline. In the first stage, we extract tasks from ea"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 36,
+      "source_term": "Posting-Level",
+      "translation": "",
+      "status": "draft",
+      "score": 6,
+      "examples": [
+        "overing all sectors of the economy, we construct a dynamic, posting-level measure of generative AI exposure with a two-stage large language model pipeline. The pipeline iden",
+        "rns of labor-demand reorganization. We construct a dynamic, posting-level measure of generative AI exposure using a two-stage large language model (LLM) pipeline. In the fir"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 37,
+      "source_term": "posting-level exposure",
+      "translation": "",
+      "status": "draft",
+      "score": 6,
+      "examples": [
+        "ivalent quality. We then aggregate task-level labels into a posting-level exposure index. Thisdesignadaptsthetask-basedlogicofpriorexposuremeasurestothelevelatwhichfirms actually des",
+        "dynamics of the underlying population. # 4 Measurement of Posting-Level Exposure to Generative AI We measure exposure to generative AI at the level of individual job postings. Thi"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 38,
+      "source_term": "regression-based",
+      "translation": "",
+      "status": "draft",
+      "score": 6,
+      "examples": [
+        "T periods (Oaxaca, 1973; Oaxaca and Sierminska, 2025). This regression-based decomposition allows us to examine which observable job characteristics, especially occupation, ind",
+        "simultaneously. We complement the Kitagawa analysis with a regression-based Oaxaca–Blinder decomposition (Oaxaca, 1973; Blinder, 1973; Oaxaca and Sierminska, 2025). The two de"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 39,
+      "source_term": "specialized-skill",
+      "translation": "",
+      "status": "draft",
+      "score": 6,
+      "examples": [
+        "mand. Each extracted task is matched in Stage 1 to either a specialized-skill group or a common-skill group based on the posting’s Lightcast skills. We use this distinction to a",
+        "osest skill group, as shown in Appendix A. Tasks matched to specialized-skill groupsaretreatedasspecialized-skilltasks; tasksmatchedtocommon-skillgroupsaretreatedascommon-skillt"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 40,
+      "source_term": "Three-Fold Decomposition",
+      "translation": "",
+      "status": "draft",
+      "score": 6,
+      "examples": [
+        "reconstruction gap is negligible. Our main text reports the three-fold decomposition in Equation (8). Appendix G reports two additional exercises. First, we implement the symmetric two",
+        "ures the joint movement of these two margins. ### Figure 6: Three-Fold Decomposition of Changes in Aggregate Generative AI Exposure Notes: Thefigurereportsthethree-foldKitagawadecompo"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 41,
+      "source_term": "two-fold",
+      "translation": "",
+      "status": "draft",
+      "score": 6,
+      "examples": [
+        "obs contain, and the joint movement of the two. The classic two-fold Kitagawa decomposition allocates the interaction term into the composition and within-cell componen",
+        "ion and within-cell components. We report the corresponding two-fold decomposition in Appendix G. ## 5.3 Common Support and Robustness of the Decomposition The set of"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 42,
+      "source_term": "two-stage",
+      "translation": "",
+      "status": "draft",
+      "score": 6,
+      "examples": [
+        "mic, posting-level measure of generative AI exposure with a two-stage large language model pipeline. The pipeline identifies the tasks described in each posting and clas",
+        "ic, posting-level measure of generative AI exposure using a two-stage large language model (LLM) pipeline. In the first stage, we extract tasks from each job description"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 43,
+      "source_term": "Changes in Generative AI Exposure",
+      "translation": "",
+      "status": "draft",
+      "score": 5,
+      "examples": [
+        "for junior, intermediate, and senior postings. **Figure 4: Changes in Generative AI Exposure by Occupation Group** Notes: This figure groups occupations into three categories based on their av",
+        "ch component in the three-fold Kitagawa d∑ecomp/os∑ition of changes in generative AI exposure from Q3 of 2023 onward. Contributions are computed as |X | (|C |+|W |+|I |), whereC, W, andI denote"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 44,
+      "source_term": "early-career",
+      "translation": "",
+      "status": "draft",
+      "score": 5,
+      "examples": [
+        "s are reallocating hiring away from exposed positions, then early-career workers may face not only fewer opportunities in some job categories but also a changing set of tas",
+        "documenting a 16 percent relative employment decline among early-career workers ages 22–25inthemostAI-exposedoccupationsafterthereleaseofChatGPT. Simon(2025)andEisfeldt et"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 45,
+      "source_term": "have higher pre-GPT exposure",
+      "translation": "",
+      "status": "draft",
+      "score": 5,
+      "examples": [
+        "ises slightly from 82. 3% to 82. 5%, and full-time postings have higher pre-GPT exposure than part-time postings (0. 434 vs. 0. 271). This shift toward full-time jobs therefore increases p",
+        "share rises from 10. 2% to 11. 9%, and internship postings have higher pre-GPT exposure than non-internship postings (0. 581 vs. 0. 419). Similarly, the full-time share rises slightly fro"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 46,
+      "source_term": "job ladder",
+      "translation": "",
+      "status": "draft",
+      "score": 5,
+      "examples": [
+        "e job characteristics. Third, adjustment differs across the job ladder. Seniorjobsadjustearlierandmainlythroughreallocation, whereasjuniorjobsadjustthrougha broader mix o",
+        "rchitecture of work. Keywords: Generative AI; Labor demand; Job ladder; Dynamic AI exposure; Job postings; **Hiring reallocation; Job redesign; Organizational reconfigura"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 47,
+      "source_term": "large language model",
+      "translation": "",
+      "status": "draft",
+      "score": 5,
+      "examples": [
+        "ng-level measure of generative AI exposure with a two-stage large language model pipeline. The pipeline identifies the tasks described in each posting and classifies the extent to",
+        "izations. Since the public release of ChatGPT in late 2022, large language models have become increasingly embedded in writing, coding, data analysis, customer service, marketing,"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 48,
+      "source_term": "level exposure measures",
+      "translation": "",
+      "status": "draft",
+      "score": 5,
+      "examples": [
+        "AI. We build on this work by moving from static occupation-level exposure measures to a dynamic, posting-level measure that captures variation within occupations and over time. The s",
+        "isliteratureinthreeways. First, wemovebeyondstaticoccupationlevel exposure measures by constructing a dynamic measure from the text of individual job postings. This allows us to obser"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 49,
+      "source_term": "Post-GPT",
+      "translation": "",
+      "status": "draft",
+      "score": 5,
+      "examples": [
+        "eighted Oaxaca–Blinder decomposition comparing the pre- and post-GPT periods (Oaxaca, 1973; Oaxaca and Sierminska, 2025). This regression-based decomposition allows us",
+        "most associated with the exposure gap between the pre- and post-GPT periods. Thus, Kitagawa identifies the adjustment margins, while Oaxaca–Blinder helps characterize"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 50,
+      "source_term": "Posting-level",
+      "translation": "",
+      "status": "draft",
+      "score": 5,
+      "examples": [
+        "overing all sectors of the economy, we construct a dynamic, posting-level measure of generative AI exposure with a two-stage large language model pipeline. The pipeline iden",
+        "rns of labor-demand reorganization. We construct a dynamic, posting-level measure of generative AI exposure using a two-stage large language model (LLM) pipeline. In the fir"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 51,
+      "source_term": "task content",
+      "translation": "",
+      "status": "draft",
+      "score": 5,
+      "examples": [
+        "itself. They may shift hiring away from jobs whose baseline task content is more exposed to generative AI. They may also continue hiring within the same broad job categorie",
+        "iu et al., 2025). But if firms also redesign jobs, then the task contentofworkbecomesendogenoustotechnologicaldiffusion. Inthatcase, exposureisnotsimply a fixed property of"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 52,
+      "source_term": "task-level",
+      "translation": "",
+      "status": "draft",
+      "score": 5,
+      "examples": [
+        "red to complete it at equivalent quality. We then aggregate task-level labels into a posting-level exposure index. Thisdesignadaptsthetask-basedlogicofpriorexposuremeasur",
+        "eworktoadvancesinlanguagemodeling. Gmyrek et al. (2023) use task-level evaluations to distinguish automation from augmentation based on the distribution of exposure acros"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 53,
+      "source_term": "within the same occupation",
+      "translation": "",
+      "status": "draft",
+      "score": 5,
+      "examples": [
+        "er firms are changing the content of junior and senior jobs within the same occupation. As a result, they leave open a more general question: does generative AI merely change the composi",
+        "cribe vacancies. It allows exposure to vary across postings within the same occupation, across industries and seniority levels, and over time as firms revise job content. We then use two"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 54,
+      "source_term": "Within-cell",
+      "translation": "",
+      "status": "draft",
+      "score": 5,
+      "examples": [
+        "ft hiring away from jobs with higher baseline exposure. The within-cell exposure effect also becomes negative around the same period and grows in magnitude thereafter, ind",
+        "% of the decline in aggregate generative AI exposure, while within-cell job redesign accounts for 39. 46%. The interaction term accounts for the remaining 8. 54%. Thus, th"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 55,
+      "source_term": "aggregate exposure",
+      "translation": "",
+      "status": "draft",
+      "score": 4,
+      "examples": [
+        "AI can perform or assist them. We then decompose changes in aggregate exposure into two margins: reallocation of demand across jobs and redesign of tasks within jobs. We document",
+        "thetechnologydiffuses? Second, to what extent do changes in aggregate exposure reflect hiring reallocation across jobs versus redesign of task content within jobs? Third, do thes"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 56,
+      "source_term": "AI-powered",
+      "translation": "",
+      "status": "draft",
+      "score": 4,
+      "examples": [
+        "standalone tool may not be suﬀicient, but for which a thin AI-powered software layer or workflow integration could plausibly generate a substantial productivity improvem",
+        "ed** **to complete the task by at least 50%; but** • a thin AI-powered software layer built on top of such a tool could plausibly achieve at least a 50% reduction while m"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 57,
+      "source_term": "AI-related",
+      "translation": "",
+      "status": "draft",
+      "score": 4,
+      "examples": [
+        "ng workplaces experience task reorganization and create new AI-related roles. Thisdebatemotivatesourfocusonmechanismsratherthanonlylevelsofemploymentorhiring. Ifchangesin",
+        "mpositional adjustment also differ by seniority. Generative AI-related labor-demand adjustment therefore involves both a broad occupational shift and a seniority-specific"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 58,
+      "source_term": "and job redesign",
+      "translation": "",
+      "status": "draft",
+      "score": 4,
+      "examples": [
+        "cond, labor demand adjusts through both hiring reallocation and job redesign. The composition effect turns negative after the third quarter of 2023, indicating that firms shift",
+        "and is reorganized through two margins: hiring reallocation and job redesign. We further examine how these margins differ across the job ladder. ## 2.1 AI and Generative AI Ex"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 59,
+      "source_term": "and senior postings",
+      "translation": "",
+      "status": "draft",
+      "score": 4,
+      "examples": [
+        "o our sampling design, we ensure that junior, intermediate, and senior postings are represented within occupation-by-industry groups. Operationally, for each half-year period from",
+        "eports the same series separately for junior, intermediate, and senior postings. **Figure 4: Changes in Generative AI Exposure by Occupation Group** Notes: This figure groups occu"
+      ],
+      "notes": ""
+    },
+    {
+      "rank": 60,
+      "source_term": "common-skill",
+      "translation": "",
+      "status": "draft",
+      "score": 4,
+      "examples": [
+        "matched in Stage 1 to either a specialized-skill group or a common-skill group based on the posting’s Lightcast skills. We use this distinction to assign task-importance [F",
+        "ill groupsaretreatedasspecialized-skilltasks; tasksmatchedtocommon-skillgroupsaretreatedascommon-skilltasks. In ties, the prompt gives priority to specialized-skill groups."
+      ],
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI 知识图谱学习平台</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="brand-mark">KG</div>
+          <div>
+            <h1>AI 学习平台</h1>
+            <p>论文、课件、图谱与 Notebook</p>
+          </div>
+        </div>
+        <nav>
+          <a href="#workspace">资料工作台</a>
+          <a href="#assistant">检索问答</a>
+          <a href="#notebooks">学习 Notebook</a>
+          <a href="/docs" target="_blank">API 文档</a>
+        </nav>
+        <div class="status-card">
+          <span id="health-dot" class="dot"></span>
+          <span id="health-text">检查服务状态...</span>
+        </div>
+      </aside>
+
+      <main>
+        <section class="topbar">
+          <div>
+            <p class="eyebrow">Local Knowledge Workspace</p>
+            <h2>把论文和课件变成可追溯的学习资产</h2>
+          </div>
+          <div class="button-row">
+            <button id="refresh-btn" class="secondary">刷新</button>
+            <button id="rebuild-btn">重建索引/图谱</button>
+          </div>
+        </section>
+
+        <section id="workspace" class="workspace-grid">
+          <section class="panel library-panel">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Library</p>
+                <h3>资料库</h3>
+              </div>
+            </div>
+            <form id="upload-form" class="upload-box">
+              <input id="file-input" type="file" />
+              <button type="submit">上传资料</button>
+            </form>
+            <div class="button-row compact">
+              <button id="reprocess-btn" class="secondary">本地重解析</button>
+              <button id="reprocess-mineru-precision-btn" class="secondary">MinerU 精准批处理</button>
+            </div>
+            <div id="documents-list" class="document-list"></div>
+          </section>
+
+          <section class="panel detail-panel">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Document Detail</p>
+                <h3 id="detail-title">选择一份资料</h3>
+              </div>
+              <div class="button-row compact">
+                <button id="detail-parse-basic" class="secondary" disabled>本地解析</button>
+                <button id="detail-parse-mineru" class="secondary" disabled>MinerU 精准</button>
+                <button id="detail-force-mineru" class="secondary danger" disabled>强制重跑</button>
+              </div>
+            </div>
+
+            <div id="quality-grid" class="metric-grid"></div>
+
+            <div class="tabs">
+              <button class="tab active" data-tab="overview">概览</button>
+              <button class="tab" data-tab="chunks">Chunks</button>
+              <button class="tab" data-tab="assets">资产</button>
+              <button class="tab" data-tab="markdown">Full.md</button>
+              <button class="tab" data-tab="history">历史</button>
+            </div>
+
+            <div id="detail-content" class="detail-content">选择文档后可查看解析质量、资产和结构化 chunks。</div>
+          </section>
+        </section>
+
+        <section id="assistant" class="assistant-grid">
+          <section class="panel">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Retrieval</p>
+                <h3>搜索</h3>
+              </div>
+            </div>
+            <form id="search-form" class="stack-form">
+              <input id="search-query" placeholder="例如 感知机 损失函数 推导" />
+              <button type="submit">搜索证据</button>
+            </form>
+            <div id="search-results" class="list"></div>
+          </section>
+
+          <section class="panel">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">Tutor</p>
+                <h3>问答</h3>
+              </div>
+            </div>
+            <form id="chat-form" class="stack-form">
+              <textarea id="chat-question" placeholder="输入你的学习问题"></textarea>
+              <button type="submit">提问</button>
+            </form>
+            <pre id="chat-answer" class="preview compact">回答会显示在这里。</pre>
+          </section>
+        </section>
+
+        <section id="notebooks" class="panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">NotebookLM Style</p>
+              <h3>学习 Notebook</h3>
+            </div>
+          </div>
+          <form id="notebook-form" class="notebook-form">
+            <input id="notebook-topic" placeholder="主题，例如 感知机损失函数与收敛性" />
+            <select id="notebook-difficulty">
+              <option value="beginner">初学者</option>
+              <option value="intermediate">进阶</option>
+            </select>
+            <select id="notebook-goal">
+              <option value="conceptual">概念理解</option>
+              <option value="practice">实践导向</option>
+              <option value="review">复习导向</option>
+            </select>
+            <label class="check"><input id="notebook-code" type="checkbox" checked /> 包含代码</label>
+            <button type="submit">生成 Notebook</button>
+          </form>
+          <div id="artifacts-list" class="list"></div>
+        </section>
+
+        <section id="graph" class="panel">
+          <div class="panel-heading">
+            <div>
+              <p class="eyebrow">Graph</p>
+              <h3>图谱节点</h3>
+            </div>
+            <button id="graph-btn" class="secondary">刷新图谱</button>
+          </div>
+          <div id="graph-summary" class="item-meta">重建索引后可查看实体节点和关系数量。</div>
+          <div id="graph-list" class="list"></div>
+        </section>
+      </main>
+    </div>
+    <script src="/app.js"></script>
+  </body>
+</html>

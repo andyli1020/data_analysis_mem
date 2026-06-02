@@ -1,0 +1,1 @@
+Notes: This figure reports a within-sector version of the decomposition. The decomposition is estimated separately within each two-digit NAICS sector and then aggregated using fixed baseline sector weights.

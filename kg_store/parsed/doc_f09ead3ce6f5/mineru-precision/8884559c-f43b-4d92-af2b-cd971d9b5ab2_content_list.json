@@ -1,0 +1,5957 @@
+[
+    {
+        "type": "text",
+        "text": "RNN ",
+        "text_level": 1,
+        "bbox": [
+            430,
+            297,
+            576,
+            380
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Recurrent Neural Networks ",
+        "text_level": 1,
+        "bbox": [
+            213,
+            406,
+            805,
+            468
+        ],
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "RNN - Recurrent Neural Networks ",
+        "text_level": 1,
+        "bbox": [
+            56,
+            42,
+            623,
+            93
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "• A family of neural networks for handling sequential data, which involves variable length inputs or outputs ",
+            "• Initially proposed by Rumelhart et al. (1986) ",
+            "• Its recurrent formulation results in the sharing of parameters through a very deep computational graph "
+        ],
+        "bbox": [
+            56,
+            142,
+            941,
+            617
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            810,
+            26,
+            850,
+            82
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            26,
+            956,
+            60
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            82
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "page_number",
+        "text": "2 ",
+        "bbox": [
+            896,
+            940,
+            910,
+            962
+        ],
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Computational graphs ",
+        "text_level": 1,
+        "bbox": [
+            56,
+            42,
+            430,
+            95
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "• Dynamical system ",
+        "text_level": 1,
+        "bbox": [
+            56,
+            148,
+            398,
+            200
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "image",
+        "img_path": "images/6f57420c4bb256086466abae6b6cef58c218a9d98ccaae9f298141052ef6f7f6.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "```mermaid\ngraph LR\n    A[\"s^(t-1)\"] -->|f| B[\"s(t-1)\"]\n    B -->|f| C[\"s(t)\"]\n    C -->|f| D[\"s(t+1)\"]\n    D -->|f| E[\"s^(t+1)\"]\n    E -->|f| F[\"s^(t+1)\"]\n    F --> G[\"s^(t+1)\"]\n```",
+        "sub_type": "flowchart",
+        "bbox": [
+            130,
+            380,
+            881,
+            520
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "equation",
+        "text": "$$\ns ^ {(t + 1)} = f (s ^ {(t)}; \\theta)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            395,
+            591,
+            651,
+            648
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            810,
+            26,
+            850,
+            82
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            28,
+            956,
+            60
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            82
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "page_number",
+        "text": "3 ",
+        "bbox": [
+            896,
+            940,
+            910,
+            962
+        ],
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Computational graphs ",
+        "text_level": 1,
+        "bbox": [
+            56,
+            42,
+            430,
+            95
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "• Dynamical system driven by external data ",
+        "bbox": [
+            56,
+            146,
+            791,
+            200
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "image",
+        "img_path": "images/2bffe0e920772c3516fc5d028f9080301a1b1db365b0484c5d4e2e201ae2eec6.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "```mermaid\ngraph LR\n    A[\"s^(t-1)\"] -->|f| B[\"s(t-1)\"]\n    B -->|f| C[\"s(t)\"]\n    C -->|f| D[\"s(t+1)\"]\n    D -->|f| E[\"s^(t+1)\"]\n    F[\"x^{(t-1)}\"] --> B\n    G[\"x^{(t)}\"] --> C\n    H[\"x^{(t+1)}\"] --> D\n    I[\"f\"] -.-> A\n    J[\"f\"] -.-> C\n```",
+        "sub_type": "flowchart",
+        "bbox": [
+            168,
+            360,
+            790,
+            648
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "equation",
+        "text": "$$\ns ^ {(t + 1)} = f (s ^ {(t)}, x ^ {(t + 1)}; \\theta)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            326,
+            686,
+            716,
+            757
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            810,
+            26,
+            850,
+            82
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            26,
+            956,
+            60
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            82
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "page_number",
+        "text": "4 ",
+        "bbox": [
+            896,
+            940,
+            910,
+            962
+        ],
+        "page_idx": 3
+    },
+    {
+        "type": "text",
+        "text": "Computational graphs ",
+        "text_level": 1,
+        "bbox": [
+            56,
+            42,
+            430,
+            97
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "• Compact view ",
+        "text_level": 1,
+        "bbox": [
+            56,
+            148,
+            336,
+            200
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/cea2361f76151e23b93f3928c13333dd5fa18c527d5723ca21c383e01dcf1a10.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "```mermaid\ngraph TD\n    A[\"x\"] --> B[\"s\"]\n    B --> C[\"Unfold\"]\n    C --> D[\"s^(t-1)\"]\n    D --> E[\"s(t)\"]\n    E --> F[\"s(t+1)\"]\n    F --> G[\"s^(t+1)\"]\n    G --> H[\"f\"]\n    H --> I[\"x^(t-1)\"]\n    I --> J[\"x^(t)\"]\n    J --> K[\"x^(t+1)\"]\n    K --> L[\"f\"]\n    L --> M[\"x^(t+1)\"]\n    M --> N[\"f\"]\n    N --> O[\"s^(t-1)\"]\n    O --> P[\"s^(t-1)\"]\n    P --> Q[\"s^(t+1)\"]\n    Q --> R[\"f\"]\n    R --> S[\"s^(t+1)\"]\n    S --> T[\"f\"]\n    T --> U[\"s^(t+1)\"]\n    U --> V[\"f\"]\n    V --> W[\"s^(t+1)\"]\n    W --> X[\"f\"]\n    X --> Y[\"s^(t+1)\"]\n    Y --> Z[\"f\"]\n    Z --> AA[\"s^(t+1)\"]\n    AA --> AB[\"f\"]\n    AB --> AC[\"s^(t-1)\"]\n    AC --> AD[\"s^(t-1)\"]\n    AD --> AE[\"x^(t-1)\"]\n    AE --> AF[\"x^(t+1)\"]\n    AF --> AG[\"x^(t+1)\"]\n    AG --> AH[\"x^(t+1)\"]\n    AH --> AI[\"x^(t+1)\"]\n    AI --> AJ[\"f\"]\n    AJ --> AK[\"s^(t-1)\"]\n    AK --> AL[\"x^(t+1)\"]\n    AL --> AM[\"x^(t+1)\"]\n    AM --> AN[\"x^(t+1)\"]\n    AN --> AO[\"x^(t+1)\"]\n    AO --> AP[\"x^(t+1)\"]\n    AP --> AQ[\"x^(t+1)\"]\n    AQ --> AR[\"x^(t+1)\"]\n    AR --> AS[\"x^(t+1)\"]\n    AS --> AT[\"x^(t+1)\"]\n    AT --> AU[\"x^(t+1)\"]\n    AU --> AV[\"x^(t+1)\"]\n    AV --> AW[\"x^(t+1)\"]\n    AW --> AX[\"x^(t+1)\"]\n    AX --> AY[\"x^(t+1)\"]\n```",
+        "sub_type": "flowchart",
+        "bbox": [
+            206,
+            260,
+            811,
+            571
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "equation",
+        "text": "$$\ns ^ {(t + 1)} = f (s ^ {(t)}, x ^ {(t + 1)}; \\theta)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            366,
+            620,
+            671,
+            673
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "text",
+        "text": "The same f and ?? for all time steps ",
+        "bbox": [
+            365,
+            693,
+            841,
+            742
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            810,
+            26,
+            850,
+            82
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            26,
+            956,
+            60
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            84
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "page_number",
+        "text": "5 ",
+        "bbox": [
+            896,
+            940,
+            910,
+            964
+        ],
+        "page_idx": 4
+    },
+    {
+        "type": "image",
+        "img_path": "images/b94f73ed2742a0bd9f19278f3d80c2b258332bf6ac4ea2a4e324e20fb2fa39aa.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            56,
+            351,
+            968,
+            680
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "RNN ",
+        "bbox": [
+            60,
+            46,
+            136,
+            86
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            811,
+            28,
+            850,
+            82
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            28,
+            956,
+            60
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            82
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "page_number",
+        "text": "6 ",
+        "bbox": [
+            898,
+            940,
+            910,
+            962
+        ],
+        "page_idx": 5
+    },
+    {
+        "type": "image",
+        "img_path": "images/ba3922f4441782d5d765486d3b79a50a51c2c941a8dee67b657d30cc3fb1d5e7.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "```mermaid\ngraph TD\n    A[\"x^(t)\"] -->|W| B[\"h^(t)\"]\n    B -->|V| C[\"y^(t)\"]\n    D[\"h^(t-1)\"] -->|U| B\n    style A fill:#f9f,stroke:#333\n    style B fill:#ccf,stroke:#333\n    style C fill:#cfc,stroke:#333\n    style D fill:#fcc,stroke:#333\n```",
+        "sub_type": "flowchart",
+        "bbox": [
+            50,
+            248,
+            301,
+            777
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Suppose at the time-step t,we have the input word $x ^ { ( t ) }$ the output $y ^ { ( t ) }$ ，and the hidden layer $h ^ { ( t ) }$ ",
+        "bbox": [
+            378,
+            275,
+            946,
+            355
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\nh ^ {(t)} = \\sigma \\left(U h ^ {(t - 1)} + W x ^ {(t)}\\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            515,
+            380,
+            803,
+            446
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "equation",
+        "text": "$$\ny ^ {(t)} = \\text { Softmax } (V h ^ {(t)})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            540,
+            491,
+            780,
+            555
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Training: ",
+        "bbox": [
+            380,
+            568,
+            473,
+            606
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "Standard Backprop with SGD; ",
+            "Simply treat the network as Feedforward Network with $h ^ { ( t - 1 ) }$ as an additional input. "
+        ],
+        "bbox": [
+            403,
+            617,
+            928,
+            740
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "RNN ",
+        "bbox": [
+            60,
+            44,
+            136,
+            86
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            810,
+            26,
+            850,
+            82
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            26,
+            956,
+            60
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            84
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "page_number",
+        "text": "7 ",
+        "bbox": [
+            896,
+            940,
+            910,
+            962
+        ],
+        "page_idx": 6
+    },
+    {
+        "type": "image",
+        "img_path": "images/7eaec92e452fecd4681102de7d66441d27e79c4ff6fc2a623584780af0a9f02c.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "```mermaid\ngraph TD\n    A[\"Input Layer\"] --> B[\"Hidden Layers: &quot;deep&quot; if > 1\"]\n    C[\"Input Layer\"] --> B\n    D[\"Input Layer\"] --> B\n    E[\"Input Layer\"] --> B\n    F[\"Input Layer\"] --> B\n    G[\"Input Layer\"] --> B\n    H[\"Input Layer\"] --> B\n    I[\"Input Layer\"] --> B\n    J[\"Input Layer\"] --> B\n    K[\"Input Layer\"] --> B\n    L[\"Input Layer\"] --> B\n    M[\"Input Layer\"] --> B\n    N[\"Input Layer\"] --> B\n    O[\"Input Layer\"] --> B\n    P[\"Input Layer\"] --> B\n    Q[\"Input Layer\"] --> B\n    R[\"Input Layer\"] --> B\n    S[\"Input Layer\"] --> B\n    T[\"Input Layer\"] --> B\n    U[\"Input Layer\"] --> B\n    V[\"Input Layer\"] --> B\n    W[\"Input Layer\"] --> B\n    X[\"Input Layer\"] --> B\n    Y[\"Input Layer\"] --> B\n    Z[\"Input Layer\"] --> B\n    AA[\"Input Layer\"] --> B\n    AB[\"Input Layer\"] --> B\n    AC[\"Input Layer\"] --> B\n    AD[\"Input Layer\"] --> B\n    AE[\"Input Layer\"] --> B\n    AF[\"Input Layer\"] --> B\n    AG[\"Input Layer\"] --> B\n    AH[\"Input Layer\"] --> B\n    AI[\"Input Layer\"] --> B\n    AJ[\"Input Layer\"] --> B\n    AK[\"Input Layer\"] --> B\n    AL[\"Input Layer\"] --> B\n    AM[\"Input Layer\"] --> B\n    AN[\"Input Layer\"] --> B\n    AO[\"Input Layer\"] --> B\n    AP[\"Input Layer\"] --> B\n    AQ[\"Input Layer\"] --> B\n    AR[\"Input Layer\"] --> B\n    AS[\"Input Layer\"] --> B\n    AT[\"Output Layer (class/target)\"] --> AU[\"Output Layer\"]\n    AV[\"Output Layer\"] --> AW[\"Output Layer\"]\n    AX[\"Output Layer\"] --> AY[\"Output Layer\"]\n    AZ[\"Output Layer\"] --> BA[\"Output Layer\"]\n    BB[\"Output Layer\"] --> BC[\"Output Layer\"]\n    BD[\"Output Layer\"] --> BE[\"Output Layer\"]\n    BF[\"Output Layer\"] --> BG[\"Output Layer\"]\n```",
+        "sub_type": "flowchart",
+        "bbox": [
+            125,
+            157,
+            878,
+            868
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "RNN ",
+        "bbox": [
+            60,
+            46,
+            136,
+            86
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            811,
+            28,
+            850,
+            82
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            28,
+            956,
+            60
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            82
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "page_number",
+        "text": "8 ",
+        "bbox": [
+            898,
+            940,
+            910,
+            962
+        ],
+        "page_idx": 7
+    },
+    {
+        "type": "text",
+        "text": "RNN 应用：词性标注POS（Part -Of-Speech tagging）",
+        "text_level": 1,
+        "bbox": [
+            56,
+            35,
+            791,
+            95
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "image",
+        "img_path": "images/16df56cbd4cf4fbf88e6ca597e56b7e28ee7ea592f9491b494e85ae9c2d562ba.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "```mermaid\ngraph TD\n    A[\"Input Block 1\"] --> B[\"RNN\"]\n    C[\"Input Block 2\"] --> B\n    D[\"Input Block 3\"] --> B\n    E[\"Input Block 4\"] --> B\n    F[\"Input Block 5\"] --> B\n    G[\"Input Block 6\"] --> B\n    H[\"Input Block 7\"] --> B\n    I[\"Input Block 8\"] --> B\n    J[\"Input Block 9\"] --> B\n    K[\"Input Block 10\"] --> B\n    L[\"Input Block 11\"] --> B\n    M[\"Input Block 12\"] --> B\n    N[\"Input Block 13\"] --> B\n    O[\"Input Block 14\"] --> B\n    P[\"Input Block 15\"] --> B\n    Q[\"Input Block 16\"] --> B\n    R[\"Input Block 17\"] --> B\n    S[\"Input Block 18\"] --> B\n    T[\"Input Block 19\"] --> B\n    U[\"Input Block 20\"] --> B\n    V[\"Input Block 21\"] --> B\n    W[\"Input Block 22\"] --> B\n    X[\"Input Block 23\"] --> B\n    Y[\"Input Block 24\"] --> B\n    Z[\"Input Block 25\"] --> B\n    AA[\"Input Block 26\"] --> B\n    AB[\"Input Block 27\"] --> B\n    AC[\"Input Block 28\"] --> B\n    AD[\"Input Block 29\"] --> B\n    AE[\"Input Block 30\"] --> B\n    AF[\"Input Block 31\"] --> B\n    AG[\"Input Block 32\"] --> B\n    AH[\"Input Block 33\"] --> B\n    AI[\"Input Block 34\"] --> B\n    AJ[\"Input Block 35\"] --> B\n    AK[\"Input Block 36\"] --> B\n    AL[\"Input Block 37\"] --> B\n    AM[\"Input Block 38\"] --> B\n    AN[\"Input Block 39\"] --> B\n    AO[\"Input Block 40\"] --> B\n    AP[\"Input Block 41\"] --> B\n    AQ[\"Input Block 42\"] --> B\n    AR[\"Input Block 43\"] --> B\n    AS[\"Input Block 44\"] --> B\n    AT[\"Input Block 45\"] --> B\n    AU[\"Input Block 46\"] --> B\n    AV[\"Input Block 47\"] --> B\n    AW[\"Input Block 48\"] --> B\n    AX[\"Input Block 49\"] --> B\n    AY[\"Output Label: Janet\"]\n    AZ[\"Output Label: will\"]\n    BA[\"Output Label: back\"]\n    BB[\"Output Label: the\"]\n    BC[\"Output Label: bill\"]\n```",
+        "sub_type": "flowchart",
+        "bbox": [
+            71,
+            222,
+            960,
+            788
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "我 爱 北京 天安门",
+        "bbox": [
+            90,
+            848,
+            473,
+            891
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "代词r 动词v 名词ns 名词ns",
+        "bbox": [
+            95,
+            897,
+            471,
+            933
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            811,
+            26,
+            850,
+            82
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            26,
+            956,
+            60
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            82
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "page_number",
+        "text": "9 ",
+        "bbox": [
+            896,
+            940,
+            911,
+            964
+        ],
+        "page_idx": 8
+    },
+    {
+        "type": "text",
+        "text": "Typical RNN Architecture ",
+        "text_level": 1,
+        "bbox": [
+            56,
+            42,
+            476,
+            97
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "image",
+        "img_path": "images/344e1a840faf94f68ec27f709036c590335ab174927a2496df05e5d7187b68b4.jpg",
+        "image_caption": [
+            "?? ??????????; ?? ??????????; ?? ????????????; ?? ????????; ?? ??????????; "
+        ],
+        "image_footnote": [],
+        "content": "```mermaid\ngraph TD\n    A[\"x\"] --> B[\"h\"]\n    B --> C[\"O\"]\n    C --> D[\"L\"]\n    D --> E[\"y\"]\n    E --> F[\"Unfold\"]\n    F --> G[\"h(t-1)\"]\n    G --> H[\"U\"]\n    H --> I[\"x(t-1)\"]\n    G --> J[\"U\"]\n    J --> K[\"x(t)\"]\n    G --> L[\"U\"]\n    L --> M[\"x(t)\"]\n    G --> N[\"U\"]\n    N --> O[\"x(t+1)\"]\n    G --> P[\"U\"]\n    P --> Q[\"x(t+1)\"]\n    G --> R[\"U\"]\n    R --> S[\"x(t+1)\"]\n    G --> T[\"U\"]\n    T --> U[\"x(t+1)\"]\n    G --> V[\"U\"]\n    V --> W[\"x(t+1)\"]\n    G --> X[\"U\"]\n    X --> Y[\"x(t+1)\"]\n    G --> Z[\"U\"]\n    Z --> AA[\"x(t+1)\"]\n    G --> AB[\"U\"]\n    AB --> AC[\"x(t+1)\"]\n    G --> AD[\"U\"]\n    AD --> AE[\"x(t+1)\"]\n    G --> AF[\"U\"]\n    AF --> AG[\"x(t+1)\"]\n    G --> AH[\"U\"]\n    AH --> AI[\"x(t+1)\"]\n    G --> AJ[\"U\"]\n    AJ --> AK[\"x(t+1)\"]\n    G --> AL[\"U\"]\n    AL --> AM[\"x(t+1)\"]\n    G --> AN[\"U\"]\n    AN --> AO[\"x(t+1)\"]\n    G --> AP[\"U\"]\n    AP --> AQ[\"x(t+1)\"]\n    G --> AR[\"U\"]\n    AR --> AS[\"x(t+1)\"]\n    G --> AT[\"U\"]\n    AT --> AU[\"x(t+1)\"]\n    G --> AV[\"U\"]\n    AV --> AW[\"x(t+1)\"]\n    G --> AX[\"U\"]\n    AX --> AY[\"x(t+1)\"]\n    G --> AZ[\"U\"]\n    AZ --> BA[\"x(t+1)\"]\n    G --> BB[\"U\"]\n    BB --> BC[\"x(t+1)\"]\n    G --> BD[\"U\"]\n    BD --> BE[\"x(t+1)\"]\n    G --> BF[\"U\"]\n    BF --> BG[\"x(t+1)\"]\n    G --> BH[\"U\"]\n    BH --> BI[\"x(t+1)\"]\n    G --> BJ[\"U\"]\n    BJ --> BK[\"x(t+1)\"]\n```",
+        "sub_type": "flowchart",
+        "bbox": [
+            121,
+            217,
+            850,
+            908
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            810,
+            26,
+            851,
+            82
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            26,
+            956,
+            60
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            84
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "page_number",
+        "text": "11 ",
+        "bbox": [
+            898,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 9
+    },
+    {
+        "type": "image",
+        "img_path": "images/ca720606a729689cc5b11490a5a1b64dfc57f8bfd4a854f62be2f17283197c04.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "```mermaid\ngraph TD\n    A[\"y^{(t-1)\"] --> L^{(t-1)}]\n    B[\"y^{(t)\"] --> L^{(t)}]\n    C[\"y^{(t+1)} --> L^{(t+1)}\"]\n    D[\"o^{(t-1)}\"] --> H[\"h^{(t-1)}\"]\n    E[\"o^{(t)}\"] --> H\n    F[\"o^{(t+1)}\"] --> H\n    G[\"h^{(t-1)}\"] --> H\n    H --> I[\"h^{(t)}\"]\n    I --> J[\"h^{(t+1)}\"]\n    K[\"x^{(t-1)}\"] --> H\n    L[\"x^{(t)}\"] --> H\n    M[\"x^{(t+1)}\"] --> H\n    N[\"w\"] --> H\n    O[\"U\"] --> H\n    P[\"W\"] --> H\n    Q[\"V\"] --> H\n    R[\"W\"] --> H\n    S[\"w\"] --> J\n    T[\"U\"] --> J\n    U[\"U\"] --> J\n    V[\"U\"] --> J\n    W[\"w\"] --> J\n    X[\"w\"] --> J\n```",
+        "sub_type": "flowchart",
+        "bbox": [
+            23,
+            222,
+            471,
+            800
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "text": "$$\na ^ {(t)} = b + W h ^ {(t - 1)} + U x ^ {(t)}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            501,
+            315,
+            990,
+            386
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "text": "$$\nh ^ {(t)} = \\tanh (a ^ {(t)})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            501,
+            413,
+            825,
+            486
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "text": "$$\no ^ {(t)} = c + V h ^ {(t)}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            501,
+            511,
+            796,
+            580
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\widehat {y} ^ {(t)} = \\text {softmax} (o ^ {(t)})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            501,
+            611,
+            873,
+            688
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "header",
+        "text": "Update Equations ",
+        "bbox": [
+            58,
+            42,
+            360,
+            95
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            810,
+            26,
+            851,
+            82
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            26,
+            956,
+            60
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            84
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "page_number",
+        "text": "12 ",
+        "bbox": [
+            898,
+            940,
+            920,
+            962
+        ],
+        "page_idx": 10
+    },
+    {
+        "type": "text",
+        "text": "• RNNs consist of three blocks of parameters and associated transformations: ",
+        "bbox": [
+            56,
+            148,
+            933,
+            284
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "– From the input to the hidden state ",
+            "– From the previous hidden state to the next hidden state ",
+            "– From the hidden state to the output "
+        ],
+        "bbox": [
+            105,
+            308,
+            840,
+            582
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "header",
+        "text": "RNN ",
+        "bbox": [
+            60,
+            44,
+            136,
+            88
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            810,
+            26,
+            850,
+            82
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            26,
+            956,
+            60
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            82
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "page_number",
+        "text": "13 ",
+        "bbox": [
+            898,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 11
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "• Hidden state: a lossy（有损的）summary of the past ",
+            "• Shared functions and parameters ",
+            "– Greatly reduce the capacity and good for generalization in learning ",
+            "• Explicitly use the prior knowledge that the sequential data can be processed in the same way at different time step (e.g., NLP) ",
+            "• Powerful "
+        ],
+        "bbox": [
+            56,
+            142,
+            930,
+            675
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "– Any function computable by a Turing machine can be computed by such a recurrent network of a finite size ",
+        "bbox": [
+            103,
+            695,
+            865,
+            797
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "header",
+        "text": "Advantages ",
+        "bbox": [
+            56,
+            44,
+            258,
+            95
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            810,
+            26,
+            850,
+            82
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            26,
+            956,
+            60
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            82
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "page_number",
+        "text": "",
+        "bbox": [
+            898,
+            940,
+            920,
+            962
+        ],
+        "page_idx": 12
+    },
+    {
+        "type": "text",
+        "text": "• Principle ",
+        "text_level": 1,
+        "bbox": [
+            56,
+            148,
+            271,
+            211
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "– Unfold the computational graph, and use backpropagation ",
+        "bbox": [
+            103,
+            233,
+            810,
+            353
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "• Method ",
+        "text_level": 1,
+        "bbox": [
+            56,
+            380,
+            255,
+            435
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "– BPTT (Back-Propagation Through Time) ",
+        "bbox": [
+            103,
+            464,
+            780,
+            522
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "text",
+        "text": "• Strategy ",
+        "text_level": 1,
+        "bbox": [
+            56,
+            548,
+            261,
+            608
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "– Fist compute the gradients of the internal nodes ",
+            "– Then compute the gradients of the parameters "
+        ],
+        "bbox": [
+            103,
+            631,
+            926,
+            766
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "header",
+        "text": "Training RNN ",
+        "bbox": [
+            56,
+            42,
+            280,
+            97
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            810,
+            26,
+            850,
+            82
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            26,
+            956,
+            60
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            82
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "page_number",
+        "text": "15 ",
+        "bbox": [
+            898,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 13
+    },
+    {
+        "type": "image",
+        "img_path": "images/f551cb2068639825bea273168d629e1f04455801c957b3373b6cf7b456b7b067.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "```mermaid\ngraph TD\n    A[\"y^{(t-1)\"] --> L^{(t-1)}]\n    B[\"y^{(t)\"] --> L^{(t)}]\n    C[\"y^{(t+1)} --> L^{(t+1)}\"]\n    D[\"o^{(t-1)}\"] --> H[\"h^{(t-1)}\"]\n    E[\"o^{(t)}\"] --> H\n    F[\"o^{(t+1)}\"] --> H\n    G[\"h^{(t-1)}\"] --> H\n    H --> I[\"h^{(t)}\"]\n    I --> J[\"h^{(t+1)}\"]\n    K[\"x^{(t-1)}\"] --> H\n    L[\"x^{(t)}\"] --> H\n    M[\"x^{(t+1)}\"] --> H\n    N[\"w\"] --> H\n    O[\"U\"] --> H\n    P[\"W\"] --> H\n    Q[\"V\"] --> H\n    R[\"W\"] --> H\n    S[\"U\"] --> H\n    T[\"U\"] --> H\n    U[\"w\"] --> J\n    V[\"w\"] --> J\n    W[\"h^{(t-1)}\"] --> H\n    X[\"h^{(t)}\"] --> J\n```",
+        "sub_type": "flowchart",
+        "bbox": [
+            23,
+            222,
+            471,
+            800
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "equation",
+        "text": "$$\na ^ {(t)} = b + W h ^ {(t - 1)} + U x ^ {(t)}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            500,
+            315,
+            990,
+            386
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "equation",
+        "text": "$$\nh ^ {(t)} = \\tanh (a ^ {(t)})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            501,
+            413,
+            825,
+            486
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "equation",
+        "text": "$$\no ^ {(t)} = c + V h ^ {(t)}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            501,
+            511,
+            796,
+            580
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\widehat {y} ^ {(t)} = \\text {softmax} (o ^ {(t)})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            501,
+            611,
+            873,
+            688
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "header",
+        "text": "BPTT ",
+        "bbox": [
+            60,
+            44,
+            146,
+            86
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            810,
+            26,
+            851,
+            82
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            26,
+            956,
+            60
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            84
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "page_number",
+        "text": "16 ",
+        "bbox": [
+            898,
+            940,
+            921,
+            964
+        ],
+        "page_idx": 14
+    },
+    {
+        "type": "text",
+        "text": "BPTT: Parameters ",
+        "text_level": 1,
+        "bbox": [
+            58,
+            44,
+            355,
+            88
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "equation",
+        "text": "$$\na ^ {(t)} = b + W h ^ {(t - 1)} + U x ^ {(t)}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            35,
+            115,
+            333,
+            162
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "equation",
+        "text": "$$\nh ^ {(t)} = \\tanh (a ^ {(t)})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            36,
+            175,
+            233,
+            220
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "equation",
+        "text": "$$\no ^ {(t)} = c + V h ^ {(t)}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            36,
+            233,
+            216,
+            277
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\widehat {y} ^ {(t)} = \\text { softmax } (o ^ {(t)})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            36,
+            293,
+            261,
+            342
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "table",
+        "img_path": "images/7753efe0ec9f181664ce141c1112cd1a9517db3882ff6bd782bc2da649eb9c9b.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<table><tr><td>Symbol</td><td>Meaning</td></tr><tr><td>K</td><td>The size of vocabulary (# labels)</td></tr><tr><td>T</td><td>The number of all time steps</td></tr><tr><td>H</td><td>The dimension of state (hidden layer)</td></tr><tr><td> $\\boldsymbol{x}^{(t)} \\in \\mathfrak{R}^{N \\times 1}$ </td><td>The input of the hidden layer at time t</td></tr><tr><td> $\\boldsymbol{y}^{(t)} \\in \\mathfrak{R}^{K \\times 1}$ </td><td>The true probability distribution at time t, one-hot vector</td></tr><tr><td> $\\widehat{\\boldsymbol{y}}^{(t)} \\in \\mathfrak{R}^{K \\times 1}$ </td><td>The predicted probability distribution of labels at time t</td></tr><tr><td> $\\boldsymbol{a}^{(t)} \\in \\mathfrak{R}^{H \\times 1}$ </td><td>The input of the hidden layer at time t</td></tr><tr><td> $\\boldsymbol{h}^{(t)} \\in \\mathfrak{R}^{H \\times 1}$ </td><td>The value of state of the hidden layer at time t</td></tr><tr><td> $\\boldsymbol{o}^{(t)} \\in \\mathfrak{R}^{K \\times 1}$ </td><td>The output of the hidden layer at time t</td></tr><tr><td> $\\boldsymbol{W} \\in \\mathfrak{R}^{H \\times H}$ </td><td>The weight matrix of hidden-to-hidden connection</td></tr><tr><td> $\\boldsymbol{U} \\in \\mathfrak{R}^{H \\times N}$ </td><td>The weight matrix of input-to-hidden connection</td></tr><tr><td> $\\boldsymbol{V} \\in \\mathfrak{R}^{K \\times H}$ </td><td>The weight matrix of hidden-to-output connection</td></tr><tr><td> $\\boldsymbol{b} \\in \\mathfrak{R}^{H \\times 1}$  $\\boldsymbol{c} \\in \\mathfrak{R}^{K \\times 1}$ </td><td>Bias</td></tr></table>",
+        "bbox": [
+            265,
+            173,
+            980,
+            940
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            810,
+            26,
+            851,
+            82
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            26,
+            956,
+            60
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            84
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "page_number",
+        "text": "",
+        "bbox": [
+            898,
+            940,
+            920,
+            962
+        ],
+        "page_idx": 15
+    },
+    {
+        "type": "text",
+        "text": "• The parameters need to learn ",
+        "text_level": 1,
+        "bbox": [
+            56,
+            148,
+            595,
+            200
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "– Bias: b, c ",
+            "– weight matrix: W,U,V "
+        ],
+        "bbox": [
+            105,
+            220,
+            431,
+            328
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "image",
+        "img_path": "images/fc61b66f91a5136020fcb196a852bd8f783f58c0bfcc017cc6d61a025cd60ad8.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "```mermaid\ngraph TD\n    subgraph Input Layer\n        y_t_minus_1[\"y^{(t-1)}\"]\n        y_t[\" y^{(t)} \"]\n        y_t_plus_1[\"y^{(t+1)}\"]\n        L_t_minus_1[\"L^{(t-1)}\"]\n        L_t[\" L^{(t)} \"]\n        o_t_minus_1[\"o^{(t-1)}\"]\n        o_t[\" o^{(t)} \"]\n    end\n\n    subgraph Hidden Layer\n        h_t_minus_1[\"h^{(t-1)}\"]\n        h_t[\"h^{(t)}\"]\n        h_t_plus_1[\"o^{(t+1)}\"]\n        x_t_minus_1[\"x^{(t-1)}\"]\n        x_t[\"x^{(t)}\"]\n    end\n\n    subgraph Output Layer\n        h_t_plus_1[\"h^{(t+1)}\"]\n        h_t_plus_1 --> h_t_minus_1[\"w^{-}\"]\n        h_t --> h_t_plus_1[\"u^{-}\"]\n    end\n\n    h_t_minus_1 -->|W| h_t_minus_1\n    h_t -->|W| h_t_plus_1\n    h_t -->|W| h_t_plus_1\n    h_t -->|W| h_t_plus_1\n    h_t -->|W| h_t_plus_1\n    h_t -->|W| h_t_plus_1\n    h_t -->|W| h_t_plus_1\n    h_t -->|W| h_t_plus_1\n    h_t -->|W| h_t_plus_1\n    h_t -->|U| x_t_minus_1[\"x^{(t-1)}\"]\n    h_t -->|U| x_t[\"x^{(t)}\"]\n    h_t -->|U| x_t_plus_1[\"x^{(t+1)}\"]\n    h_t -->|U| x_t_plus_1\n    h_t -->|U| x_t_plus_1\n    h_t -->|V| o_t_minus_1o[\"t^{(t-1)}\"]\n    h_t -->|V| o_t[\" o^{(t)} \"]\n    h_t -->|V| o_t_plus_1o[\"t^{(t+1)}\"]\n```",
+        "sub_type": "flowchart",
+        "bbox": [
+            470,
+            277,
+            955,
+            897
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "header",
+        "text": "BPTT ",
+        "bbox": [
+            60,
+            44,
+            146,
+            86
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            811,
+            26,
+            850,
+            82
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            26,
+            956,
+            60
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            82
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "page_number",
+        "text": "18 ",
+        "bbox": [
+            898,
+            940,
+            921,
+            964
+        ],
+        "page_idx": 16
+    },
+    {
+        "type": "text",
+        "text": "BPTT ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            44,
+            146,
+            86
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "• Loss at time t: $\\pmb { L } ^ { ( t ) }$ ",
+            "• Loss function: $\\begin{array} { r } { L = \\sum _ { t = 1 } ^ { T } L ^ { ( t ) } } \\end{array}$ ",
+            "• Negative log-likelihood "
+        ],
+        "bbox": [
+            56,
+            140,
+            566,
+            362
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "转置 ",
+        "bbox": [
+            605,
+            344,
+            668,
+            388
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\boldsymbol {L} ^ {(t)} = - (\\boldsymbol {y} ^ {(t)}) ^ {T} \\boldsymbol {l o g} ((\\widehat {\\boldsymbol {y}} ^ {(t)})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            278,
+            442,
+            716,
+            513
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\pmb {y} ^ {(t)} = (\\mathbf {0}, \\dots , \\mathbf {1}, \\dots , \\mathbf {0}) ^ {T}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            308,
+            586,
+            685,
+            657
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\widehat {y} _ {i} ^ {(t)} = \\frac {e ^ {o _ {i} ^ {(t)}}}{\\sum_ {k = 1} ^ {K} e ^ {o _ {k} ^ {(t)}}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            345,
+            660,
+            651,
+            846
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            810,
+            26,
+            850,
+            82
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            26,
+            956,
+            60
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            82
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "page_number",
+        "text": "19 ",
+        "bbox": [
+            898,
+            940,
+            920,
+            962
+        ],
+        "page_idx": 17
+    },
+    {
+        "type": "text",
+        "text": "Use gradient descent to learn these parameters, we should calculate the gradient of L as follows ",
+        "bbox": [
+            56,
+            146,
+            896,
+            264
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\nabla_ {c} L, \\nabla_ {b} L, \\nabla_ {U} L, \\nabla_ {W} L, \\nabla_ {V} L\n$$",
+        "text_format": "latex",
+        "bbox": [
+            103,
+            293,
+            511,
+            355
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "$\\frac { \\partial { \\cal { L } } } { \\partial { \\cal { L } } ^ { ( t ) } } = \\frac { \\partial \\Bigg ( \\sum _ { i = 1 } ^ { T } { \\cal { L } } ^ { ( i ) } \\Bigg ) } { \\partial { \\cal { L } } ^ { ( t ) } } = 1$ L(i） • Gradient at $L ^ { ( t ) }$ ",
+        "bbox": [
+            56,
+            371,
+            710,
+            546
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "$\\mathbf { \\nabla } \\bullet \\mathsf { G r a d i e n t a t } o ^ { ( t ) } \\quad \\nabla _ { \\mathsf { o } ^ { ( t ) } } L = ( \\frac { \\partial L } { \\partial o _ { 1 } ^ { ( t ) } } , . . . , \\frac { \\partial L } { \\partial o _ { i } ^ { ( t ) } } , . . . , \\frac { \\partial L } { \\partial o _ { K } ^ { ( t ) } } )$ VoL=( ",
+        "bbox": [
+            56,
+            620,
+            835,
+            740
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {\\partial L}{\\partial o _ {i} ^ {(t)}} = \\frac {\\partial L}{\\partial L ^ {(t)}} \\frac {\\partial L ^ {(t)}}{\\partial o _ {i} ^ {(t)}} = \\frac {\\partial L ^ {(t)}}{\\partial o _ {i} ^ {(t)}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            400,
+            764,
+            706,
+            884
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "header",
+        "text": "BPTT ",
+        "bbox": [
+            60,
+            44,
+            146,
+            88
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            810,
+            26,
+            850,
+            82
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            26,
+            956,
+            60
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            84
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "page_number",
+        "text": "",
+        "bbox": [
+            896,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 18
+    },
+    {
+        "type": "text",
+        "text": "$\\mathsf { G r a d i e n t a t } o ^ { ( t ) } : \\qquad \\nabla _ { o ^ { ( t ) } } L = ( \\frac { \\partial L } { \\partial o _ { 1 } ^ { ( t ) } } , . . . , \\frac { \\partial L } { \\partial o _ { i } ^ { ( t ) } } , . . . , \\frac { \\partial L } { \\partial o _ { K } ^ { ( t ) } } )$ 0(t) 0 ",
+        "bbox": [
+            55,
+            195,
+            833,
+            322
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {\\partial L}{\\partial o _ {i} ^ {(t)}} = \\frac {\\partial L ^ {(t)}}{\\partial o _ {i} ^ {(t)}} \\xrightarrow {} L ^ {(t)} = - (y ^ {(t)}) ^ {T} \\log (\\hat {y} ^ {(t)}) = - \\sum_ {k = 1} ^ {K} y _ {k} ^ {(t)} \\log (\\hat {y} _ {k} ^ {(t)})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            46,
+            360,
+            950,
+            502
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "equation",
+        "text": "$$\n= \\sum_ {k = 1} ^ {K} \\frac {\\partial L ^ {(t)}}{\\partial \\widehat {y} _ {k} ^ {(t)}} \\frac {\\partial \\widehat {y} _ {k} ^ {(t)}}{\\partial o _ {i} ^ {(t)}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            138,
+            511,
+            386,
+            657
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "equation",
+        "text": "$$\n= \\frac {\\partial L ^ {(t)}}{\\partial \\widehat {y} _ {l _ {t}} ^ {(t)}} \\frac {\\partial \\widehat {y} _ {l _ {t}} ^ {(t)}}{\\partial o _ {i} ^ {(t)}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            138,
+            671,
+            335,
+            822
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "image",
+        "img_path": "images/e487834007f273cd241afdd92a29bd2d8d6914f5a2bd3b0f09991d7669142365.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "Blue vertical arrow pointing downward (no text or symbols)",
+        "sub_type": "natural_image",
+        "bbox": [
+            611,
+            453,
+            660,
+            693
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "label index ",
+        "bbox": [
+            781,
+            486,
+            891,
+            520
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{c} 1 \\ldots l _ {t} \\ldots K \\\\ y ^ {(t)} = (0, \\ldots , 1, \\ldots , 0) ^ {\\mathrm{T}} \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            651,
+            526,
+            936,
+            617
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "equation",
+        "text": "$$\nL ^ {(t)} = - y _ {l _ {t}} ^ {(t)} \\log (\\widehat {y} _ {l _ {t}} ^ {(t)}) = - \\log (\\widehat {y} _ {l _ {t}} ^ {(t)})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            456,
+            704,
+            880,
+            766
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "header",
+        "text": "BPTT ",
+        "bbox": [
+            60,
+            44,
+            146,
+            86
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            810,
+            26,
+            851,
+            82
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            26,
+            956,
+            60
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            84
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "page_number",
+        "text": "21 ",
+        "bbox": [
+            896,
+            940,
+            920,
+            962
+        ],
+        "page_idx": 19
+    },
+    {
+        "type": "text",
+        "text": "Gradient at o(t) : ",
+        "bbox": [
+            80,
+            208,
+            316,
+            260
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\nabla_ {o ^ {(t)}} L = (\\frac {\\partial L}{\\partial o _ {1} ^ {(t)}}, \\dots , \\frac {\\partial L}{\\partial o _ {i} ^ {(t)}}, \\dots , \\frac {\\partial L}{\\partial o _ {K} ^ {(t)}})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            375,
+            180,
+            821,
+            304
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "equation",
+        "text": "$$\nL ^ {(t)} = - \\log (\\widehat {y} _ {l _ {t}} ^ {(t)}) \\Longrightarrow \\frac {\\partial L ^ {(t)}}{\\partial \\widehat {y} _ {l _ {t}} ^ {(t)}} = - \\frac {1}{\\widehat {y} _ {l _ {t}} ^ {(t)}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            416,
+            340,
+            830,
+            435
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {\\partial L}{\\partial o _ {i} ^ {(t)}} = \\frac {\\partial L ^ {(t)}}{\\partial \\widehat {y} _ {l _ {t}} ^ {(t)}} \\frac {\\partial \\widehat {y} _ {l _ {t}} ^ {(t)}}{\\partial o _ {i} ^ {(t)}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            48,
+            433,
+            316,
+            577
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "equation",
+        "text": "$$\n= \\left\\{ \\begin{array}{c c} \\widehat {y} _ {l _ {t}} ^ {(t)} - 1, & i = l _ {t} \\\\ \\widehat {y} _ {i} ^ {(t)}, & i \\neq l _ {t} \\end{array} \\right.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            140,
+            591,
+            431,
+            733
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{l} \\hat {y} _ {j} ^ {(t)} = \\frac {e ^ {o _ {j} ^ {(t)}}}{\\sum_ {k = 1} ^ {K} e ^ {o _ {k} ^ {(t)}}} \\Longrightarrow \\frac {\\partial \\hat {y} _ {j} ^ {(t)}}{\\partial o _ {i} ^ {(t)}} = \\left\\{ \\begin{array}{c c} \\hat {y} _ {j} ^ {(t)} (1 - \\hat {y} _ {j} ^ {(t)}), & j = i \\\\ - \\hat {y} _ {i} ^ {(t)} \\hat {y} _ {j} ^ {(t)}, & j \\neq i \\end{array} \\right. \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            406,
+            462,
+            950,
+            628
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "equation",
+        "text": "$$\ni = j: \\quad \\mathrm{原式} = \\frac {\\partial}{\\partial 0 _ {j}} \\frac {e ^ {0 _ {j} (t)}}{\\sum_ {k} e ^ {0 _ {k} (t)}} = \\frac {e ^ {0 _ {j} (t)} \\sum_ {k} e ^ {0 _ {k} t} - e ^ {0 _ {j} (t)} \\cdot e ^ {0 _ {j} (t)}}{(\\sum_ {k} e ^ {0 _ {k} (t)}) ^ {2}} = \\frac {e ^ {0 _ {j} (t)}}{\\sum_ {k} c ^ {0 _ {k} (t)}} \\cdot \\frac {\\sum_ {k} e ^ {0 _ {k} (t)} - e ^ {0 _ {j} (t)}}{\\sum_ {k} e ^ {0 _ {k} (t)}} = y _ {j} ^ {(t)} \\cdot (1 - y _ {j} ^ {(t)})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            343,
+            782,
+            985,
+            882
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "equation",
+        "text": "$$\ni \\neq j: \\text {   原式   } = e ^ {g _ {j} ^ {(t)}} \\cdot \\frac {- e ^ {g _ {i} ^ {(t)}}}{(\\sum_ {k} e ^ {g _ {k} ^ {(t)}}) ^ {2}} = - y _ {j} ^ {(t)} y _ {i} ^ {(t)}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            345,
+            860,
+            675,
+            937
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "header",
+        "text": "BPTT ",
+        "bbox": [
+            60,
+            44,
+            146,
+            86
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            810,
+            26,
+            851,
+            82
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            26,
+            956,
+            60
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            84
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "page_number",
+        "text": "22 ",
+        "bbox": [
+            896,
+            940,
+            920,
+            962
+        ],
+        "page_idx": 20
+    },
+    {
+        "type": "text",
+        "text": "Gradient at $o ^ { ( t ) }$ ",
+        "bbox": [
+            90,
+            162,
+            353,
+            217
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\nabla_ {o ^ {(t)}} L = \\left(\\frac {\\partial L}{\\partial o _ {1} ^ {(t)}}, \\dots , \\frac {\\partial L}{\\partial o _ {i} ^ {(t)}}, \\dots , \\frac {\\partial L}{\\partial o _ {K} ^ {(t)}}\\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            418,
+            133,
+            920,
+            264
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "Matrix calculus ",
+        "text_level": 1,
+        "bbox": [
+            453,
+            300,
+            701,
+            346
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{l} \\frac {\\partial L}{\\partial o _ {i} ^ {(t)}} = \\frac {\\partial L ^ {(t)}}{\\partial o _ {i} ^ {(t)}} = \\sum_ {k = 1} ^ {K} \\frac {\\partial L ^ {(t)}}{\\partial \\widehat {y} _ {k} ^ {(t)}} \\frac {\\partial \\widehat {y} _ {k} ^ {(t)}}{\\partial o _ {i} ^ {(t)}} \\\\ = \\left(\\frac {\\partial L ^ {(t)}}{\\partial \\hat {y} _ {1} ^ {(t)}}, \\dots , \\frac {\\partial L ^ {(t)}}{\\partial \\hat {y} _ {K} ^ {(t)}}\\right) \\cdot \\left(\\frac {\\partial \\hat {y} _ {1} ^ {(t)}}{\\partial o _ {i} ^ {(t)}}, \\dots , \\frac {\\partial \\hat {y} _ {K} ^ {(t)}}{\\partial o _ {i} ^ {(t)}}\\right) ^ {\\mathrm{T}} \\\\ = \\nabla_ {\\hat {y} ^ {(t)}} L ^ {(t)} \\bullet \\nabla_ {o _ {i} ^ {(t)}} \\hat {y} ^ {(t)} \\\\ = \\nabla_ {\\hat {y} ^ {(t)}} L ^ {(t)} \\nabla_ {o _ {i} ^ {(t)}} \\hat {y} ^ {(t)} \\\\ \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            75,
+            375,
+            811,
+            891
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "header",
+        "text": "BPTT ",
+        "bbox": [
+            60,
+            44,
+            146,
+            88
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            810,
+            26,
+            850,
+            82
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            26,
+            956,
+            60
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            84
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "page_number",
+        "text": "23 ",
+        "bbox": [
+            896,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 21
+    },
+    {
+        "type": "text",
+        "text": "T时刻隐变量h的梯度",
+        "bbox": [
+            61,
+            117,
+            316,
+            162
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "text",
+        "text": "Gradient at h(T) : ",
+        "bbox": [
+            66,
+            195,
+            310,
+            244
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\nabla_ {h ^ {(T)}} L = (\\frac {\\partial L}{\\partial h _ {1} ^ {(T)}}, \\dots , \\frac {\\partial L}{\\partial h _ {i} ^ {(T)}}, \\dots , \\frac {\\partial L}{\\partial h _ {H} ^ {(T)}})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            353,
+            166,
+            830,
+            288
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "image",
+        "img_path": "images/2b9ec52a98175bc029de1e2cd36033777c946e103ec9658fbc60a593ef77ace2.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "```mermaid\ngraph TD\n    A[\"y^{(t-1)\"] --> L^{(t-1)}]\n    B[\"y^{(t)} --> L^{(t)}\"]\n    L --> C[\"o^{(t-1)}\"]\n    C --> D[\"h^{(t-1)}\"]\n    D --> E[\"x^{(t-1)}\"]\n    D --> F[\"h^{(t)}\"]\n    G[\"w\"] --> D\n    H[\"U\"] --> D\n    I[\"V\"] --> C\n    J[\"W\"] --> D\n    K[\"U\"] --> F\n    L --> O[\"v\"]\n    O --> D\n    P[\"O^{(t)}\"] --> Q[\"v\"]\n    Q --> R[\"h^{(t)}\"]\n    R --> S[\"x^{(t)}\"]\n    R --> T[\"h^{(t)}\"]\n    U[\"Δ\"] --> V[\"↑\"]\n    W[\"Δ\"] --> X[\"↑\"]\n```",
+        "sub_type": "flowchart",
+        "bbox": [
+            50,
+            286,
+            343,
+            842
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\nabla_ {h ^ {(T)}} L = \\left(\\nabla_ {o ^ {(T)}} L\\right) \\left(\\nabla_ {h ^ {(T)}} o ^ {(T)}\\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            333,
+            322,
+            723,
+            391
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "equation",
+        "text": "$$\n= \\left(\\nabla_ {o ^ {(T)}} L\\right) \\frac {\\partial o ^ {(T)}}{\\partial h ^ {(T)}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            436,
+            393,
+            661,
+            511
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "equation",
+        "text": "$$\n= (\\nabla_ {o ^ {(T)}} L) V\n$$",
+        "text_format": "latex",
+        "bbox": [
+            436,
+            528,
+            601,
+            591
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{c} o ^ {(t)} = c + V h ^ {(t)} \\\\ \\Biggl \\downarrow \\quad ? \\\\ \\frac {\\partial o ^ {(T)}}{\\partial h ^ {(T)}} = V \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            653,
+            557,
+            946,
+            877
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "header",
+        "text": "BPTT ",
+        "bbox": [
+            60,
+            44,
+            146,
+            88
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            810,
+            26,
+            851,
+            82
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            26,
+            956,
+            60
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            84
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "page_number",
+        "text": "24 ",
+        "bbox": [
+            896,
+            940,
+            921,
+            964
+        ],
+        "page_idx": 22
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {\\partial o ^ {(T)}}{\\partial h ^ {(T)}} \\stackrel {?} {=} V\n$$",
+        "text_format": "latex",
+        "bbox": [
+            123,
+            137,
+            281,
+            260
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "equation",
+        "text": "$$\no ^ {(T)} = c + V h ^ {(T)} \\Longrightarrow o _ {i} ^ {(T)} = c _ {i} + \\sum_ {j = 1} ^ {H} V _ {i j} h _ {j} ^ {(T)} \\Longrightarrow \\frac {\\partial o _ {i} ^ {(T)}}{\\partial h _ {j} ^ {(T)}} = V _ {i j}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            66,
+            273,
+            926,
+            424
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {\\partial o ^ {(T)}}{\\partial h ^ {(T)}} = \\left[ \\begin{array}{c c c c c} \\frac {\\partial o _ {1} ^ {(T)}}{\\partial h _ {1} ^ {(T)}} & \\dots & \\frac {\\partial o _ {1} ^ {(T)}}{\\partial h _ {i} ^ {(T)}} & \\dots & \\frac {\\partial o _ {1} ^ {(T)}}{\\partial h _ {H} ^ {(T)}} \\\\ \\vdots & \\vdots & \\vdots & \\vdots & \\vdots \\\\ \\frac {\\partial o _ {i} ^ {(T)}}{\\partial h _ {1} ^ {(T)}} & \\dots & \\frac {\\partial o _ {i} ^ {(T)}}{\\partial h _ {i} ^ {(T)}} & \\dots & \\frac {\\partial o _ {i} ^ {(T)}}{\\partial h _ {H} ^ {(T)}} \\\\ \\vdots & \\vdots & \\vdots & \\vdots & \\vdots \\\\ \\frac {\\partial o _ {K} ^ {(T)}}{\\partial h _ {1} ^ {(T)}} & \\dots & \\frac {\\partial o _ {K} ^ {(T)}}{\\partial h _ {i} ^ {(T)}} & \\dots & \\frac {\\partial o _ {K} ^ {(T)}}{\\partial h _ {H} ^ {(T)}} \\end{array} \\right] = \\left[ \\begin{array}{c c c c c} V _ {1 1} & \\dots & V _ {1 i} & \\dots & V _ {1 H} \\\\ \\vdots & \\vdots & \\vdots & \\vdots & \\vdots \\\\ V _ {i 1} & \\dots & V _ {i i} & \\dots & V _ {i H} \\\\ \\vdots & \\vdots & \\vdots & \\vdots & \\vdots \\\\ V _ {K 1} & \\dots & V _ {K i} & \\dots & V _ {K H} \\end{array} \\right] = V\n$$",
+        "text_format": "latex",
+        "bbox": [
+            60,
+            435,
+            951,
+            884
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "header",
+        "text": "BPTT ",
+        "bbox": [
+            60,
+            44,
+            146,
+            86
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            810,
+            26,
+            851,
+            82
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            26,
+            956,
+            60
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            84
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "page_number",
+        "text": "25 ",
+        "bbox": [
+            896,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 23
+    },
+    {
+        "type": "text",
+        "text": "Gradient at h(t) : ",
+        "bbox": [
+            80,
+            220,
+            313,
+            271
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\nabla_ {h ^ {(t)}} L = \\left(\\frac {\\partial L}{\\partial h _ {1} ^ {(t)}}, \\dots , \\frac {\\partial L}{\\partial h _ {i} ^ {(t)}}, \\dots , \\frac {\\partial L}{\\partial h _ {H} ^ {(t)}}\\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            373,
+            193,
+            816,
+            313
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "image",
+        "img_path": "images/67a26bfda12687f141c9ef192232014c27298b84f083ffea28f8f3e93f778b08.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "```mermaid\ngraph TD\n    subgraph Input Layer\n        y_t_minus_1[\"y^{(t-1)}\"]\n        y_t[\"y^{(t)}\"]\n        y_t_plus_1[\"y^{(t+1)}\"]\n    end\n\n    subgraph Hidden Layer\n        L_t_minus_1[\"L^{(t-1)}\"]\n        L_t[\"L^{(t)}\"]\n        L_t_plus_1[\"L^{(t+1)}\"]\n        o_t_minus_1[\"o^{(t-1)}\"]\n        o_t[\"O^{(t)}\"]\n        o_t_plus_1[\"o^{(t+1)}\"]\n    end\n\n    h_minus_1[\"h^{(t-1)}\"]\n    h_t_minus_1 --> h_t[\"h^{(t)}\"]\n    h_t --> h_t_plus_1[\"h^{(t+1)}\"]\n\n    h_minus_1 --> x_t_minus_1[\"x^{(t-1)}\"]\n    h_t --> x_t[\"x^{(t)}\"]\n    h_t --> x_t_plus_1[\"x^{(t+1)}\"]\n\n    h_t --> U[\"U\"]\n    h_t --> V[\"V\"]\n\n    h_t --> v[\"O\"]\n    h_t --> w[\"O\"]\n\n    h_t --> v2[\"O\"]\n    h_t --> w2[\"O\"]\n\n    v --> h_t_plus_1\n    v2 --> h_t_plus_1\n    v2 --> h_t\n\n    v --> h_t_plus_1\n    v --> h_t\n\n    v --> h_t_plus_1\n    v --> h_t\n\n    v --> h_t_plus_1\n    v --> h_t\n\n    v --> h_t\n\n    v --> h_t\n\n    v --> h_t\n\n    v --> h_t\n\n    v --> h_t\n\n    v --> h_t\n\n    v --> h_t\n\n    v --> h_t\n\n    v --> h_t\n\n    v --> h_t\n\n    v --> h_t\n\n    v --> h_t\n\n    v --> h_t\n\n    v --> h_t\n\n    v --> h_t\n\n    v --> h_t\n\n    v --> f[\"h^{(t+1)}\"]\n    v --> f\n    v --> f\n\n    style Input Layer fill:#f9f,stroke:#333\n    style Hidden Layer fill:#ccf,stroke:#333\n    style Input Layer fill:#cfc,stroke:#333\n    style Hidden Layer fill:#fcc,stroke:#333\n```",
+        "sub_type": "flowchart",
+        "bbox": [
+            46,
+            348,
+            430,
+            842
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\nabla_ {h ^ {(t)}} L = \\left(\\nabla_ {o ^ {(t)}} L\\right) \\left(\\nabla_ {h ^ {(t)}} o ^ {(t)}\\right) + \\left(\\nabla_ {h ^ {(t + 1)}} L\\right) \\left(\\nabla_ {h ^ {(t)}} h ^ {(t + 1)}\\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            346,
+            360,
+            951,
+            431
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "equation",
+        "text": "$$\n= \\left(\\nabla_ {o ^ {(t)}} L\\right) \\frac {\\partial o ^ {(t)}}{\\partial h ^ {(t)}} + \\left(\\nabla_ {h ^ {(t + 1)}} L\\right) \\frac {\\partial h ^ {(t + 1)}}{\\partial h ^ {(t)}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            441,
+            462,
+            873,
+            575
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "equation",
+        "text": "$$\n= \\left(\\nabla_ {o ^ {(t)}} L\\right) V + \\left(\\nabla_ {h ^ {(t + 1)}} L\\right) \\frac {\\partial h ^ {(t + 1)}}{\\partial h ^ {(t)}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            441,
+            588,
+            830,
+            704
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "header",
+        "text": "BPTT ",
+        "bbox": [
+            60,
+            44,
+            146,
+            88
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            810,
+            26,
+            851,
+            82
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            26,
+            956,
+            60
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            84
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "page_number",
+        "text": "26 ",
+        "bbox": [
+            896,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 24
+    },
+    {
+        "type": "text",
+        "text": "$\\mathsf { G r a d i e n t a t } \\ h ^ { ( t ) } : \\qquad \\nabla _ { h ^ { ( t ) } } L = ( \\frac { \\partial L } { \\partial h _ { 1 } ^ { ( t ) } } , . . . , \\frac { \\partial L } { \\partial h _ { i } ^ { ( t ) } } , . . . , \\frac { \\partial L } { \\partial h _ { H } ^ { ( t ) } } )$ ",
+        "bbox": [
+            46,
+            213,
+            910,
+            348
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left(\\nabla_ {h ^ {(t)}} L\\right) = \\left(\\nabla_ {o ^ {(t)}} L\\right) V + \\left(\\nabla_ {h ^ {(t + 1)}} L\\right) \\frac {\\partial h ^ {(t + 1)}}{\\partial h ^ {(t)}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            200,
+            373,
+            783,
+            508
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "equation",
+        "text": "$$\na ^ {(t + 1)} = b + W h ^ {(t)} + U x ^ {(t)}; h ^ {(t + 1)} = \\tanh (a ^ {(t + 1)})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            150,
+            553,
+            945,
+            620
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {\\partial h ^ {(t + 1)}}{\\partial h ^ {(t)}} = \\frac {\\partial h ^ {(t + 1)}}{\\partial a ^ {(t + 1)}} \\frac {\\partial a ^ {(t + 1)}}{\\partial h ^ {(t)}} = \\boxed {\\frac {\\partial h ^ {(t + 1)}}{\\partial a ^ {(t + 1)}}} W\n$$",
+        "text_format": "latex",
+        "bbox": [
+            188,
+            684,
+            745,
+            822
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "header",
+        "text": "BPTT ",
+        "bbox": [
+            60,
+            44,
+            146,
+            88
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            810,
+            26,
+            850,
+            82
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            26,
+            956,
+            60
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            82
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "page_number",
+        "text": "",
+        "bbox": [
+            896,
+            940,
+            920,
+            962
+        ],
+        "page_idx": 25
+    },
+    {
+        "type": "equation",
+        "text": "$$\n(\\nabla_ {h ^ {(t)}} L) = (\\nabla_ {o ^ {(t)}} L) V + (\\nabla_ {h ^ {(t + 1)}} L) \\boxed {\\frac {\\partial h ^ {(t + 1)}}{\\partial h ^ {(t)}}} \\quad \\frac {\\partial h ^ {(t + 1)}}{\\partial h ^ {(t)}} = \\frac {\\partial h ^ {(t + 1)}}{\\partial a ^ {(t + 1)}} \\frac {\\partial a ^ {(t + 1)}}{\\partial h ^ {(t)}} = \\boxed {\\frac {\\partial h ^ {(t + 1)}}{\\partial a ^ {(t + 1)}}} W\n$$",
+        "text_format": "latex",
+        "bbox": [
+            46,
+            180,
+            951,
+            284
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "equation",
+        "text": "$$\nh ^ {(t + 1)} = (h _ {1} ^ {t + 1}, \\dots , h _ {H} ^ {t + 1}); a ^ {(t + 1)} = (a _ {1} ^ {t + 1}, \\dots , a _ {H} ^ {t + 1})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            263,
+            315,
+            836,
+            371
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {\\partial h ^ {(t + 1)}}{\\partial a ^ {(t + 1)}} = \\left[ \\begin{array}{c c c c c} \\frac {\\partial h _ {1} ^ {(t + 1)}}{\\partial a _ {1} ^ {(t + 1)}} & \\dots & \\frac {\\partial h _ {1} ^ {(t + 1)}}{\\partial a _ {i} ^ {(t + 1)}} & \\dots & \\frac {\\partial h _ {1} ^ {(t + 1)}}{\\partial a _ {H} ^ {(t + 1)}} \\\\ \\vdots & \\vdots & \\vdots & \\vdots & \\vdots \\\\ \\frac {\\partial h _ {i} ^ {(t + 1)}}{\\partial a _ {1} ^ {(t + 1)}} & \\dots & \\frac {\\partial h _ {i} ^ {(t + 1)}}{\\partial a _ {i} ^ {(t + 1)}} & \\dots & \\frac {\\partial h _ {i} ^ {(t + 1)}}{\\partial a _ {H} ^ {(t + 1)}} \\\\ \\vdots & \\vdots & \\vdots & \\vdots & \\vdots \\\\ \\frac {\\partial h _ {H} ^ {(t + 1)}}{\\partial a _ {1} ^ {(t + 1)}} & \\dots & \\frac {\\partial h _ {H} ^ {(t + 1)}}{\\partial a _ {i} ^ {(t + 1)}} & \\dots & \\frac {\\partial h _ {H} ^ {(t + 1)}}{\\partial a _ {H} ^ {(t + 1)}} \\end{array} \\right]\n$$",
+        "text_format": "latex",
+        "bbox": [
+            218,
+            435,
+            791,
+            851
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "header",
+        "text": "BPTT ",
+        "bbox": [
+            60,
+            44,
+            146,
+            86
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            810,
+            26,
+            851,
+            82
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            26,
+            956,
+            60
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            84
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "page_number",
+        "text": "28 ",
+        "bbox": [
+            898,
+            940,
+            920,
+            962
+        ],
+        "page_idx": 26
+    },
+    {
+        "type": "equation",
+        "text": "$$\nh ^ {(t + 1)} = \\tanh (a ^ {(t + 1)}) \\Longrightarrow h _ {i} ^ {(t + 1)} = \\tanh (a _ {i} ^ {(t + 1)}) = \\frac {e ^ {a _ {i} ^ {(t + 1)}} - e ^ {- a _ {i} ^ {(t + 1)}}}{e ^ {a _ {i} ^ {(t + 1)}} + e ^ {- a _ {i} ^ {(t + 1)}}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            58,
+            166,
+            945,
+            288
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {\\partial h _ {i} ^ {(t + 1)}}{\\partial a _ {i} ^ {(t + 1)}} = \\mathbf {1} - \\left(h _ {i} ^ {(t + 1)}\\right) ^ {2} \\quad \\frac {\\partial h _ {i} ^ {(t + 1)}}{\\partial a _ {j} ^ {(t + 1)}} = \\mathbf {0}; \\quad j \\neq i\n$$",
+        "text_format": "latex",
+        "bbox": [
+            180,
+            297,
+            785,
+            415
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {\\partial h ^ {(t + 1)}}{\\partial a ^ {(t + 1)}} = \\left[ \\begin{array}{c c c c c} \\frac {\\partial h _ {1} ^ {(t + 1)}}{\\partial a _ {1} ^ {(t + 1)}} & \\dots & \\frac {\\partial h _ {1} ^ {(t + 1)}}{\\partial a _ {i} ^ {(t + 1)}} & \\dots & \\frac {\\partial h _ {1} ^ {(t + 1)}}{\\partial a _ {H} ^ {(t + 1)}} \\\\ \\vdots & \\vdots & \\vdots & \\vdots & \\vdots \\\\ \\frac {\\partial h _ {i} ^ {(t + 1)}}{\\partial a _ {1} ^ {(t + 1)}} & \\dots & \\frac {\\partial h _ {i} ^ {(t + 1)}}{\\partial a _ {i} ^ {(t + 1)}} & \\dots & \\frac {\\partial h _ {i} ^ {(t + 1)}}{\\partial a _ {H} ^ {(t + 1)}} \\\\ \\vdots & \\vdots & \\vdots & \\vdots & \\vdots \\\\ \\frac {\\partial h _ {H} ^ {(t + 1)}}{\\partial a _ {1} ^ {(t + 1)}} & \\dots & \\frac {\\partial h _ {H} ^ {(t + 1)}}{\\partial a _ {i} ^ {(t + 1)}} & \\dots & \\frac {\\partial h _ {H} ^ {(t + 1)}}{\\partial a _ {H} ^ {(t + 1)}} \\end{array} \\right] \\Longrightarrow\n$$",
+        "text_format": "latex",
+        "bbox": [
+            48,
+            433,
+            468,
+            757
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {\\partial h ^ {(t + 1)}}{\\partial a ^ {(t + 1)}} = \\left[ \\begin{array}{c c c c c} 1 - \\left(h _ {1} ^ {(t + 1)}\\right) ^ {2} & \\dots & 0 & \\dots & 0 \\\\ \\vdots & \\vdots & \\vdots & \\vdots & \\vdots \\\\ 0 & \\dots & 1 - \\left(h _ {i} ^ {(t + 1)}\\right) ^ {2} & \\dots & 0 \\\\ \\vdots & \\vdots & \\vdots & \\vdots & \\vdots \\\\ 0 & \\dots & 0 & \\dots & 1 - \\left(h _ {H} ^ {(t + 1)}\\right) ^ {2} \\end{array} \\right]\n$$",
+        "text_format": "latex",
+        "bbox": [
+            490,
+            457,
+            948,
+            733
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "denoted as ",
+        "bbox": [
+            690,
+            757,
+            796,
+            786
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\operatorname{diag} \\left(1 - \\left(h ^ {(t + 1)}\\right) ^ {2}\\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            633,
+            800,
+            840,
+            880
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "header",
+        "text": "BPTT ",
+        "bbox": [
+            60,
+            44,
+            146,
+            86
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            810,
+            26,
+            851,
+            82
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            26,
+            956,
+            60
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            84
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "page_number",
+        "text": "29 ",
+        "bbox": [
+            896,
+            940,
+            920,
+            962
+        ],
+        "page_idx": 27
+    },
+    {
+        "type": "text",
+        "text": "Gradient at $h ^ { ( t ) }$ $\\nabla _ { \\mu ^ { ( t ) } } L = ( \\frac { \\hat { \\partial } L } { \\hat { \\partial } h _ { 1 } ^ { ( t ) } } , . . . , \\frac { \\hat { \\partial } L } { \\hat { \\partial } h _ { i } ^ { ( t ) } } , . . . , \\frac { \\hat { \\partial } L } { \\hat { \\partial } h _ { H } ^ { ( t ) } } )$ VL=( ",
+        "bbox": [
+            80,
+            180,
+            816,
+            300
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\left(\\nabla_ {h ^ {(t)}} L\\right) = \\left(\\nabla_ {o ^ {(t)}} L\\right) V + \\left(\\nabla_ {h ^ {(t + 1)}} L\\right) \\frac {\\partial h ^ {(t + 1)}}{\\partial h ^ {(t)}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            211,
+            328,
+            710,
+            444
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {\\partial h ^ {(t + 1)}}{\\partial h ^ {(t)}} = \\frac {\\partial h ^ {(t + 1)}}{\\partial a ^ {(t + 1)}} \\frac {\\partial a ^ {(t + 1)}}{\\partial h ^ {(t)}} = \\boxed {\\frac {\\partial h ^ {(t + 1)}}{\\partial a ^ {(t + 1)}}} W \\quad \\frac {\\partial h ^ {(t + 1)}}{\\partial a ^ {(t + 1)}} = \\boxed {d i a g \\left(1 - \\left(h ^ {(t + 1)}\\right) ^ {2}\\right)}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            46,
+            468,
+            951,
+            591
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\boxed {(\\nabla_ {h ^ {(t)}} L) = (\\nabla_ {o ^ {(t)}} L) V + (\\nabla_ {h ^ {(t + 1)}} L) d i a g \\left(1 - \\left(h ^ {(t + 1)}\\right) ^ {2}\\right) W} \\text {Backpropagation}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            165,
+            644,
+            830,
+            846
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "header",
+        "text": "BPTT ",
+        "bbox": [
+            60,
+            44,
+            146,
+            86
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            810,
+            26,
+            850,
+            82
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            26,
+            956,
+            60
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            84
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "page_number",
+        "text": "30 ",
+        "bbox": [
+            896,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 28
+    },
+    {
+        "type": "text",
+        "text": "Gradient at c : $\\nabla _ { \\boldsymbol { c } } L = ( \\frac { \\partial L } { \\partial c _ { 1 } } , . . . , \\frac { \\partial L } { \\partial c _ { i } } , . . . , \\frac { \\partial L } { \\partial c _ { \\boldsymbol { \\kappa } } } )$ ",
+        "bbox": [
+            66,
+            102,
+            763,
+            244
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "image",
+        "img_path": "images/425691a19f268a18fa7493f3be12c47fa02d6c23a944a69529bc2f0e92387576.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "```mermaid\ngraph TD\n    subgraph Input Layer\n        y_t_minus_1[\"y^{(t-1)}\"]\n        y_t[\"y^{(t)}\"]\n        y_t_plus_1[\"y^{(t+1)}\"]\n    end\n\n    subgraph Hidden Layer\n        L_t_minus_1[\"L^{(t-1)}\"]\n        L_t[\"L^{(t)}\"]\n        L_t_plus_1[\"L^{(t+1)}\"]\n        o_t_minus_1[\"o^{(t-1)}\"]\n        o_t[\"o^{(t)}\"]\n        o_t_plus_1[\"o^{(t+1)}\"]\n    end\n\n    subgraph Output Layer\n        h_t_minus_1[\"h^{(t-1)}\"]\n        h_t[\"h^{(t)}\"]\n        h_t_plus_1[\"h^{(t+1)}\"]\n        x_t_minus_1[\"x^{(t-1)}\"]\n        x_t[\"x^{(t)}\"]\n        x_t_plus_1[\"x^{(t+1)}\"]\n    end\n\n    y_t_minus_1 --> L_t_minus_1\n    y_t --> L_t\n    y_t_plus_1 --> L_t\n    o_t_minus_1 --> o_t\n    o_t --> o_t_plus_1\n    h_t_minus_1 --> h_t\n    h_t --> h_t\n    h_t_plus_1 --> h_t\n    style Input Layer fill:#f9f,stroke:#333\n    style Hidden Layer fill:#ccf,stroke:#333\n    style Output Layer fill:#cfc,stroke:#333\n```",
+        "sub_type": "flowchart",
+        "bbox": [
+            46,
+            268,
+            558,
+            897
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "equation",
+        "text": "$$\nc \\Rightarrow o ^ {(t)} \\Rightarrow L\n$$",
+        "text_format": "latex",
+        "bbox": [
+            570,
+            271,
+            778,
+            333
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "equation",
+        "text": "$$\no ^ {(t)} = c + V h ^ {(t)}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            663,
+            426,
+            880,
+            486
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\nabla_ {c} L = \\sum_ {t = 1} ^ {T} (\\nabla_ {o ^ {(t)}} L) (\\nabla_ {c} o ^ {(t)})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            615,
+            544,
+            946,
+            660
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "equation",
+        "text": "$$\n= \\sum_ {t = 1} ^ {T} \\left(\\nabla_ {o ^ {(t)}} L\\right) \\frac {\\partial o ^ {(t)}}{\\partial c}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            675,
+            691,
+            911,
+            808
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "header",
+        "text": "BPTT ",
+        "bbox": [
+            60,
+            44,
+            146,
+            88
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            810,
+            26,
+            851,
+            82
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            26,
+            956,
+            60
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            84
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "page_number",
+        "text": "31 ",
+        "bbox": [
+            896,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 29
+    },
+    {
+        "type": "equation",
+        "text": "$$\no ^ {(t)} = c + V h ^ {(t)} \\Longrightarrow o _ {i} ^ {(t)} = c _ {i} + \\sum_ {k = 1} ^ {K} V _ {i k} h _ {k} ^ {(t)} \\Longrightarrow \\frac {\\partial o _ {i} ^ {(t)}}{\\partial c _ {j}} = \\left\\{ \\begin{array}{l l} 1, & i = j \\\\ 0, & i \\neq j \\end{array} \\right.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            50,
+            157,
+            950,
+            315
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {\\partial o ^ {(t)}}{\\partial c} = \\left[ \\begin{array}{c c c c c} \\frac {\\partial o _ {1} ^ {(t)}}{\\partial c _ {1}} & \\dots & \\frac {\\partial o _ {1} ^ {(t)}}{\\partial c _ {i}} & \\dots & \\frac {\\partial o _ {1} ^ {(t)}}{\\partial c _ {K}} \\\\ \\vdots & \\vdots & \\vdots & \\vdots & \\vdots \\\\ \\frac {\\partial o _ {i} ^ {(t)}}{\\partial c _ {1}} & \\dots & \\frac {\\partial o _ {i} ^ {(t)}}{\\partial c _ {i}} & \\dots & \\frac {\\partial o _ {i} ^ {(t)}}{\\partial c _ {K}} \\\\ \\vdots & \\vdots & \\vdots & \\vdots & \\vdots \\\\ \\frac {\\partial o _ {K} ^ {(t)}}{\\partial c _ {1}} & \\dots & \\frac {\\partial o _ {K} ^ {(t)}}{\\partial c _ {i}} & \\dots & \\frac {\\partial o _ {K} ^ {(t)}}{\\partial c _ {K}} \\end{array} \\right] \\Longrightarrow \\frac {\\partial o ^ {(t)}}{\\partial c} = \\left[ \\begin{array}{c c c c c} 1 & \\dots & 0 & \\dots & 0 \\\\ \\vdots & \\vdots & \\vdots & \\vdots & \\vdots \\\\ 0 & \\dots & 1 & \\dots & 0 \\\\ \\vdots & \\vdots & \\vdots & \\vdots & \\vdots \\\\ 0 & \\dots & 0 & \\dots & 1 \\end{array} \\right] = I\n$$",
+        "text_format": "latex",
+        "bbox": [
+            118,
+            337,
+            850,
+            688
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\nabla_ {c} L = \\sum_ {t = 1} ^ {T} (\\nabla_ {o ^ {(t)}} L) \\frac {\\partial o ^ {(t)}}{\\partial c} = \\sum_ {t = 1} ^ {T} (\\nabla_ {o ^ {(t)}} L)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            265,
+            728,
+            800,
+            868
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "header",
+        "text": "BPTT ",
+        "bbox": [
+            60,
+            44,
+            146,
+            86
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            810,
+            26,
+            851,
+            82
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            26,
+            956,
+            60
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            84
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "page_number",
+        "text": "32 ",
+        "bbox": [
+            896,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 30
+    },
+    {
+        "type": "text",
+        "text": "Gradient at b $\\nabla _ { \\boldsymbol { b } } L = ( \\frac { \\partial L } { \\partial b _ { \\scriptscriptstyle 1 } } , . . . , \\frac { \\partial L } { \\partial b _ { \\scriptscriptstyle i } } , . . . , \\frac { \\partial L } { \\partial b _ { \\scriptscriptstyle H } } )$ abH ",
+        "bbox": [
+            65,
+            102,
+            701,
+            220
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "image",
+        "img_path": "images/f0ac4f6c9be57f55bc5cab03c8541ee5d62d0808b3fdbd9c95d406615dc5a398.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "```mermaid\ngraph TD\n    A[\"y^{(t-1)\"] --> L^{(t-1)}]\n    B[\"y^{(t)} --> L^{(t)}\"]\n    C[\"y^{(t+1)} --> L^{(t+1)}\"]\n    D[\"o^{(t-1)}\"] --> V\n    E[\"o^{(t)}\"] --> V\n    F[\"o^{(t+1)}\"] --> V\n    G[\"h^{(t-1)}\"] --> H[\"h^{(t)}\"]\n    I[\"x^{(t-1)}\"] --> J[\"x^{(t)}\"]\n    K[\"x^{(t+1)}\"] --> L[\"x^{(t+1)}\"]\n    L --> M[\"h^{(t+1)}\"]\n    N[\"w\"] --> O[\"w\"]\n    P[\"U\"] --> Q[\"U\"]\n    R[\"Δh^{(t-1)}} --> S[Δh^{(t-1)}\"]\n    T[\"Δh^{(t-1)}\"] --> U[\"Δh^{(t-1)}\"]\n    V[\"V\"] --> W[\"V\"]\n    V --> X[\"V\"]\n    Y[\"W\"] --> Z[\"W\"]\n    Z --> AA[\"W\"]\n    AB[\"U\"] --> AC[\"U\"]\n    AD[\"U\"] --> AE[\"U\"]\n    AF[\"U\"] --> AG[\"U\"]\n    AH[\"Δh^{(t-1)}} --> AI[h^{(t-1)}\"]\n    AJ[\"Δh^{(t-1)}\"] --> AK[\"h^{(t)}\"]\n    AL[\"Δh^{(t-1)}\"] --> AM[\"h^{(t+1)}\"]\n```",
+        "sub_type": "flowchart",
+        "bbox": [
+            0,
+            268,
+            515,
+            946
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "equation",
+        "text": "$$\nb \\Rightarrow a ^ {(t)} \\Rightarrow h ^ {(t)} \\Rightarrow L\n$$",
+        "text_format": "latex",
+        "bbox": [
+            568,
+            277,
+            885,
+            337
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "equation",
+        "text": "$$\na ^ {(t)} = b + W h ^ {(t - 1)} + U x ^ {(t)}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            583,
+            420,
+            936,
+            480
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "equation",
+        "text": "$$\nh ^ {(t)} = \\tanh (a ^ {(t)})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            583,
+            508,
+            825,
+            577
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\nabla_ {b} L = \\sum_ {t = 1} ^ {T} (\\nabla_ {h ^ {(t)}} L) (\\nabla_ {a ^ {(t)}} h ^ {(t)}) (\\nabla_ {b} a ^ {(t)})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            501,
+            624,
+            986,
+            748
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "header",
+        "text": "BPTT ",
+        "bbox": [
+            60,
+            44,
+            146,
+            88
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            810,
+            26,
+            851,
+            82
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            26,
+            956,
+            60
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            84
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "page_number",
+        "text": "33 ",
+        "bbox": [
+            896,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 31
+    },
+    {
+        "type": "equation",
+        "text": "$$\na ^ {(t)} = b + W h ^ {(t - 1)} + U x ^ {(t)}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            46,
+            164,
+            415,
+            240
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "equation",
+        "text": "$$\nh ^ {(t)} = \\tanh (a ^ {(t)})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            50,
+            268,
+            296,
+            340
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "image",
+        "img_path": "images/bb5c9fa210117ecd135201907a5c00db87f95b37a61678df81917bcfe7fa7ccc.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            428,
+            228,
+            550,
+            286
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\nabla_ {a ^ {(t)}} h ^ {(t)} = \\operatorname{diag} \\left(1 - \\left(h ^ {(t)}\\right) ^ {2}\\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            581,
+            164,
+            946,
+            257
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\nabla_ {b} \\boldsymbol {a} ^ {(t)} = \\mathbf {I}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            583,
+            275,
+            723,
+            335
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\nabla_ {b} L = \\sum_ {t = 1} ^ {T} (\\nabla_ {h ^ {(t)}} L) (\\nabla_ {a ^ {(t)}} h ^ {(t)}) (\\nabla_ {b} a ^ {(t)})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            238,
+            428,
+            738,
+            555
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "equation",
+        "text": "$$\n= \\sum_ {t = 1} ^ {T} (\\nabla_ {h ^ {(t)}} L) d i a g \\left(1 - \\left(h ^ {(t)}\\right) ^ {2}\\right) \\mathbb {I}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            306,
+            586,
+            710,
+            713
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "equation",
+        "text": "$$\n= \\sum_ {t = 1} ^ {T} (\\nabla_ {h ^ {(t)}} L) d i a g \\left(1 - \\left(h ^ {(t)}\\right) ^ {2}\\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            306,
+            728,
+            701,
+            857
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "header",
+        "text": "BPTT ",
+        "bbox": [
+            60,
+            44,
+            146,
+            86
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            810,
+            26,
+            851,
+            82
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            26,
+            956,
+            60
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            84
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "page_number",
+        "text": "",
+        "bbox": [
+            896,
+            940,
+            920,
+            962
+        ],
+        "page_idx": 32
+    },
+    {
+        "type": "text",
+        "text": "BPTT ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            44,
+            146,
+            86
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "text",
+        "text": "Gradient at V $\\nabla _ { \\boldsymbol { \\nu } } L = \\left[ \\frac { \\partial L } { \\partial V _ { i j } } \\right] _ { K \\times H }$ ",
+        "bbox": [
+            61,
+            82,
+            520,
+            233
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "image",
+        "img_path": "images/aec8fc36dd9cf548b844f772c5ac1bcdaaebb0037ae722777f805d662e5ed7b4.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "```mermaid\ngraph TD\n    A[\"y^{(t-1)\"] --> L^{(t-1)}]\n    B[\"y^{(t)} --> L^{(t)}\"]\n    C[\"y^{(t+1)} --> L^{(t+1)}\"]\n    D[\"o^{(t-1)}\"] --> H[\"h^{(t-1)}\"]\n    E[\"o^{(t)}\"] --> H\n    I[\"o^{(t+1)}\"] --> H\n    H --> J[\"h^{(t)}\"]\n    K[\"x^{(t-1)}\"] --> J\n    L[\"x^{(t)}\"] --> J\n    M[\"x^{(t+1)}\"] --> J\n    N[\"w\"] --> H\n    O[\"U\"] --> J\n    P[\"↑\"] --> Q[\"↑\"]\n    R[\"↓\"] --> S[\"↓\"]\n    T[\"w\"] --> J\n    U[\"U\"] --> J\n    V[\"w\"] --> J\n    W[\"u\"] --> J\n    X[\"u\"] --> J\n    Y[\"u\"] --> J\n    Z[\"h^{(t+1)}\"] --> J\n    style A fill:#fff,stroke:#000\n    style B fill:#fff,stroke:#000\n    style C fill:#fff,stroke:#000\n    style D fill:#fff,stroke:#000\n    style E fill:#fff,stroke:#000\n    style F fill:#fff,stroke:#000\n    style G fill:#fff,stroke:#000\n    style H fill:#fff,stroke:#000\n    style I fill:#fff,stroke:#000\n    style J fill:#fff,stroke:#000\n    style K fill:#fff,stroke:#000\n    style L fill:#fff,stroke:#000\n    style M fill:#fff,stroke:#000\n    style N fill:#fff,stroke:#000\n    style O fill:#fff,stroke:#000\n    style P fill:#fff,stroke:#000\n    style Q fill:#fff,stroke:#000\n    style R fill:#fff,stroke:#000\n    style S fill:#fff,stroke:#000\n    style T fill:#fff,stroke:#000\n    style U fill:#fff,stroke:#000\n    style V fill:#fff,stroke:#000\n    style W fill:#fff,stroke:#000\n    style X fill:#fff,stroke:#000\n    style Y fill:#fff,stroke:#000\n    style Z fill:#fff,stroke:#000\n```",
+        "sub_type": "flowchart",
+        "bbox": [
+            0,
+            248,
+            536,
+            946
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "equation",
+        "text": "$$\no ^ {(t)} = c + V h ^ {(t)}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            620,
+            320,
+            896,
+            391
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "equation",
+        "text": "$$\nV \\Rightarrow o ^ {(t)} \\Rightarrow L\n$$",
+        "text_format": "latex",
+        "bbox": [
+            656,
+            517,
+            885,
+            575
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {\\partial L}{\\partial V _ {i j}} = \\sum_ {t = 1} ^ {T} (\\nabla_ {o ^ {(t)}} L) (\\nabla_ {V _ {i j}} o ^ {(t)})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            610,
+            720,
+            998,
+            860
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            811,
+            26,
+            850,
+            82
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            28,
+            956,
+            60
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            82
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "page_number",
+        "text": "35 ",
+        "bbox": [
+            896,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 33
+    },
+    {
+        "type": "equation",
+        "text": "$$\no ^ {(t)} = c + V h ^ {(t)} \\Longrightarrow o _ {s} ^ {(t)} = c _ {s} + \\sum_ {k = 1} ^ {H} V _ {s k} h _ {k} ^ {(t)} \\Longrightarrow \\frac {\\partial o _ {s} ^ {(t)}}{\\partial V _ {i j}} = \\left\\{ \\begin{array}{l l} h _ {j} ^ {(t)}, & s = i \\\\ 0, & s \\neq i \\end{array} \\right.\n$$",
+        "text_format": "latex",
+        "bbox": [
+            46,
+            251,
+            951,
+            413
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\nabla_ {V _ {i j}} \\boldsymbol {o} ^ {(t)} = \\left(0, \\dots , h _ {j} ^ {t}, \\dots , 0\\right) ^ {\\mathrm{T}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            300,
+            457,
+            676,
+            580
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {\\partial L}{\\partial V _ {i j}} = \\sum_ {t = 1} ^ {T} (\\nabla_ {o ^ {(t)}} L) (\\nabla_ {V _ {i j}} o ^ {(t)})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            356,
+            651,
+            688,
+            771
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "header",
+        "text": "BPTT ",
+        "bbox": [
+            60,
+            44,
+            146,
+            88
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            810,
+            26,
+            851,
+            82
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            26,
+            956,
+            60
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            84
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "page_number",
+        "text": "36 ",
+        "bbox": [
+            896,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 34
+    },
+    {
+        "type": "text",
+        "text": "BPTT BPT ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            42,
+            146,
+            88
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "text",
+        "text": "Gradient at W VwL : $W \\ \\nabla _ { \\scriptscriptstyle W } L = \\left[ \\frac { \\partial L } { \\partial W _ { \\scriptscriptstyle i j } } \\right] _ { H \\times H }$ W ",
+        "bbox": [
+            61,
+            73,
+            558,
+            240
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "image",
+        "img_path": "images/b10f8055e66ffd4ea5a4e5d8d5ec54e083795d2ef2b7f59905fa58a0d0ccf00d.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "```mermaid\ngraph TD\n    subgraph Input Layer\n        y1[\"y^(t-1)\"] --> L1[\"L^(t-1)\"]\n        y2[\"y^(t)\"] --> L2[\"L^(t)\"]\n        y3[\"y^(t+1)\"] --> L3[\"L^(t+1)\"]\n    end\n\n    subgraph Hidden Layer\n        o1[\"o^(t-1)\"] --> h1[\"h^(t-1)\"]\n        o2[\"o^(t)\"] --> h2[\"h^(t)\"]\n        o3[\"o^(t+1)\"] --> h3[\"h^(t+1)\"]\n    end\n\n    subgraph Output Layer\n        h1 --> U1[\"x^(t-1)\"]\n        h2 --> U2[\"x^(t)\"]\n        h3 --> U3[\"x^(t+1)\"]\n    end\n\n    L1 --> O1\n    L2 --> O2\n    L3 --> O3\n\n    style Input Layer fill:#f9f,stroke:#333\n    style Hidden Layer fill:#ccf,stroke:#333\n    style Output Layer fill:#cfc,stroke:#333\n\n    note right of H\n        a^T(t) = b + Wh^{(t-1)} + Ux^T\n        h^T(t) = tanh(a^T)\n    end\n\n    note right of H\n        W ⇒ h^T ⇒ L\n    end\n\n    subgraph Output Layer\n        h1 --> U4[\"U\"]\n        h2 --> U5[\"U\"]\n        h3 --> U6[\"U\"]\n        h1 --> U7[\"x^(t-1)\"]\n        h2 --> U8[\"x^(t)\"]\n        h3 --> U9[\"x^(t+1)\"]\n        h1 --> UU[\"U\"]\n        h2 --> UV[\"U\"]\n        h3 --> UW[\"U\"]\n        h1 --> UX[\"x^(t-1)\"]\n        h2 --> UY[\"x^(t)\"]\n        h3 --> UZ[\"x^(t+1)\"]\n        h1 --> UY\n        h2 --> UZ\n        h1 --> UX\n        h2 --> UY\n        h3 --> UZ\n    end\n\n    Note right of Output Layer\n        ∂L/∂W_ij = Σ_{t=1}^T (∇_h^(t)L)(∇_a^(t)h^(t))(∇_W_ij_a^(t))\n    end\n```",
+        "sub_type": "flowchart",
+        "bbox": [
+            0,
+            253,
+            998,
+            984
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            810,
+            26,
+            851,
+            82
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            26,
+            956,
+            60
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            84
+        ],
+        "page_idx": 35
+    },
+    {
+        "type": "equation",
+        "text": "$$\nh ^ {(t)} = \\tanh (a ^ {(t)}) \\quad \\Longrightarrow \\quad \\nabla_ {a ^ {(t)}} h ^ {(t)} = d i a g \\left(1 - \\left(h ^ {(t)}\\right) ^ {2}\\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            41,
+            233,
+            941,
+            348
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {\\partial L}{\\partial W _ {i j}} = \\sum_ {t = 1} ^ {T} (\\nabla_ {h ^ {(t)}} L) (\\nabla_ {a ^ {(t)}} h ^ {(t)}) (\\nabla_ {W _ {i j}} a ^ {(t)})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            123,
+            437,
+            773,
+            604
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "equation",
+        "text": "$$\n= \\sum_ {t = 1} ^ {T} (\\nabla_ {h ^ {(t)}} L) d i a g (1 - (h ^ {(t)}) ^ {2}) (\\nabla_ {W _ {i j}} a ^ {(t)})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            216,
+            633,
+            866,
+            788
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "header",
+        "text": "BPTT ",
+        "bbox": [
+            60,
+            44,
+            146,
+            88
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            810,
+            26,
+            850,
+            82
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            26,
+            956,
+            60
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            82
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "page_number",
+        "text": "38 ",
+        "bbox": [
+            896,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 36
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{c} a ^ {(t)} = b + W h ^ {(t - 1)} + U x ^ {(t)} \\\\ \\biguplus \\\\ a _ {s} ^ {(t)} = b _ {s} + \\sum_ {k = 1} ^ {H} W _ {s k} h _ {k} ^ {(t - 1)} + \\sum_ {k = 1} ^ {N} U _ {s k} x _ {k} ^ {(t)} \\quad \\Longrightarrow \\frac {\\partial a _ {s} ^ {(t)}}{\\partial W _ {i j}} = \\left\\{ \\begin{array}{c c} h _ {j} ^ {(t - 1)}, & s = i \\\\ 0, & s \\neq i \\end{array} \\right. \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            46,
+            213,
+            948,
+            468
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\nabla_ {W _ {i j}} \\boldsymbol {a} ^ {(t)} = \\left(0, \\dots , h _ {j} ^ {(t - 1)}, \\dots , 0\\right) ^ {\\mathrm{T}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            255,
+            515,
+            666,
+            633
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {\\partial L}{\\partial W _ {i j}} = \\sum_ {t = 1} ^ {T} (\\nabla_ {h ^ {(t)}} L) d i a g \\Big (1 - \\Big (h ^ {(t)} \\Big) ^ {2} \\Big) (\\nabla_ {W _ {i j}} a ^ {(t)})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            171,
+            673,
+            811,
+            817
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "header",
+        "text": "BPTT ",
+        "bbox": [
+            60,
+            44,
+            146,
+            86
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            810,
+            26,
+            851,
+            82
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            26,
+            956,
+            60
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            84
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "page_number",
+        "text": "39 ",
+        "bbox": [
+            896,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 37
+    },
+    {
+        "type": "text",
+        "text": "BPTT ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            44,
+            146,
+            88
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "text",
+        "text": "Gradient at U $\\nabla _ { \\boldsymbol { U } } L = \\left[ \\frac { \\partial L } { \\partial U _ { i j } } \\right] _ { H \\times N }$ ",
+        "bbox": [
+            50,
+            80,
+            535,
+            220
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "image",
+        "img_path": "images/a97142ef5a3b001ad53e9f53bc89ee171dd9aa8dd35c0e801c5d1e12bd84a95a.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "```mermaid\ngraph TD\n    subgraph Input Layer\n        y_t_minus_1[\"y^{(t-1)}\"]\n        y_t[\"y^{(t)}\"]\n        y_t_plus_1[\"y^{(t+1)}\"]\n        L_t_minus_1[\"L^{(t-1)}\"]\n        L_t[\"L^{(t)}\"]\n        L_t_plus_1[\"L^{(t+1)}\"]\n    end\n\n    subgraph Hidden Layer\n        o_t_minus_1[\"o^{(t-1)}\"]\n        o_t[\"O^{(t)}\"]\n        o_t_plus_1[\"o^{(t+1)}\"]\n    end\n\n    subgraph Output Layer\n        h_minus_1[\"h^{(t-1)}\"]\n        h_t[\"h^{(t)}\"]\n        h_t_plus_1[\"h^{(t+1)}\"]\n        x_t[\"x^{(t-1)}\"]\n        x_t[\"u\"]\n        x_t_plus_1[\"x^{(t+1)}\"]\n    end\n\n    y_t_minus_1 --> L_t_minus_1\n    y_t --> L_t\n    y_t_plus_1 --> L_t_plus_1\n\n    L_t_minus_1 --> o_t_minus_1\n    L_t --> o_t\n    L_t_plus_1 --> o_t\n    o_t --> v\n    o_t_plus_1 --> v\n\n    h_minus_1 --> h_t_minus_1\n    h_t --> h_t\n    h_t_plus_1 --> h_t\n    h_t --> h_t_plus_1\n\n    h_t --> h_minus_1\n    h_t --> h_t\n    h_t_plus_1 --> h_t\n\n    h_t --> h_t_plus_1\n\n    h_t --> h_t_plus_1\n\n    h_t --> h_t\n\n    style Input Layer fill:#f9f,stroke:#333\n    style Hidden Layer fill:#ccf,stroke:#333\n    style Output Layer fill:#cfc,stroke:#333\n\n    note right of Input Layer: a^(t) = b + Wh^(t-1) + Ux^(t)\n    note right of Hidden Layer: h^(t) = tanh(a^(t))\n\n    note right of Output Layer: U ⇒ h^(t) ⇒ L\n\n    note right of Output Layer: ∂L/∂U_ij = Σ_{t=1}^T (∇h^(t)L)(∇a^(t)h^(t))(∇U_ij a^(t))\n    note right of Output Layer: h(t) ⇒ h^(t) ⇒ L\n```",
+        "sub_type": "flowchart",
+        "bbox": [
+            0,
+            224,
+            998,
+            971
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            811,
+            26,
+            850,
+            82
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            28,
+            956,
+            60
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            84
+        ],
+        "page_idx": 38
+    },
+    {
+        "type": "equation",
+        "text": "$$\nh ^ {(t)} = \\tanh (a ^ {(t)}) \\quad \\Longrightarrow \\quad \\nabla_ {a ^ {(t)}} h ^ {(t)} = d i a g \\left(1 - \\left(h ^ {(t)}\\right) ^ {2}\\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            46,
+            233,
+            950,
+            346
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {\\partial L}{\\partial U _ {i j}} = \\sum_ {t = 1} ^ {T} (\\nabla_ {h ^ {(t)}} L) (\\nabla_ {a ^ {(t)}} h ^ {(t)}) (\\nabla_ {U _ {i j}} a ^ {(t)})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            130,
+            413,
+            773,
+            575
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "equation",
+        "text": "$$\n= \\sum_ {t = 1} ^ {T} (\\nabla_ {h ^ {(t)}} L) d i a g (1 - (h ^ {(t)}) ^ {2}) (\\nabla_ {U _ {i j}} a ^ {(t)})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            226,
+            631,
+            876,
+            786
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "header",
+        "text": "BPTT ",
+        "bbox": [
+            60,
+            44,
+            146,
+            88
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            810,
+            26,
+            850,
+            82
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            26,
+            956,
+            60
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            84
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "page_number",
+        "text": "",
+        "bbox": [
+            896,
+            940,
+            920,
+            962
+        ],
+        "page_idx": 39
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\begin{array}{c} a ^ {(t)} = b + W h ^ {(t - 1)} + U x ^ {(t)} \\\\ \\biguplus \\\\ a _ {s} ^ {(t)} = b _ {s} + \\sum_ {k = 1} ^ {H} W _ {s k} h _ {k} ^ {(t - 1)} + \\sum_ {k = 1} ^ {N} U _ {s k} x _ {k} ^ {(t)} \\quad \\Longrightarrow \\frac {\\partial a _ {s} ^ {(t)}}{\\partial U _ {i j}} = \\left\\{ \\begin{array}{l l} x _ {j} ^ {(t)}, & s = i \\\\ 0, & s \\neq i \\end{array} \\right. \\end{array}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            46,
+            206,
+            951,
+            473
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\nabla_ {U _ {i j}} \\boldsymbol {a} ^ {(t)} = \\left(0, \\dots , x _ {j} ^ {(t)}, \\dots , 0\\right) ^ {\\mathrm{T}}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            263,
+            515,
+            666,
+            637
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\frac {\\partial L}{\\partial U _ {i j}} = \\sum_ {t = 1} ^ {T} (\\nabla_ {h ^ {(t)}} L) d i a g \\Big (1 - \\Big (h ^ {(t)} \\Big) ^ {2} \\Big) (\\nabla_ {U _ {i j}} a ^ {(t)})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            171,
+            675,
+            825,
+            826
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "header",
+        "text": "BPTT ",
+        "bbox": [
+            60,
+            44,
+            146,
+            86
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            810,
+            26,
+            851,
+            82
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            26,
+            956,
+            60
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            84
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "page_number",
+        "text": "42 ",
+        "bbox": [
+            896,
+            940,
+            920,
+            962
+        ],
+        "page_idx": 40
+    },
+    {
+        "type": "text",
+        "text": "Other Important Architectures ",
+        "text_level": 1,
+        "bbox": [
+            56,
+            42,
+            568,
+            97
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "Recurrent networks with recurrent connections between hidden units, that read an entire sequence and then produce a single output ",
+        "bbox": [
+            55,
+            126,
+            921,
+            220
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "image",
+        "img_path": "images/936012b643912964035b5ec09dfd78b85a1b11ca985ff29181e2576eea3055a2.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "```mermaid\ngraph TD\n    A[\"x^{(t-1)}\"] -->|W| B[\"h^{(t-1)}\"]\n    C[\"x^{(t)}\"] -->|U| B\n    D[\"...\"] -->|W| B\n    E[\"L^{(τ)}\"] --> F[\"y^{(τ)}\"]\n    E --> G[\"o^{(τ)}\"]\n    G --> H[\"v\"]\n    B -->|W| I[\"h^{(t)}\"]\n    I --> J[\"...\"]\n    J --> K[\"h^{(τ)}\"]\n    K --> L[\"u\"]\n    style A fill:#f9f,stroke:#333\n    style C fill:#f9f,stroke:#333\n    style D fill:#f9f,stroke:#333\n    style E fill:#ccf,stroke:#333\n    style F fill:#ccf,stroke:#333\n    style G fill:#ccf,stroke:#333\n    style H fill:#ccf,stroke:#333\n    style I fill:#ccf,stroke:#333\n    style J fill:#ccf,stroke:#333\n    style K fill:#ccf,stroke:#333\n    style L fill:#ccf,stroke:#333\n```",
+        "sub_type": "flowchart",
+        "bbox": [
+            206,
+            268,
+            786,
+            880
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            810,
+            26,
+            850,
+            82
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            26,
+            956,
+            60
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            84
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "page_number",
+        "text": "47 ",
+        "bbox": [
+            896,
+            940,
+            920,
+            962
+        ],
+        "page_idx": 41
+    },
+    {
+        "type": "text",
+        "text": "RNN 分类",
+        "text_level": 1,
+        "bbox": [
+            60,
+            37,
+            226,
+            93
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "image",
+        "img_path": "images/c51239e1c9af0b6797c3a9d87ec8d886a7b4e4540ebf6a12b12deadb8527034d.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "```mermaid\ngraph TD\n    A[\"x₁\"] --> B[\"RNN\"]\n    C[\"x₂\"] --> B\n    D[\"x₃\"] --> B\n    B --> E[\"xₙ\"]\n    F[\"Softmax\"] --> G[\"hₙ\"]\n    G --> B\n```",
+        "sub_type": "flowchart",
+        "bbox": [
+            98,
+            191,
+            918,
+            842
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            811,
+            28,
+            850,
+            82
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            28,
+            956,
+            60
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            82
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "page_number",
+        "text": "48 ",
+        "bbox": [
+            898,
+            940,
+            920,
+            962
+        ],
+        "page_idx": 42
+    },
+    {
+        "type": "text",
+        "text": "Other Important Architectures ",
+        "text_level": 1,
+        "bbox": [
+            56,
+            42,
+            568,
+            95
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "text",
+        "text": "Produce an output at each time step and have recurrent connections only from the output of one time step to the hidden units at the next time step ",
+        "bbox": [
+            55,
+            108,
+            968,
+            200
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "image",
+        "img_path": "images/ec5308ea38bca3eb4c716b1af2cf69ec39db1e44c9f61e050252fbfeaebb1d78.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "```mermaid\ngraph TD\n    A[\"y\"] --> B[\"L\"]\n    B --> C[\"o\"]\n    C --> D[\"h\"]\n    D --> E[\"x\"]\n    F[\"y^{(t-1)\"]] --> G[\"L^{(t-1)}\"]\n    G --> H[\"o^{(t-1)}\"]\n    H --> I[\"h^{(t-1)}\"]\n    I --> J[\"x^{(t-1)}\"]\n    K[\"y^{(t)\"]] --> L[\"L^{(t)}\"]\n    L --> M[\"o^{(t)}\"]\n    M --> N[\"h^{(t)}\"]\n    N --> O[\"x^{(t)}\"]\n    P[\"y^{(t+1)}\"] --> Q[\"L^{(t+1)}\"]\n    Q --> R[\"o^{(t+1)}\"]\n    R --> S[\"h^{(t+1)}\"]\n    S --> T[\"x^{(t+1)}\"]\n    U[\"Unfold\"] -.-> V[\"O^{(...)}\"]\n    V -.-> W[\"W\"]\n    X[\"W\"] -.-> Y[\"W\"]\n    Z[\"U\"] -.-> AA[\"U\"]\n```",
+        "sub_type": "flowchart",
+        "bbox": [
+            148,
+            242,
+            848,
+            900
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            810,
+            26,
+            850,
+            82
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            26,
+            956,
+            60
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            84
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "page_number",
+        "text": "49 ",
+        "bbox": [
+            896,
+            940,
+            920,
+            962
+        ],
+        "page_idx": 43
+    },
+    {
+        "type": "image",
+        "img_path": "images/80243bdaed35024b2b1ab3dc19fa33a888835705053ce62a68b7d3f1e8d86272.jpg",
+        "image_caption": [
+            ""
+        ],
+        "image_footnote": [],
+        "content": "```mermaid\ngraph TD\n    A[\"x^{(t-1)}\"] -->|U| B[\"h^{(t-1)}\"]\n    B -->|V| C[\"o^{(t-1)}\"]\n    C -->|W| D[\"L^{(t-1)}\"]\n    D --> E[\"y^{(t-1)}\"]\n    E --> F[\"y^{(t)}\"]\n    F --> G[\"L^{(t)}\"]\n    G --> H[\"o^{(t)}\"]\n    H --> I[\"h^{(t)}\"]\n    I --> J[\"u\"]\n    style A fill:#f9f,stroke:#333\n    style B fill:#f9f,stroke:#333\n    style C fill:#f9f,stroke:#333\n    style D fill:#f9f,stroke:#333\n    style E fill:#f9f,stroke:#333\n    style F fill:#f9f,stroke:#333\n    style G fill:#f9f,stroke:#333\n    style H fill:#f9f,stroke:#333\n    style I fill:#f9f,stroke:#333\n    style J fill:#f9f,stroke:#333\n```",
+        "sub_type": "flowchart",
+        "bbox": [
+            165,
+            180,
+            365,
+            728
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\log p (y ^ {(1)}, y ^ {(2)} \\mid x ^ {(1)}, x ^ {(2)}) =\n$$",
+        "text_format": "latex",
+        "bbox": [
+            385,
+            160,
+            730,
+            215
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\log p \\left(y ^ {(2)} \\mid y ^ {(1)}, x ^ {(1)}, x ^ {(2)}\\right) + \\log p \\left(y ^ {(1)} \\mid , x ^ {(1)}, x ^ {(2)}\\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            386,
+            228,
+            986,
+            286
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "image",
+        "img_path": "images/146845619a89cd61ebf1f0f6d9f0a3c58036dc6a25bd70e97dfb42ac0e1fb28d.jpg",
+        "image_caption": [
+            "Test time ",
+            "Figure 10.6:Ilustration of teacher forcing. Teacher forcing is a training technique that is applicable to RNNs that have connections from their output to their hidden states at the next time step. $( L e f t )$ At train time,we feed the correct output $\\mathbf { \\boldsymbol { y } } ^ { ( t ) }$ drawn from the train set as input to $h ^ { ( t + 1 ) }$ .(Right)When the model is deployed, the true output is generally not known. In this case, we approximate the correct output $\\boldsymbol { y } ^ { ( t ) }$ with the model's output $\\mathbf { \\sigma } _ { o } ( t )$ ,and feed the output back into the model. "
+        ],
+        "image_footnote": [],
+        "content": "```mermaid\ngraph TD\n    O1[\"o^{(t-1)}\"] -->|V| H1[\"h^{(t-1)}\"]\n    O2[\"o^{(t)}\"] -->|V| H2[\"h^{(t)}\"]\n    H1 -->|U| X1[\"x^{(t-1)}\"]\n    H2 -->|U| X2[\"x^{(t)}\"]\n    style O1 fill:#fff,stroke:#000\n    style O2 fill:#fff,stroke:#000\n    style H1 fill:#fff,stroke:#000\n    style H2 fill:#fff,stroke:#000\n    style X1 fill:#fff,stroke:#000\n    style X2 fill:#fff,stroke:#000\n```",
+        "sub_type": "flowchart",
+        "bbox": [
+            438,
+            420,
+            596,
+            728
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "header",
+        "text": "Other Important Architectures ",
+        "bbox": [
+            56,
+            42,
+            566,
+            95
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            810,
+            26,
+            850,
+            82
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            26,
+            956,
+            60
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            82
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "page_number",
+        "text": "",
+        "bbox": [
+            896,
+            940,
+            920,
+            962
+        ],
+        "page_idx": 44
+    },
+    {
+        "type": "text",
+        "text": "Other Important Architectures ",
+        "text_level": 1,
+        "bbox": [
+            56,
+            42,
+            568,
+            97
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "Bidirectional RNNs ",
+        "bbox": [
+            65,
+            148,
+            296,
+            184
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "image",
+        "img_path": "images/294dd75f9fe5fc8e872191c899739070fd33304e2df3bc4075c87e534356a1af.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "```mermaid\ngraph TD\n    A[\"x^{(t-1)}\"] --> B[\"h^{(t-1)}\"]\n    B --> C[\"g^{(t-1)}\"]\n    C --> D[\"x^{(t)}\"]\n    D --> E[\"y^{(t-1)}\"]\n    E --> F[\"y^{(t)}\"]\n    F --> G[\"O(t)\"]\n    G --> H[\"g^{(t+1)}\"]\n    H --> I[\"x^{(t+1)}\"]\n    I --> J[\"y^{(t+1)}\"]\n    J --> K[\"L^{(t+1)}\"]\n    K --> L[\"y^{(t-1)}\"]\n    L --> M[\"L^{(t-1)}\"]\n    M --> N[\"o^{(t-1)}\"]\n    N --> O[\"o^{(t)}\"]\n    O --> P[\"O^{(t+1)}\"]\n    P --> Q[\"O^{(t+1)}\"]\n    Q --> R[\"O^{(t+1)}\"]\n    R --> S[\"O^{(t+1)}\"]\n    S --> T[\"O^{(t+1)}\"]\n    T --> U[\"O^{(t+1)}\"]\n    U --> V[\"O^{(t+1)}\"]\n    V --> W[\"O^{(t+1)}\"]\n    W --> X[\"O^{(t+1)}\"]\n    X --> Y[\"O^{(t+1)}\"]\n    Y --> Z[\"O^{(t+1)}\"]\n    Z --> AA[\"O^{(t+1)}\"]\n    AA --> AB[\"O^{(t+1)}\"]\n    AB --> AC[\"O^{(t+1)}\"]\n    AC --> AD[\"O^{(t+1)}\"]\n    AD --> AE[\"O^{(t+1)}\"]\n    AE --> AF[\"O^{(t+1)}\"]\n```",
+        "sub_type": "flowchart",
+        "bbox": [
+            506,
+            168,
+            850,
+            920
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            811,
+            26,
+            850,
+            82
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            26,
+            956,
+            60
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            84
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "page_number",
+        "text": "51 ",
+        "bbox": [
+            896,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 45
+    },
+    {
+        "type": "text",
+        "text": "Other Important Architectures ",
+        "text_level": 1,
+        "bbox": [
+            56,
+            42,
+            568,
+            95
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "Bidirectional RNN ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            104,
+            281,
+            140
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "image",
+        "img_path": "images/514044412f600a061f0b4b16e1f027ac4094c263971a992f4ba52cea4f3d1ff2.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "```mermaid\ngraph TD\n    subgraph RNN 1 (Left to Right)\n        x1 --> y1\n        x1 --> y2\n        x1 --> y3\n        x2 --> y1\n        x2 --> y2\n        x2 --> y3\n        x3 --> y1\n        x3 --> y2\n        x3 --> y3\n    end\n    subgraph RNN 2 (Right to Left)\n        y1 --> y2\n        y2 --> y3\n        y3 --> yn\n    end\n    style RNN 1 fill:#cce5ff,stroke:#333\n    style RNN 2 fill:#cce5ff,stroke:#333\n```",
+        "sub_type": "flowchart",
+        "bbox": [
+            53,
+            217,
+            945,
+            813
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            811,
+            28,
+            850,
+            82
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            28,
+            956,
+            60
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            82
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "page_number",
+        "text": "52 ",
+        "bbox": [
+            898,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 46
+    },
+    {
+        "type": "text",
+        "text": "Other Important Architectures ",
+        "text_level": 1,
+        "bbox": [
+            56,
+            42,
+            568,
+            97
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "Encoder-Decoder : ",
+        "text_level": 1,
+        "bbox": [
+            56,
+            146,
+            290,
+            184
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "Sequence-to-Sequence Architectures Mapping sequence to sequence of different length ",
+        "bbox": [
+            56,
+            195,
+            515,
+            333
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "image",
+        "img_path": "images/2cdc258b820e478f1a1fcaf7dd74e8859e8bce0fe9e5d1c3be5ee65efe2171a3.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "```mermaid\ngraph LR\n    A[\"Input x(1)\"] --> B[\"Hidden Layer\"]\n    C[\"Input x(2)\"] --> B\n    D[\"Input x(...)\"] --> B\n    E[\"Input x(n=)\"] --> B\n    B --> F[\"...\"]\n    F --> G[\"Output\"]\n    style F stroke-dasharray: 5 5\n    note right of F Encoder\n```",
+        "sub_type": "flowchart",
+        "bbox": [
+            520,
+            173,
+            945,
+            448
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "image",
+        "img_path": "images/f51837751c46b9bc1b2a73078f19d502f8d4094da6b31456596b4855b3648e14.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "```mermaid\ngraph TD\n    C[\"C\"] --> A[\"Layer 1\"]\n    A --> B[\"Layer 2\"]\n    B --> C[\"...\"]\n    C --> D[\"Layer n_y\"]\n    D --> E[\"Output\"]\n    subgraph Decoder\n        F[\"y^(1)\"]\n        G[\"y^(2)\"]\n        H[\"y^(...)\"]\n    end\n    subgraph Output\n        I[\"Output\"]\n    end\n    A --> J[\"Decoder\"]\n    B --> J\n    C --> J\n    D --> J\n    E --> J\n    F --> J\n    G --> J\n    H --> J\n    I --> J\n```",
+        "sub_type": "flowchart",
+        "bbox": [
+            441,
+            417,
+            910,
+            904
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            811,
+            26,
+            850,
+            82
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            26,
+            956,
+            60
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            84
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "page_number",
+        "text": "53 ",
+        "bbox": [
+            896,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 47
+    },
+    {
+        "type": "text",
+        "text": "Other Important Architectures ",
+        "text_level": 1,
+        "bbox": [
+            56,
+            42,
+            568,
+            95
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "Encoder-Decoder ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            104,
+            276,
+            142
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "image",
+        "img_path": "images/9f937893648dcdcbca235ce7c77af1a303c12b7e66a707d0fca8534f6ed023a6.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "```mermaid\ngraph LR\n    A[\"Encoder\"] --> B[\"语义编码c\"]\n    C[\"X1\"] --> A\n    D[\"X2\"] --> A\n    E[\"X3\"] --> A\n    F[\"X4\"] --> A\n    G[\"Y1\"] --> H[\"Decoder\"]\n    I[\"Y2\"] --> H\n    J[\"Y3\"] --> H\n```",
+        "sub_type": "flowchart",
+        "bbox": [
+            145,
+            171,
+            886,
+            486
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "image",
+        "img_path": "images/eefcb0cb5ad2dfe4ab4249a10462e8ac90c767b0245ac1d74cc1653d3c5c6d13.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "```mermaid\ngraph LR\n    A[\"She loves cute cats\"] --> B[\"Encoder\"]\n    B --> C[\"0.5\\n0.2\\n-0.1\\n-0.3\\n0.4\\n1.2\"]\n    C --> D[\"Decoder\"]\n    D --> E[\"Elle aime les chats mignons\"]\n```",
+        "sub_type": "flowchart",
+        "bbox": [
+            136,
+            620,
+            910,
+            800
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            811,
+            26,
+            850,
+            82
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            28,
+            956,
+            60
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            82
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "page_number",
+        "text": "54 ",
+        "bbox": [
+            898,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 48
+    },
+    {
+        "type": "text",
+        "text": "Other Important Architectures ",
+        "text_level": 1,
+        "bbox": [
+            56,
+            42,
+            568,
+            95
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "text",
+        "text": "Encoder-Decoder ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            104,
+            276,
+            140
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "chart",
+        "img_path": "images/f16982b91435038cc03ecd1362f2bd2e7b3b14a44401a51dcb96d1003f0bc650.jpg",
+        "content": "| Category   | She    | loves  | cute   | cats   | Elle   | aime   | les    | chats  | mignons |\n| ---------- | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------ | ------- |\n| She        | 0.1    | 0.2    | 0.4    | 0.2    | 0.2    | -0.4   | 0.2    | -0.1   | 0.3     |\n| loves      | 0.3    | 0.6    | 0.1    | 0.4    | 0.6    | -0.1   | 0.6    | -0.1   | 0.5     |\n| cute       | -0.1   | -0.8   | -0.1   | -0.2   | -0.1   | -0.7   | -0.1   | -0.1   | -0.1    |\n| cats       | -0.7   | -0.1   | -0.3   | -0.1   | -0.7   | -0.7   | -0.7   | -0.5   | -0.7    |\n| Elle       | -0.4   | 0.6    | -0.2   | 0.2    | 0.6    | -0.2   | 0.2    | -0.1   | 0.3     |\n| aime       | -0.7   | -0.1   | -0.6   | 0.2    | 0.4    | -0.6   | -0.1   | -0.7   | 0.4     |\n| les        | 0.3    | 0.6    | 0.3    | 0.3    | 0.6    | -0.1   | 0.3    | -0.1   | 0.5     |\n| chats      | 0.5    | -0.1   | 0.5    | 0.4    | 0.5    | -0.1   | 0.5    | -0.1   | 0.6     |\n| mignons    | -0.1   | -0.1   | -0.4   | 0.2    | 0.6    | -0.1   | 0.2    | -0.1   | 0.2     |",
+        "chart_caption": [
+            "translation generated "
+        ],
+        "chart_footnote": [
+            "source sentence "
+        ],
+        "sub_type": "bar",
+        "bbox": [
+            45,
+            304,
+            950,
+            762
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            811,
+            26,
+            850,
+            82
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            28,
+            956,
+            60
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            82
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "page_number",
+        "text": "",
+        "bbox": [
+            898,
+            940,
+            920,
+            962
+        ],
+        "page_idx": 49
+    },
+    {
+        "type": "image",
+        "img_path": "images/0c718c7b425f4dd3a5ac116b7c228e36284d4452534e9092e6d6c92f046c8f3f.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "```mermaid\ngraph TD\n    subgraph RNN_1\n        x1 --> RNN_2\n        x2 --> RNN_2\n        x3 --> RNN_2\n    end\n    subgraph RNN_2\n        RNN_3\n    end\n    subgraph RNN_3\n        y1 --> RNN_1\n        y2 --> RNN_1\n        y3 --> RNN_1\n    end\n    subgraph RNN_1\n        xn --> RNN_1\n        xn --> RNN_2\n        xn --> RNN_3\n    end\n    RNN_1 --> yn\n    RNN_2 --> yn\n    RNN_3 --> yn\n```",
+        "sub_type": "flowchart",
+        "bbox": [
+            85,
+            191,
+            911,
+            824
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "header",
+        "text": "Stacked RNN ",
+        "bbox": [
+            58,
+            42,
+            275,
+            86
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            811,
+            28,
+            850,
+            82
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            28,
+            956,
+            60
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            82
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "page_number",
+        "text": "",
+        "bbox": [
+            898,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 50
+    },
+    {
+        "type": "list",
+        "sub_type": "text",
+        "list_items": [
+            "First presented by Hochreiter and Schmidhuber (1997) ",
+            "• Idea ",
+            "– The gradient can flow for long durations ",
+            "• extremely successful in many applications ",
+            "– Handwriting recognition, speech recognition ",
+            "– Handwriting generation, image captioning ",
+            "– Machine translation ",
+            "– Parsing "
+        ],
+        "bbox": [
+            56,
+            142,
+            886,
+            742
+        ],
+        "page_idx": 51
+    },
+    {
+        "type": "header",
+        "text": "LSTM ",
+        "bbox": [
+            60,
+            44,
+            151,
+            86
+        ],
+        "page_idx": 51
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            811,
+            28,
+            850,
+            82
+        ],
+        "page_idx": 51
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            28,
+            956,
+            60
+        ],
+        "page_idx": 51
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            82
+        ],
+        "page_idx": 51
+    },
+    {
+        "type": "page_number",
+        "text": "",
+        "bbox": [
+            896,
+            940,
+            920,
+            962
+        ],
+        "page_idx": 51
+    },
+    {
+        "type": "image",
+        "img_path": "images/9ed94e57131bba8e84b3e655bb64b5aaa16c7c8b9f460bab95e9479122797f36.jpg",
+        "image_caption": [
+            "Jürgen Schmidhuber "
+        ],
+        "image_footnote": [],
+        "content": "Portrait of a man speaking into a headset, wearing a white shirt against a blurred blue and green background (no visible text or symbols)",
+        "sub_type": "natural_image",
+        "bbox": [
+            68,
+            126,
+            930,
+            893
+        ],
+        "page_idx": 52
+    },
+    {
+        "type": "header",
+        "text": "LSTM ",
+        "bbox": [
+            60,
+            44,
+            151,
+            86
+        ],
+        "page_idx": 52
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            811,
+            26,
+            850,
+            82
+        ],
+        "page_idx": 52
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            28,
+            956,
+            60
+        ],
+        "page_idx": 52
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            82
+        ],
+        "page_idx": 52
+    },
+    {
+        "type": "page_number",
+        "text": "58 ",
+        "bbox": [
+            898,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 52
+    },
+    {
+        "type": "image",
+        "img_path": "images/9b0b42de8007c2b0cfe7fd206717a20745729fd8372b7e706ea298a2ba620796.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "```mermaid\ngraph LR\n    subgraph Input\n        Xt-1[\"X_{t-1}\"] --> A[\"A\"]\n        Xt --> Xt1[\"X_{t+1}\"]\n    end\n\n    h_t_minus_1[\"h_{t-1}\"] --> A\n    h_t --> X_t[\"X_t\"]\n    X_t --> X_t_minus_1\n    X_t --> X_t1\n\n    h_t_minus_1 --> A\n    h_t --> X_t\n    X_t --> X_t_minus_1\n\n    h_t --> X_t_minus_1\n    X_t --> X_t\n\n    X_t --> X_t_minus_1\n\n    X_t --> X_t\n\n    X_t --> X_t_minus_1\n\n    X_t --> X_t\n\n    X_t --> X_t_minus_1\n\n    X_t --> X_t\n\n    X_t --> X_t\n\n    X_t --> X_t\n\n    X_t --> X_t\n\n    X_t --> X_t\n\n    X_t --> X_t\n\n    X_t --> X_t\n\n    X_t --> X_t\n\n    X_t --> X_t\n\n    X_t --> X_t\n\n    X_t --> X_t\n\n    X_t --> X_t\n\n    X_t --> X_t\n\n    X_t --> X_t\n\n    X_t --> X_t\n```",
+        "sub_type": "flowchart",
+        "bbox": [
+            45,
+            277,
+            955,
+            742
+        ],
+        "page_idx": 53
+    },
+    {
+        "type": "header",
+        "text": "LSTM ",
+        "bbox": [
+            60,
+            44,
+            151,
+            86
+        ],
+        "page_idx": 53
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            811,
+            28,
+            850,
+            82
+        ],
+        "page_idx": 53
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            28,
+            956,
+            60
+        ],
+        "page_idx": 53
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            82
+        ],
+        "page_idx": 53
+    },
+    {
+        "type": "footer",
+        "text": "https://colah.github.io/posts/2015-08-Understanding-LSTMs/ ",
+        "bbox": [
+            35,
+            920,
+            626,
+            955
+        ],
+        "page_idx": 53
+    },
+    {
+        "type": "page_number",
+        "text": "59 ",
+        "bbox": [
+            898,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 53
+    },
+    {
+        "type": "text",
+        "text": "LSTM ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            44,
+            151,
+            86
+        ],
+        "page_idx": 54
+    },
+    {
+        "type": "image",
+        "img_path": "images/6613aa96ebec9f714bbcde3879acaea5709178750d25c60df997918ac559844b.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            21,
+            111,
+            480,
+            900
+        ],
+        "page_idx": 54
+    },
+    {
+        "type": "image",
+        "img_path": "images/1f12305f4d86913f0736795bfec7b8bcd6d532bb51d44ee728352b96e89dbd87.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "按位计算\n拼接\nf_t = σ (W_f \\cdot [h_{t-1}, x_t] + b_f)",
+        "sub_type": "text_image",
+        "bbox": [
+            523,
+            173,
+            890,
+            337
+        ],
+        "page_idx": 54
+    },
+    {
+        "type": "equation",
+        "text": "$$\ni _ {t} = \\sigma \\left(W _ {i} \\cdot [ h _ {t - 1}, x _ {t} ] + b _ {i}\\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            548,
+            640,
+            930,
+            693
+        ],
+        "page_idx": 54
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\tilde {C} _ {t} = \\mathrm{tanh} (W _ {C} \\cdot [ h _ {t - 1}, x _ {t} ] + b _ {C})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            536,
+            711,
+            990,
+            768
+        ],
+        "page_idx": 54
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            811,
+            26,
+            850,
+            82
+        ],
+        "page_idx": 54
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            28,
+            956,
+            60
+        ],
+        "page_idx": 54
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            84
+        ],
+        "page_idx": 54
+    },
+    {
+        "type": "page_number",
+        "text": "",
+        "bbox": [
+            898,
+            940,
+            920,
+            962
+        ],
+        "page_idx": 54
+    },
+    {
+        "type": "image",
+        "img_path": "images/09cfb91fadc821d26c5c5e8278efe44885b3fcccbb062db5ac7e7ffc751cfc97.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "```mermaid\ngraph TD\n    A[\"C_{t-1}\"] --> B[\"×\"]\n    B --> C[\"+\"]\n    D[\"h_t\"] --> E[\"tanh\"]\n    F[\"x_t\"] --> G[\"σ\"]\n    H[\"h_t-1\"] --> I[\"σ\"]\n    J[\"i_t\"] --> K[\"×\"]\n    L[\"C_t\"] --> M[\"×\"]\n    N[\"O_t\"] --> O[\"×\"]\n    P[\"θ_t\"] --> Q[\"×\"]\n    R[\"f_t\"] --> S[\"×\"]\n    T[\"×\"] --> U[\"×\"]\n    V[\"×\"] --> W[\"×\"]\n    X[\"×\"] --> Y[\"×\"]\n    Z[\"×\"] --> AA[\"×\"]\n```",
+        "sub_type": "flowchart",
+        "bbox": [
+            41,
+            117,
+            461,
+            486
+        ],
+        "page_idx": 55
+    },
+    {
+        "type": "image",
+        "img_path": "images/3f47584d5eacd50e6d064add46e48bf1b99c0694846f960a474243cc62d43519.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "```mermaid\ngraph TD\n    A[\"σ\"] --> B[\"×\"]\n    C[\"σ\"] --> D[\"×\"]\n    E[\"tanh\"] --> F[\"×\"]\n    G[\"σ\"] --> H[\"×\"]\n    I[\"ct\"] --> J[\"xt\"]\n    K[\"ft\"] --> L[\"×\"]\n    M[\"ft-1\"] --> N[\"xt-1\"]\n    O[\"ct-1\"] --> P[\"xt-1\"]\n    Q[\"ct\"] --> R[\"xt\"]\n    S[\"ct\"] --> T[\"xt\"]\n    U[\"ct-1\"] --> V[\"xt-1\"]\n    W[\"ct\"] --> X[\"xt\"]\n    Y[\"ct-1\"] --> Z[\"xt-1\"]\n    AA[\"ct\"] --> AB[\"xt\"]\n    AC[\"ct-1\"] --> AD[\"xt\"]\n    AE[\"ct\"] --> AF[\"xt\"]\n    AG[\"ct-1\"] --> AH[\"xt\"]\n    AI[\"ct\"] --> AJ[\"xt\"]\n    AK[\"ct-1\"] --> AL[\"xt\"]\n    AM[\"ct\"] --> AN[\"xt\"]\n    AO[\"ct-1\"] --> AP[\"xt\"]\n    AQ[\"ct\"] --> AR[\"xt\"]\n    AS[\"ct-1\"] --> AT[\"xt\"]\n    AU[\"ct\"] --> AV[\"xt\"]\n    AW[\"ct-1\"] --> AX[\"xt\"]\n```",
+        "sub_type": "flowchart",
+        "bbox": [
+            23,
+            504,
+            490,
+            911
+        ],
+        "page_idx": 55
+    },
+    {
+        "type": "text",
+        "text": "点乘 ",
+        "bbox": [
+            698,
+            202,
+            763,
+            246
+        ],
+        "page_idx": 55
+    },
+    {
+        "type": "equation",
+        "text": "$$\nC _ {t} = f _ {t} * C _ {t - 1} + i _ {t} * \\tilde {C} _ {t}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            515,
+            288,
+            821,
+            340
+        ],
+        "page_idx": 55
+    },
+    {
+        "type": "equation",
+        "text": "$$\no _ {t} = \\sigma \\left(W _ {o} \\left[ h _ {t - 1}, x _ {t} \\right] + b _ {o}\\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            556,
+            653,
+            963,
+            708
+        ],
+        "page_idx": 55
+    },
+    {
+        "type": "equation",
+        "text": "$$\nh _ {t} = o _ {t} * \\tanh (C _ {t})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            555,
+            733,
+            821,
+            782
+        ],
+        "page_idx": 55
+    },
+    {
+        "type": "header",
+        "text": "LSTM ",
+        "bbox": [
+            60,
+            44,
+            151,
+            86
+        ],
+        "page_idx": 55
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            811,
+            26,
+            850,
+            82
+        ],
+        "page_idx": 55
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            28,
+            956,
+            60
+        ],
+        "page_idx": 55
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            84
+        ],
+        "page_idx": 55
+    },
+    {
+        "type": "page_number",
+        "text": "61 ",
+        "bbox": [
+            896,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 55
+    },
+    {
+        "type": "text",
+        "text": "LSTM ",
+        "text_level": 1,
+        "bbox": [
+            60,
+            44,
+            151,
+            86
+        ],
+        "page_idx": 56
+    },
+    {
+        "type": "equation",
+        "text": "$$\nf _ {t} = \\sigma \\left(W _ {f} \\cdot \\left[ h _ {t - 1}, x _ {t} \\right] + b _ {f}\\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            110,
+            160,
+            568,
+            220
+        ],
+        "page_idx": 56
+    },
+    {
+        "type": "equation",
+        "text": "$$\ni _ {t} = \\sigma \\left(W _ {i} \\cdot \\left[ h _ {t - 1}, x _ {t} \\right] + b _ {i}\\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            111,
+            268,
+            551,
+            326
+        ],
+        "page_idx": 56
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\tilde {C} _ {t} = \\tanh (W _ {C} \\cdot [ h _ {t - 1}, x _ {t} ] + b _ {C})\n$$",
+        "text_format": "latex",
+        "bbox": [
+            100,
+            351,
+            621,
+            415
+        ],
+        "page_idx": 56
+    },
+    {
+        "type": "equation",
+        "text": "$$\nC _ {t} = f _ {t} * C _ {t - 1} + i _ {t} * \\tilde {C} _ {t}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            100,
+            457,
+            480,
+            520
+        ],
+        "page_idx": 56
+    },
+    {
+        "type": "equation",
+        "text": "$$\no _ {t} = \\sigma \\left(W _ {o} \\left[ h _ {t - 1}, x _ {t} \\right] + b _ {o}\\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            103,
+            566,
+            561,
+            626
+        ],
+        "page_idx": 56
+    },
+    {
+        "type": "equation",
+        "text": "$$\nh _ {t} = o _ {t} * \\tanh \\left(C _ {t}\\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            101,
+            655,
+            401,
+            711
+        ],
+        "page_idx": 56
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            811,
+            28,
+            850,
+            82
+        ],
+        "page_idx": 56
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            28,
+            956,
+            60
+        ],
+        "page_idx": 56
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            82
+        ],
+        "page_idx": 56
+    },
+    {
+        "type": "page_number",
+        "text": "62 ",
+        "bbox": [
+            896,
+            940,
+            920,
+            962
+        ],
+        "page_idx": 56
+    },
+    {
+        "type": "image",
+        "img_path": "images/7e860656100bd0e2a9ca79a70e0a68dd50d7a5a05ca94d46676609e8666b73ac.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "```mermaid\ngraph TD\n    A[\"输入门\"] --> B[\"h^(t-1)\"]\n    A --> C[\"x^(t)\"]\n    B --> D[\"U^(i)\"]\n    C --> E[\"W^(i)\"]\n    D --> F[\"σ\"]\n    E --> G[\"i^(t)\"]\n    F --> H[\"+\"]\n    G --> H\n    H --> I[\"tanh\"]\n    I --> J[\"+\"]\n    K[\"新记忆\"] --> L[\"h^(t-1)\"]\n    K --> M[\"x^(t)\"]\n    L --> N[\"U^(c)\"]\n    M --> O[\"W^(c)\"]\n    N --> P[\"tanh\"]\n    O --> P\n    P --> Q[\"+\"]\n    R[\"过去记忆\"] --> S[\"c^(t-1)\"]\n    T[\"遗忘门\"] --> U[\"h^(t-1)\"]\n    T --> V[\"x^(t)\"]\n    U --> W[\"U^(f)\"]\n    V --> X[\"W^(f)\"]\n    W --> Y[\"σ\"]\n    X --> Y\n    Y --> Z[\"f^(t)\"]\n    AA[\"最终记忆\"] --> AB[\"c^(t)\"]\n    AC[\"输出\"] --> AD[\"h^(t)\"]\n    AE[\"Output/Exposure\"] --> AF[\"U^(o)\"]\n    AE --> AG[\"W^(o)\"]\n    AF --> AH[\"h^(t-1)\"]\n    AG --> AI[\"x^(t)\"]\n    style A fill:#fff,stroke:#000\n    style K fill:#fff,stroke:#000\n    style AA fill:#fff,stroke:#000\n    style AB fill:#fff,stroke:#000\n    style AC fill:#fff,stroke:#000\n    style AD fill:#fff,stroke:#000\n    style AE fill:#fff,stroke:#000\n```",
+        "sub_type": "flowchart",
+        "bbox": [
+            41,
+            222,
+            960,
+            864
+        ],
+        "page_idx": 57
+    },
+    {
+        "type": "header",
+        "text": "LSTM ",
+        "bbox": [
+            60,
+            44,
+            151,
+            86
+        ],
+        "page_idx": 57
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            811,
+            28,
+            850,
+            82
+        ],
+        "page_idx": 57
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            28,
+            956,
+            60
+        ],
+        "page_idx": 57
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            84
+        ],
+        "page_idx": 57
+    },
+    {
+        "type": "page_number",
+        "text": "64 ",
+        "bbox": [
+            898,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 57
+    },
+    {
+        "type": "text",
+        "text": "• A simplification version of LSTM ",
+        "text_level": 1,
+        "bbox": [
+            56,
+            146,
+            630,
+            200
+        ],
+        "page_idx": 58
+    },
+    {
+        "type": "text",
+        "text": "– First presented in 2014 ",
+        "bbox": [
+            105,
+            220,
+            455,
+            264
+        ],
+        "page_idx": 58
+    },
+    {
+        "type": "image",
+        "img_path": "images/776551e417f69fdf615990762dcb867734104a515822914286c518ad4e349ed5.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "```mermaid\ngraph TD\n    A[\"xt\"] --> B[\"x\"]\n    B --> C[\"r_t\"]\n    C --> D[\"σ\"]\n    D --> E[\"z_t\"]\n    E --> F[\"σ\"]\n    F --> G[\"1-\"]\n    G --> H[\"x\"]\n    H --> I[\"+\"]\n    I --> J[\"ht\"]\n    J --> K[\"ht-1\"]\n    style A fill:#f9f,stroke:#333\n    style K fill:#ccf,stroke:#333\n```",
+        "sub_type": "flowchart",
+        "bbox": [
+            15,
+            368,
+            455,
+            793
+        ],
+        "page_idx": 58
+    },
+    {
+        "type": "equation",
+        "text": "$$\nz _ {t} = \\sigma \\left(W _ {z} \\cdot [ h _ {t - 1}, x _ {t} ]\\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            508,
+            420,
+            850,
+            480
+        ],
+        "page_idx": 58
+    },
+    {
+        "type": "equation",
+        "text": "$$\nr _ {t} = \\sigma \\left(W _ {r} \\cdot [ h _ {t - 1}, x _ {t} ]\\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            508,
+            506,
+            850,
+            566
+        ],
+        "page_idx": 58
+    },
+    {
+        "type": "equation",
+        "text": "$$\n\\tilde {h} _ {t} = \\tanh \\left(W \\cdot [ r _ {t} * h _ {t - 1}, x _ {t} ]\\right)\n$$",
+        "text_format": "latex",
+        "bbox": [
+            508,
+            591,
+            951,
+            657
+        ],
+        "page_idx": 58
+    },
+    {
+        "type": "equation",
+        "text": "$$\nh _ {t} = (1 - z _ {t}) * h _ {t - 1} + z _ {t} * \\tilde {h} _ {t}\n$$",
+        "text_format": "latex",
+        "bbox": [
+            508,
+            684,
+            945,
+            748
+        ],
+        "page_idx": 58
+    },
+    {
+        "type": "header",
+        "text": "GRU ",
+        "bbox": [
+            58,
+            44,
+            135,
+            88
+        ],
+        "page_idx": 58
+    },
+    {
+        "type": "header",
+        "text": "",
+        "bbox": [
+            810,
+            26,
+            850,
+            82
+        ],
+        "page_idx": 58
+    },
+    {
+        "type": "header",
+        "text": "北京大学",
+        "bbox": [
+            865,
+            26,
+            956,
+            60
+        ],
+        "page_idx": 58
+    },
+    {
+        "type": "header",
+        "text": "Peking University ",
+        "bbox": [
+            865,
+            60,
+            970,
+            84
+        ],
+        "page_idx": 58
+    },
+    {
+        "type": "page_number",
+        "text": "65 ",
+        "bbox": [
+            896,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 58
+    },
+    {
+        "type": "image",
+        "img_path": "images/43eb43d4e74394dc69c7afb406f099676fad7076b0a6457e077a6eb5a77b1087.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "",
+        "bbox": [
+            53,
+            108,
+            130,
+            208
+        ],
+        "page_idx": 59
+    },
+    {
+        "type": "text",
+        "text": "",
+        "bbox": [
+            56,
+            284,
+            155,
+            344
+        ],
+        "page_idx": 59
+    },
+    {
+        "type": "image",
+        "img_path": "images/ba2adc7679f609fc44a76558d39f7385f90d0b87cc9a8c0523d0f14d53309c82.jpg",
+        "image_caption": [],
+        "image_footnote": [],
+        "content": "北京大学\nPeking University\n谢谢！\n谢谢\nThanks\n66",
+        "sub_type": "text_image",
+        "bbox": [
+            0,
+            0,
+            998,
+            997
+        ],
+        "page_idx": 59
+    },
+    {
+        "type": "page_number",
+        "text": "",
+        "bbox": [
+            898,
+            940,
+            920,
+            964
+        ],
+        "page_idx": 59
+    }
+]

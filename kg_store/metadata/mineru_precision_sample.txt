@@ -1,0 +1,25 @@
+chunk_count 35
+---
+1 感知机 Perceptron
+• 感知机是二分类线性分类模型，属于判别模型  • 1957年由Rosenblatt提出，是ANN和SVM的基础  – 输入为实例的特征向量，输出为类别，+1和-1  – 模型：感知机对应于输入空间中将实例划分为正负两类的分离超平面  – 策略：使用基于误分类的损失函数；  – 求解算法：利用SGD对损失函数进行极小化  • 感知机学习分为原始形式和对偶形式
+---
+2 • 定义(感知机)
+设输入空间(特征空间)是 $\ b { { x } } \in \ b { { R } } ^ { n }$ , 输出空间是 $y =$ {+??,−??},输入?? ∈ ??表示样本的特征向量，对应于输入空间的点，输出 $y \in { \mathcal { Y } }$ 表示样本的类别，由输入空间到输出空间的函数： $\begin{array} { r } { f ( x ) = s i g n ( w \cdot x + b ) } \end{array}$ （20号称为感知机。
+---
+3 模型参数
+权值向量 $w \in R ^ { n }$ ，偏置??， $w \cdot x$ 是内积$\pmb { s i g n }$ 是符号函数  $$ s i g n (x) = \left\{ \begin{array}{l l} + 1, & x \geq 0 \\ - 1, & x < 0 \end{array} \right. $$
+---
+4 感知机几何解释
+• 线性方程： $\pmb { w } \cdot \pmb { x } + \pmb { b } = 0$  • 对应于特征空间 $R ^ { n }$ 的超平面S，w为超平面的法向量，b是超平面的截距，超平面将特征空间划分为两个部分，表示正、负类：  分离超平面  ![](images/906d6125a2e4bb711bf2a46a4cdcd93cd5476727837e4bf3982f2aafaa68a1ba.jpg)  <details> <summary>text_image</summary>  x(2) - b / ||w|| w w·x+b=0 x(1) </details>
+---
+5 线性可分数据集
+• 给定数据集 $T = \{ ( x _ { 1 } , y _ { 1 } ) , ( x _ { 2 } , y _ { 2 } ) , \ldots , ( x _ { N } , y _ { N } ) \}$ ，  $$ x _ {i} \in \mathcal {X} = R ^ {n}, y _ {i} \in \mathcal {Y} = \{+ 1, - 1 \}, i = 1, 2, \dots N $$  • 如果存在某个超平面S: $\pmb { w } \cdot \pmb { x } + \pmb { b } = 0$ ，能够将数据集的正实例点和负实例点完全正确的划分到超平面的两侧，则称数据集T为线性可分数据集(linearly separable data set)。  • 即：  $$ \pmb {w} \cdot \pmb {x} _ {i} + \pmb {b} > \mathbf {0}, \qquad \pmb {y} _ {i} = + \mathbf {1} $$  $$ \pmb {w} \cdot \pmb {x} _ {i} + \p
+---
+6 感知机学习策略
+• 对于线性可分数据集，如何定义损失函数？  – 自然选择：误分类点的数目。  • 但损失函数不是 w,b 连续可导函数，不易优化  – 另一选择：误分类点到超平面S的总距离：  • $R ^ { n }$ 中任意一点 $x _ { 0 }$ 到超平面S的距离： ${ \frac { 1 } { \| w \| } } \ | w \cdot x _ { 0 } + b |$  • 对于误分类点 $( x _ { i } , y _ { i } )$ ，有 $- y _ { i } ( w \cdot x _ { i } + b ) > \mathbf { 0 }$  • 则：误分类 $x _ { i }$ 点到S的距离： $- \frac { 1 } { \| w \| } y _ { i } ( \pmb { w } \cdot \pmb { x } _ { i } + \pmb { b } )$  • 误分类点集合M,所有误分类到S的总距离  $$ - \frac {1}{\| \boldsymbol {w} \|} \sum_ {\boldsymbol {x} _ {i} \i
+---
+7 感知机学习策略
+损失函数：  – 不考虑 ?? $\frac { 1 } { \| \pmb { w } \| }$ 得到感知机学习的损失函数  $$ L (\boldsymbol {w}, \boldsymbol {b}) = - \sum_ {\boldsymbol {x} _ {i} \in \boldsymbol {M}} \boldsymbol {y} _ {i} (\boldsymbol {w} \cdot \boldsymbol {x} _ {i} + \boldsymbol {b}) $$  – M为误分类点的数目  • 该损失函数就是感知机的经验风险函数  如果没有误分类点， ${ \mathsf { L } } = 0$  • 误分类点越少，误分类点离超平面S越近，损失 函数值越小
+---
+8 感知机学习算法
+• 给定数据集 $T = \{ ( x _ { 1 } , y _ { 1 } ) , ( x _ { 2 } , y _ { 2 } ) , \ldots , ( x _ { N } , y _ { N } ) \}$ ，  $$ x _ {i} \in \mathcal {X} = R ^ {n}, y _ {i} \in \mathcal {Y} = \{+ 1, - 1 \}, i = 1, 2, \dots N, $$  求参数w,b，使其为损失函数极小化问题的解  $$ \min _ {w, b} L (\boldsymbol {w}, \boldsymbol {b}) = - \sum_ {x _ {i} \in M} \boldsymbol {y} _ {i} (\boldsymbol {w} \cdot x _ {i} + \boldsymbol {b}) $$  M为误分类点的数目。

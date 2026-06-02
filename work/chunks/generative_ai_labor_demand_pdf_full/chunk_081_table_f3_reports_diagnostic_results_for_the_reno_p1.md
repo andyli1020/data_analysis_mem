@@ -1,0 +1,3 @@
+# Table F3 reports diagnostic results for the renormalized common-support decomposition used in
+
+the main text. For each quarter, the table reports the raw total change in aggregate exposure, the corresponding renormalized common-support total, and the residual difference between the two, together with the composition, within-cell, and interaction components of the renormalized decomposition. The residual remains small in magnitude throughout, though it becomes somewhat more visible around the mid-2023 turning point. The numerical reconstruction gap is negligible in all quarters, confirming that the renormalized total is exactly accounted for by the three-fold decomposition.

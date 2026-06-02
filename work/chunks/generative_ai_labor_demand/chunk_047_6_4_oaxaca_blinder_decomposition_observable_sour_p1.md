@@ -1,0 +1,3 @@
+# 6.4 Oaxaca–Blinder Decomposition: Observable Sources of the Exposure Gap
+
+The Kitagawa results identify the margins through which aggregate exposure changes. We now use the Oaxaca–Blinder decomposition to examine which observable job characteristics are associated with the pre- versus post-GPT exposure gap. This analysis is complementary to the Kitagawa decomposition. ItshouldnotbeinterpretedasmechanicallydecomposingtheKitagawacomposition effect. Instead, it provides a regression-based accounting of how much of the exposure gap is associated with shifts in observed characteristics such as occupation, industry, seniority, location, remote-work arrangement, internship status, and employment type.

@@ -1,0 +1,3 @@
+# Figure G7: Symmetric Two-Fold Kitagawa Decomposition of Changes in Aggregate Exposure
+
+G. 2 Balanced-cell sample A potential concern in decomposition exercises is that changes in aggregate exposure may partly reflect entry and exit of job cells over time. To address this concern, we re-estimate the decomposition using a balanced-cell sample that includes only cells observed in every quarter of the sample period. Wethenapplythesamethree-folddecompositionasinEquation8tothisrestrictedsample.

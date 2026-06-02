@@ -1,0 +1,8 @@
+# 5.1 Cell-Level Representation of Aggregate Exposure
+
+Ourexposuremeasureisdefinedatthepostinglevel. Tostudyaggregatelabor-demandadjustment, we aggregate posting-level exposure to job cells. A cell is defined by occupation, seniority, and industry. This cell structure matches the main dimensions of our sampling strategy and captures three sources of heterogeneity central to our research design: the type of work being performed, the sector in which it is performed, and the career stage of the job. Let β denote the posting-level exposure measure for posting p, and let t index time periods.
+Aggregate exposure in period t is the average exposure across postings in that period: E¯ = E[β | t]. **t p** Because every posting belongs to one mutually exclusive cell c, aggregate exposure can be **written as a weighted average of cell-level exposure:**
+**E¯ = E[β | c, t]Pr(c | t). (5)** **t p**
+Define E ≡ E[β | c, t] as mean exposure within cell c in period t, and w ≡ Pr(c | t) as the **c, t p c, t** share of postings in period t that belong to cell c. Then aggregate exposure can be written as
+**E¯ = w E. (6)** **t c, t c, t**
+Equation (6) shows that aggregate exposure can change through two basic margins. First, firms may change the mix of jobs they post, which changes the weights w. Second, the task content of **c, t** comparable jobs may change over time, which changes E. In our interpretation, the first margin **c, t** captures hiring reallocation across job cells, while the second captures job redesign within cells. Let period 0 denote the baseline period. In our main implementation, period 0 is the full year

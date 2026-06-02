@@ -1,0 +1,3 @@
+# Table E2 presents the ten occupations with the highest and lowest average exposure across the full
+
+sample. The results illustrate substantial heterogeneity across occupations. Occupations involving content creation, writing, and digital tasks tend to exhibit high exposure, while occupations involving manual, physical, or routine operational tasks exhibit low exposure.

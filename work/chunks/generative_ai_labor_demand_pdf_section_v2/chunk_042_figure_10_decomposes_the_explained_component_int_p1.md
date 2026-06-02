@@ -1,0 +1,1 @@
+blocks. Negative values indicate that shifts in the distribution of a characteristic are associated with lower post-GPT exposure, holding the pre-GPT association between that characteristic and exposure fixed.

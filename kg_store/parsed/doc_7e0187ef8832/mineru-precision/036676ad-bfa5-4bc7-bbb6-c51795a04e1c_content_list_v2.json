@@ -1,0 +1,6212 @@
+[
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "感知机"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                400,
+                288,
+                607,
+                388
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Perceptron "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                332,
+                406,
+                676,
+                506
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "感知机 Perceptron"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                56,
+                40,
+                405,
+                100
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• 感知机是二分类线性分类模型，属于判别模型"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• 1957年由Rosenblatt提出，是ANN和SVM的基础"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "– 输入为实例的特征向量，输出为类别，+1和-1 "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "– 模型：感知机对应于输入空间中将实例划分为正负两类的分离超平面"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "– 策略：使用基于误分类的损失函数；"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "– 求解算法：利用SGD对损失函数进行极小化"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• 感知机学习分为原始形式和对偶形式"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                144,
+                914,
+                700
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": []
+            },
+            "bbox": [
+                809,
+                28,
+                849,
+                84
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "北京 大学"
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                28,
+                954,
+                60
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Peking University "
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                60,
+                971,
+                84
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "2 "
+                    }
+                ]
+            },
+            "bbox": [
+                896,
+                940,
+                909,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "感知机模型"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                56,
+                40,
+                267,
+                100
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "• 定义(感知机)"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                56,
+                144,
+                338,
+                204
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "设输入空间(特征空间)是 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\ b { { x } } \\in \\ b { { R } } ^ { n }"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", 输出空间是 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y ="
+                    },
+                    {
+                        "type": "text",
+                        "content": "{+??,−??},输入?? ∈ ??表示样本的特征向量，对应于输入空间的点，输出 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y \\in { \\mathcal { Y } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "表示样本的类别，由输入空间到输出空间的函数： "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\begin{array} { r } { f ( x ) = s i g n ( w \\cdot x + b ) } \\end{array}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "（20号称为感知机。"
+                    }
+                ]
+            },
+            "bbox": [
+                101,
+                217,
+                936,
+                511
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "模型参数"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                56,
+                528,
+                260,
+                586
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "权值向量 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "w \\in R ^ { n }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，偏置??， "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "w \\cdot x"
+                    },
+                    {
+                        "type": "text",
+                        "content": "是内积"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\pmb { s i g n }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "是符号函数"
+                    }
+                ]
+            },
+            "bbox": [
+                103,
+                600,
+                771,
+                726
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "s i g n (x) = \\left\\{ \\begin{array}{l l} + 1, & x \\geq 0 \\\\ - 1, & x <   0 \\end{array} \\right.",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/47e64c9ee6bcf785afcfd6a4a18634dd7a3985465cca1fd9657061fd44ba5e86.jpg"
+                }
+            },
+            "bbox": [
+                398,
+                724,
+                764,
+                833
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": []
+            },
+            "bbox": [
+                808,
+                28,
+                849,
+                84
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "北京 大学"
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                28,
+                954,
+                60
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Peking University "
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                60,
+                971,
+                84
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "3 "
+                    }
+                ]
+            },
+            "bbox": [
+                896,
+                940,
+                911,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "感知机几何解释 "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                56,
+                40,
+                343,
+                97
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• 线性方程： "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "\\pmb { w } \\cdot \\pmb { x } + \\pmb { b } = 0"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• 对应于特征空间 "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "R ^ { n }"
+                            },
+                            {
+                                "type": "text",
+                                "content": "的超平面S，w为超平面的法向量，b是超平面的截距，超平面将特征空间划分为两个部分，表示正、负类："
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "分离超平面"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                56,
+                144,
+                919,
+                484
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/906d6125a2e4bb711bf2a46a4cdcd93cd5476727837e4bf3982f2aafaa68a1ba.jpg"
+                },
+                "content": "x(2)\n- b / ||w||\nw\nw·x+b=0\nx(1)",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "sub_type": "text_image",
+            "bbox": [
+                347,
+                448,
+                803,
+                908
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": []
+            },
+            "bbox": [
+                809,
+                28,
+                849,
+                84
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "北京 大学"
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                28,
+                954,
+                60
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Peking University "
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                60,
+                971,
+                84
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "4 "
+                    }
+                ]
+            },
+            "bbox": [
+                896,
+                940,
+                911,
+                962
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "线性可分数据集"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                55,
+                40,
+                342,
+                100
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "• 给定数据集 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "T = \\{ ( x _ { 1 } , y _ { 1 } ) , ( x _ { 2 } , y _ { 2 } ) , \\ldots , ( x _ { N } , y _ { N } ) \\}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                144,
+                904,
+                211
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "x _ {i} \\in \\mathcal {X} = R ^ {n}, y _ {i} \\in \\mathcal {Y} = \\{+ 1, - 1 \\}, i = 1, 2, \\dots N",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/26303697092e87a671777964367fd495b52c9469bbc31383c26f15e70df4513d.jpg"
+                }
+            },
+            "bbox": [
+                105,
+                222,
+                901,
+                286
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "• 如果存在某个超平面S: "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\pmb { w } \\cdot \\pmb { x } + \\pmb { b } = 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，能够将数据集的正实例点和负实例点完全正确的划分到超平面的两侧，则称数据集T为线性可分数据集(linearly separable data set)。"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                373,
+                936,
+                628
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "• 即："
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                646,
+                155,
+                702
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\pmb {w} \\cdot \\pmb {x} _ {i} + \\pmb {b} > \\mathbf {0}, \\qquad \\pmb {y} _ {i} = + \\mathbf {1}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/c168a60bffe6f0a3c8fc1711f53a21199f6536d562eb6cdb6a4059953dcbf1e3.jpg"
+                }
+            },
+            "bbox": [
+                230,
+                713,
+                712,
+                773
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\pmb {w} \\cdot \\pmb {x} _ {i} + \\pmb {b} <   \\mathbf {0}, \\qquad \\pmb {y} _ {i} = - \\mathbf {1}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/99d8db44aac352587980d1eb9395a14f7af6fbae9b2d2722ecdd1a358d1f72d9.jpg"
+                }
+            },
+            "bbox": [
+                233,
+                777,
+                712,
+                837
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": []
+            },
+            "bbox": [
+                808,
+                26,
+                849,
+                84
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "北京 大学"
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                28,
+                954,
+                60
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Peking University "
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                60,
+                971,
+                84
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "5 "
+                    }
+                ]
+            },
+            "bbox": [
+                896,
+                940,
+                909,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "感知机学习策略"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                56,
+                40,
+                342,
+                100
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "• 对于线性可分数据集，如何定义损失函数？"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                144,
+                781,
+                204
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "– 自然选择：误分类点的数目。"
+                    }
+                ]
+            },
+            "bbox": [
+                103,
+                213,
+                560,
+                262
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "• 但损失函数不是 w,b 连续可导函数，不易优化"
+                    }
+                ]
+            },
+            "bbox": [
+                155,
+                273,
+                803,
+                322
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "– 另一选择：误分类点到超平面S的总距离："
+                    }
+                ]
+            },
+            "bbox": [
+                103,
+                335,
+                742,
+                384
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "R ^ { n }"
+                            },
+                            {
+                                "type": "text",
+                                "content": "中任意一点 "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "x _ { 0 }"
+                            },
+                            {
+                                "type": "text",
+                                "content": "到超平面S的距离： "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "{ \\frac { 1 } { \\| w \\| } } \\ | w \\cdot x _ { 0 } + b |"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• 对于误分类点 "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "( x _ { i } , y _ { i } )"
+                            },
+                            {
+                                "type": "text",
+                                "content": "，有 "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "- y _ { i } ( w \\cdot x _ { i } + b ) > \\mathbf { 0 }"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• 则：误分类 "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "x _ { i }"
+                            },
+                            {
+                                "type": "text",
+                                "content": "点到S的距离： "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "- \\frac { 1 } { \\| w \\| } y _ { i } ( \\pmb { w } \\cdot \\pmb { x } _ { i } + \\pmb { b } )"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• 误分类点集合M,所有误分类到S的总距离"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                404,
+                919,
+                742
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "- \\frac {1}{\\| \\boldsymbol {w} \\|} \\sum_ {\\boldsymbol {x} _ {i} \\in \\boldsymbol {M}} \\boldsymbol {y} _ {i} (\\boldsymbol {w} \\cdot \\boldsymbol {x} _ {i} + \\boldsymbol {b})",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/0279f0f0e2d06309e0ce73b4306bd19cf727b71c37aa063a2a4c6a3c2ee9f489.jpg"
+                }
+            },
+            "bbox": [
+                297,
+                746,
+                701,
+                893
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": []
+            },
+            "bbox": [
+                808,
+                28,
+                849,
+                84
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "北京 大学"
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                28,
+                954,
+                60
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Peking University "
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                60,
+                971,
+                84
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "6 "
+                    }
+                ]
+            },
+            "bbox": [
+                896,
+                940,
+                911,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "感知机学习策略"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                56,
+                40,
+                342,
+                100
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "损失函数："
+                    }
+                ]
+            },
+            "bbox": [
+                56,
+                144,
+                275,
+                200
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "– 不考虑 ?? "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\frac { 1 } { \\| \\pmb { w } \\| }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "得到感知机学习的损失函数"
+                    }
+                ]
+            },
+            "bbox": [
+                103,
+                220,
+                729,
+                304
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "L (\\boldsymbol {w}, \\boldsymbol {b}) = - \\sum_ {\\boldsymbol {x} _ {i} \\in \\boldsymbol {M}} \\boldsymbol {y} _ {i} (\\boldsymbol {w} \\cdot \\boldsymbol {x} _ {i} + \\boldsymbol {b})",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/9ce0061ff1f12516a7684973230d521437788a6b9ace822b4d49c13670bf2af7.jpg"
+                }
+            },
+            "bbox": [
+                248,
+                313,
+                697,
+                440
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "– M为误分类点的数目"
+                    }
+                ]
+            },
+            "bbox": [
+                103,
+                453,
+                425,
+                504
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• 该损失函数就是感知机的经验风险函数"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "如果没有误分类点， "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "{ \\mathsf { L } } = 0"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• 误分类点越少，误分类点离超平面S越近，损失 函数值越小 "
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                56,
+                522,
+                919,
+                797
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": []
+            },
+            "bbox": [
+                808,
+                28,
+                849,
+                84
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "北京 大学"
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                28,
+                954,
+                60
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Peking University "
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                60,
+                971,
+                84
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "7 "
+                    }
+                ]
+            },
+            "bbox": [
+                896,
+                940,
+                909,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "感知机学习算法"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                56,
+                40,
+                342,
+                100
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "• 给定数据集 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "T = \\{ ( x _ { 1 } , y _ { 1 } ) , ( x _ { 2 } , y _ { 2 } ) , \\ldots , ( x _ { N } , y _ { N } ) \\}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                144,
+                906,
+                211
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "x _ {i} \\in \\mathcal {X} = R ^ {n}, y _ {i} \\in \\mathcal {Y} = \\{+ 1, - 1 \\}, i = 1, 2, \\dots N,",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/8f9e0249dc726ac07babf67f2e0f8751783a61a5a12d336028b6a84111be2fab.jpg"
+                }
+            },
+            "bbox": [
+                105,
+                222,
+                906,
+                282
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "求参数w,b，使其为损失函数极小化问题的解"
+                    }
+                ]
+            },
+            "bbox": [
+                105,
+                286,
+                891,
+                344
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\min _ {w, b} L (\\boldsymbol {w}, \\boldsymbol {b}) = - \\sum_ {x _ {i} \\in M} \\boldsymbol {y} _ {i} (\\boldsymbol {w} \\cdot x _ {i} + \\boldsymbol {b})",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/686c3ed4a5e7e3e8ca912d9112a6298e05bee8e0b091c06871dce569ac7c20f1.jpg"
+                }
+            },
+            "bbox": [
+                166,
+                360,
+                777,
+                508
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "M为误分类点的数目。"
+                    }
+                ]
+            },
+            "bbox": [
+                103,
+                528,
+                469,
+                586
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": []
+            },
+            "bbox": [
+                808,
+                28,
+                849,
+                82
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "北京 大学"
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                28,
+                954,
+                60
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Peking University "
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                60,
+                971,
+                84
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "8 "
+                    }
+                ]
+            },
+            "bbox": [
+                896,
+                940,
+                909,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "感知机学习算法"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                56,
+                40,
+                342,
+                97
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\min _ {w, b} L (\\boldsymbol {w}, \\boldsymbol {b}) = - \\sum_ {x _ {i} \\in \\boldsymbol {M}} \\boldsymbol {y} _ {i} (\\boldsymbol {w} \\cdot x _ {i} + \\boldsymbol {b})",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/35c0196f1a58edf5301acc1b99e7cc136afee1974de7ec6a92147696ba0216b0.jpg"
+                }
+            },
+            "bbox": [
+                242,
+                148,
+                752,
+                277
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "• 采用SGD求解:首先任意选择一个超平面 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\bf { \\delta } } w _ { 0 } , b _ { 0 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，然后不断极小化目标函数,损失函数??的梯度："
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                288,
+                908,
+                391
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\nabla_ {\\boldsymbol {w}} L (\\boldsymbol {w}, \\boldsymbol {b}) = - \\sum_ {x _ {i} \\in \\boldsymbol {M}} \\boldsymbol {y} _ {i} x _ {i}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/27751294be4f498cb533d4d05ecae0ef17bdbb0255c270e996f3b1673f737365.jpg"
+                }
+            },
+            "bbox": [
+                338,
+                402,
+                652,
+                517
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\nabla_ {\\boldsymbol {b}} L (\\boldsymbol {w}, \\boldsymbol {b}) = - \\sum_ {x _ {i} \\in M} y _ {i}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/2055245908c04c7bea674e091d1f9c3abfe7bc1aefb249b28149b50e71ba2d55.jpg"
+                }
+            },
+            "bbox": [
+                355,
+                526,
+                639,
+                642
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "选取误分类点 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( x _ { i } , y _ { i } )"
+                    },
+                    {
+                        "type": "text",
+                        "content": "更新："
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                651,
+                484,
+                704
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\boldsymbol {w} \\leftarrow \\boldsymbol {w} + \\eta \\mathbf {y} _ {i} x _ {i}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/b8c47d3be23466b608ab0b573dd9571b6c9b7f0bd046c9bdcce415d68e21bc46.jpg"
+                }
+            },
+            "bbox": [
+                385,
+                713,
+                607,
+                760
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\pmb {b} \\leftarrow \\pmb {b} + \\eta \\mathbf {y} _ {i}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/9d2d07803fd0ae6c4dcaa170ef6fe1d616c3764d2ec49ee3b7ea93ccc93e367b.jpg"
+                }
+            },
+            "bbox": [
+                407,
+                766,
+                589,
+                813
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "\\pmb { \\eta } ( \\mathbf { 0 } < \\pmb { \\eta } \\le \\mathbf { 1 } )"
+                    },
+                    {
+                        "type": "text",
+                        "content": "是学习率。"
+                    }
+                ]
+            },
+            "bbox": [
+                98,
+                824,
+                447,
+                877
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": []
+            },
+            "bbox": [
+                808,
+                28,
+                849,
+                84
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "北京 大学"
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                28,
+                954,
+                60
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Peking University "
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                60,
+                971,
+                84
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "9 "
+                    }
+                ]
+            },
+            "bbox": [
+                896,
+                940,
+                909,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "感知机学习算法（原始形式）"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                55,
+                144,
+                562,
+                204
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "输入：训练数据集 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "T = \\{ ( x _ { 1 } , y _ { 1 } ) , ( x _ { 2 } , y _ { 2 } ) , \\ldots , ( x _ { N } , y _ { N } ) \\}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，其中 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x _ { i } \\in \\mathcal { X } = R ^ { n } , y _ { i } \\in \\mathcal { Y } = \\{ + 1 , - 1 \\} , i = 1 , 2 , \\ldots N"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",学习率 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\eta ( 0 < \\eta \\leq 1 )"
+                    },
+                    {
+                        "type": "text",
+                        "content": "；"
+                    }
+                ]
+            },
+            "bbox": [
+                53,
+                240,
+                909,
+                415
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "输出： ??, ??；感知机模型 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\pmb { f } ( \\pmb { x } ) = s i g \\pmb { n } ( \\pmb { w } \\cdot \\pmb { x } + \\pmb { b } )"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                428,
+                848,
+                486
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "(1)选取初值 "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "{ \\bf { \\nabla } } w _ { 0 } , b _ { 0 }"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "(2)在训练集中选取数据 "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "( x _ { i } , y _ { i } )"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "(3)如果 "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "y _ { i } ( w \\cdot x _ { i } + b ) \\leq \\mathbf { 0 }"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                61,
+                497,
+                552,
+                697
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{l} \\boldsymbol {w} \\leftarrow \\boldsymbol {w} + \\eta \\mathbf {y} _ {i} x _ {i} \\\\ \\boldsymbol {b} \\leftarrow \\boldsymbol {b} + \\eta \\mathbf {y} _ {i} \\\\ \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/93439cfd6d175d1653dfc1ed404bdeab9e37d95a4628da781e7b9556d8408607.jpg"
+                }
+            },
+            "bbox": [
+                373,
+                708,
+                619,
+                817
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(4)转至(2)，直至训练集中没有误分类点。"
+                    }
+                ]
+            },
+            "bbox": [
+                61,
+                831,
+                739,
+                886
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "感知机学习算法"
+                    }
+                ]
+            },
+            "bbox": [
+                56,
+                40,
+                342,
+                97
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": []
+            },
+            "bbox": [
+                808,
+                26,
+                849,
+                84
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "北京 大学"
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                28,
+                954,
+                60
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Peking University "
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                60,
+                971,
+                84
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": []
+            },
+            "bbox": [
+                896,
+                940,
+                921,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "感知机学习算法 举例"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                56,
+                40,
+                440,
+                97
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "例 2.1如图 2.2所示的训练数据集，其正实例点是 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x _ { 1 } = ( 3 , 3 ) ^ { \\mathrm { T } } , x _ { 2 } = ( 4 , 3 ) ^ { \\mathrm { T } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "负实例点是 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\boldsymbol { x } _ { 3 } = ( 1 , 1 ) ^ { \\top }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，试用感知机学习算法的原始形式求感知机模型 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "f ( x ) ="
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { s i g n } ( w \\cdot x + b )"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，这里， "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "w = \\left( w ^ { ( 1 ) } , w ^ { ( 2 ) } \\right) ^ { T } , x = \\left( x ^ { ( 1 ) } , x ^ { ( 2 ) } \\right) ^ { T }"
+                    }
+                ]
+            },
+            "bbox": [
+                61,
+                124,
+                906,
+                264
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/6ed71b5d57560cea48cfc291e7bab59480beb239f9dc7ffee56b68c26bef2937.jpg"
+                },
+                "content": "| Point | x^(2) | x^(1) |\n|-------|-------|-------|\n| x₁    | 3     | 3     |\n| x₂    | 4     | 3     |\n| x₃    | 3     | 1     |",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "图2.2感知机示例"
+                    }
+                ],
+                "chart_footnote": []
+            },
+            "sub_type": "scatter",
+            "bbox": [
+                233,
+                300,
+                732,
+                866
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": []
+            },
+            "bbox": [
+                808,
+                28,
+                849,
+                82
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "北京 大学"
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                28,
+                954,
+                60
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Peking University "
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                60,
+                971,
+                84
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "11 "
+                    }
+                ]
+            },
+            "bbox": [
+                896,
+                940,
+                919,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "感知机学习算法 举例"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                56,
+                40,
+                442,
+                97
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "解：构建优化问题 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\operatorname* { m i n } _ { w , b } { \\cal L } ( w , b ) = - \\sum _ { x _ { i } \\in { \\cal M } } y _ { i } ( w \\cdot x _ { i } + b )"
+                    }
+                ]
+            },
+            "bbox": [
+                53,
+                140,
+                856,
+                215
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "求解： "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "w , \\pmb { b } . \\pmb { \\eta } = 1"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                224,
+                307,
+                273
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "(1)选取初值 "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "{ w _ { 0 } = 0 ; b _ { 0 } = 0 }"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "(2)对于 "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "\\mathbf { \\partial } \\cdot x _ { 1 } = ( 3 , 3 ) ^ { T } , y _ { 1 } ( w _ { 0 } \\cdot x _ { 1 } + b _ { 0 } ) = \\mathbf { 0 }"
+                            },
+                            {
+                                "type": "text",
+                                "content": ",没有正确分类,更新??, ??"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                58,
+                282,
+                928,
+                388
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\boldsymbol {w} _ {1} = \\boldsymbol {w} _ {0} + \\boldsymbol {y} _ {1} \\boldsymbol {x} _ {1} = (3, 3) ^ {T}, \\quad \\boldsymbol {b} _ {1} = \\boldsymbol {b} _ {0} + \\boldsymbol {y} _ {1} = \\mathbf {1}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/bb8f8b071d7374ec925d22f558c1b34ed9877050db0df5c9f79362fec3fba94b.jpg"
+                }
+            },
+            "bbox": [
+                196,
+                397,
+                796,
+                448
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "得线性模型： "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "w _ { 1 } \\cdot x + b _ { 1 } = 3 x ^ { ( 1 ) } + 3 x ^ { ( 2 ) } + 1"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                455,
+                671,
+                508
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(3)对于 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\cdot x _ { 1 } , x _ { 2 } , y _ { i } ( w _ { 1 } \\cdot x _ { i } + b _ { 1 } ) > 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",分类正确。 "
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                515,
+                684,
+                566
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "对于 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathbf { \\partial } \\cdot x _ { 3 } = ( 1 , 1 ) ^ { T } , y _ { 3 } ( \\pmb { w } _ { 1 } \\cdot x _ { 3 } + b _ { 1 } ) = - 7 < \\mathbf { 0 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，误分类,更新 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\pmb w } , { \\pmb b }"
+                    }
+                ]
+            },
+            "bbox": [
+                53,
+                573,
+                928,
+                624
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\boldsymbol {w} _ {2} = \\boldsymbol {w} _ {1} + \\boldsymbol {y} _ {3} \\boldsymbol {x} _ {3} = (2, 2) ^ {T}, \\quad \\boldsymbol {b} _ {2} = \\boldsymbol {b} _ {1} + \\boldsymbol {y} _ {3} = 0",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/573be8ef79b701bb09e46572f1d53fe0b957295a04b7637f56ea8c5f8cbd63d6.jpg"
+                }
+            },
+            "bbox": [
+                198,
+                633,
+                794,
+                682
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "得到线性模型： "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\pmb w } _ { 2 } \\cdot { \\pmb x } + { \\pmb b } _ { 2 } = 2 { \\pmb x } ^ { ( 1 ) } + 2 { \\pmb x } ^ { ( 2 ) }"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                688,
+                639,
+                740
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "继续迭代得到： "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "w _ { 7 } = ( 1 , 1 ) ^ { T } , b _ { 7 } = - 3"
+                    },
+                    {
+                        "type": "text",
+                        "content": ","
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                751,
+                585,
+                800
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\boldsymbol {w} _ {7} \\cdot \\boldsymbol {x} + \\boldsymbol {b} _ {7} = \\boldsymbol {x} ^ {(1)} + \\boldsymbol {x} ^ {(2)} - 3",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/6834183db914b74e7dc0a5886890d54bec8c09653c7e51dea10408497eb907a3.jpg"
+                }
+            },
+            "bbox": [
+                307,
+                800,
+                687,
+                853
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "所有数据分类正确，损失函数最小。"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                862,
+                527,
+                908
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": []
+            },
+            "bbox": [
+                808,
+                28,
+                849,
+                84
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "北京 大学"
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                28,
+                954,
+                60
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Peking University "
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                60,
+                971,
+                84
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "12 "
+                    }
+                ]
+            },
+            "bbox": [
+                896,
+                940,
+                921,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "感知机学习算法 举例"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                56,
+                40,
+                440,
+                97
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "分离超平面为"
+                    }
+                ]
+            },
+            "bbox": [
+                56,
+                128,
+                298,
+                177
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\boldsymbol {x} ^ {(1)} + \\boldsymbol {x} ^ {(2)} - \\boldsymbol {3} = 0",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/9f09361734affa3d3f33af66dfbc3071ad20efbe7bbdedeee31aef2e04dee42a.jpg"
+                }
+            },
+            "bbox": [
+                357,
+                177,
+                634,
+                228
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "感知机模型为 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\pmb f } ( { \\pmb x } ) = s i g { \\pmb n } ( { \\pmb x } ^ { ( 1 ) } + { \\pmb x } ^ { ( 2 ) } - { \\pmb 3 } )"
+                    }
+                ]
+            },
+            "bbox": [
+                56,
+                246,
+                744,
+                304
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/a0210688be03c868bb1e068a55d01321bcb48c37de36c0e00de5381a6dc4132b.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "表2.1例2.1求解的迭代过程"
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td>迭代次数</td><td>误分类点</td><td>w</td><td>b</td><td>w·x+b</td></tr><tr><td>0</td><td></td><td>0</td><td>0</td><td>0</td></tr><tr><td>1</td><td> $x_1$ </td><td> $(3,3)^{\\text{T}}$ </td><td>1</td><td> $3x^{(1)}+3x^{(2)}+1$ </td></tr><tr><td>2</td><td> $x_3$ </td><td> $(2,2)^{\\text{T}}$ </td><td>0</td><td> $2x^{(1)}+2x^{(2)}$ </td></tr><tr><td>3</td><td> $x_3$ </td><td> $(1,1)^{\\text{T}}$ </td><td>-1</td><td> $x^{(1)}+x^{(2)}-1$ </td></tr><tr><td>4</td><td> $x_3$ </td><td> $(0,0)^{\\text{T}}$ </td><td>-2</td><td>-2</td></tr><tr><td>5</td><td> $x_1$ </td><td> $(3,3)^{\\text{T}}$ </td><td>-1</td><td> $3x^{(1)}+3x^{(2)}-1$ </td></tr><tr><td>6</td><td> $x_3$ </td><td> $(2,2)^{\\text{T}}$ </td><td>-2</td><td> $2x^{(1)}+2x^{(2)}-2$ </td></tr><tr><td>7</td><td> $x_3$ </td><td> $(1,1)^{\\text{T}}$ </td><td>-3</td><td> $x^{(1)}+x^{(2)}-3$ </td></tr><tr><td>8</td><td>0</td><td> $(1,1)^{\\text{T}}$ </td><td>-3</td><td> $x^{(1)}+x^{(2)}-3$ </td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                51,
+                375,
+                963,
+                842
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "选取不同的初值和不同的误分类点，感知机解可能不同"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                853,
+                864,
+                902
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": []
+            },
+            "bbox": [
+                808,
+                26,
+                849,
+                84
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "北京 大学"
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                28,
+                954,
+                60
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Peking University "
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                60,
+                971,
+                84
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "13 "
+                    }
+                ]
+            },
+            "bbox": [
+                896,
+                940,
+                921,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "算法的收敛性"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                56,
+                40,
+                303,
+                97
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "• 算法的收敛性：证明经过有限次迭代可以得到一个将训练数据集完全正确划分的分离超平面及感知机模型。"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                144,
+                904,
+                328
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "将b并入权重向量w，记作："
+                    }
+                ]
+            },
+            "bbox": [
+                103,
+                348,
+                570,
+                408
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\widehat {\\boldsymbol {w}} = (\\boldsymbol {w} ^ {T}, \\boldsymbol {b}) ^ {T}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/0d67c9450503294ed50ccc289d5b52ab2db181404f0abcc2758263f7a158bb3e.jpg"
+                }
+            },
+            "bbox": [
+                355,
+                408,
+                590,
+                475
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "令 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": " { \\boldsymbol { { x } } } _ { 0 } = 1"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", 有 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\widehat { \\boldsymbol { x } } = ( \\boldsymbol { x } ^ { T } , \\boldsymbol { 1 } ) ^ { T } , \\widehat { \\boldsymbol { x } } \\in R ^ { n + 1 } \\widehat { \\boldsymbol { w } } \\in R ^ { n + 1 }"
+                    }
+                ]
+            },
+            "bbox": [
+                105,
+                486,
+                926,
+                555
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "有： "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\widehat { \\pmb { w } } } \\cdot { \\widehat { \\pmb { x } } } = { \\pmb { w } } \\cdot { \\pmb { x } } + { \\pmb { b } }"
+                    }
+                ]
+            },
+            "bbox": [
+                108,
+                571,
+                494,
+                626
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": []
+            },
+            "bbox": [
+                808,
+                28,
+                849,
+                82
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "北京 大学"
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                28,
+                954,
+                60
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Peking University "
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                60,
+                971,
+                84
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "14 "
+                    }
+                ]
+            },
+            "bbox": [
+                896,
+                940,
+                921,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "算法的收敛性"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                56,
+                40,
+                303,
+                97
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "• Novikoff定理"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                56,
+                146,
+                342,
+                200
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "训练集 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "T = \\{ ( x _ { 1 } , y _ { 1 } ) , ( x _ { 2 } , y _ { 2 } ) , \\ldots , ( x _ { N } , y _ { N } ) \\}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "是线性可分的，其中 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x _ { i } \\in \\mathcal { X } = R ^ { n } , y _ { i } \\in \\mathcal { Y } = \\{ + 1 , - 1 \\} , i = 1 , 2 , \\ldots N"
+                    },
+                    {
+                        "type": "text",
+                        "content": "则"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                240,
+                914,
+                348
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(1)存在满足条件 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\| \\widehat { \\pmb { w } } _ { o p t } \\| = 1"
+                    },
+                    {
+                        "type": "text",
+                        "content": "的超平面 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\widehat { w } _ { o p t } \\cdot \\widehat { \\pmb { x } } = w _ { o p t } \\pmb { x } +"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathbf { \\nabla } _ { \\mathbf { { \\sigma } _ { { o p t } } } } = \\mathbf { 0 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",将训练数据集完全正确分开；且存在??，对所有"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "i = 1 , 2 , \\dots N"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                360,
+                894,
+                531
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\boldsymbol {y} _ {i} \\left(\\widehat {\\boldsymbol {w}} _ {o p t} \\cdot \\widehat {\\boldsymbol {x}}\\right) = \\boldsymbol {y} _ {i} \\left(\\boldsymbol {w} _ {o p t} \\cdot \\boldsymbol {x} + \\boldsymbol {b} _ {o p t}\\right) \\geq \\gamma",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/08893946f5a96f4f09093f3849a20a0d6dae7f3d7e3c4bc8334ed08dc3b9f58f.jpg"
+                }
+            },
+            "bbox": [
+                220,
+                535,
+                777,
+                593
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(2)令 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "R = \\operatorname* { m a x } _ { 1 \\leq i \\leq N } \\| \\widehat { \\pmb x } _ { i } \\|"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，则感知机算法在训练数据集上的误分类次数K满足不等式"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                671,
+                929,
+                791
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "K \\leq \\left(\\frac {R}{\\gamma}\\right) ^ {2}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/98d88b3459630b85c5b734467dd03027d02858a0fcb8af7cf08fa03f61dd148b.jpg"
+                }
+            },
+            "bbox": [
+                420,
+                793,
+                574,
+                926
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": []
+            },
+            "bbox": [
+                808,
+                28,
+                849,
+                84
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "北京 大学"
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                28,
+                954,
+                60
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Peking University "
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                60,
+                971,
+                84
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "15 "
+                    }
+                ]
+            },
+            "bbox": [
+                896,
+                940,
+                921,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "证明：(1) "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                55,
+                144,
+                237,
+                204
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "由线性可分, 存在超平面"
+                    }
+                ]
+            },
+            "bbox": [
+                100,
+                288,
+                512,
+                346
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\widehat {\\boldsymbol {w}} _ {o p t} \\cdot \\widehat {\\boldsymbol {x}} = \\boldsymbol {w} _ {o p t} \\cdot \\boldsymbol {x} + \\boldsymbol {b} _ {o p t} = 0, \\text {使} \\left\\| \\widehat {\\boldsymbol {w}} _ {o p t} \\right\\| = 1,",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/519e42625a8e43b4ed4f010ad1fa3ae5a43152dff95291a5ee02b4536f1e9872.jpg"
+                }
+            },
+            "bbox": [
+                118,
+                357,
+                849,
+                431
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "对于有限个点 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "i = 1 , 2 , \\dots N"
+                    },
+                    {
+                        "type": "text",
+                        "content": "均有："
+                    }
+                ]
+            },
+            "bbox": [
+                98,
+                440,
+                619,
+                497
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\boldsymbol {y} _ {i} \\left(\\widehat {\\boldsymbol {w}} _ {o p t} \\cdot \\widehat {\\boldsymbol {x}}\\right) = \\boldsymbol {y} _ {i} \\left(\\boldsymbol {w} _ {o p t} \\cdot \\boldsymbol {x} + \\boldsymbol {b} _ {o p t}\\right) \\geq 0",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/6731b3c99a5ba8ba9db519e13e22b8d05d2ab7abcbd990fbe8169ddf7b98902c.jpg"
+                }
+            },
+            "bbox": [
+                171,
+                502,
+                777,
+                566
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "所以存在 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\gamma = \\operatorname* { m i n } _ { i } \\{ y _ { i } ( w _ { o p t } \\cdot x + b _ { o p t } ) \\}"
+                    }
+                ]
+            },
+            "bbox": [
+                100,
+                580,
+                737,
+                657
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "使得："
+                    }
+                ]
+            },
+            "bbox": [
+                100,
+                666,
+                193,
+                720
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\boldsymbol {y} _ {i} \\left(\\widehat {\\boldsymbol {w}} _ {o p t} \\cdot \\widehat {\\boldsymbol {x}}\\right) = \\boldsymbol {y} _ {i} \\left(\\boldsymbol {w} _ {o p t} \\cdot \\boldsymbol {x} + \\boldsymbol {b} _ {o p t}\\right) \\geq \\gamma",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/17e245f0d72089209e3c4a5487d0c637d8deda4d52d38a06a9fd4aaeaf84e84c.jpg"
+                }
+            },
+            "bbox": [
+                170,
+                728,
+                782,
+                791
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Novikoff定理"
+                    }
+                ]
+            },
+            "bbox": [
+                56,
+                42,
+                303,
+                97
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": []
+            },
+            "bbox": [
+                808,
+                28,
+                849,
+                84
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "北京 大学"
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                28,
+                954,
+                60
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Peking University "
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                60,
+                971,
+                84
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "16 "
+                    }
+                ]
+            },
+            "bbox": [
+                896,
+                940,
+                923,
+                966
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "证明: (2) "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                55,
+                146,
+                237,
+                200
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "证明：由于感知机算法从 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\widehat { \\pmb { w } } _ { 0 } = 0"
+                    },
+                    {
+                        "type": "text",
+                        "content": "开始，则，令 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\widehat { \\pmb { w } } _ { k - 1 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "是第k个误分类实例之前的扩充权值向量，即"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                215,
+                926,
+                320
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\widehat {\\boldsymbol {w}} _ {k - 1} = (\\boldsymbol {w} _ {k - 1} ^ {T}, \\boldsymbol {b} _ {k - 1}) ^ {T}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/6c500491f7e1a84dfdac630ed558e0d48e409d0dbfdae1f68fa00ff47fa21d30.jpg"
+                }
+            },
+            "bbox": [
+                323,
+                322,
+                672,
+                380
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "第k个误分类实例的条件是："
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                391,
+                460,
+                440
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\mathbf {y} _ {i} \\left(\\widehat {\\boldsymbol {w}} _ {k - 1} \\cdot \\widehat {\\boldsymbol {x}} _ {i}\\right) = \\mathbf {y} _ {i} \\left(\\boldsymbol {w} _ {k - 1} \\cdot \\boldsymbol {x} _ {i} + \\boldsymbol {b} _ {k - 1}\\right) \\leq \\mathbf {0}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/ca7d14e06418732fa8c0e12dab01758ec674d2befb93c1fcdc97c23e7a371c36.jpg"
+                }
+            },
+            "bbox": [
+                198,
+                446,
+                794,
+                497
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "则w和b的更新："
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                508,
+                275,
+                555
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "w _ {k} \\leftarrow w _ {k - 1} + \\eta y _ {i} x _ {i}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/40c01a9ed0b9b6764787d20804ef2752f110e837f1716cbd69e4d92ccb899c5d.jpg"
+                }
+            },
+            "bbox": [
+                353,
+                568,
+                639,
+                611
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\boldsymbol {b} _ {k} \\leftarrow \\boldsymbol {b} _ {k - 1} + \\eta \\boldsymbol {y} _ {i}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/e689d36bca8fb83f7cd8788bcb2618073aac6b67d316d6fcef30bf509b6a155f.jpg"
+                }
+            },
+            "bbox": [
+                380,
+                617,
+                624,
+                666
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "即："
+                    }
+                ]
+            },
+            "bbox": [
+                56,
+                680,
+                110,
+                728
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\widehat {w} _ {k} = \\widehat {w} _ {k - 1} + \\eta y _ {i} \\widehat {x} _ {i}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/1436744bb7850c37af51f7c649e96b7215ea5be8a49fbe0e80acbf886941cfe9.jpg"
+                }
+            },
+            "bbox": [
+                362,
+                744,
+                649,
+                797
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Novikoff定理"
+                    }
+                ]
+            },
+            "bbox": [
+                56,
+                42,
+                303,
+                97
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": []
+            },
+            "bbox": [
+                808,
+                28,
+                849,
+                84
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "北京 大学"
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                28,
+                954,
+                60
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Peking University "
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                60,
+                971,
+                84
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "17 "
+                    }
+                ]
+            },
+            "bbox": [
+                896,
+                940,
+                921,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "推导两个不等式: "
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                144,
+                335,
+                200
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "1) "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\widehat { w } _ { k } \\cdot \\widehat { w } _ { o p t } \\geq k \\eta \\gamma"
+                    }
+                ]
+            },
+            "bbox": [
+                56,
+                213,
+                385,
+                277
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "由： "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\widehat { w } _ { k } = \\widehat { w } _ { k - 1 } + \\eta y _ { i } \\widehat { x } _ { i }"
+                    }
+                ]
+            },
+            "bbox": [
+                56,
+                291,
+                444,
+                348
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "及 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y _ { i } \\left( \\widehat { w } _ { o p t } \\cdot \\widehat { \\mathbf { x } } \\right) = y _ { i } \\left( w _ { o p t } \\cdot { x } + b _ { o p t } \\right) \\geq \\gamma"
+                    }
+                ]
+            },
+            "bbox": [
+                56,
+                362,
+                737,
+                426
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "得："
+                    }
+                ]
+            },
+            "bbox": [
+                56,
+                440,
+                116,
+                491
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\begin{array}{l} \\widehat {\\boldsymbol {w}} _ {k} \\cdot \\widehat {\\boldsymbol {w}} _ {o p t} = \\widehat {\\boldsymbol {w}} _ {k - 1} \\cdot \\widehat {\\boldsymbol {w}} _ {o p t} + \\eta \\boldsymbol {y} _ {i} \\widehat {\\boldsymbol {w}} _ {o p t} \\widehat {\\boldsymbol {x}} _ {i} \\\\ \\geq \\widehat {w} _ {k - 1} \\cdot \\widehat {w} _ {o p t} + \\eta \\gamma \\\\ \\end{array}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/891b34a78297c54a089480db412a8ec2c6a7cdbfa820fa0171c5daab619227e2.jpg"
+                }
+            },
+            "bbox": [
+                195,
+                497,
+                787,
+                624
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "由此递推得："
+                    }
+                ]
+            },
+            "bbox": [
+                56,
+                635,
+                263,
+                691
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\widehat {w} _ {k} \\cdot \\widehat {w} _ {o p t} \\geq \\widehat {w} _ {k - 1} \\cdot \\widehat {w} _ {o p t} + \\eta \\gamma \\geq \\widehat {w} _ {k - 2} \\cdot \\widehat {w} _ {o p t} + 2 \\eta \\gamma \\geq k \\eta \\gamma",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/94270187bd5550227e1382f7c8f93f758632c7ba05668c0189e166fbe65eeb75.jpg"
+                }
+            },
+            "bbox": [
+                55,
+                708,
+                904,
+                766
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Novikoff定理"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                42,
+                303,
+                97
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": []
+            },
+            "bbox": [
+                808,
+                26,
+                849,
+                84
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "北京 大学"
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                28,
+                954,
+                60
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Peking University "
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                60,
+                971,
+                84
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "18 "
+                    }
+                ]
+            },
+            "bbox": [
+                896,
+                940,
+                921,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "推导两个不等式: "
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                144,
+                358,
+                204
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "2) "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\| \\widehat { \\pmb { w } } _ { k } \\| ^ { 2 } \\leq k \\eta ^ { 2 } R ^ { 2 }"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                215,
+                345,
+                271
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "由"
+                    }
+                ]
+            },
+            "bbox": [
+                56,
+                284,
+                96,
+                331
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\mathbf {y} _ {i} \\left(\\widehat {\\boldsymbol {w}} _ {k - 1} \\cdot \\widehat {\\boldsymbol {x}} _ {i}\\right) = \\mathbf {y} _ {i} \\left(\\boldsymbol {w} _ {k - 1} \\cdot \\boldsymbol {x} _ {i} + \\boldsymbol {b} _ {k - 1}\\right) \\leq \\mathbf {0}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/521ba20efdfa02745a9f6af4acd15184e48cd15d4ecaed05a6a07054c5e9cb00.jpg"
+                }
+            },
+            "bbox": [
+                198,
+                337,
+                794,
+                388
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "以及 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\widehat { \\pmb { w } } _ { k } = \\widehat { \\pmb { w } } _ { k - 1 } + \\eta y _ { i } \\widehat { \\pmb { x } } _ { i }"
+                    }
+                ]
+            },
+            "bbox": [
+                56,
+                400,
+                477,
+                455
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "得："
+                    }
+                ]
+            },
+            "bbox": [
+                56,
+                466,
+                110,
+                513
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "误分类点"
+                    }
+                ]
+            },
+            "bbox": [
+                649,
+                442,
+                769,
+                484
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\| \\widehat {w} _ {k} \\| ^ {2} = \\| \\widehat {w} _ {k - 1} \\| ^ {2} + 2 \\eta y _ {i} \\widehat {w} _ {k - 1} \\cdot \\widehat {x} _ {i} + \\eta^ {2} \\| \\widehat {x} _ {i} \\| ^ {2}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/07e397b4ba288b7790c57a9a2878894dae56d65472f0dac9f7954fd3bb543796.jpg"
+                }
+            },
+            "bbox": [
+                170,
+                511,
+                846,
+                571
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\leq \\| \\widehat {w} _ {k - 1} \\| ^ {2} + \\eta^ {2} \\| \\widehat {x} _ {i} \\| ^ {2}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/430af5b66e79a658510effb9f8304749d4e17031e2b43c106673daf1a983da33.jpg"
+                }
+            },
+            "bbox": [
+                170,
+                593,
+                497,
+                648
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\leq \\| \\widehat {w} _ {k - 1} \\| ^ {2} + \\eta^ {2} R ^ {2}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/c3a0fbdb0b12b607e569168a2a7224d0a211101381d2cb9c042e6b7945ecfd19.jpg"
+                }
+            },
+            "bbox": [
+                171,
+                677,
+                454,
+                733
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\leq \\| \\widehat {\\boldsymbol {w}} _ {k - 2} \\| ^ {2} + 2 \\eta^ {2} R ^ {2} \\leq \\dots",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/639f19081238d69528117eee504334c1a8969207bbf0ee2c972a2cd3b281dc16.jpg"
+                }
+            },
+            "bbox": [
+                171,
+                760,
+                544,
+                815
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\leq k \\eta^ {2} R ^ {2}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/0f48446176f9cbe12d5d54f7a02169c64fb8b67e03538e01e18a5640dde66ddb.jpg"
+                }
+            },
+            "bbox": [
+                171,
+                842,
+                303,
+                897
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "R = \\max _ {1 \\leq i \\leq N} \\| \\widehat {x} _ {i} \\|",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/3f096a16b0154b37316d2e9e5ed6e443cea08f5af7f4c20e0475273d1fbd5f34.jpg"
+                }
+            },
+            "bbox": [
+                616,
+                644,
+                808,
+                708
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Novikoff定理"
+                    }
+                ]
+            },
+            "bbox": [
+                56,
+                42,
+                303,
+                97
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": []
+            },
+            "bbox": [
+                808,
+                28,
+                849,
+                84
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "北京 大学"
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                28,
+                954,
+                60
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Peking University "
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                60,
+                971,
+                84
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "19 "
+                    }
+                ]
+            },
+            "bbox": [
+                896,
+                940,
+                921,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "结合两个不等式，"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                144,
+                358,
+                204
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\widehat {w} _ {k} \\cdot \\widehat {w} _ {o p t} \\geq k \\eta \\gamma",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/9d182e9e5d0af4d03011a12bd3cdddb5e9453d9cea2bc76b7440e74ab726a9cc.jpg"
+                }
+            },
+            "bbox": [
+                350,
+                208,
+                646,
+                275
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\| \\widehat {w} _ {k} \\| ^ {2} \\leq k \\eta^ {2} R ^ {2}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/0e983a79ebe2b1f49d473adaed36368317901c90a7013ae60c702d0b9902783a.jpg"
+                }
+            },
+            "bbox": [
+                360,
+                277,
+                637,
+                342
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "得"
+                    }
+                ]
+            },
+            "bbox": [
+                56,
+                435,
+                101,
+                491
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "k \\eta \\gamma \\leq \\widehat {w} _ {k} \\cdot \\widehat {w} _ {o p t} \\leq \\| \\widehat {w} _ {k} \\| \\| \\widehat {w} _ {o p t} \\| \\leq \\sqrt {k} \\eta R",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/1a14215a9b1269be1179575187f990866ddd73f57b73738903ac8f1abe6071e3.jpg"
+                }
+            },
+            "bbox": [
+                193,
+                495,
+                799,
+                562
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "k ^ {2} \\gamma^ {2} \\leq k R ^ {2}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/f4876c4e39185061647f2e37226f1fbbd8a6d014e168654f2a22d5d4846200dc.jpg"
+                }
+            },
+            "bbox": [
+                404,
+                624,
+                590,
+                680
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\left\\| \\widehat {w} _ {o p t} \\right\\| = 1",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/f82911e3505588697bbecbbeb191155e12e442cb8581de307857626a5b36bc79.jpg"
+                }
+            },
+            "bbox": [
+                679,
+                584,
+                919,
+                671
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "得"
+                    }
+                ]
+            },
+            "bbox": [
+                56,
+                753,
+                96,
+                804
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "K \\leq \\left(\\frac {R}{\\gamma}\\right) ^ {2}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/82a59496006457ea092d5a7616bbfd3f714bd63ff5b99ae2b0aeb29eaae4407b.jpg"
+                }
+            },
+            "bbox": [
+                398,
+                697,
+                550,
+                828
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Novikoff定理"
+                    }
+                ]
+            },
+            "bbox": [
+                56,
+                42,
+                303,
+                97
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": []
+            },
+            "bbox": [
+                808,
+                28,
+                849,
+                84
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "北京 大学"
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                28,
+                954,
+                60
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Peking University "
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                60,
+                971,
+                84
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "20 "
+                    }
+                ]
+            },
+            "bbox": [
+                896,
+                940,
+                921,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "定理表明："
+                    }
+                ]
+            },
+            "bbox": [
+                56,
+                144,
+                275,
+                200
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "– 误分类的次数k是有上界的，当训练数据集线性可分时，感知机学习算法原始形式迭代是收敛的。"
+                    }
+                ]
+            },
+            "bbox": [
+                105,
+                220,
+                933,
+                333
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• 感知机算法存在许多解，既依赖于初值，也依赖迭代过程中误分类点的选择顺序。"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• 为得到唯一分离超平面，需要增加约束，如SVM"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• 线性不可分数据集，迭代震荡。"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                351,
+                921,
+                626
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Novikoff定理"
+                    }
+                ]
+            },
+            "bbox": [
+                56,
+                42,
+                303,
+                97
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": []
+            },
+            "bbox": [
+                809,
+                28,
+                849,
+                84
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "北京 大学"
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                28,
+                954,
+                60
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Peking University "
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                60,
+                971,
+                84
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "21 "
+                    }
+                ]
+            },
+            "bbox": [
+                896,
+                940,
+                919,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/31f83d6af5781179445ceed3b1bdef08c38b075dce1bb5717445ab3f60662964.jpg"
+                },
+                "content": "| x    | y    | Type     |\n| ---- | ---- | -------- |\n| 3.0  | 3.0  | Blue Dot |\n| 4.0  | 3.0  | Blue Dot |\n| 5.0  | 2.0  | Red X    |\n| 1.0  | 1.0  | Red X    |",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "Perceptron Algorithm 2 (www.hankcs.com) "
+                    }
+                ],
+                "chart_footnote": []
+            },
+            "sub_type": "scatter",
+            "bbox": [
+                161,
+                202,
+                811,
+                875
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": []
+            },
+            "bbox": [
+                809,
+                28,
+                851,
+                84
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "北京 大学"
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                28,
+                954,
+                60
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Peking University "
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                60,
+                971,
+                84
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "22 "
+                    }
+                ]
+            },
+            "bbox": [
+                896,
+                940,
+                921,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "感知机算法的对偶形式"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                56,
+                40,
+                462,
+                97
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• 基本想法：将w和b表示为实例 "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "x _ { i }"
+                            },
+                            {
+                                "type": "text",
+                                "content": "和标记 "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "y _ { i }"
+                            },
+                            {
+                                "type": "text",
+                                "content": "的线性组合的形式，通过求解其系数而求得w和b。"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "• 对误分类点 "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "( x _ { i } , y _ { i } )"
+                            },
+                            {
+                                "type": "text",
+                                "content": "："
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                140,
+                919,
+                328
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\boldsymbol {w} \\leftarrow \\boldsymbol {w} + \\eta \\boldsymbol {y} _ {i} x _ {i}, \\boldsymbol {b} \\leftarrow \\boldsymbol {b} + \\eta \\boldsymbol {y} _ {i}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/368057d2dba4c423bd8b4b0654082ec41cd78c7aad719471be30566921b44823.jpg"
+                }
+            },
+            "bbox": [
+                257,
+                346,
+                734,
+                402
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "设修改n次， "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\begin{array} { r } { \\mathrm { n } = \\sum _ { i = 1 } ^ { N } n _ { i } } \\end{array}"
+                    }
+                ]
+            },
+            "bbox": [
+                98,
+                413,
+                495,
+                475
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "则 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathbf { w } , \\mathbf { b }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "关于 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( x _ { i } , y _ { i } )"
+                    },
+                    {
+                        "type": "text",
+                        "content": "的增量分别是 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\pmb { \\alpha _ { i } } y _ { i } x _ { i }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "和 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\pmb { \\alpha _ { i } y _ { i } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\pmb { \\alpha _ { i } } = \\pmb { n _ { i } } \\pmb { \\eta }"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", （ "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( n _ { i }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "是 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\alpha _ { i }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "修改的次数）"
+                    }
+                ]
+            },
+            "bbox": [
+                98,
+                486,
+                846,
+                604
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "于是： "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "w = \\sum _ { i = 1 } ^ { N } \\alpha _ { i } y _ { i } x _ { i } ~ b = \\sum _ { i = 1 } ^ { N } \\alpha _ { i } y _ { i }"
+                    }
+                ]
+            },
+            "bbox": [
+                101,
+                613,
+                719,
+                766
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\alpha_ {i} \\geq 0, \\quad i = 1, 2, \\dots N",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/fe89ec37faa7c3c8a05eb30feddd20b016f67a3de1bac7775dc0f31921958775.jpg"
+                }
+            },
+            "bbox": [
+                280,
+                820,
+                712,
+                877
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": []
+            },
+            "bbox": [
+                808,
+                26,
+                849,
+                84
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "北京 大学"
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                28,
+                954,
+                60
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Peking University "
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                60,
+                971,
+                84
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "23 "
+                    }
+                ]
+            },
+            "bbox": [
+                896,
+                940,
+                919,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "感知机算法的对偶形式"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                56,
+                40,
+                462,
+                97
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "感知机学习算法(对偶形式)："
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                144,
+                559,
+                204
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "输入："
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                220,
+                151,
+                273
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "线性可分训练数据集 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "T = \\{ ( x _ { 1 } , y _ { 1 } ) , ( x _ { 2 } , y _ { 2 } ) , \\ldots , ( x _ { N } , y _ { N } ) \\}"
+                    },
+                    {
+                        "type": "text",
+                        "content": "，其中 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x _ { i } \\in \\mathcal { X } = R ^ { n } , y _ { i } \\in \\mathcal { Y } = \\{ + 1 , - 1 \\} , i = 1 , 2 , \\ldots N"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",学习率 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\pmb { \\eta } ( \\mathbf { 0 } < \\pmb { \\eta } \\le \\mathbf { 1 } )"
+                    },
+                    {
+                        "type": "text",
+                        "content": "；"
+                    }
+                ]
+            },
+            "bbox": [
+                53,
+                288,
+                948,
+                464
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "输出： ??, ??；感知机模型"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                475,
+                472,
+                531
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\boldsymbol {f} (\\boldsymbol {x}) = \\text {sign} (\\sum_ {j = 1} ^ {N} \\alpha_ {j} y _ {j} x _ {j} \\cdot \\boldsymbol {x} + \\boldsymbol {b})",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/e11e788ea6f42a8c9cfc09315f0f9994fef9f8de38608f115ca9969c2b9c2443.jpg"
+                }
+            },
+            "bbox": [
+                255,
+                533,
+                767,
+                708
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "其中， "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\begin{array} { r l } { { \\bf { \\alpha } } { \\bf { \\alpha } } } & { { } ( \\alpha _ { 1 , } \\alpha _ { 2 , } \\ldots \\alpha _ { N } ) ^ { T } } \\end{array}"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                720,
+                502,
+                786
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": []
+            },
+            "bbox": [
+                808,
+                28,
+                849,
+                82
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "北京 大学"
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                28,
+                954,
+                60
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Peking University "
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                60,
+                971,
+                84
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "24 "
+                    }
+                ]
+            },
+            "bbox": [
+                896,
+                940,
+                921,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "感知机算法的对偶形式"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                56,
+                40,
+                462,
+                97
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "(1)选取初值 "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "\\alpha  0 , b  0"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "(2)在训练集中选取数据 "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "( x _ { i } , y _ { i } )"
+                            },
+                            {
+                                "type": "text",
+                                "content": ") "
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "(3)如果 "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "\\begin{array} { r } { y _ { i } \\big ( \\sum _ { j = 1 } ^ { N } \\alpha _ { j } y _ { j } x _ { j } \\cdot x _ { i } + b \\big ) \\le 0 } \\end{array}"
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                61,
+                140,
+                644,
+                353
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\alpha_ {i} \\leftarrow \\alpha_ {i} + \\eta",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/a46354142fff91eed102ece8a4bebf64515eaca10cb109bf50f2d1e445a351d5.jpg"
+                }
+            },
+            "bbox": [
+                398,
+                364,
+                597,
+                415
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\boldsymbol {b} \\leftarrow \\boldsymbol {b} + \\eta \\mathbf {y} _ {i}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/d31760b99cfaeb0ef05e41ebec31cb9522ebc0495576c5fd654fa8b55f82b35e.jpg"
+                }
+            },
+            "bbox": [
+                398,
+                420,
+                597,
+                473
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(4)转至(2)，直至训练集中没有误分类点。"
+                    }
+                ]
+            },
+            "bbox": [
+                61,
+                486,
+                739,
+                542
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "• Gram矩阵:训练实例仅以内积的形式出现，可以预先计算，存储为矩阵形式。"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                626,
+                928,
+                740
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\pmb {G} = [ \\pmb {x} _ {i} \\cdot \\pmb {x} _ {j} ] _ {N \\times N}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/a6845d8d7dc4257aef423e843a7f73c8d71c210482bafe5fa5f5cbbe52bc6505.jpg"
+                }
+            },
+            "bbox": [
+                377,
+                746,
+                627,
+                808
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": []
+            },
+            "bbox": [
+                808,
+                26,
+                849,
+                84
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "北京 大学Peking University"
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                28,
+                973,
+                84
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "25 "
+                    }
+                ]
+            },
+            "bbox": [
+                896,
+                940,
+                919,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "感知机算法的对偶形式 举例"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                56,
+                40,
+                562,
+                97
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "用感知机算法（对偶形式）求解感知机模型："
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                142,
+                716,
+                193
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "数据同前一个例子，正样本点是 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x _ { 1 } = ( 3 , 3 ) ^ { T } , x _ { 2 } = ( 4 , 3 ) ^ { T }"
+                    },
+                    {
+                        "type": "text",
+                        "content": ",负样本点 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x _ { 3 } = ( 1 , 1 ) ^ { T }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "。"
+                    }
+                ]
+            },
+            "bbox": [
+                53,
+                204,
+                921,
+                315
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "解："
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                326,
+                110,
+                375
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "text_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "(1)取 "
+                            },
+                            {
+                                "type": "equation_inline",
+                                "content": "\\alpha _ { i } = 0 , i = 1 , 2 , 3 , b = 0 , \\eta = 1"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "(2)计算Gram矩阵 "
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                60,
+                388,
+                599,
+                504
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "G = \\left[ \\begin{array}{c c c} 1 8 & 2 1 & 6 \\\\ 2 1 & 2 5 & 7 \\\\ 6 & 7 & 2 \\end{array} \\right]",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/c1a839baffa42b24536d6454f7d27688353e6706b7e314f82bec7e65ebaeee0f.jpg"
+                }
+            },
+            "bbox": [
+                363,
+                504,
+                627,
+                648
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(3)误分条件 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\begin{array} { r } { { \\bf \\nabla } y _ { i } \\big ( \\sum _ { j = 1 } ^ { N } \\alpha _ { j } y _ { j } x _ { j } \\cdot x _ { i } + b \\big ) \\le { \\bf 0 } } \\end{array}"
+                    }
+                ]
+            },
+            "bbox": [
+                61,
+                660,
+                657,
+                724
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "参数更新， "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\alpha _ { i }  \\alpha _ { i } + 1 , b  b + y _ { i }"
+                    }
+                ]
+            },
+            "bbox": [
+                88,
+                735,
+                639,
+                788
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "(4)迭代。"
+                    }
+                ]
+            },
+            "bbox": [
+                61,
+                800,
+                193,
+                851
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": []
+            },
+            "bbox": [
+                808,
+                28,
+                849,
+                82
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "北京 大学"
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                28,
+                954,
+                60
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Peking University "
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                60,
+                971,
+                84
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "26 "
+                    }
+                ]
+            },
+            "bbox": [
+                896,
+                940,
+                921,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "感知机算法的对偶形式 举例"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                56,
+                40,
+                562,
+                97
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "误分条件 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "y _ { i } \\big ( \\textstyle \\sum _ { j = 1 } ^ { N } \\alpha _ { j } y _ { j } x _ { j } \\cdot x _ { i } + b \\big ) \\le 0"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                140,
+                560,
+                197
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "参数更新， "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\alpha _ { i }  \\alpha _ { i } + 1 , b  b + y _ { i }"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                208,
+                555,
+                257
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Step 1: "
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                273,
+                176,
+                317
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\mathbf {y} _ {1} \\left(\\sum_ {j = 1} ^ {N} \\alpha_ {j} \\mathbf {y} _ {j} \\mathbf {x} _ {j} \\cdot \\mathbf {x} _ {1} + \\mathbf {b}\\right) = 1 (\\mathbf {0} + \\mathbf {0} + \\mathbf {0} + \\mathbf {0}) = \\mathbf {0}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/64caa9c184962c1360b8d6574f06adcd7b00573b28615fec1ea65c97a53f9e15.jpg"
+                }
+            },
+            "bbox": [
+                61,
+                333,
+                772,
+                395
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "( x _ { 1 } , y _ { 1 } )"
+                    },
+                    {
+                        "type": "text",
+                        "content": "满足误分类条件，更新 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\alpha _ { 1 } = 0 + 1 = 1 , \\ b = 0 + 1 = 1"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                411,
+                918,
+                462
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Step 2: "
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                477,
+                176,
+                522
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\boldsymbol {y} _ {1} \\left(\\sum_ {j = 1} ^ {N} \\alpha_ {j} \\boldsymbol {y} _ {j} \\boldsymbol {x} _ {j} \\cdot \\boldsymbol {x} _ {1} + \\boldsymbol {b}\\right) = 1 (1 \\cdot 1 \\cdot 1 8 + \\mathbf {0} + \\mathbf {0} + 1) = 1 9",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/3a43e012f9301000d42ecd529d1ec8942a9ac380630577bcc01425011ebe1c81.jpg"
+                }
+            },
+            "bbox": [
+                61,
+                537,
+                891,
+                602
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\mathbf {y} _ {2} \\left(\\sum_ {j = 1} ^ {N} \\alpha_ {j} \\mathbf {y} _ {j} \\mathbf {x} _ {j} \\cdot \\mathbf {x} _ {2} + \\mathbf {b}\\right) = 1 (1 \\cdot 1 \\cdot 2 1 + \\mathbf {0} + \\mathbf {0} + 1) = 2 2",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/0938778cac7d56c1179aadbc78e0b21c886ca3b91cdbb3df0d9dc3136ad3b546.jpg"
+                }
+            },
+            "bbox": [
+                61,
+                613,
+                894,
+                677
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\boldsymbol {y} _ {3} \\left(\\sum_ {j = 1} ^ {N} \\alpha_ {j} \\boldsymbol {y} _ {j} \\boldsymbol {x} _ {j} \\cdot \\boldsymbol {x} _ {3} + \\boldsymbol {b}\\right) = - 1 (1 \\cdot 1 \\cdot 6 + \\mathbf {0} + \\mathbf {0} + 1) = - 7",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/821968ca989a9db7fdae1ad408cc942376fe30ef0915b24491edb2b1fb3942d8.jpg"
+                }
+            },
+            "bbox": [
+                55,
+                688,
+                901,
+                755
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "( x _ { 3 } , y _ { 3 } )"
+                    },
+                    {
+                        "type": "text",
+                        "content": "满足误分类条件，更新 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\alpha _ { 3 } = 0 + 1 = 1 , b = 1 - 1 = 0"
+                    }
+                ]
+            },
+            "bbox": [
+                56,
+                766,
+                911,
+                820
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": []
+            },
+            "bbox": [
+                808,
+                28,
+                849,
+                84
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "北京 大学"
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                28,
+                954,
+                60
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Peking University "
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                60,
+                971,
+                84
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "27 "
+                    }
+                ]
+            },
+            "bbox": [
+                896,
+                940,
+                919,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "感知机算法的对偶形式 举例"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                56,
+                40,
+                562,
+                97
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Step 3: "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                55,
+                148,
+                176,
+                193
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\boldsymbol {y} _ {1} \\left(\\sum_ {j = 1} ^ {N} \\alpha_ {j} \\boldsymbol {y} _ {j} \\boldsymbol {x} _ {j} \\cdot \\boldsymbol {x} _ {1} + \\boldsymbol {b}\\right) = 1 (1 \\cdot 1 \\cdot 1 8 + \\mathbf {0} + \\mathbf {1} \\cdot \\mathbf {1} \\cdot \\mathbf {6} + \\mathbf {0}) = 2 4",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/dd7130611f784ed076928f9802821475ae4f06c2371551d6db559d93bdb4a892.jpg"
+                }
+            },
+            "bbox": [
+                65,
+                204,
+                891,
+                260
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\mathbf {y} _ {2} \\left(\\sum_ {j = 1} ^ {N} \\alpha_ {j} \\mathbf {y} _ {j} \\mathbf {x} _ {j} \\cdot \\mathbf {x} _ {2} + \\mathbf {b}\\right) = 1 (1 \\cdot 1 \\cdot 2 1 + \\mathbf {0} + \\mathbf {1} \\cdot \\mathbf {1} \\cdot 7 + \\mathbf {0}) = 2 8",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/8564bed77e02551648843687a3bf80c3953458ac0e5bb194330ab4f054e9b5a0.jpg"
+                }
+            },
+            "bbox": [
+                65,
+                273,
+                891,
+                328
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\boldsymbol {y} _ {3} \\left(\\sum_ {j = 1} ^ {N} \\alpha_ {j} \\boldsymbol {y} _ {j} \\boldsymbol {x} _ {j} \\cdot \\boldsymbol {x} _ {3} + \\boldsymbol {b}\\right) = - 1 (1 \\cdot 1 \\cdot 6 + \\mathbf {0} + \\mathbf {1} \\cdot \\mathbf {1} \\cdot 2 + \\mathbf {0}) = - 8",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/5118d47b4faeb088cd33fb812420312145a9e1a58da9478ea3ca60964076c323.jpg"
+                }
+            },
+            "bbox": [
+                58,
+                344,
+                896,
+                400
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "( x _ { 3 } , y _ { 3 } )"
+                    },
+                    {
+                        "type": "text",
+                        "content": "满足条件，更新 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\alpha _ { 3 } = 1 + 1 = 2 , b = 0 - 1 = - 1"
+                    }
+                ]
+            },
+            "bbox": [
+                58,
+                411,
+                831,
+                460
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Step 4: "
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                56,
+                477,
+                176,
+                522
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\mathbf {y} _ {1} \\left(\\sum_ {j = 1} ^ {N} \\alpha_ {j} \\mathbf {y} _ {j} \\mathbf {x} _ {j} \\cdot \\mathbf {x} _ {1} + \\mathbf {b}\\right) = 1 (1 \\cdot 1 \\cdot 1 8 + \\mathbf {0} + 2 \\cdot \\mathbf {1} \\cdot \\mathbf {6} - \\mathbf {1}) = 2 9",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/2827b649a0c54e76dfc8bc8b73a0997d1893f041ef04ab626a6d4ad1946632b1.jpg"
+                }
+            },
+            "bbox": [
+                65,
+                535,
+                891,
+                591
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\mathbf {y} _ {2} \\left(\\sum_ {j = 1} ^ {N} \\alpha_ {j} \\mathbf {y} _ {j} \\mathbf {x} _ {j} \\cdot \\mathbf {x} _ {2} + \\mathbf {b}\\right) = 1 (1 \\cdot 1 \\cdot 2 1 + \\mathbf {0} + 2 \\cdot \\mathbf {1} \\cdot 7 - \\mathbf {1}) = 3 4",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/9aa59b6c8173813b696ca85df3bcb79af29137b639f2f9b103c9de8f7c7ebdcc.jpg"
+                }
+            },
+            "bbox": [
+                65,
+                604,
+                891,
+                660
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\boldsymbol {y} _ {3} \\left(\\sum_ {j = 1} ^ {N} \\alpha_ {j} \\boldsymbol {y} _ {j} \\boldsymbol {x} _ {j} \\cdot \\boldsymbol {x} _ {3} + \\boldsymbol {b}\\right) = - 1 (1 \\cdot 1 \\cdot 6 + \\mathbf {0} + 2 \\cdot \\mathbf {1} \\cdot 2 - \\mathbf {1}) = - 9",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/be74c256e2db0fc84a5126d225773145b93bc1b4f6d5fc51a9815534a50f11ae.jpg"
+                }
+            },
+            "bbox": [
+                58,
+                673,
+                896,
+                728
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "equation_inline",
+                        "content": "( x _ { 3 } , y _ { 3 } )"
+                    },
+                    {
+                        "type": "text",
+                        "content": "满足条件，更新 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\alpha _ { 3 } = 2 + 1 = 3 , b = - 1 - 1 = - 2"
+                    }
+                ]
+            },
+            "bbox": [
+                58,
+                740,
+                853,
+                788
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                58,
+                815,
+                95,
+                835
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "迭代过程见表格。"
+                    }
+                ]
+            },
+            "bbox": [
+                55,
+                864,
+                312,
+                915
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": []
+            },
+            "bbox": [
+                808,
+                28,
+                849,
+                84
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "北京 大学"
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                28,
+                954,
+                60
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Peking University "
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                60,
+                971,
+                84
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "28 "
+                    }
+                ]
+            },
+            "bbox": [
+                896,
+                940,
+                921,
+                964
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "感知机算法的对偶形式"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                56,
+                40,
+                462,
+                97
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/0db77e6bd827be08b8fdf4f70cf6cf97670aa5a880a8bb33d8946757f9cee9fd.jpg"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "<table><tr><td>k</td><td>0</td><td>1</td><td>2</td><td>3</td><td>4</td><td>5</td><td>6</td><td>7</td></tr><tr><td></td><td></td><td> $x_1$ </td><td> $x_3$ </td><td> $x_3$ </td><td> $x_3$ </td><td> $x_1$ </td><td> $x_3$ </td><td> $x_3$ </td></tr><tr><td> $α_1$ </td><td>0</td><td>1</td><td>1</td><td>1</td><td>1</td><td>2</td><td>2</td><td>2</td></tr><tr><td> $α_2$ </td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td></tr><tr><td> $α_3$ </td><td>0</td><td>0</td><td>1</td><td>2</td><td>3</td><td>3</td><td>4</td><td>5</td></tr><tr><td>b</td><td>0</td><td>1</td><td>0</td><td>-1</td><td>-2</td><td>-1</td><td>-2</td><td>-3</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                98,
+                126,
+                889,
+                448
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                66,
+                504,
+                115,
+                557
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\boldsymbol {w} = \\sum_ {i = 1} ^ {N} \\alpha_ {i} \\boldsymbol {y} _ {i} x _ {i} = 2 x _ {1} + \\mathbf {0} x _ {2} - 5 x _ {3} = 2 {\\binom {3} {3}} - 5 {\\binom {\\mathbf {1}} {\\mathbf {1}}} = {\\binom {1} {1}} = (\\mathbf {1}, \\mathbf {1}) ^ {T}",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/f769ae32a80525a6b16e39ede1b6af36fa5a09475647881e814b576b764357ed.jpg"
+                }
+            },
+            "bbox": [
+                148,
+                497,
+                949,
+                620
+            ]
+        },
+        {
+            "type": "equation_interline",
+            "content": {
+                "math_content": "\\boldsymbol {b} = - 3",
+                "math_type": "latex",
+                "image_source": {
+                    "path": "images/b96b784ece25a9158e481b59022f3bad91214577b12205bbdba8bdced32dbf7b.jpg"
+                }
+            },
+            "bbox": [
+                148,
+                662,
+                238,
+                697
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "分离超平面 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "x ^ { ( 1 ) } + x ^ { ( 2 ) } - 3 = 0"
+                    }
+                ]
+            },
+            "bbox": [
+                133,
+                746,
+                599,
+                797
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "感知机模型 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\pmb f } ( { \\pmb x } ) = s i g { \\pmb n } ( { \\pmb x } ^ { ( 1 ) } + { \\pmb x } ^ { ( 2 ) } - { \\pmb 3 } )"
+                    }
+                ]
+            },
+            "bbox": [
+                136,
+                802,
+                734,
+                860
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": []
+            },
+            "bbox": [
+                809,
+                28,
+                849,
+                84
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "北京 大学"
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                28,
+                954,
+                60
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Peking University "
+                    }
+                ]
+            },
+            "bbox": [
+                864,
+                60,
+                971,
+                84
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "29 "
+                    }
+                ]
+            },
+            "bbox": [
+                896,
+                940,
+                921,
+                964
+            ]
+        }
+    ]
+]

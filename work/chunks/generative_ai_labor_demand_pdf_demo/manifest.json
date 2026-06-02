@@ -1,0 +1,353 @@
+{
+  "version": 1,
+  "chunk_count": 27,
+  "max_chars": 3600,
+  "min_chars": 1200,
+  "chunks": [
+    {
+      "chunk_id": "chunk_001",
+      "title": "Front Matter",
+      "heading_path": [
+        "Front Matter"
+      ],
+      "heading_path_text": "Front Matter",
+      "level": 1,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_demo\\chunk_001_front_matter_p1.md",
+      "char_count": 243,
+      "part_index": 1
+    },
+    {
+      "chunk_id": "chunk_002",
+      "title": "Abstract",
+      "heading_path": [
+        "Abstract"
+      ],
+      "heading_path_text": "Abstract",
+      "level": 1,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_demo\\chunk_002_abstract_p1.md",
+      "char_count": 1794,
+      "part_index": 1
+    },
+    {
+      "chunk_id": "chunk_003",
+      "title": "Keywords: Generative AI; Labor demand; Job ladder; Dynamic AI exposure; Job postings;",
+      "heading_path": [
+        "Abstract",
+        "Keywords: Generative AI; Labor demand; Job ladder; Dynamic AI exposure; Job postings;"
+      ],
+      "heading_path_text": "Abstract > Keywords: Generative AI; Labor demand; Job ladder; Dynamic AI exposure; Job postings;",
+      "level": 2,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_demo\\chunk_003_keywords_generative_ai_labor_demand_job_ladder_d_p1.md",
+      "char_count": 618,
+      "part_index": 1
+    },
+    {
+      "chunk_id": "chunk_004",
+      "title": "1 Introduction",
+      "heading_path": [
+        "1 Introduction"
+      ],
+      "heading_path_text": "1 Introduction",
+      "level": 1,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_demo\\chunk_004_1_introduction_p1.md",
+      "char_count": 3041,
+      "part_index": 1
+    },
+    {
+      "chunk_id": "chunk_005",
+      "title": "1 Introduction",
+      "heading_path": [
+        "1 Introduction"
+      ],
+      "heading_path_text": "1 Introduction",
+      "level": 1,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_demo\\chunk_005_1_introduction_p2.md",
+      "char_count": 2679,
+      "part_index": 2
+    },
+    {
+      "chunk_id": "chunk_006",
+      "title": "1 Introduction",
+      "heading_path": [
+        "1 Introduction"
+      ],
+      "heading_path_text": "1 Introduction",
+      "level": 1,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_demo\\chunk_006_1_introduction_p3.md",
+      "char_count": 2757,
+      "part_index": 3
+    },
+    {
+      "chunk_id": "chunk_007",
+      "title": "1 Introduction",
+      "heading_path": [
+        "1 Introduction"
+      ],
+      "heading_path_text": "1 Introduction",
+      "level": 1,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_demo\\chunk_007_1_introduction_p4.md",
+      "char_count": 2823,
+      "part_index": 4
+    },
+    {
+      "chunk_id": "chunk_008",
+      "title": "1 Introduction",
+      "heading_path": [
+        "1 Introduction"
+      ],
+      "heading_path_text": "1 Introduction",
+      "level": 1,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_demo\\chunk_008_1_introduction_p5.md",
+      "char_count": 2766,
+      "part_index": 5
+    },
+    {
+      "chunk_id": "chunk_009",
+      "title": "1 Introduction",
+      "heading_path": [
+        "1 Introduction"
+      ],
+      "heading_path_text": "1 Introduction",
+      "level": 1,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_demo\\chunk_009_1_introduction_p6.md",
+      "char_count": 1271,
+      "part_index": 6
+    },
+    {
+      "chunk_id": "chunk_010",
+      "title": "2 Related Literature",
+      "heading_path": [
+        "2 Related Literature"
+      ],
+      "heading_path_text": "2 Related Literature",
+      "level": 1,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_demo\\chunk_010_2_related_literature_p1.md",
+      "char_count": 649,
+      "part_index": 1
+    },
+    {
+      "chunk_id": "chunk_011",
+      "title": "2.1 AI and Generative AI Exposure Metrics",
+      "heading_path": [
+        "2 Related Literature",
+        "2.1 AI and Generative AI Exposure Metrics"
+      ],
+      "heading_path_text": "2 Related Literature > 2.1 AI and Generative AI Exposure Metrics",
+      "level": 2,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_demo\\chunk_011_2_1_ai_and_generative_ai_exposure_metrics_p1.md",
+      "char_count": 3168,
+      "part_index": 1
+    },
+    {
+      "chunk_id": "chunk_012",
+      "title": "2.1 AI and Generative AI Exposure Metrics",
+      "heading_path": [
+        "2 Related Literature",
+        "2.1 AI and Generative AI Exposure Metrics"
+      ],
+      "heading_path_text": "2 Related Literature > 2.1 AI and Generative AI Exposure Metrics",
+      "level": 2,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_demo\\chunk_012_2_1_ai_and_generative_ai_exposure_metrics_p2.md",
+      "char_count": 487,
+      "part_index": 2
+    },
+    {
+      "chunk_id": "chunk_013",
+      "title": "2.2 Effects of Generative AI in the Labor Market",
+      "heading_path": [
+        "2 Related Literature",
+        "2.2 Effects of Generative AI in the Labor Market"
+      ],
+      "heading_path_text": "2 Related Literature > 2.2 Effects of Generative AI in the Labor Market",
+      "level": 2,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_demo\\chunk_013_2_2_effects_of_generative_ai_in_the_labor_market_p1.md",
+      "char_count": 2151,
+      "part_index": 1
+    },
+    {
+      "chunk_id": "chunk_014",
+      "title": "2.2 Effects of Generative AI in the Labor Market",
+      "heading_path": [
+        "2 Related Literature",
+        "2.2 Effects of Generative AI in the Labor Market"
+      ],
+      "heading_path_text": "2 Related Literature > 2.2 Effects of Generative AI in the Labor Market",
+      "level": 2,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_demo\\chunk_014_2_2_effects_of_generative_ai_in_the_labor_market_p2.md",
+      "char_count": 2646,
+      "part_index": 2
+    },
+    {
+      "chunk_id": "chunk_015",
+      "title": "2.2 Effects of Generative AI in the Labor Market",
+      "heading_path": [
+        "2 Related Literature",
+        "2.2 Effects of Generative AI in the Labor Market"
+      ],
+      "heading_path_text": "2 Related Literature > 2.2 Effects of Generative AI in the Labor Market",
+      "level": 2,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_demo\\chunk_015_2_2_effects_of_generative_ai_in_the_labor_market_p3.md",
+      "char_count": 1217,
+      "part_index": 3
+    },
+    {
+      "chunk_id": "chunk_016",
+      "title": "3.1 Lightcast Job Postings Data",
+      "heading_path": [
+        "3 Data",
+        "3.1 Lightcast Job Postings Data"
+      ],
+      "heading_path_text": "3 Data > 3.1 Lightcast Job Postings Data",
+      "level": 2,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_demo\\chunk_016_3_1_lightcast_job_postings_data_p1.md",
+      "char_count": 1225,
+      "part_index": 1
+    },
+    {
+      "chunk_id": "chunk_017",
+      "title": "3.1 Lightcast Job Postings Data",
+      "heading_path": [
+        "3 Data",
+        "3.1 Lightcast Job Postings Data"
+      ],
+      "heading_path_text": "3 Data > 3.1 Lightcast Job Postings Data",
+      "level": 2,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_demo\\chunk_017_3_1_lightcast_job_postings_data_p2.md",
+      "char_count": 3117,
+      "part_index": 2
+    },
+    {
+      "chunk_id": "chunk_018",
+      "title": "3.2 Sampling Strategy",
+      "heading_path": [
+        "3 Data",
+        "3.2 Sampling Strategy"
+      ],
+      "heading_path_text": "3 Data > 3.2 Sampling Strategy",
+      "level": 2,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_demo\\chunk_018_3_2_sampling_strategy_p1.md",
+      "char_count": 2056,
+      "part_index": 1
+    },
+    {
+      "chunk_id": "chunk_019",
+      "title": "3.2 Sampling Strategy",
+      "heading_path": [
+        "3 Data",
+        "3.2 Sampling Strategy"
+      ],
+      "heading_path_text": "3 Data > 3.2 Sampling Strategy",
+      "level": 2,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_demo\\chunk_019_3_2_sampling_strategy_p2.md",
+      "char_count": 1872,
+      "part_index": 2
+    },
+    {
+      "chunk_id": "chunk_020",
+      "title": "4 Measurement of Posting-Level Exposure to Generative AI",
+      "heading_path": [
+        "4 Measurement of Posting-Level Exposure to Generative AI"
+      ],
+      "heading_path_text": "4 Measurement of Posting-Level Exposure to Generative AI",
+      "level": 1,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_demo\\chunk_020_4_measurement_of_posting_level_exposure_to_gener_p1.md",
+      "char_count": 483,
+      "part_index": 1
+    },
+    {
+      "chunk_id": "chunk_021",
+      "title": "Figure 1: Quarterly Number of Job Postings in the U. S. Population and Our Sample",
+      "heading_path": [
+        "4 Measurement of Posting-Level Exposure to Generative AI",
+        "Figure 1: Quarterly Number of Job Postings in the U. S. Population and Our Sample"
+      ],
+      "heading_path_text": "4 Measurement of Posting-Level Exposure to Generative AI > Figure 1: Quarterly Number of Job Postings in the U. S. Population and Our Sample",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_demo\\chunk_021_figure_1_quarterly_number_of_job_postings_in_the_p1.md",
+      "char_count": 1050,
+      "part_index": 1
+    },
+    {
+      "chunk_id": "chunk_022",
+      "title": "4.1 Two-Stage LLM Pipeline",
+      "heading_path": [
+        "4 Measurement of Posting-Level Exposure to Generative AI",
+        "4.1 Two-Stage LLM Pipeline"
+      ],
+      "heading_path_text": "4 Measurement of Posting-Level Exposure to Generative AI > 4.1 Two-Stage LLM Pipeline",
+      "level": 2,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_demo\\chunk_022_4_1_two_stage_llm_pipeline_p1.md",
+      "char_count": 1213,
+      "part_index": 1
+    },
+    {
+      "chunk_id": "chunk_023",
+      "title": "Figure 2: Two-Stage LLM Pipeline for Computing Posting-Level AI Exposure Indices",
+      "heading_path": [
+        "4 Measurement of Posting-Level Exposure to Generative AI",
+        "4.1 Two-Stage LLM Pipeline",
+        "Figure 2: Two-Stage LLM Pipeline for Computing Posting-Level AI Exposure Indices"
+      ],
+      "heading_path_text": "4 Measurement of Posting-Level Exposure to Generative AI > 4.1 Two-Stage LLM Pipeline > Figure 2: Two-Stage LLM Pipeline for Computing Posting-Level AI Exposure Indices",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_demo\\chunk_023_figure_2_two_stage_llm_pipeline_for_computing_po_p1.md",
+      "char_count": 2610,
+      "part_index": 1
+    },
+    {
+      "chunk_id": "chunk_024",
+      "title": "4.2 From Task-Level Labels to Posting-Level Exposure",
+      "heading_path": [
+        "4 Measurement of Posting-Level Exposure to Generative AI",
+        "4.2 From Task-Level Labels to Posting-Level Exposure"
+      ],
+      "heading_path_text": "4 Measurement of Posting-Level Exposure to Generative AI > 4.2 From Task-Level Labels to Posting-Level Exposure",
+      "level": 2,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_demo\\chunk_024_4_2_from_task_level_labels_to_posting_level_expo_p1.md",
+      "char_count": 1131,
+      "part_index": 1
+    },
+    {
+      "chunk_id": "chunk_025",
+      "title": "Table 1: Summary of Exposure Rubric",
+      "heading_path": [
+        "4 Measurement of Posting-Level Exposure to Generative AI",
+        "4.2 From Task-Level Labels to Posting-Level Exposure",
+        "Table 1: Summary of Exposure Rubric"
+      ],
+      "heading_path_text": "4 Measurement of Posting-Level Exposure to Generative AI > 4.2 From Task-Level Labels to Posting-Level Exposure > Table 1: Summary of Exposure Rubric",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_demo\\chunk_025_table_1_summary_of_exposure_rubric_p1.md",
+      "char_count": 1868,
+      "part_index": 1
+    },
+    {
+      "chunk_id": "chunk_026",
+      "title": "Table 2: Illustrative Examples of Task-Level Exposure Classification",
+      "heading_path": [
+        "4 Measurement of Posting-Level Exposure to Generative AI",
+        "4.2 From Task-Level Labels to Posting-Level Exposure",
+        "Table 2: Illustrative Examples of Task-Level Exposure Classification"
+      ],
+      "heading_path_text": "4 Measurement of Posting-Level Exposure to Generative AI > 4.2 From Task-Level Labels to Posting-Level Exposure > Table 2: Illustrative Examples of Task-Level Exposure Classification",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_demo\\chunk_026_table_2_illustrative_examples_of_task_level_expo_p1.md",
+      "char_count": 2100,
+      "part_index": 1
+    },
+    {
+      "chunk_id": "chunk_027",
+      "title": "Table 2: Illustrative Examples of Task-Level Exposure Classification",
+      "heading_path": [
+        "4 Measurement of Posting-Level Exposure to Generative AI",
+        "4.2 From Task-Level Labels to Posting-Level Exposure",
+        "Table 2: Illustrative Examples of Task-Level Exposure Classification"
+      ],
+      "heading_path_text": "4 Measurement of Posting-Level Exposure to Generative AI > 4.2 From Task-Level Labels to Posting-Level Exposure > Table 2: Illustrative Examples of Task-Level Exposure Classification",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_demo\\chunk_027_table_2_illustrative_examples_of_task_level_expo_p2.md",
+      "char_count": 2441,
+      "part_index": 2
+    }
+  ]
+}

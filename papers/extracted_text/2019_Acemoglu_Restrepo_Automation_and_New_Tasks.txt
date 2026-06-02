@@ -1,0 +1,1287 @@
+
+
+--- PAGE 1 ---
+Journal of Economic Perspectives—Volume 33, Number 2—Spring 2019—Pages 3–30
+T
+he implications of technological change for employment and wages are a 
+source of controversy. Some see the ongoing process of automation—as 
+exemplified by computer numerical control machinery, industrial robots, 
+and artificial intelligence—as the harbinger of widespread joblessness. Others 
+reason that current automation, like previous waves of technologies, will ultimately 
+increase labor demand, and thus employment and wages.
+This paper presents a task-based framework, building on Acemoglu and 
+Restrepo (2018a, 2018b) as well as Acemoglu and Autor (2011), Autor, Levy, and 
+Murnane (2003), and Zeira (1998), for thinking through the implications of tech-
+nology for labor demand and productivity. Production requires tasks, which are 
+allocated to capital or labor. New technologies not only increase the productivity of 
+capital and labor at tasks they currently perform, but also impact the allocation of 
+tasks to these factors of production—what we call the task content of production . Shifts 
+in the task content of production can have major effects for how labor demand 
+changes as well as for productivity.
+Automation corresponds to the development and adoption of new technolo-
+gies that enable capital to be substituted for labor in a range of tasks. Automation 
+changes the task content of production adversely for labor because of a displacement 
+effect—as capital takes over tasks previously performed by labor. The displacement 
+Automation and New Tasks: How 
+Technology Displaces and Reinstates 
+Labor
+■ Daron Acemoglu is Elizabeth and James Killian Professor of Economics, Massachusetts 
+Institute of Technology, Cambridge, Massachusetts. Pascual Restrepo is Assistant Professor of 
+Economics, Boston University, Boston, Massachusetts. Their emails are daron@mit.edu and 
+pascual@bu.edu.
+† For supplementary materials such as appendices, datasets, and author disclosure statements, see the 
+article page at
+https://doi.org/10.1257/jep.33.2.3 doi=10.1257/jep.33.2.3
+Daron Acemoglu and Pascual Restrepo 
+
+--- PAGE 2 ---
+4     Journal of Economic Perspectives
+effect implies that automation reduces the labor share of value added. Historical 
+examples of automation are aplenty. Many early innovations of the Industrial Revo-
+lution automated tasks performed by artisans in spinning and weaving (Mantoux 
+1928), which led to widespread displacement, triggering the Luddite riots (Mokyr 
+1990). The mechanization of agriculture, which picked up speed with horse-powered 
+reapers, harvesters, and plows in the second half of the 19th century and with trac-
+tors and combine harvesters in the 20th century, displaced agricultural workers in 
+large numbers (Rasmussen 1982; Olmstead and Rhode 2001). Today too we are 
+witnessing a period of rapid automation. The jobs of production workers are being 
+disrupted with the rise of industrial robots and other automated machinery (Graetz 
+and Michaels 2018; Acemoglu and Restrepo 2018b), while white-collar workers in 
+accounting, sales, logistics, trading, and some managerial occupations are seeing 
+some of the tasks they used to perform being replaced by specialized software and 
+artificial intelligence.
+By allowing a more flexible allocation of tasks to factors, automation technology 
+also increases productivity, and via this channel, which we call the productivity effect , 
+it contributes to the demand for labor in non-automated tasks. The net impact of 
+automation on labor demand thus depends on how the displacement and produc-
+tivity effects weigh against each other.
+The history of technology is not only about the displacement of human labor 
+by automation technologies. If it were, we would be confined to a shrinking set 
+of old tasks and jobs, with a steadily declining labor share in national income. 
+Instead, the displacement effect of automation has been counterbalanced by tech-
+nologies that create new tasks in which labor has a comparative advantage. Such 
+new tasks generate not only a positive productivity effect, but also a reinstatement 
+effect —they reinstate labor into a broader range of tasks and thus change the task 
+content of production in favor of labor.
+1 The reinstatement effect is the polar 
+opposite of the displacement effect and directly increases the labor share as well 
+as labor demand.
+History is also replete with examples of the creation of new tasks and the rein-
+statement effect. In the 19th century, as automation of some tasks was ongoing, other 
+technological developments generated employment opportunities in new occu-
+pations. These included jobs for line workers, engineers, machinists, repairmen, 
+conductors, managers, and financiers (Chandler 1977; Mokyr 1990). New occu-
+pations and jobs in new industries also played a pivotal role in generating labor 
+demand during the decades of rapid agricultural mechanization in the United States, 
+especially in factories (Rasmussen 1982; Olmsted and Rhode 2001) and in clerical 
+occupations, both in services and manufacturing (Goldin and Katz 2008; Michaels 
+2007). Although software and computers have replaced labor in some white-collar 
+tasks, they have simultaneously created many new tasks. These include tasks related 
+1 There are also new tasks in which capital has a comparative advantage (for example, automated detec-
+tion). Throughout our focus is on “labor-intensive” new tasks, and for brevity, we will simply refer to these 
+as “new tasks.”
+
+--- PAGE 3 ---
+Daron Acemoglu and Pascual Restrepo     5
+to programming, design, and maintenance of high tech equipment, such as software 
+and app development, database design and analysis, and computer-security-related 
+tasks, as well as tasks related to more specialized functions in existing occupations, 
+including administrative assistants, analysts for loan applications, and medical equip-
+ment technicians (Lin 2011). In Acemoglu and Restrepo (2018a, using data from Lin 
+2011), we show that about half of employment growth over 1980–2015 took place in 
+occupations in which job titles or tasks performed by workers changed.
+Our conceptual framework offers several lessons. First, the presumption that all 
+technologies increase (aggregate) labor demand simply because they raise produc-
+tivity is wrong. Some automation technologies may in fact reduce labor demand 
+because they bring sizable displacement effects but modest productivity gains 
+(especially when substituted workers were cheap to begin with and the automated 
+technology is only marginally better than them). Second, because of the displacement 
+effect, we should not expect automation to create wage increases commensurate with 
+productivity growth. In fact, as we noted already, automation by itself always reduces 
+the labor share in industry value added and tends to reduce the overall labor share in 
+the economy (meaning that it leads to slower wage growth than productivity growth). 
+The reason why we have had rapid wage growth and stable labor shares in the past is 
+a consequence of other technological changes that generated new tasks for labor and 
+counterbalanced the effects of automation on the task content of production. Some 
+technologies displaced labor from automated tasks while others reinstated labor into 
+new tasks. On net, labor retained a key role in production. By the same token, our 
+framework suggests that the future of work depends on the mixture of new technolo-
+gies and how these change the task content of production.
+In the second part of the paper, we use our framework to study the evolution 
+of labor demand in the United States since World War II and explain how industry 
+data can be used to infer the behavior of the task content of production and the 
+displacement and reinstatement effects. We start by showing that there has been a 
+slowdown in the growth of labor demand over the last three decades and an almost 
+complete stagnation over the last two. We establish this by studying the evolution 
+of the economy-wide wage bill, which combines information on average wages and 
+total employment and is thus informative about changes in overall labor demand. 
+We then use industry data to decompose changes in the economy-wide wage bill 
+into productivity, composition and substitution effects, and changes in the task 
+content of production. All technologies create productivity effects that contribute 
+to labor demand. The composition effect arises from the reallocation of activity 
+across sectors with different labor intensities. The substitution effect captures 
+the substitution between labor- and capital-intensive tasks within an industry in 
+response to a change in task prices (for instance, caused by factor-augmenting tech-
+nologies making labor or capital more productive at tasks they currently perform). 
+We estimate changes in the task content of production from residual changes in 
+industry-level labor shares (beyond what can be explained by substitution effects). 
+We further decompose changes in the task content of production into displace-
+ment effects caused by automation and reinstatement effects driven by new tasks. 
+
+--- PAGE 4 ---
+6     Journal of Economic Perspectives
+We provide external support for this decomposition by relating estimated changes 
+in the task content of production to a battery of measures of automation and intro-
+duction of new tasks across sectors.
+Our decomposition suggests that the evolution of the US wage bill, especially 
+over the last 20 years, cannot be understood without factoring in changes in the 
+task content of production. In particular, we find that the sharp slowdown of US 
+wage bill growth over the last three decades is a consequence of weaker-than-
+usual productivity growth and significant shifts in the task content of production 
+against labor. By decomposing the change in the task content of production, we 
+estimate stronger displacement effects and considerably weaker reinstatement 
+effects during the last 30 years than the decades before. These patterns hint at an 
+acceleration of automation and a deceleration in the creation of new tasks. They 
+also raise the question of why productivity growth has been so anemic while auto-
+mation has accelerated during recent years. We use our framework to shed light 
+on this critical question.
+An online Appendix available with this paper at the journal website contains a 
+more detailed exposition of our framework, proofs, additional empirical results, and 
+details on the construction of our data. 
+Conceptual Framework
+Production requires the completion of a range of tasks. The production of a 
+shirt, for example, starts with a design, then requires the completion of a variety of 
+production tasks, such as the extraction of fibers, spinning them to produce yarn, 
+weaving, knitting, dyeing, and processing, as well as additional nonproduction 
+tasks, including accounting, marketing, transportation, and sales. Each one of these 
+tasks can be performed by human labor or by capital (including both machines 
+and software). The allocation of tasks to factors determines the task content of  
+production. 
+Automation enables some of the tasks previously performed by labor to be 
+produced by capital. As a recent example, advances in robotics technologies since 
+the 1980s have allowed firms to automate a wide range of production tasks in 
+manufacturing, such as machining, welding, painting, and assembling, that were 
+performed manually (Ayres and Miller 1983; Groover, Weiss, Nagel, and Odrey 
+1986; Acemoglu and Restrepo 2018b). The set of tasks involved in producing a 
+product is not constant over time, and the introduction of new tasks can be a major 
+source of labor demand as well as productivity. In textiles, examples of new labor-
+intensive tasks include computerized designs, new methods of market research, 
+and various managerial activities for better targeting of demand and cost saving. By 
+changing the allocation of tasks to factors, both automation and the introduction of 
+new tasks affect the task content of production.
+Tasks are thus the fundamental unit of production, and the factors of produc-
+tion contribute to output by performing these tasks. In contrast, the canonical 
+
+--- PAGE 5 ---
+Automation and New Tasks: How Technology Displaces and Reinstates Labor     7
+approach in economics bypasses tasks and directly posits a production function 
+of the form Y = F (AK K, ALL), which additionally imposes that all technological 
+change takes a factor-augmenting form. There are three related reasons we prefer 
+our conceptual framework. First, the canonical approach lacks descriptive realism. 
+Advances in robotics, for example, do not make capital or labor more productive, but 
+expand the set of tasks that can be produced by capital. Second, capital-augmenting 
+technological change (an increase in A
+K ) or labor-augmenting technological change 
+(an increase in AL) corresponds to the relevant factor becoming uniformly more produc-
+tive in all tasks, which, we will show, ignores potentially important changes in the task 
+content of production. Third, and most importantly, we will also see that the quan-
+titative and qualitative implications of factor-augmenting technological advances 
+are different from those of technologies that change the task content of produc-
+tion. Focusing just on factor-augmenting technologies can force us into misleading  
+conclusions.
+Tasks and Production
+We present our task-based framework by first describing the production process 
+in a single-sector economy.2 Suppose that production combines the output of a range 
+of tasks, and that the tasks are indexed by z and normalized to lie between N − 1 and 
+N, as shown in Figure 1.3 Tasks can be produced using capital or labor. Tasks with 
+z > I are not automated, and can only be produced with labor, which has a wage rate 
+W. Tasks z ≤ I are automated and can be produced with capital, which has a rental 
+rate R, as well as labor. We assume that labor has both a comparative and an absolute 
+advantage in higher indexed tasks. An increase in I therefore represents the introduc-
+tion of an automation technology, or automation for short. An increase in N , on the 
+other hand, corresponds to the introduction of new labor-intensive tasks or new tasks 
+for short. In addition to automation (I) and introduction of new tasks (N), the state 
+of technology for this sector depends on A
+L (labor-augmenting technology) and AK 
+(capital-augmenting technology), which increase the productivities of these factors 
+in all tasks. 
+Let us assume that it is cost-minimizing for firms to use capital in all tasks that 
+are automated (all z ≤ I ) and to adopt all new tasks immediately. This implies an 
+allocation of tasks to factors as summarized in Figure 1, which also shows how auto-
+mation and new tasks impact this allocation.
+2 This also describes the production process in a sector situated in a multisector economy, with the only 
+difference being that, in that case, changes in technology impact relative prices and induce reallocation 
+of capital and labor across sectors. We discuss these relative price and reallocation effects below. 
+3 Namely, the production function takes the form Y =    ( ∫ N−1  N    Y (z)     σ−1 ____ σ   )    
+  σ ____ σ−1  
+  , where Y(z) is the output of task 
+z. The assumption that tasks lie between N − 1 and N is adopted to simplify the exposition. Nothing 
+major changes if we instead allow tasks to lie on the interval between 0 and N . The online Appendix 
+presents more detail on underlying assumptions and on derivations of results that follow throughout 
+the discussion. 
+
+--- PAGE 6 ---
+8     Journal of Economic Perspectives
+Following the same steps as in Acemoglu and Restrepo (2018a), output can 
+be represented as a constant elasticity of substitution (CES) function of capital and 
+labor: 
+ Y = Π(I, N )   (Γ (I, N )     1 __ σ   ( ALL)   
+  σ−1 ____ σ  
+  + (1 – Γ (I, N ))     1 __ σ    (AKK)   
+  σ−1 ____ σ  
+ )    
+  σ ____ σ−1  
+   .
+As in the canonical model, we have production as a function of the quantities 
+of labor and capital, L and K. The labor-augmenting technology term A L and the 
+capital-augmenting term AK increase the productivity of labor and capital in all tasks 
+they currently produce. The elasticity of substitution between tasks, σ, determines 
+how easy it is to substitute one task for another, and is also the (derived) elasticity of 
+substitution between capital and labor. 
+The crucial difference from the canonical model is that the share parameters 
+of this constant-elasticity-of-substitution function depend on automation and new 
+tasks. The share parameter for labor, Γ(I, N   ), is the labor task content of production, 
+which represents the share of tasks performed by labor relative to capital (adjusted 
+for differences in labor and capital productivity across these tasks). Conversely, 
+1 − Γ(I, N   ) is the capital task content of production. Hence, an increase in Γ(I, N   )  
+Source: Authors.
+Note: The figure summarizes the allocation of tasks to capital and labor. Production requires the 
+completion of a range of tasks, normalized to lie between N – 1 and N. Tasks above I are not automated, 
+and can only be produced with labor. Tasks below I are automated and will be produced with capital. An 
+increase in I represents the introduction of automation technology or automation for short. An increase 
+in N corresponds to the introduction of new labor-intensive tasks or new tasks for short.
+Figure 1 
+The Allocation of Capital and Labor to the Production of Tasks and the Impact of 
+Automation and the Creation of New Tasks
+
+--- PAGE 7 ---
+Daron Acemoglu and Pascual Restrepo     9
+shifts the task content of production in favor of labor and against capital. In the 
+special case where σ = 1, Γ(I, N   ) = N − I. More generally, Γ(I, N   ) is always increasing 
+in N and decreasing in I . This, in particular, implies that automation (greater I ) 
+shifts the task content of production against labor because it entails capital taking 
+over tasks previously performed by labor. In contrast, new labor-intensive tasks shift 
+the task content of production in favor of labor.
+4 Finally, automation and new tasks 
+not only change the task content of production but also generate productivity gains 
+by allowing the allocation of (some) tasks to cheaper factors. The term Π(I, N   ), 
+which shows up as total factor productivity, represents these productivity gains.
+The labor share, given by wage bill (WL ) divided by value added (Y  ), can be 
+derived as:
+   s   
+L   =    1  ________________________   
+1 +   1 − Γ(I, N   ) ___________ Γ(I, N   )     (  R/ A   K  _____ W/ A   L   )    
+1−σ
+ 
+     .
+This relationship, which will be relied upon extensively in the rest of the paper, 
+clarifies the two distinct forces shaping the labor share (in an industry or the entire 
+economy). As is standard, the labor share depends on the ratio of effective factor 
+prices, W/A
+L and R/AK. Intuitively, as effective wages rise relative to effective rental 
+rates of capital, the price of tasks produced by labor increases relative to the price 
+of tasks produced by capital, and this generates a substitution effect across tasks. This 
+is the only force influencing the labor share in the canonical model. Its magnitude 
+and size depend on whether σ is greater than or less than 1. For example, when 
+tasks are complements (σ < 1), an increase in the effective wage raises the cost share 
+of tasks produced by labor. The opposite happens when σ > 1. When σ = 1, we obtain 
+a Cobb–Douglas production function and the substitution effect vanishes because 
+the share of each task in value added is fixed.
+More novel are the effects of the task content of production, Γ(I, N   ), on the 
+labor share. Intuitively, as more tasks are allocated to capital instead of labor, the 
+task content shifts against labor and the labor share will decline unambiguously. 
+Our model thus predicts that, independently from the elasticity of substitution 
+σ, automation (which changes the task content of production against labor) will 
+reduce the labor share in the industry, while new tasks (which alter the task content 
+of production in favor of labor) will increase it.
+4 Our exposition assumes that the task content of production does not depend on factor-augmenting 
+technologies or the supply of capital or labor. This will be the case when it is cost-minimizing for firms in 
+this sector to use capital in all tasks that are automated (all z ≤ I) and use all new tasks immediately. The 
+online Appendix presents the underlying assumptions on technology and factor supplies that ensures 
+this is the case. When this assumption does not hold (for example, because of very large changes in 
+factor-augmenting technologies or factor supplies), the allocation of tasks to factors will change with 
+factor supplies and factor-augmenting technologies. Even in this case, the impact of factor-augmenting 
+technologies on the task content will be small relative to the productivity gains from these technologies.
+
+--- PAGE 8 ---
+10     Journal of Economic Perspectives
+Technology and Labor Demand
+We now investigate how technology changes labor demand. We focus on the 
+behavior of the wage bill, WL , which captures the total amount employers pay for 
+labor. Recall that 
+Wage bill = Value added × Labor share.
+Changes in the wage bill will translate into some combination of changes in employ-
+ment and wages, and the exact division will be affected by the elasticity of labor 
+supply and labor market imperfections, neither of which we model explicitly in this 
+paper (for discussion, see Acemoglu and Restrepo 2018a, 2018b). 
+We use this relationship to think about how three classes of technologies impact 
+labor demand: automation, new tasks, and factor-augmenting advances. Consider 
+the introduction of new automation technologies (an increase in I in Figure 1). The 
+impact on labor demand can be represented as: 
+Effect of automation on labor demand = Productivity effect 
+ + Displacement effect.
+The productivity effect arises from the fact that automation increases value added, and 
+this raises the demand for labor from non-automated tasks. If nothing else happened, 
+labor demand of the industry would increase at the same rate as value added, and the 
+labor share would remain constant. However, automation also generates a displace -
+ment effect—it displaces labor from the tasks previously allocated to it—which shifts 
+the task content of production against labor and always reduces the labor share. 
+Automation therefore increases the size of the pie, but labor gets a smaller slice. 
+There is no guarantee that the productivity effect is greater than the displacement 
+effect; some automation technologies can reduce labor demand even as they raise  
+productivity.
+5
+Hence, contrary to a common presumption in popular debates, it is not the 
+“brilliant” automation technologies that threaten employment and wages, but “so-so 
+technologies” that generate small productivity improvements. This is because the posi-
+tive productivity effect of so-so technologies is not sufficient to offset the decline in 
+labor demand due to displacement. To understand when this is likely to be the case, 
+let us first consider where the productivity gains from automation are coming from. 
+These are not a consequence of the fact that capital and labor are becoming more 
+productive in the tasks they are performing, but follow from the ability of firms to 
+use cheaper capital in tasks previously performed by labor. The productivity effect of 
+5 Indeed, in Acemoglu and Restrepo (2018b), we show that industrial robots, a leading example of auto-
+mation technology, are associated with lower labor share and labor demand at the industry level and 
+lower labor demand in local labor markets exposed to this technology. This result is consistent with a 
+powerful displacement effect that has dominated the productivity effect from this class of automation 
+technologies.
+
+--- PAGE 9 ---
+Automation and New Tasks: How Technology Displaces and Reinstates Labor     11
+automation is therefore proportional to cost-savings obtained from such substitution. 
+The greater is the productivity of labor in tasks being automated relative to its wage 
+and the smaller is the productivity of capital in these tasks relative to the rental rate of 
+capital, the more limited the productivity gains from automation will be. Examples of 
+so-so technologies include automated customer service, which has displaced human 
+service representatives but is generally deemed to be low quality and thus unlikely to 
+have generated large productivity gains. They may also include several of the applica-
+tions of artificial intelligence technology to tasks that are currently challenging for 
+machines.
+Different technologies are accompanied by productivity effects of varying 
+magnitudes, and hence, we cannot presume that one set of automation technolo-
+gies will impact labor demand in the same way as others. Likewise, because the 
+productivity gains of automation depend on the wage, the net impact of automa-
+tion on labor demand will depend on the broader labor market context. When 
+wages are high and labor is scarce, automation will generate a strong produc-
+tivity effect and will tend to raise labor demand. When wages are low and labor 
+is abundant, automation will bring modest productivity benefits and could end 
+up reducing labor demand. This observation might explain why automation tech-
+nologies adopted in response to the scarcity of (middle-aged) production workers 
+in countries where the labor force is aging rapidly, such as Germany, Japan, and 
+South Korea, appear to have more positive effects than in the United States (on 
+cross-country patterns, see Acemoglu and Restrepo 2018e; on the effect of robots 
+in the United States, see Acemoglu and Restrepo 2018b; in Germany, see Dauth, 
+Findeisen, Suedekum, and Woessner 2018). It also suggests a reinterpretation of 
+the famous Habakkuk hypothesis that the faster growth of the 19th-century US 
+economy compared to Britain was due to its relative scarcity of labor (Habakkuk 
+1962; for a similar argument in the context of the British Industrial Revolution, 
+see also Allen 2009). Labor scarcity encourages automation, and the high wages 
+it causes help explain why this automation process led to rapid productivity and 
+further wage growth.
+Consider next the effect of the introduction of new tasks on the wage bill, 
+which is captured by an increase in N in our framework. This expands the set 
+of tasks in which humans have a comparative advantage, and its effect can be  
+summarized as:
+Effect of new tasks on labor demand = Productivity effect 
+ + Reinstatement effect.
+The reinstatement effect captures the change in the task content of production, but 
+now in favor of labor as the increase in N reinstates labor into new tasks. This change 
+in task content always increases the labor share. It also improves productivity as new 
+tasks exploit labor’s comparative advantage. The resulting productivity improve-
+ment, together with the change in task content, ensures that labor demand always 
+increases following the introduction of new tasks.
+
+--- PAGE 10 ---
+12     Journal of Economic Perspectives
+Finally, as we claimed previously, the implications of factor-augmenting tech-
+nologies are very different from those of automation and new tasks, because they do 
+not change the task content of production. In particular,
+Effect of factor-augmenting technologies on labor demand = Productivity effect
+ + Substitution effect.
+With factor-augmenting technological improvements, either labor or capital 
+becomes more productive in all tasks, making the productivity effect proportional 
+to their share in value added.
+Factor-augmenting technologies also impact labor demand via the substitution 
+effect introduced above, which changes the labor share but does not alter the task 
+content of production. Available estimates of σ place this parameter to be less than 
+but close to 1, which implies that the substitution effects of factor-augmenting tech-
+nologies are small relative to their productivity effects. 
+In summary, in contrast to automation and new tasks that can generate signifi-
+cant displacement and reinstatement effects, factor-augmenting technologies affect 
+labor demand mostly via the productivity effect and have a relatively small impact 
+on the labor share. As a result, they are unlikely to generate a lower labor demand 
+from technological advances: capital-augmenting technologies always increase labor 
+demand, and labor-augmenting technologies do the same for plausible parameter 
+values, in particular, so long as σ > 1 – s
+L (Acemoglu and Restrepo 2018c).6 
+Tasks, Production, and Aggregate Labor Demand
+We now embed the model of tasks and production in an economy with multiple 
+industries and investigate how technology changes aggregate labor demand by 
+characterizing the behavior of the (economy-wide) wage bill. In our multisector 
+economy we have:
+Wage bill = GDP ×    
+∑  
+i∈
+  
+ 
+     Labor share sector i × Share of value added in sector i.
+The multisector perspective offers an additional margin for adjustment in 
+response to automation, which we refer to as the composition effect . Following auto-
+mation in sector i (an increase in I for that sector) we have:
+Effect of automation in i on aggregate labor demand = Productivity effect
+ + Displacement effect 
+ + Composition effect.
+6 Many other technologies share the feature that they do not impact the task content of production. For 
+example, improvements in the quality or productivity of equipment in any subset of already-automated 
+tasks in (N − 1, I ) (what, in Acemoglu and Restrepo 2018d, we call a “deepening of automation”) will 
+have an impact on labor demand identical to capital-augmenting technologies. These technologies do 
+not change the allocation of tasks to factors (as a new piece of equipment is replacing an older one), and 
+so they affect labor demand mostly through the productivity effect.
+
+--- PAGE 11 ---
+Daron Acemoglu and Pascual Restrepo     13
+The first two effects are the same as above—the productivity effect represents the 
+impact of automation in sector i on GDP, while the displacement effect represents 
+the change in the task content of production sector i (which affects the labor share 
+within this sector). These effects are scaled by the size of sector i, since larger sectors 
+will have larger aggregate effects.
+The composition effect, which was absent when we were focusing on the 
+effect of automation in a one-sector economy, captures the implications of sectoral 
+reallocations (changes in the share of value-added across sectors). For example, 
+automation in sector i may reallocate economic activity towards sector j (depending 
+on demand elasticities and input-output linkages). This reallocation contributes 
+positively to aggregate labor demand when sector j has higher labor share than the 
+contracting sector i, and negatively when the opposite holds.
+A similar decomposition applies to new tasks. Following the introduction of 
+new tasks in sector i (an increase in N for that sector), we have:
+Effect of new tasks in i on aggregate labor demand = Productivity effect
+ + Reinstatement effect 
+ + Composition effect,
+where the new feature is again the composition effect.
+The mechanization of agriculture in the United States illustrates how these 
+forces jointly determine the behavior of aggregate labor demand. Data from Budd 
+(1960) show that between 1850 and 1910, the replacement of manual labor by horse-
+powered reapers and harvesters in agriculture coincided with a sharp decline in 
+the labor share of value in this sector, from 33 to 17 percent—a telltale sign of the 
+displacement effect created by mechanization. Meanwhile, despite rapid mechaniza-
+tion of agriculture, at the time making up one-third of the US economy, two forces 
+combined to generate an increase in aggregate labor demand. First, and in part 
+as a consequence of mechanization, value-added and employment were reallocated 
+from agriculture to the industrial sector. This created a powerful composition effect, 
+as industry was (and still continues to be) much more labor intensive than agricul-
+ture. In addition, the labor share within the industrial sector rose further during 
+this process, from 47 percent in 1850 to 55 percent by 1890. This change in industry 
+labor share signals the presence of a powerful reinstatement effect created by the 
+introduction of new labor-intensive jobs in this sector. This interpretation is consis-
+tent with significant growth in new factory jobs in farm equipment (Olmstead and 
+Rhode 2001), cotton milling (Rasmussen 1982), and subsequently clerical occupa-
+tions in trade and manufacturing industries (Goldin and Katz 2008; Michaels 2007).
+Finally, the effects of factor-augmenting technologies in a multi-industry 
+context can be analyzed similarly. Although they too generate composition effects 
+and may affect aggregate labor demand via this channel, factor-augmenting tech-
+nologies still have no impact on the task content of production. Absent powerful 
+composition effects, they continue to affect labor demand mostly via their produc-
+tivity effect.
+
+--- PAGE 12 ---
+14     Journal of Economic Perspectives
+Sources of Labor Demand Growth in the United States
+We now use our framework to shed light on the factors that have shaped 
+the evolution of US labor demand since World War II. To do this, we develop a 
+decomposition of observed changes in the total wage bill in the economy. Our 
+decomposition requires data on industry value added, factor payments, and labor 
+shares. The change in aggregate wage bill between two periods can be decomposed 
+(as we show in the online Appendix) as:
+Change in aggregate wage bill = Productivity effect + Composition effect 
+ + Substitution effect + Change in task content.
+The productivity effect is the sum of the contributions from various sources of 
+technology to value added and thus GDP. Correspondingly, in our empirical exer -
+cise we measure this effect using changes in (log) GDP per capita. 
+The composition effect captures changes in labor demand resulting from  
+reallocation of value added across sectors. As discussed in the previous section, this 
+is related to the gap between the labor share of contracting and expanding sectors. 
+In our empirical exercise, we measure it as the sum of the change in the value-added 
+share of an industry weighted by its labor share (if all sectors had the same labor 
+share, this term would be equal to zero). The composition effect includes not only 
+the sectoral reallocation brought by new technologies but also changes in value 
+added across sectors resulting from structural transformations and sectoral realloca-
+tion due to preferences (for example, Herrendorf, Rogerson, and Valentinyi 2013; 
+Hubmer 2018; Aghion, Jones, and Jones 2017), differences in factor intensities (for 
+example, Acemoglu and Guerrieri 2008), differential sectoral productivity growth 
+(for example, Ngai and Pissarides 2007), or international trade in final goods (for 
+example, Autor, Dorn, and Hanson 2013). 
+The substitution effect is an employment-weighted sum of the substitution 
+effects of industries, and thus depends on industry-level changes in effective factor 
+prices and the elasticity of substitution σ (as shown in the earlier expression for 
+the labor share). To estimate the substitution effect in an industry, we choose as 
+our baseline Oberfield and Raval’s (2014) estimate of the elasticity of substitution 
+between capital and labor, σ = 0.8.
+7 In addition, we utilize information on sectoral 
+factor prices from the Bureau of Economic Analysis, Bureau of Labor Statistics, and 
+the national income and product accounts. To convert observed factor prices into 
+effective ones, we start with a benchmark where   A  
+i  L  /  A  i  K   grows at a common rate 
+equal to average labor productivity, which we take to be 2 percent a year between 
+7 We show in the online Appendix that the results are very similar for reasonable variations in σ. Note 
+also that the relevant σ is the elasticity of substitution between capital and labor at the industry level. 
+This is greater than the firm-level elasticity, estimated to be between 0.4 and 0.7 (for example, Chirinko, 
+Fazzari, and Meyer 2011) because of output substitution between firms. Note also that our framework, in 
+particular the central role of changes in the task content of production, makes it clear that this elasticity 
+of substitution cannot be estimated from aggregate data. 
+
+--- PAGE 13 ---
+Automation and New Tasks: How Technology Displaces and Reinstates Labor     15
+1947 and 1987 and 1.46 percent a year between 1987 and 2017. The motivation for 
+this choice is that, if all technological progress were labor-augmenting, this would 
+be the rate of growth in   A  
+i  L   required to match the behavior of labor productivity.8
+The change in task content is given by an employment-weighted sum of the 
+changes in task content of production of industries. We estimate industry-level 
+change in task content as the residual change in labor share (observed directly in 
+the data) that cannot be explained by the substitution effect. Namely,
+Change in task content in i = Percent change in labor share in i 
+ − Substitution effect in i.
+Intuitively, with competitive factor and product markets, the change in task content 
+of production and the substitution effect are the only forces affecting the labor 
+share of an industry. Hence, changes in task content can be inferred once we have 
+estimates of the substitution effect.
+Under additional assumptions, we can also separate the change in task content 
+into its two components: the displacement and reinstatement effects. Assume that an 
+industry will not simultaneously undertake automation and introduce new tasks (this 
+is implied, for example, by the directed technological change reasoning in Acemoglu 
+and Restrepo 2018a, where depending on factor prices, an industry will engage in one 
+type of innovation or the other). Then, when the labor share of an industry declines 
+beyond what one would expect based on factor prices, we estimate a positive displace-
+ment effect resulting from automation in that industry. Conversely, when the labor 
+share in an industry rises beyond what one would expect based on factor prices, we 
+estimate a positive reinstatement effect, attributed in our model to the introduction 
+of new tasks. Motivated by this reasoning, we compute the displacement effect as the 
+five-year moving average of the change in task content for industries with a negative 
+change, and the reinstatement effect as the five-year moving average of the change 
+in task content for industries with a positive change. The five-year time window is 
+chosen to minimize the influence of measurement error in industry labor shares. To 
+the extent that there are simultaneous introduction of new automation technologies 
+and new tasks in a given industry within a five-year period, our estimates will be lower 
+bounds both for the displacement and reinstatement effects. 
+Sources of Labor Demand: 1947–1987
+We first apply this decomposition to data from the four decades following 
+World War II, from 1947 to 1987. For this period, we have data from the Bureau of 
+8 Our estimates for the growth rate of   A  i  L  /  A  i  K   should be interpreted as upper bounds, since in general 
+growth in GDP per worker will be driven not just by labor-augmenting technological changes. Because in 
+our main exercise σ < 1, this implies that we are also understating the importance of displacement effects 
+in reducing the task content of production. Nevertheless, reasonable variations on the growth rate of 
+  A  
+i  L  /  A  i  K   have small impacts on our decomposition results, as we show in the online Appendix.
+
+--- PAGE 14 ---
+16     Journal of Economic Perspectives
+Economic Analysis for 58 industries on value added and labor shares.9 We combine 
+these with data from the national income and product accounts on quantities of 
+capital and labor in each industry to obtain measures of factor prices. We consoli-
+date the data into 43 industries that covered the private sector and can be tracked 
+consistently over time and across sources.
+Figure 2 presents the evolution of the labor share for six broad sectors: construc-
+tion, services, transportation, manufacturing, agriculture, and mining. Except for 
+mining and transportation—two small sectors accounting for 10 percent of GDP—
+there are no significant declines in labor shares in these broad sectors in this time 
+period. In fact, the labor share in manufacturing and services increased modestly 
+during this period. The bottom panel of the figure shows the evolution of the share 
+of value added of these sectors and confirms the secular reallocation from manufac-
+turing towards services starting in the late 1950s.
+Figure 3 presents our decomposition using the 43 industries in our sample. 
+We have divided the wage bill by population, so that changes in population do not 
+confound the effects we are focusing on. The top panel in Figure 3 shows that wage 
+bill per capita grew at 2.5 percent per year during this period. The rapid and steady 
+growth of the wage bill during this period is largely explained by the productivity 
+effect (2.4 percent per year). The substitution and composition effects are small, 
+and during this period changes in the task content of production are small as well.
+The middle panel of Figure 3 shows that, even though the overall change 
+in the task content of production during this period is small, there is consider -
+able displacement and reinstatement. Between 1947 and 1987, the displacement 
+effect reduced labor demand at about 0.48 percent per year, but simultaneously, 
+there was an equally strong reinstatement effect, equivalent to an increase in labor 
+demand of 0.47 percent per year. The bottom panel of Figure 3 depicts a similar 
+pattern in manufacturing, where the overall change in task content was also small, 
+while displacement and reinstatement effects were substantial. In sum, our find-
+ings suggest that during the four decades following World War II there was plenty 
+of automation, but this was accompanied by the introduction of new tasks (or 
+other changes increasing the task content of production in favor of labor) in both 
+manufacturing and the rest of the economy that counterbalanced the adverse labor 
+demand consequences of automation. 
+Sources of Labor Demand: 1987–2017 
+For the 1987–2017 period, we use data from the Bureau of Economic Analysis 
+for 61 industries covering the private sector and complement them with data from 
+9 Our measure of labor demand is given by the wage bill in the private sector and thus excludes self-
+employment income. This avoids the need for apportioning self-employment income between labor 
+and capital. Elsby, Hobijn, and Sahin (2013) explore this issue in detail and conclude that labor income 
+from self-employment has either declined or remained constant as a share of total labor income over this 
+period. This implies that labor share inclusive of self-employment income likely declined by even more, 
+and thus, if anything, focusing on the labor share in the private sector understates the overall decline in 
+labor demand.
+
+--- PAGE 15 ---
+Daron Acemoglu and Pascual Restrepo     17
+the Bureau of Labor Statistics on factor prices. The top panel of Figure 4 pres-
+ents the evolution of the labor share for the same six broad sectors used above. In 
+contrast to the 1947–1987 period, there is a sizable decline in the labor share in 
+manufacturing and construction. The drop in the labor share for mining continues 
+at a similar pace. The bottom panel of the figure shows the continued reallocation 
+of economic activity from manufacturing to services.
+The top panel of Figure 5 shows a striking slowdown in the growth of labor 
+demand between 1987 and 2017. The wage bill per capita grew at a modest 
+Manufacturing
+Agriculture
+Mining
+Transportation
+Construction
+Services
+Manufacturing
+Mining
+Transportation
+Services
+20
+30
+40
+50
+60
+70
+80
+1947 1952 1957 1962 1967 1972 1977 1982 1987
+A: Labor Share within Each Industry, 1947–1987
+0
+10
+20
+30
+40
+50
+60
+1947 1952 1957 1962 1967 1972 1977 1982 1987
+B: Share of GDP by Industry, 1947–1987
+Construction
+Agriculture
+Source: Authors using data from the US Bureau of Economic Analysis industry accounts.
+Note: The top panel shows the labor share in value added in services, manufacturing, construction, 
+transportation, mining and agriculture between 1947 and 1987, while the bottom panel shows the share 
+of value added in these sectors relative to GDP. 
+Figure 2 
+The Labor Share and Sectoral Evolutions, 1947–1987
+
+--- PAGE 16 ---
+18     Journal of Economic Perspectives
+Productivity effect
+Composition effect
+Substitution effect
+Change in task content
+Observed wage bill
+0
+20
+40
+60
+80
+100
+1947 1952 1957 1962 1967 1972 1977 1982 1987
+A: Wage Bill, 1947–1987
+Reinstatement
+Displacement
+Change in task content
+−20
+−10
+0
+10
+20
+1947 1952 1957 1962 1967 1972 1977 1982 1987
+B: Change in Task Content of Production, 1947–1987
+Reinstatement
+Displacement
+Change in task content
+−20
+−10
+0
+10
+20
+1947 1952 1957 1962 1967 1972 1977 1982 1987
+C: Manufacturing Task Content of Production, 1947–1987
+Source: Authors’ calculations.
+Note: The top panel presents the decomposition of the wage bill divided by population between 1947 
+and 1987. The middle and bottom panels present our estimates of the displacement and reinstatement 
+effects for the entire economy and the manufacturing sector, respectively. See text for the details of the 
+estimation of the changes in task content and displacement and reinstatement effects.
+Figure 3 
+Sources of Changes in Labor Demand, 1947–1987
+
+--- PAGE 17 ---
+Automation and New Tasks: How Technology Displaces and Reinstates Labor     19
+1.33 percent per year during the entire period and essentially stagnated since 
+2000. The first factor accounting for the deceleration of labor demand during this 
+period is the slowdown of productivity growth (1.54 percent per year compared 
+to 2.4 percent in 1947–1987). The second factor contributing to slower wage bill 
+growth, especially after the late 1990s, is a significant negative shift in the task 
+content of production against labor (of 0.35 percent per year), which caused labor 
+Manufacturing
+Agriculture
+Mining
+Transportation
+Services
+20
+30
+40
+50
+60
+70
+1987 1992 1997 2002 2007 2012 2017
+A: Labor Share within Each Industry, 1987–2017
+Manufacturing
+AgricultureMining
+Transportation
+Services
+0
+10
+20
+30
+40
+50
+60
+70
+1987 1992 1997 2002 2007 2012 2017
+B: Share of GDP by Industry, 1987–2017
+Construction
+Construction
+Source: Authors using data from the US Bureau of Economic Analysis industry accounts and the Bureau 
+of Labor Statistics.
+Note: The top panel shows the labor share in value added in services, manufacturing, construction, 
+transportation, mining, and agriculture between 1987 and 2017, while the bottom panel shows the share 
+of value added in these sectors relative to GDP.
+Figure 4 
+The Labor Share and Sectoral Evolutions, 1987–2017
+
+--- PAGE 18 ---
+20     Journal of Economic Perspectives
+demand to decouple from productivity. Cumulatively, changes in the task content of 
+production reduced labor demand by 10 percent during this period.
+The middle and bottom panels of Figure 5 show that, relative to the earlier 
+period, the change in task content is driven by a deceleration in the introduction 
+Productivity effect
+Composition effect
+Substitution effect
+Change in task content
+Observed wage bill
+−10
+0
+10
+20
+30
+40
+1987 1992 1997 2002 2007 2012 2017
+A: Wage Bill, 1987–2017
+Reinstatement
+Displacement
+Change in task content
+−20
+−15
+−10
+−5
+0
+5
+10
+1987 1992 1997 2002 2007 2012 2017
+B: Change in Task Content of Production, 1987–2017
+Reinstatement
+Displacement
+Change in task content
+−30
+−20
+−10
+0
+10
+1987 1992 1997 2002 2007 2012 2017
+C: Manufacturing Task Content of Production, 1987–2017
+Source: Authors’ calculations.
+Note: The top panel presents the decomposition of wage bill divided by population between 1987 and 
+2017. The middle and bottom panels present our estimates of the displacement and reinstatement 
+effects for the entire economy and the manufacturing sector, respectively. See text for the details of the 
+estimation of the changes in task content and displacement and reinstatement effects.  
+Figure 5 
+Sources of Changes in Labor Demand, 1987–2017
+
+--- PAGE 19 ---
+Daron Acemoglu and Pascual Restrepo     21
+of technologies reinstating labor (reinstatement increased labor demand only by 
+0.35 percent per year compared to 0.47 percent in 1947–1987) and an accelera-
+tion of displacement (displacement reduced labor demand by 0.7 percent per year 
+compared to 0.48 percent in 1947–1987). This pattern is particularly pronounced 
+in manufacturing, where the displacement effect reduced labor demand at about 
+1.1 percent per year or about 30 percent cumulatively. These results are consistent 
+with Elsby, Hobijn, and Sahin (2013), who document the important role of within-
+industry changes that are uncorrelated with factor prices in accounting for the 
+aggregate behavior of the labor share. The change in the balance between displace-
+ment and reinstatement also corroborates the findings of Autor and Salomons 
+(2018), who find that technological improvements after 1980 have been associated 
+with declines in the labor share while those in the previous decades have not been.
+Finally, the top panel also shows that the composition and substitution effects 
+had a very limited impact on the wage bill. Although there is a sizable shift away from 
+manufacturing, which is itself not unrelated to automation in this sector as well as to 
+import competition, the resulting composition effects are small because the labor 
+share in manufacturing is similar to that in the expanding service industries (see the 
+top panel of Figure 4). These findings highlight that unlike the 19th-century mech-
+anization of agriculture, there are no powerful composition effects contributing 
+to labor demand. Even more importantly, there appears to be no equivalent of the 
+powerful reinstatement effects that accompanied the mechanization of agriculture.
+In summary, the deceleration of labor demand growth over the last 30 years is 
+due to a combination of anemic productivity growth and adverse shifts in the task 
+contents of production owing to rapid automation that is not being counterbal-
+anced by the creation of new tasks.
+10 
+What Does the Change in Task Content Capture?
+A natural concern is that our estimates of the change in task content capture 
+something different than what might commonly be understood as displacement 
+effects from automation technologies and reinstatement effects of new tasks. Here, 
+we provide additional evidence that our estimates are informative about changes in 
+the task content of production. We focus on the 1987–2017 period where we have 
+measures of automation and can compute proxies for new tasks at the industry 
+10 In the online Appendix, we verify that this pattern is robust to different values of the elasticity of 
+substitution and to reasonable variations in the rates of factor-augmenting technological changes. 
+Furthermore, we computed the changes in factor-augmenting technologies at the industry level that 
+would be necessary to explain changes in industry labor shares without any change in task content of 
+production. We found that this would require gargantuan changes in factor-augmenting technologies 
+and productivity increases—several multiples larger than the observed increases in total factor produc-
+tivity during the last seven decades. This exercise underscores the need for major changes in the task 
+content of production to account for the evolution of sectoral labor shares and the wage bill. We also 
+demonstrate in the online Appendix that the order in which the decomposition is carried out (composi-
+tion effects first and within-industry changes next) does not matter for the results. 
+
+--- PAGE 20 ---
+22     Journal of Economic Perspectives
+level, and then document the correlation between these measures and our esti-
+mates of the change in the task content of production.
+We have three measures of industry-level automation technologies. The 
+proxies are: 1) the adjusted penetration of robots measure from Acemoglu and 
+Restrepo (2018b) for 19 industries, which are then mapped to our 61 industries;  
+2) the share of routine jobs in an industry in 1990, where we define routine jobs 
+in an occupation as in Acemoglu and Autor (2011) and then project these across 
+industries according to the share of the relevant occupation in the employment of 
+the industry in 1990 (see also vom Lehn 2018); and 3) the share of firms (weighted 
+by employment) across 148 detailed manufacturing industries using automation 
+technologies, which include automatic guided vehicles, automatic storage and 
+retrieval systems, sensors on machinery, computer-controlled machinery, program-
+mable controllers, and industrial robots.
+11
+Table 1 reports the estimates of the relationship between the change in task 
+content of production between 1987 and 2017 and the proxies for automation tech-
+nologies and new tasks; each row and column corresponds to a different regression 
+model. The table shows that with all these proxies there is the expected negative 
+relationship between higher levels of automation and our measure of changes in 
+the task content of production in favor of labor (see also visual representations of 
+these relationships in the online Appendix). These negative relationships remain 
+very similar when we add various control variables, including, in column 1, a 
+dummy for the manufacturing sector and, in column 2, imports from China (the 
+growth of final goods imports from China as in Autor, Dorn, and Hanson 2013; 
+Acemoglu, Autor, Dorn, Hanson, and Price 2016) and a measure of offshoring of 
+intermediate goods (Feenstra and Hanson 1999; Wright 2014). Consistent with our 
+conceptual framework, changes in task content are unrelated to imports of final 
+goods from China, but are correlated with offshoring, which often involves the 
+offshoring of labor-intensive tasks (Elsby, Hobijn, and Sahin 2013). Controlling for 
+offshoring does not change the relationship we report in Table 1 because offshoring 
+is affecting a different set of industries than our measures of automation (see the 
+online Appendix). 
+We also looked at a series of proxies for the introduction of new tasks across 
+industries, and how they are correlated with our measure of the change in task 
+content for 1987–2017. Our four proxies for new tasks are: 1) the 1990 share of 
+employment in occupations with a large fraction of new job titles, according to the 
+1991 Dictionary of Occupational Titles compiled by Lin (2011); 2) the 1990 share of 
+employment in occupations with a large number of “emerging tasks” according to 
+O*NET, which correspond to tasks that workers identify as becoming increasingly 
+11 These data are from the Survey of Manufacturing Technologies, and are available in 1988 and 1993 
+for 148 four-digit SIC industries which are all part of the following three-digit manufacturing sectors: 
+fabricated metal products; nonelectrical machinery, electric and electronic equipment; transportation 
+equipment; and instruments and related products (Doms, Dunne, and Troske 1997). For this exercise, 
+we computed measures for the change in task content of these four-digit manufacturing industries using 
+detailed data from the Bureau of Economic Analysis input-output tables for 1987 to 2007. 
+
+--- PAGE 21 ---
+Automation and New Tasks: How Technology Displaces and Reinstates Labor     23
+Table 1 
+Relationship between Change in Task Content of Production and Proxies for 
+Automation and New Tasks
+Raw  
+data
+Controlling for 
+manufacturing
+Controlling for 
+Chinese import  
+and offshoring
+(1) (2) (3)
+Proxies for automation technologies:
+ Adjusted penetration of robots, 1993–2014 −1.404 −0.985 −1.129
+(0.377) (0.369) (0.362)
+ Observations 61 61 61
+ R2 0.18 0.21 0.27
+ Share of routine jobs in industry, 1990 −0.394 −0.241 −0.321
+(0.122) (0.159) (0.164)
+ Observations 61 61 61
+ R2 0.14 0.19 0.27
+ Share of firms using automation −0.390 −0.397
+  technologies, 1988–1993 (SMT data) (0.165) (0.166)
+ Observations 148 148
+ R2 0.08 0.09
+Proxies for new tasks:
+ Share of new job titles, based on 1991 DOT* 1.609 1.336 1.602
+  and 1990 employment by occupation (0.523) (0.530) (0.541)
+ Observations 61 61 61
+ R
+2 0.12 0.23 0.32
+ Number of emerging tasks, based on 1990 8.423 7.108 7.728
+  employment by occupation (2.261) (2.366) (2.418)
+ Observations 61 61 61
+ R2 0.14 0.25 0.33
+ Share of employment growth between 1990 2.121 1.638 1.646
+  and 2016 in new occupations (0.723) (0.669) (0.679)
+ Observations 61 61 61
+ R2 0.08 0.20 0.26
+ Percent increase in number of occupations 0.585 0.368 0.351
+  represented in industry (0.156) (0.207) (0.215)
+ Observations 61 61 61
+ R2 0.14 0.19 0.25
+Source: Authors.
+Note: The table reports estimates of the relationship between the change in task content of production 
+between 1987 and 2017 and proxies for automation technologies and new tasks. Each row and column 
+corresponds to a different regression model.  Column 1 reports estimates of the bivariate relationship 
+between change in task content of production and the indicated proxy at the industry level. Column 2 
+includes a dummy for manufacturing industries as a control. In addition, Column 3 controls for the increase 
+in Chinese imports (defined as the increase in imports relative to US consumption between 1991 and 2011, 
+as in Acemoglu et al. 2016) and the increase in offshoring (defined as the increase in the share of imported 
+intermediates between 1993 and 2007, as in Feenstra and Hanson 1999). Except for the third row, which 
+uses the Survey of Manufacturing Technologies (SMT), all regressions are for the 61 industries used in our 
+analysis of the 1987–2017 period. When using the SMT, the regressions are for 148 detailed manufacturing 
+industries. Standard errors robust against heteroskedasticity are in parenthesis. When using the measure of 
+robot penetration, we cluster standard errors at the 19 industries for which this measure is available.
+* The DOT is the Dictionary of Occupational Titles.
+
+--- PAGE 22 ---
+24     Journal of Economic Perspectives
+important in their jobs; 3) the share of employment growth in an industry accounted 
+for by “new occupations,” defined as occupations that were not present in that industry 
+in 1990 but are present in 2016; and 4) the percent increase in the number of occu-
+pations in an industry between 1990 and 2016. The first two measures are projected 
+onto industries using the share of these occupations in industry employment in 1990. 
+All four of these measures are meant to capture major changes in the types of activi-
+ties performed in occupations (then mapped to industries) or the introduction of 
+certain new activities into an industry. We thus expect the correlations between these 
+proxies for new tasks and our measure of changes in task content in favor of labor to 
+be positive and significant, and they are. These results hold regardless of whether or 
+not we include additional controls in columns 2 and 3 of Table 1.
+These correlations bolster the interpretation that our estimates of changes in 
+task content of production contain valuable information on displacement from 
+automation technologies and reinstatement from the introduction of new tasks.
+Confounding Factors
+Our approach has been predicated on competitive markets and has also 
+abstracted from various other changes potentially affecting US labor markets. We 
+now briefly discuss these issues.
+First, as we have already noted, trade in final goods should have no impact 
+on our estimates of the change in the task content of production (because they 
+will affect prices and sales, which are captured by our productivity effect, and they 
+induce sectoral reallocations, which are part of our composition effects). This is 
+confirmed by our results in Table 1. Offshoring, on the other hand, will directly 
+change the task content of production because it involves the replacement of some 
+labor-intensive tasks by services from abroad (Grossman and Rossi-Hansberg 2008). 
+Our estimates in Table 1 are consistent with this, but also show that offshoring does 
+not change the quantitative or qualitative relationship between various measures 
+of automation and our estimates of the change in the task content of production.
+Second, as also noted above, sectoral reallocations resulting from structural 
+transformation do not affect the task content of production either and are part of 
+our composition effects. The fact that these composition effects are small suggests 
+that these sectoral reallocations have not been a major factor in the slowdown in 
+labor demand and changes in labor share in national income.
+Third, we have abstracted from the presence of workers with different skills, and 
+thus a potential question is whether changes in the skill composition of the work-
+force would affect our estimates of the change in the task content of production. 
+The answer is “no,” provided that industry-level factor payments are well-measured. 
+Hence, as long as the increase in the wage bill caused by skill upgrading in a sector 
+is factored in, this compositional change does not cause a shift in the task content 
+of production. An implication is that secular changes such as population aging and 
+increased female labor force participation, though they will affect the composition 
+of the workforce and factor prices, should not confound our estimates of changes 
+in task content of production.
+
+--- PAGE 23 ---
+Daron Acemoglu and Pascual Restrepo     25
+Fourth, changes in factor supplies should also have no impact provided that 
+our estimates of the substitution effect (which form the basis of our estimates of the 
+change in the task content of production) remain accurate. 
+In contrast to these factors, deviations from competitive labor or product 
+markets would potentially confound our estimates of task content. Particularly 
+worth noting are deviations from competitive labor markets. If the supply side of the 
+market is determined by bargaining or other rent-sharing arrangements, then our 
+approach still remains valid provided that firms are on their labor demand curve 
+(for overall labor or for different types of labor in the presence of heterogeneity). 
+This is because our analysis only uses information from the labor demand side, 
+so whether workers are along a well-defined labor supply curve is not important. 
+On the other hand, changes in the extent of monopsony and bilateral bargaining 
+and holdup problems forcing firms off their labor demand curve would potentially 
+confound our estimates. A similar confounding would result if there are changing 
+product market markups. Though these issues are important, they are beyond 
+the scope of the current paper and are some of the issues we are investigating in 
+ongoing work. 
+What Explains the Changing Nature of Technology and Slow Productivity Growth 
+Since 1987?
+Our results suggest that it is the combination of adverse shifts in the task 
+content of production—driven by accelerated automation and decelerating  
+ reinstatement—and weak productivity growth that accounts for the sluggish growth 
+of labor demand over the last three decades and especially since 2000. Why has the 
+balance between automation and new tasks changed recently? Why has productivity 
+growth been so disappointing despite the acceleration in automation technologies? 
+Though we do not have complete answers to these questions, our conceptual frame-
+work points to a number of ideas worth considering.
+There are two basic reasons why the balance between automation and new 
+tasks may have changed. First, the innovation possibilities frontier linking these two 
+types of technological change may have shifted, facilitating further automation and 
+making the creation of new tasks more difficult (for a formal analysis, see Acemoglu 
+and Restrepo 2018a). For example, new general-purpose technologies based on 
+advances in hardware and software may have made further automation cheaper, or 
+we may have run out of ideas for generating new high-productivity (labor-intensive) 
+tasks. We find a second reason for a change in this balance more plausible: that 
+is, the US economy may have moved along a given innovation possibilities fron-
+tier because incentives for automation have increased and those for creating new 
+tasks have declined. Several factors may push in this direction. The US tax code 
+aggressively subsidizes the use of equipment (for example, via various tax credits 
+and accelerated amortization) and taxes the employment of labor (for example, via 
+payroll taxes). A tendency towards further (and potentially excessive) automation 
+may have been reinforced by the growing focus on automation and use of artifi-
+cial intelligence for removing the human element from most of the production 
+
+--- PAGE 24 ---
+26     Journal of Economic Perspectives
+process. This focus has recently been boosted both by the central role that large 
+tech companies have come to play in innovation with their business model based 
+on automation and small workforces, and by the vision of many of the luminaries 
+of the tech world (think of the efforts of Tesla to automate production extensively, 
+which turned out to be very costly). Finally, the declining government support for 
+innovation may have also contributed by discouraging research with longer hori-
+zons, which likely further disadvantaged the creation of new tasks (which bear fruit 
+more slowly) relative to automation.
+This list of factors may contribute not just to the changing balance between 
+automation and new tasks, but also to the slowdown in productivity growth. First, 
+because new tasks contribute to productivity, slower reinstatement will be associated 
+with slower productivity growth. Therefore, factors tilting the balance against new 
+tasks likely translate into lost opportunities for improved productivity. In addition, 
+slower wage growth resulting from a weak reinstatement effect indirectly makes auto-
+mation less productive—because productivity gains from automation are increasing 
+in the effective wage in tasks being replaced, and lower wages thus reduce these 
+productivity gains. Second, if innovations in both automation and new tasks are 
+subject to diminishing returns (within a given period of time or over time), a signifi-
+cant change in the balance between these two types of new technologies will push us 
+towards more marginal developments and cause slower productivity growth. Third, 
+as we emphasized earlier, productivity gains from automation could be quite small 
+for so-so technologies—when automation substitutes for tasks in which labor was 
+already productive and capital is not yet very effective. In this light, further automa-
+tion, especially when it is induced by tax distortions or excessive enthusiasm about 
+automating everything, would take the form of such so-so technologies and would 
+not bring much in productivity gains. Finally, in Acemoglu and Restrepo (2018d), 
+we suggest there may be a mismatch between the available skills of the workforce 
+and the needs for new technologies. This could further reduce productivity gains 
+from automation and hamper the introduction of new tasks, because the lack of 
+requisite skills reduces the efficiency with which new tasks can be utilized. 
+If the balance between automation and new tasks has shifted inefficiently and if 
+indeed this is contributing to rapid automation, the absence of powerful reinstate-
+ment effects, and the slowdown of productivity growth, then there may be room for 
+policy interventions to improve both job creation and productivity growth. These 
+interventions might include removing incentives for excessive automation (such as 
+the preferential treatment of capital equipment) and implementing new policies 
+designed to rebalance the direction of technological change (for a more detailed 
+discussion in the context of artificial intelligence, see Acemoglu and Restrepo 2019).
+Concluding Remarks
+This paper develops a task-based model to study the effects of different tech-
+nologies on labor demand. At the center of our framework is the task content of 
+
+--- PAGE 25 ---
+Automation and New Tasks: How Technology Displaces and Reinstates Labor     27
+production—measuring the allocation of tasks to factors of production. Automa-
+tion, by creating a displacement effect, shifts the task content of production against 
+labor, while the introduction of new tasks in which labor has a comparative advan-
+tage improves it via the reinstatement effect. These technologies are qualitatively 
+different from factor-augmenting ones, which do not impact the task content of 
+production. For example, automation always reduces the labor share and may 
+reduce labor demand, and new tasks always increase the labor share.
+We then show how changes in the task content of production and other contrib-
+utors to labor demand can be inferred from data on labor shares, value added, and 
+factor prices at the industry level. The main implication of our empirical exercise 
+using this methodology is that the recent stagnation of labor demand is explained 
+by an acceleration of automation, particularly in manufacturing, and a deceleration 
+in the creation of new tasks. In addition, and perhaps reflecting this shift in the 
+composition of technological advances, the economy also experienced a marked 
+slowdown in productivity growth, contributing to sluggish labor demand.
+Our framework has clear implications for the future of work, too. Our evidence 
+and conceptual approach support neither the claims that the end of human work 
+is imminent nor the presumption that technological change will always and every-
+where be favorable to labor. Rather, they suggest that if the origin of productivity 
+growth in the future continues to be automation, the relative standing of labor, 
+together with the task content of production, will decline. The creation of new 
+tasks and other technologies raising the labor intensity of production and the labor 
+share are vital for continued wage growth commensurate with productivity growth. 
+Whether such technologies will be forthcoming depends not just on our innovation 
+capabilities but also on the supply of different skills, demographic changes, labor 
+market institutions, government policies including taxes and research and devel-
+opment spending, market competition, corporate strategies, and the ecosystem of 
+innovative clusters. We have pointed out some reasons why the balance between 
+automation and new tasks may have become inefficiently tilted in favor of the 
+former—with potentially adverse implications for jobs and productivity—and some 
+directions for policy interventions to redress this imbalance.
+
+--- PAGE 26 ---
+28     Journal of Economic Perspectives
+Acemoglu, Daron, and David Autor. 2011. 
+“Skills, Tasks and Technologies: Implications for 
+Employment and Earnings.” Chap. 12 in Handbook 
+of Labor Economics, vol. 4, Part B, edited by David 
+Card and Orley Ashenfelter. Elsevier. 
+Acemoglu, Daron, David Autor, David Dorn, 
+Gordon H. Hanson, and Brendan Price. 2016. 
+“Import Competition and the Great US Employ-
+ment Sag of the 2000s.” Journal of Labor Economics 
+34(S1): S141–S198. 
+Acemoglu, Daron, and Veronica Guer-
+rieri. 2008. “Capital Deepening and Nonbalanced 
+Economic Growth.” Journal of Political Economy  
+116(3): 476–98.
+Acemoglu, Daron, and Pascual Restrepo. 2018a. 
+“The Race Between Machine and Man: Implica-
+tions of Technology for Growth, Factor Shares, and 
+Employment.” American Economic Review 108(6): 
+1488–1542.
+Acemoglu, Daron, and Pascual Restrepo. 
+2018b. “Robots and Jobs: Evidence from US Labor 
+Markets.” NBER Working Paper 23285.
+Acemoglu, Daron, and Pascual Restrepo. 2018c. 
+“Modeling Automation.” AEA Papers and Proceed-
+ings, 108: 48–53.
+Acemoglu, Daron, and Pascual Restrepo. 
+2018d. “Artificial Intelligence, Automation and 
+Work.” NBER Working Paper 24196.
+Acemoglu, Daron, and Pascual Restrepo. 2018e. 
+“Demographics and Automation.” NBER Working 
+Paper 24421.
+Acemoglu, Daron, and Pascual 
+Restrepo.  2019.  “The Wrong Kind of AI? 
+Artificial Intelligence and the Future of Labor 
+Demand.” NBER Working Paper 25682.
+Aghion, Philippe, Benjamin F. Jones, and 
+Charles I. Jones. 2017. “Artificial Intelligence and 
+Economic Growth.” NBER Working Paper 23928.
+Allen, Robert C. 2009. The British Industrial 
+Revolution in Global Perspective. Cambridge Univer-
+sity Press.
+Autor, David H., David Dorn, and Gordon H. 
+Hanson. 2013. “The China Syndrome: Local Labor 
+Market Effects of Import Competition in the 
+United States.” American Economic Review 103(6): 
+2121–68.
+Autor, David H., Frank Levy, and Richard J. 
+Murnane. 2003. “The Skill Content of Recent 
+Technological Change: An Empirical Exploration.” 
+Quarterly Journal of Economics 118(4): 1279–1333.
+Autor, David, and Anna Salomons. 2018. “Is 
+Automation Labor Share–Displacing? Productivity 
+Growth, Employment, and the Labor Share.” 
+Brooking Papers on Economic Activity, no. 1, pp. 1–87. 
+Ayres, Robert U., and Steven M. Miller. 1983. 
+Robotics: Applications and Social Implications.  Ball-
+inger Publishing Company.
+Budd, Edward C. 1960. “Factor Shares, 
+1850–1910.” Chap. 9 in Trends in the American 
+Economy in the Nineteenth Century . Princeton 
+University Press.
+Chandler, Alfred D. 1977. The Visible Hand: 
+The Managerial Revolution in American Business.  
+Harvard University Press.
+Chirinko, Robert C., Steven M. Fazzari, and 
+Andrew P. Meyer. 2011. “A New Approach to 
+Estimating Production Function Parameters: The 
+Elusive Capital–Labor Substitution Elasticity.” 
+Journal of Business and Economic Statistics 29(4): 
+587–94.
+Dauth, Wolfgang, Sebastian Findeisen, Jens 
+Suedekum, and Nicole Woessner. 2018. “Adjusting 
+to Robots: Worker-Level Evidence.” Institute 
+Working Paper 13, Opportunity and Inclusive 
+Growth Institute.
+Doms, Mark, Timothy Dunne, and Kenneth R. 
+Troske. 1997. “Workers, Wages, and Technology.” 
+Quarterly Journal of Economics 112(1): 253–90.
+Elsby, Michael W. L., Bart Hobijn, and Ays ¸egül 
+Sahin. 2013. “The Decline of the U.S. Labor 
+Share.” Brooking Papers on Economic Activity no. 2, 
+pp. 1–63.
+Feenstra, Robert, and Gordon Hanson. 1999. 
+“The Impact of Outsourcing and High-Technology 
+Capital on Wages: Estimates for the United States, 
+1979–1990.” Quarterly Journal of Economics 114(3): 
+907–40.
+Goldin, Claudia, and Lawrence F. Katz. 2008. 
+The Race between Education and Technology. Belknap 
+Press. 
+Graetz, Georg, and Guy Michaels. 2018. 
+“Robots at Work.” Review of Economics and Statistics 
+100(5): 753–68. 
+Groover, Mikell P., Mitchell Weiss, Roger N. 
+Nagel, and Nicholas G. Odrey. 1986. Industrial 
+Robotics: Technology, Programming and Applications. 
+McGraw-Hill Inc.
+Grossman, Gene M., and Esteban Rossi-
+Hansberg. 2008. “Trading Tasks: A Simple Theory 
+of Offshoring.” American Economic Review 98(5): 
+1978–97. 
+Habakkuk, John H. 1962. American and British 
+Technology in the Nineteenth Century: The Search for 
+Labor-Saving Inventions . Cambridge University 
+Press. 
+Herrendorf, Berthold, Richard Rogerson, and 
+Ákos Valentinyi. 2013. “Two Perspectives on Prefer-
+ences and Structural Transformation.” American 
+References 
+
+--- PAGE 27 ---
+Daron Acemoglu and Pascual Restrepo     29
+Economic Review 103(7): 2752–89.
+Hubmer, Joachim. 2018. “The Race Between 
+Preferences and Technology.” Unpublished paper, 
+Yale University.
+Lin, Jeffrey. 2011. “Technological Adaptation, 
+Cities, and New Work.” Review of Economics and 
+Statistics 93(2): 554–74.
+Mantoux, Paul. 1928. The Industrial Revolution 
+in the Eighteenth Century: An Outline of the Beginnings 
+of the Modern Factory System in England. Jonathan 
+Cape, Ltd.
+Michaels, Guy. 2007. “The Division of Labor, 
+Coordination, and the Demand for Information 
+Processing.” CEPR Discussion Paper 6358.
+Mokyr, Joel. 1990. The Lever of Riches: Techno -
+logical Creativity and Economic Progress.  Oxford 
+University Press: New York.
+Ngai, L. Rachel, and Christopher A. Pissa-
+rides.  2007.  “Structural Change in a Multisector 
+Model of Growth.” American Economic Review  
+97(1): 429–43.
+Oberfield, Ezra, and Devesh Raval. 2014. 
+“Micro Data and Macro Technology.” NBER 
+Working Paper 20452
+Olmstead, Alan, and Paul Rhode. 2001. 
+“Reshaping the Landscape: The Impact and 
+Diffusion of the Tractor in American Agriculture, 
+1910–1960.” Journal of Economic History 61(3): 
+663–98.
+Rasmussen, Wayne D. 1982. “The Mechaniza-
+tion of Agriculture.” Scientific American  247(3): 
+76–89.
+vom Lehn, Christian. 2018. “Understanding the 
+Decline in the U.S. Labor Share: Evidence from 
+Occupational Tasks.” European Economic Review  
+108: 191–220.
+Wright, Greg. 2014. “Revisiting the Employ-
+ment Impact of Offshoring.” European Economic 
+Review 66: 63–83.
+Zeira, Joseph. 1998. “Workers, Machines, and 
+Economic Growth.” Quarterly Journal of Economics 
+113(4): 1091–1117. 
+
+--- PAGE 28 ---
+30     Journal of Economic Perspectives

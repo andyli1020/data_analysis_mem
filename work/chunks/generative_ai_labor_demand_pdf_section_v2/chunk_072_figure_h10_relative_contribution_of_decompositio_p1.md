@@ -1,0 +1,7 @@
+Notes: Foreachquarter, thefigurereportsthepercentagecontributionofeachdecompositioncomponentinabsolute value. The contribution of a component is defined as its absolute value divided by the sum of the absolute values of the composition effect, the within-cell exposure effect, and the interaction effect in that quarter. Quarters begin in
+
+[Footnote 2022] Q1 because the decomposition is defined relative to the full-year 2021 baseline.
+
+
+
+H. 3 Unpacking the interaction term The three-fold decomposition isolates an interaction term that captures the joint movement of hiring shares and within-cell exposure. For cell c, the interaction contribution is given by Interaction = ∆w ×∆β, c c c where ∆w denotes the change in the posting share of cell c relative to the baseline, and ∆β c c denotes the change in exposure within that cell. Thisinteractiontermcanarisefromfoursigncombinations. First, when∆w < 0and∆β > 0, c c hiring falls in cells whose exposure is rising; this generates a negative interaction contribution. Second, when ∆w > 0 and ∆β < 0, hiring rises in cells whose exposure is falling; this also c c generates a negative interaction contribution. Third, when ∆w > 0 and ∆β > 0, hiring rises in c c cells whose exposure is also rising; this generates a positive interaction contribution. Fourth, when ∆w < 0 and ∆β < 0, hiring falls in cells whose exposure is also falling; this likewise generates a c c positive interaction contribution.

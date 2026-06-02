@@ -1,0 +1,3143 @@
+{
+  "nodes": [
+    {
+      "id": "ent_llm",
+      "label": "LLM",
+      "type": "Model",
+      "mentions": 2,
+      "source_chunk_ids": [
+        "chunk_aa0a617d54a1",
+        "chunk_c41a37a3acde"
+      ]
+    },
+    {
+      "id": "ent_gpt",
+      "label": "GPT",
+      "type": "Model",
+      "mentions": 1,
+      "source_chunk_ids": [
+        "chunk_aa0a617d54a1"
+      ]
+    },
+    {
+      "id": "ent_ai",
+      "label": "AI",
+      "type": "Concept",
+      "mentions": 2,
+      "source_chunk_ids": [
+        "chunk_aa0a617d54a1",
+        "chunk_c41a37a3acde"
+      ]
+    },
+    {
+      "id": "ent_point",
+      "label": "Point",
+      "type": "Concept",
+      "mentions": 1,
+      "source_chunk_ids": [
+        "chunk_1f62de81878f"
+      ]
+    },
+    {
+      "id": "ent_blue_dot",
+      "label": "Blue Dot",
+      "type": "Concept",
+      "mentions": 1,
+      "source_chunk_ids": [
+        "chunk_9e8b7a78ddb6"
+      ]
+    },
+    {
+      "id": "ent_red",
+      "label": "Red",
+      "type": "Concept",
+      "mentions": 1,
+      "source_chunk_ids": [
+        "chunk_9e8b7a78ddb6"
+      ]
+    },
+    {
+      "id": "ent_perceptron_algorithm",
+      "label": "Perceptron Algorithm",
+      "type": "Concept",
+      "mentions": 1,
+      "source_chunk_ids": [
+        "chunk_9e8b7a78ddb6"
+      ]
+    },
+    {
+      "id": "ent_type",
+      "label": "Type",
+      "type": "Concept",
+      "mentions": 1,
+      "source_chunk_ids": [
+        "chunk_9e8b7a78ddb6"
+      ]
+    },
+    {
+      "id": "ent_step",
+      "label": "Step",
+      "type": "Concept",
+      "mentions": 1,
+      "source_chunk_ids": [
+        "chunk_a0c71285a321"
+      ]
+    },
+    {
+      "id": "ent_page",
+      "label": "PAGE",
+      "type": "Concept",
+      "mentions": 8,
+      "source_chunk_ids": [
+        "chunk_bee7b14bfb31",
+        "chunk_418fae7b4cf7",
+        "chunk_4a1cc12a16de",
+        "chunk_cb63fbcf1485",
+        "chunk_e76700d18de7",
+        "chunk_7c6986f8e8f2",
+        "chunk_1b4064db34a3",
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "id": "ent_rnn",
+      "label": "RNN",
+      "type": "Concept",
+      "mentions": 5,
+      "source_chunk_ids": [
+        "chunk_bee7b14bfb31",
+        "chunk_418fae7b4cf7",
+        "chunk_4a1cc12a16de",
+        "chunk_7c6986f8e8f2",
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "id": "ent_peking_university",
+      "label": "Peking University",
+      "type": "Concept",
+      "mentions": 4,
+      "source_chunk_ids": [
+        "chunk_bee7b14bfb31",
+        "chunk_418fae7b4cf7",
+        "chunk_7c6986f8e8f2",
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "id": "ent_neural_network",
+      "label": "Neural Network",
+      "type": "Concept",
+      "mentions": 1,
+      "source_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "id": "ent_computational",
+      "label": "Computational",
+      "type": "Concept",
+      "mentions": 1,
+      "source_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "id": "ent_rnn_peking_university",
+      "label": "RNN Peking University",
+      "type": "Concept",
+      "mentions": 2,
+      "source_chunk_ids": [
+        "chunk_bee7b14bfb31",
+        "chunk_418fae7b4cf7"
+      ]
+    },
+    {
+      "id": "ent_dynamical",
+      "label": "Dynamical",
+      "type": "Concept",
+      "mentions": 1,
+      "source_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "id": "ent_rnn_recurrent_neural_networks",
+      "label": "RNN Recurrent Neural Networks",
+      "type": "Concept",
+      "mentions": 1,
+      "source_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "id": "ent_recurrent_neural_networks_peking",
+      "label": "Recurrent Neural Networks Peking",
+      "type": "Concept",
+      "mentions": 1,
+      "source_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "id": "ent_university",
+      "label": "University",
+      "type": "Concept",
+      "mentions": 3,
+      "source_chunk_ids": [
+        "chunk_bee7b14bfb31",
+        "chunk_418fae7b4cf7",
+        "chunk_7c6986f8e8f2"
+      ]
+    },
+    {
+      "id": "ent_initially",
+      "label": "Initially",
+      "type": "Concept",
+      "mentions": 1,
+      "source_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "id": "ent_rumelhart",
+      "label": "Rumelhart",
+      "type": "Concept",
+      "mentions": 1,
+      "source_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "id": "ent_from",
+      "label": "From",
+      "type": "Concept",
+      "mentions": 2,
+      "source_chunk_ids": [
+        "chunk_418fae7b4cf7",
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "id": "ent_part_of_speech",
+      "label": "Part-Of-Speech",
+      "type": "Concept",
+      "mentions": 1,
+      "source_chunk_ids": [
+        "chunk_418fae7b4cf7"
+      ]
+    },
+    {
+      "id": "ent_typical_rnn_architecture_peking",
+      "label": "Typical RNN Architecture Peking",
+      "type": "Concept",
+      "mentions": 1,
+      "source_chunk_ids": [
+        "chunk_418fae7b4cf7"
+      ]
+    },
+    {
+      "id": "ent_update_equations_peking_university",
+      "label": "Update Equations Peking University",
+      "type": "Concept",
+      "mentions": 1,
+      "source_chunk_ids": [
+        "chunk_418fae7b4cf7"
+      ]
+    },
+    {
+      "id": "ent_rnns",
+      "label": "RNNs",
+      "type": "Concept",
+      "mentions": 1,
+      "source_chunk_ids": [
+        "chunk_418fae7b4cf7"
+      ]
+    },
+    {
+      "id": "ent_advantages_peking_university",
+      "label": "Advantages Peking University",
+      "type": "Concept",
+      "mentions": 1,
+      "source_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "id": "ent_hidden",
+      "label": "Hidden",
+      "type": "Concept",
+      "mentions": 1,
+      "source_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "id": "ent_shared",
+      "label": "Shared",
+      "type": "Concept",
+      "mentions": 1,
+      "source_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "id": "ent_greatly",
+      "label": "Greatly",
+      "type": "Concept",
+      "mentions": 1,
+      "source_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "id": "ent_explicitly",
+      "label": "Explicitly",
+      "type": "Concept",
+      "mentions": 1,
+      "source_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "id": "ent_nlp",
+      "label": "NLP",
+      "type": "Concept",
+      "mentions": 1,
+      "source_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "id": "ent_powerful",
+      "label": "Powerful",
+      "type": "Concept",
+      "mentions": 1,
+      "source_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "id": "ent_any",
+      "label": "Any",
+      "type": "Concept",
+      "mentions": 1,
+      "source_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "id": "ent_turing",
+      "label": "Turing",
+      "type": "Concept",
+      "mentions": 1,
+      "source_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "id": "ent_bptt_peking_university",
+      "label": "BPTT Peking University",
+      "type": "Concept",
+      "mentions": 3,
+      "source_chunk_ids": [
+        "chunk_cb63fbcf1485",
+        "chunk_e76700d18de7",
+        "chunk_7c6986f8e8f2"
+      ]
+    },
+    {
+      "id": "ent_loss",
+      "label": "Loss",
+      "type": "Concept",
+      "mentions": 1,
+      "source_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "id": "ent_gradient",
+      "label": "Gradient",
+      "type": "Concept",
+      "mentions": 1,
+      "source_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "id": "ent_then",
+      "label": "Then",
+      "type": "Concept",
+      "mentions": 1,
+      "source_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "id": "ent_bptt",
+      "label": "BPTT",
+      "type": "Concept",
+      "mentions": 1,
+      "source_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "id": "ent_parameters_peking_university",
+      "label": "Parameters Peking University",
+      "type": "Concept",
+      "mentions": 1,
+      "source_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "id": "ent_bias",
+      "label": "Bias",
+      "type": "Concept",
+      "mentions": 1,
+      "source_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "id": "ent_negative",
+      "label": "Negative",
+      "type": "Concept",
+      "mentions": 1,
+      "source_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "id": "ent_use",
+      "label": "Use",
+      "type": "Concept",
+      "mentions": 1,
+      "source_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "id": "ent_other_important_architectures_peking",
+      "label": "Other Important Architectures Peking",
+      "type": "Concept",
+      "mentions": 2,
+      "source_chunk_ids": [
+        "chunk_7c6986f8e8f2",
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "id": "ent_university_recurrent",
+      "label": "University Recurrent",
+      "type": "Concept",
+      "mentions": 1,
+      "source_chunk_ids": [
+        "chunk_7c6986f8e8f2"
+      ]
+    },
+    {
+      "id": "ent_university_produce",
+      "label": "University Produce",
+      "type": "Concept",
+      "mentions": 1,
+      "source_chunk_ids": [
+        "chunk_7c6986f8e8f2"
+      ]
+    },
+    {
+      "id": "ent_university_bidirectional_rnns",
+      "label": "University Bidirectional RNNs",
+      "type": "Concept",
+      "mentions": 2,
+      "source_chunk_ids": [
+        "chunk_7c6986f8e8f2",
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "id": "ent_university_bidirectional_rnn",
+      "label": "University Bidirectional RNN",
+      "type": "Concept",
+      "mentions": 2,
+      "source_chunk_ids": [
+        "chunk_7c6986f8e8f2",
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "id": "ent_university_encoder_decoder",
+      "label": "University Encoder-Decoder",
+      "type": "Concept",
+      "mentions": 1,
+      "source_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "id": "ent_lstm_peking_university",
+      "label": "LSTM Peking University",
+      "type": "Concept",
+      "mentions": 2,
+      "source_chunk_ids": [
+        "chunk_1b4064db34a3",
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "id": "ent_schmidhuber",
+      "label": "Schmidhuber",
+      "type": "Concept",
+      "mentions": 2,
+      "source_chunk_ids": [
+        "chunk_1b4064db34a3",
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "id": "ent_handwriting",
+      "label": "Handwriting",
+      "type": "Concept",
+      "mentions": 1,
+      "source_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "id": "ent_sequence_to_sequence_architectures_mapping",
+      "label": "Sequence-to-Sequence Architectures Mapping",
+      "type": "Concept",
+      "mentions": 1,
+      "source_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "id": "ent_stacked_rnn_peking_university",
+      "label": "Stacked RNN Peking University",
+      "type": "Concept",
+      "mentions": 1,
+      "source_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "id": "ent_first",
+      "label": "First",
+      "type": "Concept",
+      "mentions": 2,
+      "source_chunk_ids": [
+        "chunk_1b4064db34a3",
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "id": "ent_machine",
+      "label": "Machine",
+      "type": "Concept",
+      "mentions": 1,
+      "source_chunk_ids": [
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "id": "ent_parsing",
+      "label": "Parsing",
+      "type": "Concept",
+      "mentions": 1,
+      "source_chunk_ids": [
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "id": "ent_understanding_lstms",
+      "label": "Understanding-LSTMs",
+      "type": "Concept",
+      "mentions": 1,
+      "source_chunk_ids": [
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "id": "ent_gru_peking_university",
+      "label": "GRU Peking University",
+      "type": "Concept",
+      "mentions": 1,
+      "source_chunk_ids": [
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "id": "ent_lstm",
+      "label": "LSTM",
+      "type": "Concept",
+      "mentions": 1,
+      "source_chunk_ids": [
+        "chunk_1ca3df2d6321"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "chunk_aa0a617d54a1",
+      "target": "ent_llm",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_aa0a617d54a1"
+      ]
+    },
+    {
+      "source": "chunk_aa0a617d54a1",
+      "target": "ent_gpt",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_aa0a617d54a1"
+      ]
+    },
+    {
+      "source": "chunk_aa0a617d54a1",
+      "target": "ent_ai",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_aa0a617d54a1"
+      ]
+    },
+    {
+      "source": "ent_llm",
+      "target": "ent_gpt",
+      "type": "RELATED_TO",
+      "evidence_chunk_ids": [
+        "chunk_aa0a617d54a1"
+      ]
+    },
+    {
+      "source": "ent_llm",
+      "target": "ent_ai",
+      "type": "RELATED_TO",
+      "evidence_chunk_ids": [
+        "chunk_aa0a617d54a1",
+        "chunk_c41a37a3acde"
+      ]
+    },
+    {
+      "source": "ent_gpt",
+      "target": "ent_ai",
+      "type": "RELATED_TO",
+      "evidence_chunk_ids": [
+        "chunk_aa0a617d54a1"
+      ]
+    },
+    {
+      "source": "chunk_c41a37a3acde",
+      "target": "ent_llm",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_c41a37a3acde"
+      ]
+    },
+    {
+      "source": "chunk_c41a37a3acde",
+      "target": "ent_ai",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_c41a37a3acde"
+      ]
+    },
+    {
+      "source": "chunk_1f62de81878f",
+      "target": "ent_point",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1f62de81878f"
+      ]
+    },
+    {
+      "source": "chunk_9e8b7a78ddb6",
+      "target": "ent_blue_dot",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_9e8b7a78ddb6"
+      ]
+    },
+    {
+      "source": "chunk_9e8b7a78ddb6",
+      "target": "ent_red",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_9e8b7a78ddb6"
+      ]
+    },
+    {
+      "source": "chunk_9e8b7a78ddb6",
+      "target": "ent_perceptron_algorithm",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_9e8b7a78ddb6"
+      ]
+    },
+    {
+      "source": "chunk_9e8b7a78ddb6",
+      "target": "ent_type",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_9e8b7a78ddb6"
+      ]
+    },
+    {
+      "source": "ent_blue_dot",
+      "target": "ent_red",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_9e8b7a78ddb6"
+      ]
+    },
+    {
+      "source": "ent_blue_dot",
+      "target": "ent_perceptron_algorithm",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_9e8b7a78ddb6"
+      ]
+    },
+    {
+      "source": "ent_blue_dot",
+      "target": "ent_type",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_9e8b7a78ddb6"
+      ]
+    },
+    {
+      "source": "ent_red",
+      "target": "ent_perceptron_algorithm",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_9e8b7a78ddb6"
+      ]
+    },
+    {
+      "source": "ent_red",
+      "target": "ent_type",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_9e8b7a78ddb6"
+      ]
+    },
+    {
+      "source": "ent_perceptron_algorithm",
+      "target": "ent_type",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_9e8b7a78ddb6"
+      ]
+    },
+    {
+      "source": "chunk_a0c71285a321",
+      "target": "ent_step",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_a0c71285a321"
+      ]
+    },
+    {
+      "source": "chunk_bee7b14bfb31",
+      "target": "ent_page",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "source": "chunk_bee7b14bfb31",
+      "target": "ent_rnn",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "source": "chunk_bee7b14bfb31",
+      "target": "ent_peking_university",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "source": "chunk_bee7b14bfb31",
+      "target": "ent_neural_network",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "source": "chunk_bee7b14bfb31",
+      "target": "ent_computational",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "source": "chunk_bee7b14bfb31",
+      "target": "ent_rnn_peking_university",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "source": "chunk_bee7b14bfb31",
+      "target": "ent_dynamical",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "source": "chunk_bee7b14bfb31",
+      "target": "ent_rnn_recurrent_neural_networks",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "source": "chunk_bee7b14bfb31",
+      "target": "ent_recurrent_neural_networks_peking",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "source": "chunk_bee7b14bfb31",
+      "target": "ent_university",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "source": "chunk_bee7b14bfb31",
+      "target": "ent_initially",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "source": "chunk_bee7b14bfb31",
+      "target": "ent_rumelhart",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "source": "ent_page",
+      "target": "ent_rnn",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31",
+        "chunk_7c6986f8e8f2",
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "ent_page",
+      "target": "ent_peking_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31",
+        "chunk_418fae7b4cf7",
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "source": "ent_page",
+      "target": "ent_neural_network",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "source": "ent_page",
+      "target": "ent_computational",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "source": "ent_rnn",
+      "target": "ent_peking_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31",
+        "chunk_7c6986f8e8f2"
+      ]
+    },
+    {
+      "source": "ent_rnn",
+      "target": "ent_neural_network",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "source": "ent_rnn",
+      "target": "ent_computational",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "source": "ent_rnn",
+      "target": "ent_rnn_peking_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "source": "ent_peking_university",
+      "target": "ent_neural_network",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "source": "ent_peking_university",
+      "target": "ent_computational",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "source": "ent_peking_university",
+      "target": "ent_rnn_peking_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31",
+        "chunk_418fae7b4cf7"
+      ]
+    },
+    {
+      "source": "ent_peking_university",
+      "target": "ent_dynamical",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "source": "ent_neural_network",
+      "target": "ent_computational",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "source": "ent_neural_network",
+      "target": "ent_rnn_peking_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "source": "ent_neural_network",
+      "target": "ent_dynamical",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "source": "ent_neural_network",
+      "target": "ent_rnn_recurrent_neural_networks",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "source": "ent_computational",
+      "target": "ent_rnn_peking_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "source": "ent_computational",
+      "target": "ent_dynamical",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "source": "ent_computational",
+      "target": "ent_rnn_recurrent_neural_networks",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "source": "ent_computational",
+      "target": "ent_recurrent_neural_networks_peking",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "source": "ent_rnn_peking_university",
+      "target": "ent_dynamical",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "source": "ent_rnn_peking_university",
+      "target": "ent_rnn_recurrent_neural_networks",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "source": "ent_rnn_peking_university",
+      "target": "ent_recurrent_neural_networks_peking",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "source": "ent_rnn_peking_university",
+      "target": "ent_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "source": "ent_dynamical",
+      "target": "ent_rnn_recurrent_neural_networks",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "source": "ent_dynamical",
+      "target": "ent_recurrent_neural_networks_peking",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "source": "ent_dynamical",
+      "target": "ent_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "source": "ent_dynamical",
+      "target": "ent_initially",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "source": "ent_rnn_recurrent_neural_networks",
+      "target": "ent_recurrent_neural_networks_peking",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "source": "ent_rnn_recurrent_neural_networks",
+      "target": "ent_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "source": "ent_rnn_recurrent_neural_networks",
+      "target": "ent_initially",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "source": "ent_rnn_recurrent_neural_networks",
+      "target": "ent_rumelhart",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "source": "ent_recurrent_neural_networks_peking",
+      "target": "ent_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "source": "ent_recurrent_neural_networks_peking",
+      "target": "ent_initially",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "source": "ent_recurrent_neural_networks_peking",
+      "target": "ent_rumelhart",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "source": "ent_university",
+      "target": "ent_initially",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "source": "ent_university",
+      "target": "ent_rumelhart",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "source": "ent_initially",
+      "target": "ent_rumelhart",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_bee7b14bfb31"
+      ]
+    },
+    {
+      "source": "chunk_418fae7b4cf7",
+      "target": "ent_rnn",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_418fae7b4cf7"
+      ]
+    },
+    {
+      "source": "chunk_418fae7b4cf7",
+      "target": "ent_page",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_418fae7b4cf7"
+      ]
+    },
+    {
+      "source": "chunk_418fae7b4cf7",
+      "target": "ent_from",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_418fae7b4cf7"
+      ]
+    },
+    {
+      "source": "chunk_418fae7b4cf7",
+      "target": "ent_university",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_418fae7b4cf7"
+      ]
+    },
+    {
+      "source": "chunk_418fae7b4cf7",
+      "target": "ent_part_of_speech",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_418fae7b4cf7"
+      ]
+    },
+    {
+      "source": "chunk_418fae7b4cf7",
+      "target": "ent_peking_university",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_418fae7b4cf7"
+      ]
+    },
+    {
+      "source": "chunk_418fae7b4cf7",
+      "target": "ent_typical_rnn_architecture_peking",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_418fae7b4cf7"
+      ]
+    },
+    {
+      "source": "chunk_418fae7b4cf7",
+      "target": "ent_update_equations_peking_university",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_418fae7b4cf7"
+      ]
+    },
+    {
+      "source": "chunk_418fae7b4cf7",
+      "target": "ent_rnn_peking_university",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_418fae7b4cf7"
+      ]
+    },
+    {
+      "source": "chunk_418fae7b4cf7",
+      "target": "ent_rnns",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_418fae7b4cf7"
+      ]
+    },
+    {
+      "source": "ent_rnn",
+      "target": "ent_page",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_418fae7b4cf7",
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "ent_rnn",
+      "target": "ent_from",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_418fae7b4cf7",
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "ent_rnn",
+      "target": "ent_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_418fae7b4cf7"
+      ]
+    },
+    {
+      "source": "ent_rnn",
+      "target": "ent_part_of_speech",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_418fae7b4cf7"
+      ]
+    },
+    {
+      "source": "ent_page",
+      "target": "ent_from",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_418fae7b4cf7",
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "ent_page",
+      "target": "ent_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_418fae7b4cf7"
+      ]
+    },
+    {
+      "source": "ent_page",
+      "target": "ent_part_of_speech",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_418fae7b4cf7"
+      ]
+    },
+    {
+      "source": "ent_from",
+      "target": "ent_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_418fae7b4cf7"
+      ]
+    },
+    {
+      "source": "ent_from",
+      "target": "ent_part_of_speech",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_418fae7b4cf7"
+      ]
+    },
+    {
+      "source": "ent_from",
+      "target": "ent_peking_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_418fae7b4cf7"
+      ]
+    },
+    {
+      "source": "ent_from",
+      "target": "ent_typical_rnn_architecture_peking",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_418fae7b4cf7"
+      ]
+    },
+    {
+      "source": "ent_university",
+      "target": "ent_part_of_speech",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_418fae7b4cf7"
+      ]
+    },
+    {
+      "source": "ent_university",
+      "target": "ent_peking_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_418fae7b4cf7"
+      ]
+    },
+    {
+      "source": "ent_university",
+      "target": "ent_typical_rnn_architecture_peking",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_418fae7b4cf7"
+      ]
+    },
+    {
+      "source": "ent_university",
+      "target": "ent_update_equations_peking_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_418fae7b4cf7"
+      ]
+    },
+    {
+      "source": "ent_part_of_speech",
+      "target": "ent_peking_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_418fae7b4cf7"
+      ]
+    },
+    {
+      "source": "ent_part_of_speech",
+      "target": "ent_typical_rnn_architecture_peking",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_418fae7b4cf7"
+      ]
+    },
+    {
+      "source": "ent_part_of_speech",
+      "target": "ent_update_equations_peking_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_418fae7b4cf7"
+      ]
+    },
+    {
+      "source": "ent_part_of_speech",
+      "target": "ent_rnn_peking_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_418fae7b4cf7"
+      ]
+    },
+    {
+      "source": "ent_peking_university",
+      "target": "ent_typical_rnn_architecture_peking",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_418fae7b4cf7"
+      ]
+    },
+    {
+      "source": "ent_peking_university",
+      "target": "ent_update_equations_peking_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_418fae7b4cf7"
+      ]
+    },
+    {
+      "source": "ent_peking_university",
+      "target": "ent_rnns",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_418fae7b4cf7"
+      ]
+    },
+    {
+      "source": "ent_typical_rnn_architecture_peking",
+      "target": "ent_update_equations_peking_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_418fae7b4cf7"
+      ]
+    },
+    {
+      "source": "ent_typical_rnn_architecture_peking",
+      "target": "ent_rnn_peking_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_418fae7b4cf7"
+      ]
+    },
+    {
+      "source": "ent_typical_rnn_architecture_peking",
+      "target": "ent_rnns",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_418fae7b4cf7"
+      ]
+    },
+    {
+      "source": "ent_update_equations_peking_university",
+      "target": "ent_rnn_peking_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_418fae7b4cf7"
+      ]
+    },
+    {
+      "source": "ent_update_equations_peking_university",
+      "target": "ent_rnns",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_418fae7b4cf7"
+      ]
+    },
+    {
+      "source": "ent_rnn_peking_university",
+      "target": "ent_rnns",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_418fae7b4cf7"
+      ]
+    },
+    {
+      "source": "chunk_4a1cc12a16de",
+      "target": "ent_rnn",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "chunk_4a1cc12a16de",
+      "target": "ent_page",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "chunk_4a1cc12a16de",
+      "target": "ent_from",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "chunk_4a1cc12a16de",
+      "target": "ent_advantages_peking_university",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "chunk_4a1cc12a16de",
+      "target": "ent_hidden",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "chunk_4a1cc12a16de",
+      "target": "ent_shared",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "chunk_4a1cc12a16de",
+      "target": "ent_greatly",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "chunk_4a1cc12a16de",
+      "target": "ent_explicitly",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "chunk_4a1cc12a16de",
+      "target": "ent_nlp",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "chunk_4a1cc12a16de",
+      "target": "ent_powerful",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "chunk_4a1cc12a16de",
+      "target": "ent_any",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "chunk_4a1cc12a16de",
+      "target": "ent_turing",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "ent_rnn",
+      "target": "ent_advantages_peking_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "ent_rnn",
+      "target": "ent_hidden",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "ent_page",
+      "target": "ent_advantages_peking_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "ent_page",
+      "target": "ent_hidden",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "ent_page",
+      "target": "ent_shared",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "ent_from",
+      "target": "ent_advantages_peking_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "ent_from",
+      "target": "ent_hidden",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "ent_from",
+      "target": "ent_shared",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "ent_from",
+      "target": "ent_greatly",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "ent_advantages_peking_university",
+      "target": "ent_hidden",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "ent_advantages_peking_university",
+      "target": "ent_shared",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "ent_advantages_peking_university",
+      "target": "ent_greatly",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "ent_advantages_peking_university",
+      "target": "ent_explicitly",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "ent_hidden",
+      "target": "ent_shared",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "ent_hidden",
+      "target": "ent_greatly",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "ent_hidden",
+      "target": "ent_explicitly",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "ent_hidden",
+      "target": "ent_nlp",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "ent_shared",
+      "target": "ent_greatly",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "ent_shared",
+      "target": "ent_explicitly",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "ent_shared",
+      "target": "ent_nlp",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "ent_shared",
+      "target": "ent_powerful",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "ent_greatly",
+      "target": "ent_explicitly",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "ent_greatly",
+      "target": "ent_nlp",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "ent_greatly",
+      "target": "ent_powerful",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "ent_greatly",
+      "target": "ent_any",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "ent_explicitly",
+      "target": "ent_nlp",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "ent_explicitly",
+      "target": "ent_powerful",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "ent_explicitly",
+      "target": "ent_any",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "ent_explicitly",
+      "target": "ent_turing",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "ent_nlp",
+      "target": "ent_powerful",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "ent_nlp",
+      "target": "ent_any",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "ent_nlp",
+      "target": "ent_turing",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "ent_powerful",
+      "target": "ent_any",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "ent_powerful",
+      "target": "ent_turing",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "ent_any",
+      "target": "ent_turing",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_4a1cc12a16de"
+      ]
+    },
+    {
+      "source": "chunk_cb63fbcf1485",
+      "target": "ent_page",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "source": "chunk_cb63fbcf1485",
+      "target": "ent_bptt_peking_university",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "source": "chunk_cb63fbcf1485",
+      "target": "ent_loss",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "source": "chunk_cb63fbcf1485",
+      "target": "ent_gradient",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "source": "chunk_cb63fbcf1485",
+      "target": "ent_then",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "source": "chunk_cb63fbcf1485",
+      "target": "ent_bptt",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "source": "chunk_cb63fbcf1485",
+      "target": "ent_parameters_peking_university",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "source": "chunk_cb63fbcf1485",
+      "target": "ent_bias",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "source": "chunk_cb63fbcf1485",
+      "target": "ent_negative",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "source": "chunk_cb63fbcf1485",
+      "target": "ent_use",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "source": "ent_page",
+      "target": "ent_bptt_peking_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_cb63fbcf1485",
+        "chunk_7c6986f8e8f2"
+      ]
+    },
+    {
+      "source": "ent_page",
+      "target": "ent_loss",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "source": "ent_page",
+      "target": "ent_gradient",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "source": "ent_page",
+      "target": "ent_then",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "source": "ent_bptt_peking_university",
+      "target": "ent_loss",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "source": "ent_bptt_peking_university",
+      "target": "ent_gradient",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "source": "ent_bptt_peking_university",
+      "target": "ent_then",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "source": "ent_bptt_peking_university",
+      "target": "ent_bptt",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "source": "ent_loss",
+      "target": "ent_gradient",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "source": "ent_loss",
+      "target": "ent_then",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "source": "ent_loss",
+      "target": "ent_bptt",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "source": "ent_loss",
+      "target": "ent_parameters_peking_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "source": "ent_gradient",
+      "target": "ent_then",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "source": "ent_gradient",
+      "target": "ent_bptt",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "source": "ent_gradient",
+      "target": "ent_parameters_peking_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "source": "ent_gradient",
+      "target": "ent_bias",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "source": "ent_then",
+      "target": "ent_bptt",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "source": "ent_then",
+      "target": "ent_parameters_peking_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "source": "ent_then",
+      "target": "ent_bias",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "source": "ent_then",
+      "target": "ent_negative",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "source": "ent_bptt",
+      "target": "ent_parameters_peking_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "source": "ent_bptt",
+      "target": "ent_bias",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "source": "ent_bptt",
+      "target": "ent_negative",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "source": "ent_bptt",
+      "target": "ent_use",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "source": "ent_parameters_peking_university",
+      "target": "ent_bias",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "source": "ent_parameters_peking_university",
+      "target": "ent_negative",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "source": "ent_parameters_peking_university",
+      "target": "ent_use",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "source": "ent_bias",
+      "target": "ent_negative",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "source": "ent_bias",
+      "target": "ent_use",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "source": "ent_negative",
+      "target": "ent_use",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_cb63fbcf1485"
+      ]
+    },
+    {
+      "source": "chunk_e76700d18de7",
+      "target": "ent_bptt_peking_university",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_e76700d18de7"
+      ]
+    },
+    {
+      "source": "chunk_e76700d18de7",
+      "target": "ent_page",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_e76700d18de7"
+      ]
+    },
+    {
+      "source": "ent_bptt_peking_university",
+      "target": "ent_page",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_e76700d18de7"
+      ]
+    },
+    {
+      "source": "chunk_7c6986f8e8f2",
+      "target": "ent_page",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_7c6986f8e8f2"
+      ]
+    },
+    {
+      "source": "chunk_7c6986f8e8f2",
+      "target": "ent_other_important_architectures_peking",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_7c6986f8e8f2"
+      ]
+    },
+    {
+      "source": "chunk_7c6986f8e8f2",
+      "target": "ent_rnn",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_7c6986f8e8f2"
+      ]
+    },
+    {
+      "source": "chunk_7c6986f8e8f2",
+      "target": "ent_bptt_peking_university",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_7c6986f8e8f2"
+      ]
+    },
+    {
+      "source": "chunk_7c6986f8e8f2",
+      "target": "ent_university_recurrent",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_7c6986f8e8f2"
+      ]
+    },
+    {
+      "source": "chunk_7c6986f8e8f2",
+      "target": "ent_peking_university",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_7c6986f8e8f2"
+      ]
+    },
+    {
+      "source": "chunk_7c6986f8e8f2",
+      "target": "ent_university_produce",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_7c6986f8e8f2"
+      ]
+    },
+    {
+      "source": "chunk_7c6986f8e8f2",
+      "target": "ent_university",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_7c6986f8e8f2"
+      ]
+    },
+    {
+      "source": "chunk_7c6986f8e8f2",
+      "target": "ent_university_bidirectional_rnns",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_7c6986f8e8f2"
+      ]
+    },
+    {
+      "source": "chunk_7c6986f8e8f2",
+      "target": "ent_university_bidirectional_rnn",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_7c6986f8e8f2"
+      ]
+    },
+    {
+      "source": "ent_page",
+      "target": "ent_other_important_architectures_peking",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_7c6986f8e8f2",
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "ent_page",
+      "target": "ent_university_recurrent",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_7c6986f8e8f2"
+      ]
+    },
+    {
+      "source": "ent_other_important_architectures_peking",
+      "target": "ent_rnn",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_7c6986f8e8f2",
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "ent_other_important_architectures_peking",
+      "target": "ent_bptt_peking_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_7c6986f8e8f2"
+      ]
+    },
+    {
+      "source": "ent_other_important_architectures_peking",
+      "target": "ent_university_recurrent",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_7c6986f8e8f2"
+      ]
+    },
+    {
+      "source": "ent_other_important_architectures_peking",
+      "target": "ent_peking_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_7c6986f8e8f2"
+      ]
+    },
+    {
+      "source": "ent_rnn",
+      "target": "ent_bptt_peking_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_7c6986f8e8f2"
+      ]
+    },
+    {
+      "source": "ent_rnn",
+      "target": "ent_university_recurrent",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_7c6986f8e8f2"
+      ]
+    },
+    {
+      "source": "ent_rnn",
+      "target": "ent_university_produce",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_7c6986f8e8f2"
+      ]
+    },
+    {
+      "source": "ent_bptt_peking_university",
+      "target": "ent_university_recurrent",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_7c6986f8e8f2"
+      ]
+    },
+    {
+      "source": "ent_bptt_peking_university",
+      "target": "ent_peking_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_7c6986f8e8f2"
+      ]
+    },
+    {
+      "source": "ent_bptt_peking_university",
+      "target": "ent_university_produce",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_7c6986f8e8f2"
+      ]
+    },
+    {
+      "source": "ent_bptt_peking_university",
+      "target": "ent_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_7c6986f8e8f2"
+      ]
+    },
+    {
+      "source": "ent_university_recurrent",
+      "target": "ent_peking_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_7c6986f8e8f2"
+      ]
+    },
+    {
+      "source": "ent_university_recurrent",
+      "target": "ent_university_produce",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_7c6986f8e8f2"
+      ]
+    },
+    {
+      "source": "ent_university_recurrent",
+      "target": "ent_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_7c6986f8e8f2"
+      ]
+    },
+    {
+      "source": "ent_university_recurrent",
+      "target": "ent_university_bidirectional_rnns",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_7c6986f8e8f2"
+      ]
+    },
+    {
+      "source": "ent_peking_university",
+      "target": "ent_university_produce",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_7c6986f8e8f2"
+      ]
+    },
+    {
+      "source": "ent_peking_university",
+      "target": "ent_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_7c6986f8e8f2"
+      ]
+    },
+    {
+      "source": "ent_peking_university",
+      "target": "ent_university_bidirectional_rnns",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_7c6986f8e8f2"
+      ]
+    },
+    {
+      "source": "ent_peking_university",
+      "target": "ent_university_bidirectional_rnn",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_7c6986f8e8f2"
+      ]
+    },
+    {
+      "source": "ent_university_produce",
+      "target": "ent_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_7c6986f8e8f2"
+      ]
+    },
+    {
+      "source": "ent_university_produce",
+      "target": "ent_university_bidirectional_rnns",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_7c6986f8e8f2"
+      ]
+    },
+    {
+      "source": "ent_university_produce",
+      "target": "ent_university_bidirectional_rnn",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_7c6986f8e8f2"
+      ]
+    },
+    {
+      "source": "ent_university",
+      "target": "ent_university_bidirectional_rnns",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_7c6986f8e8f2"
+      ]
+    },
+    {
+      "source": "ent_university",
+      "target": "ent_university_bidirectional_rnn",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_7c6986f8e8f2"
+      ]
+    },
+    {
+      "source": "ent_university_bidirectional_rnns",
+      "target": "ent_university_bidirectional_rnn",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_7c6986f8e8f2",
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "chunk_1b4064db34a3",
+      "target": "ent_page",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "chunk_1b4064db34a3",
+      "target": "ent_other_important_architectures_peking",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "chunk_1b4064db34a3",
+      "target": "ent_rnn",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "chunk_1b4064db34a3",
+      "target": "ent_university_encoder_decoder",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "chunk_1b4064db34a3",
+      "target": "ent_lstm_peking_university",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "chunk_1b4064db34a3",
+      "target": "ent_schmidhuber",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "chunk_1b4064db34a3",
+      "target": "ent_handwriting",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "chunk_1b4064db34a3",
+      "target": "ent_university_bidirectional_rnns",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "chunk_1b4064db34a3",
+      "target": "ent_university_bidirectional_rnn",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "chunk_1b4064db34a3",
+      "target": "ent_sequence_to_sequence_architectures_mapping",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "chunk_1b4064db34a3",
+      "target": "ent_stacked_rnn_peking_university",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "chunk_1b4064db34a3",
+      "target": "ent_first",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "ent_page",
+      "target": "ent_university_encoder_decoder",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "ent_page",
+      "target": "ent_lstm_peking_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1b4064db34a3",
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "source": "ent_other_important_architectures_peking",
+      "target": "ent_university_encoder_decoder",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "ent_other_important_architectures_peking",
+      "target": "ent_lstm_peking_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "ent_other_important_architectures_peking",
+      "target": "ent_schmidhuber",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "ent_rnn",
+      "target": "ent_university_encoder_decoder",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "ent_rnn",
+      "target": "ent_lstm_peking_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "ent_rnn",
+      "target": "ent_schmidhuber",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "ent_rnn",
+      "target": "ent_handwriting",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "ent_university_encoder_decoder",
+      "target": "ent_lstm_peking_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "ent_university_encoder_decoder",
+      "target": "ent_schmidhuber",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "ent_university_encoder_decoder",
+      "target": "ent_handwriting",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "ent_university_encoder_decoder",
+      "target": "ent_university_bidirectional_rnns",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "ent_lstm_peking_university",
+      "target": "ent_schmidhuber",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1b4064db34a3",
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "source": "ent_lstm_peking_university",
+      "target": "ent_handwriting",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "ent_lstm_peking_university",
+      "target": "ent_university_bidirectional_rnns",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "ent_lstm_peking_university",
+      "target": "ent_university_bidirectional_rnn",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "ent_schmidhuber",
+      "target": "ent_handwriting",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "ent_schmidhuber",
+      "target": "ent_university_bidirectional_rnns",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "ent_schmidhuber",
+      "target": "ent_university_bidirectional_rnn",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "ent_schmidhuber",
+      "target": "ent_sequence_to_sequence_architectures_mapping",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "ent_handwriting",
+      "target": "ent_university_bidirectional_rnns",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "ent_handwriting",
+      "target": "ent_university_bidirectional_rnn",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "ent_handwriting",
+      "target": "ent_sequence_to_sequence_architectures_mapping",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "ent_handwriting",
+      "target": "ent_stacked_rnn_peking_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "ent_university_bidirectional_rnns",
+      "target": "ent_sequence_to_sequence_architectures_mapping",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "ent_university_bidirectional_rnns",
+      "target": "ent_stacked_rnn_peking_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "ent_university_bidirectional_rnns",
+      "target": "ent_first",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "ent_university_bidirectional_rnn",
+      "target": "ent_sequence_to_sequence_architectures_mapping",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "ent_university_bidirectional_rnn",
+      "target": "ent_stacked_rnn_peking_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "ent_university_bidirectional_rnn",
+      "target": "ent_first",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "ent_sequence_to_sequence_architectures_mapping",
+      "target": "ent_stacked_rnn_peking_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "ent_sequence_to_sequence_architectures_mapping",
+      "target": "ent_first",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "ent_stacked_rnn_peking_university",
+      "target": "ent_first",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1b4064db34a3"
+      ]
+    },
+    {
+      "source": "chunk_1ca3df2d6321",
+      "target": "ent_page",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "source": "chunk_1ca3df2d6321",
+      "target": "ent_lstm_peking_university",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "source": "chunk_1ca3df2d6321",
+      "target": "ent_peking_university",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "source": "chunk_1ca3df2d6321",
+      "target": "ent_machine",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "source": "chunk_1ca3df2d6321",
+      "target": "ent_parsing",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "source": "chunk_1ca3df2d6321",
+      "target": "ent_schmidhuber",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "source": "chunk_1ca3df2d6321",
+      "target": "ent_understanding_lstms",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "source": "chunk_1ca3df2d6321",
+      "target": "ent_gru_peking_university",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "source": "chunk_1ca3df2d6321",
+      "target": "ent_lstm",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "source": "chunk_1ca3df2d6321",
+      "target": "ent_first",
+      "type": "CHUNK_MENTIONS_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "source": "ent_page",
+      "target": "ent_machine",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "source": "ent_page",
+      "target": "ent_parsing",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "source": "ent_lstm_peking_university",
+      "target": "ent_peking_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "source": "ent_lstm_peking_university",
+      "target": "ent_machine",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "source": "ent_lstm_peking_university",
+      "target": "ent_parsing",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "source": "ent_peking_university",
+      "target": "ent_machine",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "source": "ent_peking_university",
+      "target": "ent_parsing",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "source": "ent_peking_university",
+      "target": "ent_schmidhuber",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "source": "ent_peking_university",
+      "target": "ent_understanding_lstms",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "source": "ent_machine",
+      "target": "ent_parsing",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "source": "ent_machine",
+      "target": "ent_schmidhuber",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "source": "ent_machine",
+      "target": "ent_understanding_lstms",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "source": "ent_machine",
+      "target": "ent_gru_peking_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "source": "ent_parsing",
+      "target": "ent_schmidhuber",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "source": "ent_parsing",
+      "target": "ent_understanding_lstms",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "source": "ent_parsing",
+      "target": "ent_gru_peking_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "source": "ent_parsing",
+      "target": "ent_lstm",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "source": "ent_schmidhuber",
+      "target": "ent_understanding_lstms",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "source": "ent_schmidhuber",
+      "target": "ent_gru_peking_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "source": "ent_schmidhuber",
+      "target": "ent_lstm",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "source": "ent_schmidhuber",
+      "target": "ent_first",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "source": "ent_understanding_lstms",
+      "target": "ent_gru_peking_university",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "source": "ent_understanding_lstms",
+      "target": "ent_lstm",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "source": "ent_understanding_lstms",
+      "target": "ent_first",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "source": "ent_gru_peking_university",
+      "target": "ent_lstm",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "source": "ent_gru_peking_university",
+      "target": "ent_first",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1ca3df2d6321"
+      ]
+    },
+    {
+      "source": "ent_lstm",
+      "target": "ent_first",
+      "type": "CONCEPT_RELATED_TO_CONCEPT",
+      "evidence_chunk_ids": [
+        "chunk_1ca3df2d6321"
+      ]
+    }
+  ]
+}

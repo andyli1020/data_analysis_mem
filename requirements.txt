@@ -1,0 +1,15 @@
+PyPDF2==3.0.1
+pdfplumber==0.10.3
+pandas==2.1.4
+numpy==1.26.2
+nltk==3.8.1
+spacy==3.7.2
+requests==2.31.0
+beautifulsoup4==4.12.2
+matplotlib==3.8.2
+seaborn==0.13.0
+fastapi==0.115.6
+uvicorn==0.34.0
+python-multipart==0.0.20
+nbformat==5.10.4
+pytest==8.3.4

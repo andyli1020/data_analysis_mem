@@ -1,0 +1,42 @@
+{
+  "data_root": "kg_store",
+  "chunk": {
+    "max_chars": 900,
+    "overlap_chars": 120
+  },
+  "retrieval": {
+    "top_k": 5
+  },
+  "parser": {
+    "default_backend": "basic",
+    "fallback_to_basic": true
+  },
+  "mineru": {
+    "enabled": true,
+    "agent_base_url": "https://mineru.net/api/v1/agent",
+    "precision_base_url": "https://mineru.net/api/v4",
+    "language": "ch",
+    "page_range": "1-20",
+    "precision_page_ranges": "",
+    "enable_table": true,
+    "enable_formula": true,
+    "is_ocr": false,
+    "precision_model_version": "vlm",
+    "precision_extra_formats": [],
+    "precision_no_cache": false,
+    "precision_cache_tolerance": 900,
+    "timeout_seconds": 30.0,
+    "poll_interval_seconds": 3.0,
+    "max_wait_seconds": 300.0,
+    "max_upload_mb": 10.0,
+    "precision_max_upload_mb": 200.0,
+    "precision_api_key_env": "MINERU_API_TOKEN"
+  },
+  "llm": {
+    "provider": "none",
+    "base_url": "",
+    "api_key_env": "",
+    "model": "",
+    "timeout_seconds": 90.0
+  }
+}

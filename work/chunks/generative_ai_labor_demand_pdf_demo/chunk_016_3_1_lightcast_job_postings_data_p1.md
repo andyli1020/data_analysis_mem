@@ -1,0 +1,6 @@
+# 3.1 Lightcast Job Postings Data
+
+Our main data source is the U. S. online job postings database maintained by Lightcast. 4 Lightcast provides a large-scale, nationwide collection of vacancy advertisements posted by employers across industries, locations, and job types. It aggregates postings from more than 220, 000 websites, including company career pages, national and local job boards, and job-posting aggregators. In the United States, Lightcast covers more than 435 million job postings since 2010. The data have been widely used in labor economics and related fields to study skill demand, technological change, and firm hiring behavior (Deming and Kahn, 2018; Acemoglu et al., 2022; Antoniades et al., 2025). These data are well suited to our research questions for two reasons. First, they allow us to observe posted labor demand at national scale. This is important because generative AI may
+[Footnote 4] Relevant documentation sources include Lightcast’s job posting methodology: https://kb. lightcast. io/
+
+en/articles/6957446-job-posting-analytics-jpa-methodology, skills taxonomy: https://kb. lightcast. io/ en/articles/7216059-lightcast-skills-taxonomy, and seniority definitions: https://kb. lightcast. io/en/ articles/11865067-job-seniority.

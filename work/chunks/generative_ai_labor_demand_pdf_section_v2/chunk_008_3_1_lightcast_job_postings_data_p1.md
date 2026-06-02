@@ -1,0 +1,21 @@
+Our main data source is the U. S. online job postings database maintained by Lightcast. 4 Lightcast provides a large-scale, nationwide collection of vacancy advertisements posted by employers across industries, locations, and job types. It aggregates postings from more than 220, 000 websites, including company career pages, national and local job boards, and job-posting aggregators. In the United States, Lightcast covers more than 435 million job postings since 2010. The data have been widely used in labor economics and related fields to study skill demand, technological change, and firm hiring behavior (Deming and Kahn, 2018; Acemoglu et al., 2022; Antoniades et al., 2025). These data are well suited to our research questions for two reasons. First, they allow us to observe posted labor demand at national scale. This is important because generative AI may
+
+[Footnote 4] Relevant documentation sources include Lightcast’s job posting methodology: https://kb. lightcast. io/
+
+
+
+en/articles/6957446-job-posting-analytics-jpa-methodology, skills taxonomy: https://kb. lightcast. io/ en/articles/7216059-lightcast-skills-taxonomy, and seniority definitions: https://kb. lightcast. io/en/ articles/11865067-job-seniority.
+
+
+
+affect different parts of the economy in different ways. A sample limited to selected occupations, industries, or firms may miss how adjustment in one segment of the labor marketoffsets, reinforces, or differs from adjustment elsewhere. Second, job postings contain rich textual descriptions of the tasks, skills, and responsibilities that employers associate with each vacancy. This allows us to measure generative AI exposure at the level of individual postings and to study how exposure changes as employers revise job content over time. This combination of scale and textual detail distinguishes job postings data from other data sources commonly used in this literature. Occupation-level task databases such as O*NET provide standardizeddescriptionsofworkactivities, buttheyassignacommontaskprofiletoanoccupation and are not designed to capture rapid changes in job content within occupations. 5 Employment or payroll data, such as those used in recent studies of AI and labor-market outcomes (Brynjolfsson et al., 2025a), provide important evidence on realized employment but generally do not observe the task content of posted vacancies. Our setting requires both features: national coverage of labor demand and detailed information about what jobs contain. The Lightcast’s job postings data allow us to examine two margins of adjustment to generative AI: reallocation in hiring demand across jobs and redesign of task content within comparable jobs. The job description text is the primary input to our measurement strategy. We use it to extract posting-specifictasksandtoconstructeachposting’sexposuretogenerativeAI. Unlikeoccupationlevelexposuremeasuresthatassignthesamescoretoalljobswithinanoccupation(Eloundouetal., 2024), postingtextallowsexposuretovaryacrossjobswithinthesameoccupation, acrossindustries and seniority levels, and over time. This feature is central to our analysis because a main premise of the paper is that exposure is not fixed. It may evolve as firms change the tasks they request from their employees. We complement the text with structured variables. Each posting is mapped to a standardized O*NET occupation code and a two-digit NAICS industry code, which allow us to compare jobs acrossoccupationsandsectors. WealsouseLightcast’sjobseniorityvariabletoclassifypostingsinto broad career stages. Lightcast identifies postings as Junior or Senior when the job title or posting textcontainsclearsenioritylanguage; postingswithoutsuchlanguageareclassifiedasIntermediate.
+
+[Footnote 5] SeeO*NET’sOccupationDatadocumentationformoredetailsat: https://www. onetcenter. org/dictionary/
+
+
+
+30. 2/excel/occupation_data. html.
+
+
+
+In addition, we use Lightcast’s extracted skills data, including common and specialized skills, as inputs into our exposure-construction pipeline. These skill variables help organize posting text into skill groups, match extracted tasks to those groups, and weight tasks linked to specialized and common skills. Finally, we use other posting characteristics available in the data, including location, employment type, internship indicators, and remote-work indicators.

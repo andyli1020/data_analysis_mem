@@ -1,0 +1,3 @@
+# Figure B2: Additional Heterogeneity Captured by the Posting-Based Measure
+
+Notes: Panel(a)plotsthedistributionofβ¯ −β¯, whereβ¯ andβ¯ denotetheaverageexposure o, senior o, junior o, senior o, junior ofseniorandjuniorpostingswithinoccupationo, respectively. Positivevaluesindicatethatseniorpostingsaremore exposed than junior postings within the same occupation. Panel (b) plots occupation-level exposure over time. For eachquartert, wefirstcomputethem∑eanexposurewithineachoccupationo, andthenaveragetheseoccupation-level means across occupations: β¯ = 1 β¯. This panel shows that occupation-level exposure evolves over time t |Ot| o∈Ot o, t rather than remaining fixed at a single occupation-specific value.

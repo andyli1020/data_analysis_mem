@@ -1,0 +1,1135 @@
+{
+  "version": 1,
+  "mode": "section",
+  "chunk_count": 78,
+  "max_chars": 3600,
+  "min_chars": 1200,
+  "chunks": [
+    {
+      "chunk_id": "chunk_001",
+      "title": "Front Matter",
+      "heading_path": [
+        "Front Matter"
+      ],
+      "heading_path_text": "Front Matter",
+      "level": 1,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_001_front_matter_p1.md",
+      "char_count": 243,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_002",
+      "title": "Abstract",
+      "heading_path": [
+        "Abstract"
+      ],
+      "heading_path_text": "Abstract",
+      "level": 1,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_002_abstract_p1.md",
+      "char_count": 1794,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_003",
+      "title": "Keywords: Generative AI; Labor demand; Job ladder; Dynamic AI exposure; Job postings;",
+      "heading_path": [
+        "Abstract",
+        "Keywords: Generative AI; Labor demand; Job ladder; Dynamic AI exposure; Job postings;"
+      ],
+      "heading_path_text": "Abstract > Keywords: Generative AI; Labor demand; Job ladder; Dynamic AI exposure; Job postings;",
+      "level": 2,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_003_keywords_generative_ai_labor_demand_job_ladder_d_p1.md",
+      "char_count": 621,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_004",
+      "title": "1 Introduction",
+      "heading_path": [
+        "1 Introduction"
+      ],
+      "heading_path_text": "1 Introduction",
+      "level": 1,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_004_1_introduction_p1.md",
+      "char_count": 15363,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_005",
+      "title": "2 Related Literature",
+      "heading_path": [
+        "2 Related Literature"
+      ],
+      "heading_path_text": "2 Related Literature",
+      "level": 1,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_005_2_related_literature_p1.md",
+      "char_count": 649,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_006",
+      "title": "2.1 AI and Generative AI Exposure Metrics",
+      "heading_path": [
+        "2 Related Literature",
+        "2.1 AI and Generative AI Exposure Metrics"
+      ],
+      "heading_path_text": "2 Related Literature > 2.1 AI and Generative AI Exposure Metrics",
+      "level": 2,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_006_2_1_ai_and_generative_ai_exposure_metrics_p1.md",
+      "char_count": 3664,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_007",
+      "title": "2.2 Effects of Generative AI in the Labor Market",
+      "heading_path": [
+        "2 Related Literature",
+        "2.2 Effects of Generative AI in the Labor Market"
+      ],
+      "heading_path_text": "2 Related Literature > 2.2 Effects of Generative AI in the Labor Market",
+      "level": 2,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_007_2_2_effects_of_generative_ai_in_the_labor_market_p1.md",
+      "char_count": 6022,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_008",
+      "title": "3.1 Lightcast Job Postings Data",
+      "heading_path": [
+        "3 Data",
+        "3.1 Lightcast Job Postings Data"
+      ],
+      "heading_path_text": "3 Data > 3.1 Lightcast Job Postings Data",
+      "level": 2,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_008_3_1_lightcast_job_postings_data_p1.md",
+      "char_count": 4354,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_009",
+      "title": "3.2 Sampling Strategy",
+      "heading_path": [
+        "3 Data",
+        "3.2 Sampling Strategy"
+      ],
+      "heading_path_text": "3 Data > 3.2 Sampling Strategy",
+      "level": 2,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_009_3_2_sampling_strategy_p1.md",
+      "char_count": 3932,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_010",
+      "title": "4 Measurement of Posting-Level Exposure to Generative AI",
+      "heading_path": [
+        "4 Measurement of Posting-Level Exposure to Generative AI"
+      ],
+      "heading_path_text": "4 Measurement of Posting-Level Exposure to Generative AI",
+      "level": 1,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_010_4_measurement_of_posting_level_exposure_to_gener_p1.md",
+      "char_count": 483,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_011",
+      "title": "Figure 1: Quarterly Number of Job Postings in the U. S. Population and Our Sample",
+      "heading_path": [
+        "4 Measurement of Posting-Level Exposure to Generative AI",
+        "Figure 1: Quarterly Number of Job Postings in the U. S. Population and Our Sample"
+      ],
+      "heading_path_text": "4 Measurement of Posting-Level Exposure to Generative AI > Figure 1: Quarterly Number of Job Postings in the U. S. Population and Our Sample",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_011_figure_1_quarterly_number_of_job_postings_in_the_p1.md",
+      "char_count": 1050,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_012",
+      "title": "4.1 Two-Stage LLM Pipeline",
+      "heading_path": [
+        "4 Measurement of Posting-Level Exposure to Generative AI",
+        "4.1 Two-Stage LLM Pipeline"
+      ],
+      "heading_path_text": "4 Measurement of Posting-Level Exposure to Generative AI > 4.1 Two-Stage LLM Pipeline",
+      "level": 2,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_012_4_1_two_stage_llm_pipeline_p1.md",
+      "char_count": 1215,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_013",
+      "title": "Figure 2: Two-Stage LLM Pipeline for Computing Posting-Level AI Exposure Indices",
+      "heading_path": [
+        "4 Measurement of Posting-Level Exposure to Generative AI",
+        "4.1 Two-Stage LLM Pipeline",
+        "Figure 2: Two-Stage LLM Pipeline for Computing Posting-Level AI Exposure Indices"
+      ],
+      "heading_path_text": "4 Measurement of Posting-Level Exposure to Generative AI > 4.1 Two-Stage LLM Pipeline > Figure 2: Two-Stage LLM Pipeline for Computing Posting-Level AI Exposure Indices",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_013_figure_2_two_stage_llm_pipeline_for_computing_po_p1.md",
+      "char_count": 2612,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_014",
+      "title": "4.2 From Task-Level Labels to Posting-Level Exposure",
+      "heading_path": [
+        "4 Measurement of Posting-Level Exposure to Generative AI",
+        "4.2 From Task-Level Labels to Posting-Level Exposure"
+      ],
+      "heading_path_text": "4 Measurement of Posting-Level Exposure to Generative AI > 4.2 From Task-Level Labels to Posting-Level Exposure",
+      "level": 2,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_014_4_2_from_task_level_labels_to_posting_level_expo_p1.md",
+      "char_count": 1134,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_015",
+      "title": "Table 1: Summary of Exposure Rubric",
+      "heading_path": [
+        "4 Measurement of Posting-Level Exposure to Generative AI",
+        "4.2 From Task-Level Labels to Posting-Level Exposure",
+        "Table 1: Summary of Exposure Rubric"
+      ],
+      "heading_path_text": "4 Measurement of Posting-Level Exposure to Generative AI > 4.2 From Task-Level Labels to Posting-Level Exposure > Table 1: Summary of Exposure Rubric",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_015_table_1_summary_of_exposure_rubric_p1.md",
+      "char_count": 1868,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_016",
+      "title": "Table 2: Illustrative Examples of Task-Level Exposure Classification",
+      "heading_path": [
+        "4 Measurement of Posting-Level Exposure to Generative AI",
+        "4.2 From Task-Level Labels to Posting-Level Exposure",
+        "Table 2: Illustrative Examples of Task-Level Exposure Classification"
+      ],
+      "heading_path_text": "4 Measurement of Posting-Level Exposure to Generative AI > 4.2 From Task-Level Labels to Posting-Level Exposure > Table 2: Illustrative Examples of Task-Level Exposure Classification",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_016_table_2_illustrative_examples_of_task_level_expo_p1.md",
+      "char_count": 4547,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_017",
+      "title": "Appendix D shows that the time-series patterns of α , β , and γ are similar. This suggests",
+      "heading_path": [
+        "4 Measurement of Posting-Level Exposure to Generative AI",
+        "Appendix D shows that the time-series patterns of α , β , and γ are similar. This suggests"
+      ],
+      "heading_path_text": "4 Measurement of Posting-Level Exposure to Generative AI > Appendix D shows that the time-series patterns of α , β , and γ are similar. This suggests",
+      "level": 2,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_017_appendix_d_shows_that_the_time_series_patterns_o_p1.md",
+      "char_count": 106,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_018",
+      "title": "4.3 Descriptive Patterns",
+      "heading_path": [
+        "4 Measurement of Posting-Level Exposure to Generative AI",
+        "4.3 Descriptive Patterns"
+      ],
+      "heading_path_text": "4 Measurement of Posting-Level Exposure to Generative AI > 4.3 Descriptive Patterns",
+      "level": 2,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_018_4_3_descriptive_patterns_p1.md",
+      "char_count": 460,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_019",
+      "title": "Table 3 reports summary statistics for the posting-level exposure measures overall and by job",
+      "heading_path": [
+        "4 Measurement of Posting-Level Exposure to Generative AI",
+        "4.3 Descriptive Patterns",
+        "Table 3 reports summary statistics for the posting-level exposure measures overall and by job"
+      ],
+      "heading_path_text": "4 Measurement of Posting-Level Exposure to Generative AI > 4.3 Descriptive Patterns > Table 3 reports summary statistics for the posting-level exposure measures overall and by job",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_019_table_3_reports_summary_statistics_for_the_posti_p1.md",
+      "char_count": 275,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_020",
+      "title": "Table 3: Summary Statistics of Posting-Level Generative AI Exposure",
+      "heading_path": [
+        "4 Measurement of Posting-Level Exposure to Generative AI",
+        "4.3 Descriptive Patterns",
+        "Table 3: Summary Statistics of Posting-Level Generative AI Exposure"
+      ],
+      "heading_path_text": "4 Measurement of Posting-Level Exposure to Generative AI > 4.3 Descriptive Patterns > Table 3: Summary Statistics of Posting-Level Generative AI Exposure",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_020_table_3_summary_statistics_of_posting_level_gene_p1.md",
+      "char_count": 3844,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_021",
+      "title": "Figure 3: Quarterly Trend in Mean Generative AI Exposure (β)",
+      "heading_path": [
+        "4 Measurement of Posting-Level Exposure to Generative AI",
+        "4.3 Descriptive Patterns",
+        "Figure 3: Quarterly Trend in Mean Generative AI Exposure (β)"
+      ],
+      "heading_path_text": "4 Measurement of Posting-Level Exposure to Generative AI > 4.3 Descriptive Patterns > Figure 3: Quarterly Trend in Mean Generative AI Exposure (β)",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_021_figure_3_quarterly_trend_in_mean_generative_ai_e_p1.md",
+      "char_count": 258,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_022",
+      "title": "Figure 4: Changes in Generative AI Exposure by Occupation Group",
+      "heading_path": [
+        "4 Measurement of Posting-Level Exposure to Generative AI",
+        "4.3 Descriptive Patterns",
+        "Figure 4: Changes in Generative AI Exposure by Occupation Group"
+      ],
+      "heading_path_text": "4 Measurement of Posting-Level Exposure to Generative AI > 4.3 Descriptive Patterns > Figure 4: Changes in Generative AI Exposure by Occupation Group",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_022_figure_4_changes_in_generative_ai_exposure_by_oc_p1.md",
+      "char_count": 879,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_023",
+      "title": "Appendix D further splits these occupation groups by seniority. The broad tercile pattern",
+      "heading_path": [
+        "4 Measurement of Posting-Level Exposure to Generative AI",
+        "Appendix D further splits these occupation groups by seniority. The broad tercile pattern"
+      ],
+      "heading_path_text": "4 Measurement of Posting-Level Exposure to Generative AI > Appendix D further splits these occupation groups by seniority. The broad tercile pattern",
+      "level": 2,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_023_appendix_d_further_splits_these_occupation_group_p1.md",
+      "char_count": 2119,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_024",
+      "title": "Figure 5: Sector-Level Mean Generative AI Exposure (β) by Two-Digit NAICS Industry Code",
+      "heading_path": [
+        "4 Measurement of Posting-Level Exposure to Generative AI",
+        "Appendix D further splits these occupation groups by seniority. The broad tercile pattern",
+        "Figure 5: Sector-Level Mean Generative AI Exposure (β) by Two-Digit NAICS Industry Code"
+      ],
+      "heading_path_text": "4 Measurement of Posting-Level Exposure to Generative AI > Appendix D further splits these occupation groups by seniority. The broad tercile pattern > Figure 5: Sector-Level Mean Generative AI Exposure (β) by Two-Digit NAICS Industry Code",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_024_figure_5_sector_level_mean_generative_ai_exposur_p1.md",
+      "char_count": 859,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_025",
+      "title": "5 Decomposition of Generative AI Exposure: Methods",
+      "heading_path": [
+        "5 Decomposition of Generative AI Exposure: Methods"
+      ],
+      "heading_path_text": "5 Decomposition of Generative AI Exposure: Methods",
+      "level": 1,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_025_5_decomposition_of_generative_ai_exposure_method_p1.md",
+      "char_count": 1681,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_026",
+      "title": "5.1 Cell-Level Representation of Aggregate Exposure",
+      "heading_path": [
+        "5 Decomposition of Generative AI Exposure: Methods",
+        "5.1 Cell-Level Representation of Aggregate Exposure"
+      ],
+      "heading_path_text": "5 Decomposition of Generative AI Exposure: Methods > 5.1 Cell-Level Representation of Aggregate Exposure",
+      "level": 2,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_026_5_1_cell_level_representation_of_aggregate_expos_p1.md",
+      "char_count": 1811,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_027",
+      "title": "5.2 Three-Fold Kitagawa Decomposition",
+      "heading_path": [
+        "5 Decomposition of Generative AI Exposure: Methods",
+        "5.2 Three-Fold Kitagawa Decomposition"
+      ],
+      "heading_path_text": "5 Decomposition of Generative AI Exposure: Methods > 5.2 Three-Fold Kitagawa Decomposition",
+      "level": 2,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_027_5_2_three_fold_kitagawa_decomposition_p1.md",
+      "char_count": 2228,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_028",
+      "title": "5.3 Common Support and Robustness of the Decomposition",
+      "heading_path": [
+        "5 Decomposition of Generative AI Exposure: Methods",
+        "5.3 Common Support and Robustness of the Decomposition"
+      ],
+      "heading_path_text": "5 Decomposition of Generative AI Exposure: Methods > 5.3 Common Support and Robustness of the Decomposition",
+      "level": 2,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_028_5_3_common_support_and_robustness_of_the_decompo_p1.md",
+      "char_count": 714,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_029",
+      "title": "Appendix F reports overlap diagnostics, reconstruction checks, and the gap between the raw and",
+      "heading_path": [
+        "5 Decomposition of Generative AI Exposure: Methods",
+        "Appendix F reports overlap diagnostics, reconstruction checks, and the gap between the raw and"
+      ],
+      "heading_path_text": "5 Decomposition of Generative AI Exposure: Methods > Appendix F reports overlap diagnostics, reconstruction checks, and the gap between the raw and",
+      "level": 2,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_029_appendix_f_reports_overlap_diagnostics_reconstru_p1.md",
+      "char_count": 747,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_030",
+      "title": "5.4 Oaxaca–Blinder Decomposition",
+      "heading_path": [
+        "5 Decomposition of Generative AI Exposure: Methods",
+        "5.4 Oaxaca–Blinder Decomposition"
+      ],
+      "heading_path_text": "5 Decomposition of Generative AI Exposure: Methods > 5.4 Oaxaca–Blinder Decomposition",
+      "level": 2,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_030_5_4_oaxaca_blinder_decomposition_p1.md",
+      "char_count": 5475,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_031",
+      "title": "6 Results",
+      "heading_path": [
+        "6 Results"
+      ],
+      "heading_path_text": "6 Results",
+      "level": 1,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_031_6_results_p1.md",
+      "char_count": 475,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_032",
+      "title": "Figure 6 presents the three-fold Kitagawa decomposition of changes in mean exposure relative to",
+      "heading_path": [
+        "6 Results",
+        "6.1 Aggregate Adjustment: Hiring Reallocation and Job Redesign",
+        "Figure 6 presents the three-fold Kitagawa decomposition of changes in mean exposure relative to"
+      ],
+      "heading_path_text": "6 Results > 6.1 Aggregate Adjustment: Hiring Reallocation and Job Redesign > Figure 6 presents the three-fold Kitagawa decomposition of changes in mean exposure relative to",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_032_figure_6_presents_the_three_fold_kitagawa_decomp_p1.md",
+      "char_count": 454,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_033",
+      "title": "Figure 6: Three-Fold Decomposition of Changes in Aggregate Generative AI Exposure",
+      "heading_path": [
+        "6 Results",
+        "6.1 Aggregate Adjustment: Hiring Reallocation and Job Redesign",
+        "Figure 6: Three-Fold Decomposition of Changes in Aggregate Generative AI Exposure"
+      ],
+      "heading_path_text": "6 Results > 6.1 Aggregate Adjustment: Hiring Reallocation and Job Redesign > Figure 6: Three-Fold Decomposition of Changes in Aggregate Generative AI Exposure",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_033_figure_6_three_fold_decomposition_of_changes_in__p1.md",
+      "char_count": 1506,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_034",
+      "title": "Table 4 summarizes the relative importance of the three components from Q3 of 2023 onward.",
+      "heading_path": [
+        "6 Results",
+        "6.1 Aggregate Adjustment: Hiring Reallocation and Job Redesign",
+        "Table 4 summarizes the relative importance of the three components from Q3 of 2023 onward."
+      ],
+      "heading_path_text": "6 Results > 6.1 Aggregate Adjustment: Hiring Reallocation and Job Redesign > Table 4 summarizes the relative importance of the three components from Q3 of 2023 onward.",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_034_table_4_summarizes_the_relative_importance_of_th_p1.md",
+      "char_count": 494,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_035",
+      "title": "Table 4: Relative Contributions in the Three-Fold Kitagawa Decomposition Since Q3 of 2023",
+      "heading_path": [
+        "6 Results",
+        "6.1 Aggregate Adjustment: Hiring Reallocation and Job Redesign",
+        "Table 4: Relative Contributions in the Three-Fold Kitagawa Decomposition Since Q3 of 2023"
+      ],
+      "heading_path_text": "6 Results > 6.1 Aggregate Adjustment: Hiring Reallocation and Job Redesign > Table 4: Relative Contributions in the Three-Fold Kitagawa Decomposition Since Q3 of 2023",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_035_table_4_relative_contributions_in_the_three_fold_p1.md",
+      "char_count": 2360,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_036",
+      "title": "6.2 Heterogeneity Across the Job Ladder",
+      "heading_path": [
+        "6 Results",
+        "6.2 Heterogeneity Across the Job Ladder"
+      ],
+      "heading_path_text": "6 Results > 6.2 Heterogeneity Across the Job Ladder",
+      "level": 2,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_036_6_2_heterogeneity_across_the_job_ladder_p1.md",
+      "char_count": 1560,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_037",
+      "title": "Figure 9: Three-Fold Decomposition of Changes in Generative AI Exposure: Senior Jobs",
+      "heading_path": [
+        "6 Results",
+        "6.2 Heterogeneity Across the Job Ladder",
+        "Figure 9: Three-Fold Decomposition of Changes in Generative AI Exposure: Senior Jobs"
+      ],
+      "heading_path_text": "6 Results > 6.2 Heterogeneity Across the Job Ladder > Figure 9: Three-Fold Decomposition of Changes in Generative AI Exposure: Senior Jobs",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_037_figure_9_three_fold_decomposition_of_changes_in__p1.md",
+      "char_count": 1212,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_038",
+      "title": "6.3 Robustness to Cross-Sector Reallocation",
+      "heading_path": [
+        "6 Results",
+        "6.3 Robustness to Cross-Sector Reallocation"
+      ],
+      "heading_path_text": "6 Results > 6.3 Robustness to Cross-Sector Reallocation",
+      "level": 2,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_038_6_3_robustness_to_cross_sector_reallocation_p1.md",
+      "char_count": 1564,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_039",
+      "title": "6.4 Oaxaca–Blinder Decomposition: Observable Sources of the Exposure Gap",
+      "heading_path": [
+        "6 Results",
+        "6.4 Oaxaca–Blinder Decomposition: Observable Sources of the Exposure Gap"
+      ],
+      "heading_path_text": "6 Results > 6.4 Oaxaca–Blinder Decomposition: Observable Sources of the Exposure Gap",
+      "level": 2,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_039_6_4_oaxaca_blinder_decomposition_observable_sour_p1.md",
+      "char_count": 629,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_040",
+      "title": "Table 5 reports the weighted Oaxaca–Blinder decomposition for the full sample and separately",
+      "heading_path": [
+        "6 Results",
+        "6.4 Oaxaca–Blinder Decomposition: Observable Sources of the Exposure Gap",
+        "Table 5 reports the weighted Oaxaca–Blinder decomposition for the full sample and separately"
+      ],
+      "heading_path_text": "6 Results > 6.4 Oaxaca–Blinder Decomposition: Observable Sources of the Exposure Gap > Table 5 reports the weighted Oaxaca–Blinder decomposition for the full sample and separately",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_040_table_5_reports_the_weighted_oaxaca_blinder_deco_p1.md",
+      "char_count": 440,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_041",
+      "title": "Table 5: Weighted Oaxaca–Blinder Decomposition of Aggregate Exposure: Pre- vs. Post-GPT",
+      "heading_path": [
+        "6 Results",
+        "6.4 Oaxaca–Blinder Decomposition: Observable Sources of the Exposure Gap",
+        "Table 5: Weighted Oaxaca–Blinder Decomposition of Aggregate Exposure: Pre- vs. Post-GPT"
+      ],
+      "heading_path_text": "6 Results > 6.4 Oaxaca–Blinder Decomposition: Observable Sources of the Exposure Gap > Table 5: Weighted Oaxaca–Blinder Decomposition of Aggregate Exposure: Pre- vs. Post-GPT",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_041_table_5_weighted_oaxaca_blinder_decomposition_of_p1.md",
+      "char_count": 1264,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_042",
+      "title": "Figure 10 decomposes the explained component into contributions from observed job-characteristic",
+      "heading_path": [
+        "6 Results",
+        "6.5 Which Job Characteristics Account for the Explained Component?",
+        "Figure 10 decomposes the explained component into contributions from observed job-characteristic"
+      ],
+      "heading_path_text": "6 Results > 6.5 Which Job Characteristics Account for the Explained Component? > Figure 10 decomposes the explained component into contributions from observed job-characteristic",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_042_figure_10_decomposes_the_explained_component_int_p1.md",
+      "char_count": 209,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_043",
+      "title": "Figure 10: Explained Component by Observed Job-Characteristic Block: Pre-GPT vs. Post-GPT",
+      "heading_path": [
+        "6 Results",
+        "6.5 Which Job Characteristics Account for the Explained Component?",
+        "Figure 10: Explained Component by Observed Job-Characteristic Block: Pre-GPT vs. Post-GPT"
+      ],
+      "heading_path_text": "6 Results > 6.5 Which Job Characteristics Account for the Explained Component? > Figure 10: Explained Component by Observed Job-Characteristic Block: Pre-GPT vs. Post-GPT",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_043_figure_10_explained_component_by_observed_job_ch_p1.md",
+      "char_count": 2044,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_044",
+      "title": "6.6 Observable Sources of the Exposure Gap by Seniority",
+      "heading_path": [
+        "6 Results",
+        "6.6 Observable Sources of the Exposure Gap by Seniority"
+      ],
+      "heading_path_text": "6 Results > 6.6 Observable Sources of the Exposure Gap by Seniority",
+      "level": 2,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_044_6_6_observable_sources_of_the_exposure_gap_by_se_p1.md",
+      "char_count": 1045,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_045",
+      "title": "Figure 13: Explained Component by Observed Job-Characteristic Block for Senior Jobs",
+      "heading_path": [
+        "6 Results",
+        "6.6 Observable Sources of the Exposure Gap by Seniority",
+        "Figure 13: Explained Component by Observed Job-Characteristic Block for Senior Jobs"
+      ],
+      "heading_path_text": "6 Results > 6.6 Observable Sources of the Exposure Gap by Seniority > Figure 13: Explained Component by Observed Job-Characteristic Block for Senior Jobs",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_045_figure_13_explained_component_by_observed_job_ch_p1.md",
+      "char_count": 2622,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_046",
+      "title": "7 Conclusions",
+      "heading_path": [
+        "7 Conclusions"
+      ],
+      "heading_path_text": "7 Conclusions",
+      "level": 1,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_046_7_conclusions_p1.md",
+      "char_count": 14415,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_047",
+      "title": "Appendix A Full Annotation Prompts",
+      "heading_path": [
+        "7 Conclusions",
+        "Appendix A Full Annotation Prompts"
+      ],
+      "heading_path_text": "7 Conclusions > Appendix A Full Annotation Prompts",
+      "level": 2,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_047_appendix_a_full_annotation_prompts_p1.md",
+      "char_count": 6346,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_048",
+      "title": "Appendix B Comparison with Eloundou et al. (2024)",
+      "heading_path": [
+        "7 Conclusions",
+        "Appendix B Comparison with Eloundou et al. (2024)"
+      ],
+      "heading_path_text": "7 Conclusions > Appendix B Comparison with Eloundou et al. (2024)",
+      "level": 2,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_048_appendix_b_comparison_with_eloundou_et_al_2024_p1.md",
+      "char_count": 1272,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_049",
+      "title": "Figure B2 summarizes these two additional dimensions directly. Panel (a) plots, for each occu-",
+      "heading_path": [
+        "7 Conclusions",
+        "Appendix B Comparison with Eloundou et al. (2024)",
+        "Figure B2 summarizes these two additional dimensions directly. Panel (a) plots, for each occu-"
+      ],
+      "heading_path_text": "7 Conclusions > Appendix B Comparison with Eloundou et al. (2024) > Figure B2 summarizes these two additional dimensions directly. Panel (a) plots, for each occu-",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_049_figure_b2_summarizes_these_two_additional_dimens_p1.md",
+      "char_count": 817,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_050",
+      "title": "Figure B1: Comparison with the Occupation-Level Exposure Measure in Eloundou et al. (2024)",
+      "heading_path": [
+        "7 Conclusions",
+        "Appendix B Comparison with Eloundou et al. (2024)",
+        "Figure B1: Comparison with the Occupation-Level Exposure Measure in Eloundou et al. (2024)"
+      ],
+      "heading_path_text": "7 Conclusions > Appendix B Comparison with Eloundou et al. (2024) > Figure B1: Comparison with the Occupation-Level Exposure Measure in Eloundou et al. (2024)",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_050_figure_b1_comparison_with_the_occupation_level_e_p1.md",
+      "char_count": 278,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_051",
+      "title": "Figure B2: Additional Heterogeneity Captured by the Posting-Based Measure",
+      "heading_path": [
+        "7 Conclusions",
+        "Appendix B Comparison with Eloundou et al. (2024)",
+        "Figure B2: Additional Heterogeneity Captured by the Posting-Based Measure"
+      ],
+      "heading_path_text": "7 Conclusions > Appendix B Comparison with Eloundou et al. (2024) > Figure B2: Additional Heterogeneity Captured by the Posting-Based Measure",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_051_figure_b2_additional_heterogeneity_captured_by_t_p1.md",
+      "char_count": 633,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_052",
+      "title": "Table C1: Sector-Level Average Generative AI Exposure (β) by Two-Digit NAICS Code",
+      "heading_path": [
+        "7 Conclusions",
+        "Appendix C Sector-Level Average Generative AI Exposure (β)",
+        "Table C1: Sector-Level Average Generative AI Exposure (β) by Two-Digit NAICS Code"
+      ],
+      "heading_path_text": "7 Conclusions > Appendix C Sector-Level Average Generative AI Exposure (β) > Table C1: Sector-Level Average Generative AI Exposure (β) by Two-Digit NAICS Code",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_052_table_c1_sector_level_average_generative_ai_expo_p1.md",
+      "char_count": 1098,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_053",
+      "title": "Figure D5 report the quarterly trends in the alternative exposure indices α and γ. Figure D6",
+      "heading_path": [
+        "7 Conclusions",
+        "Appendix D Additional Descriptive Figures",
+        "Figure D5 report the quarterly trends in the alternative exposure indices α and γ. Figure D6"
+      ],
+      "heading_path_text": "7 Conclusions > Appendix D Additional Descriptive Figures > Figure D5 report the quarterly trends in the alternative exposure indices α and γ. Figure D6",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_053_figure_d5_report_the_quarterly_trends_in_the_alt_p1.md",
+      "char_count": 78,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_054",
+      "title": "Figure D3: Quarterly Trends in E0, E1, and E2 Shares",
+      "heading_path": [
+        "7 Conclusions",
+        "Appendix D Additional Descriptive Figures",
+        "Figure D3: Quarterly Trends in E0, E1, and E2 Shares"
+      ],
+      "heading_path_text": "7 Conclusions > Appendix D Additional Descriptive Figures > Figure D3: Quarterly Trends in E0, E1, and E2 Shares",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_054_figure_d3_quarterly_trends_in_e0_e1_and_e2_share_p1.md",
+      "char_count": 246,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_055",
+      "title": "Figure D4: Quarterly Trend in Exposure Measure α",
+      "heading_path": [
+        "7 Conclusions",
+        "Appendix D Additional Descriptive Figures",
+        "Figure D4: Quarterly Trend in Exposure Measure α"
+      ],
+      "heading_path_text": "7 Conclusions > Appendix D Additional Descriptive Figures > Figure D4: Quarterly Trend in Exposure Measure α",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_055_figure_d4_quarterly_trend_in_exposure_measure_p1.md",
+      "char_count": 196,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_056",
+      "title": "Figure D5: Quarterly Trend in Exposure Measure γ",
+      "heading_path": [
+        "7 Conclusions",
+        "Appendix D Additional Descriptive Figures",
+        "Figure D5: Quarterly Trend in Exposure Measure γ"
+      ],
+      "heading_path_text": "7 Conclusions > Appendix D Additional Descriptive Figures > Figure D5: Quarterly Trend in Exposure Measure γ",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_056_figure_d5_quarterly_trend_in_exposure_measure_p1.md",
+      "char_count": 223,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_057",
+      "title": "Figure D6: Changes in Generative AI Exposure by Occupation Group and Job Seniority",
+      "heading_path": [
+        "7 Conclusions",
+        "Appendix D Additional Descriptive Figures",
+        "Figure D6: Changes in Generative AI Exposure by Occupation Group and Job Seniority"
+      ],
+      "heading_path_text": "7 Conclusions > Appendix D Additional Descriptive Figures > Figure D6: Changes in Generative AI Exposure by Occupation Group and Job Seniority",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_057_figure_d6_changes_in_generative_ai_exposure_by_o_p1.md",
+      "char_count": 405,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_058",
+      "title": "Appendix E Occupations with the Highest and Lowest Exposure",
+      "heading_path": [
+        "7 Conclusions",
+        "Appendix E Occupations with the Highest and Lowest Exposure"
+      ],
+      "heading_path_text": "7 Conclusions > Appendix E Occupations with the Highest and Lowest Exposure",
+      "level": 2,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_058_appendix_e_occupations_with_the_highest_and_lowe_p1.md",
+      "char_count": 16,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_059",
+      "title": "Table E2 presents the ten occupations with the highest and lowest average exposure across the full",
+      "heading_path": [
+        "7 Conclusions",
+        "Appendix E Occupations with the Highest and Lowest Exposure",
+        "Table E2 presents the ten occupations with the highest and lowest average exposure across the full"
+      ],
+      "heading_path_text": "7 Conclusions > Appendix E Occupations with the Highest and Lowest Exposure > Table E2 presents the ten occupations with the highest and lowest average exposure across the full",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_059_table_e2_presents_the_ten_occupations_with_the_h_p1.md",
+      "char_count": 271,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_060",
+      "title": "Table E2: Top and Bottom Occupations by Generative AI Exposure",
+      "heading_path": [
+        "7 Conclusions",
+        "Appendix E Occupations with the Highest and Lowest Exposure",
+        "Table E2: Top and Bottom Occupations by Generative AI Exposure"
+      ],
+      "heading_path_text": "7 Conclusions > Appendix E Occupations with the Highest and Lowest Exposure > Table E2: Top and Bottom Occupations by Generative AI Exposure",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_060_table_e2_top_and_bottom_occupations_by_generativ_p1.md",
+      "char_count": 1400,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_061",
+      "title": "Appendix F Common Support and Renormalization",
+      "heading_path": [
+        "7 Conclusions",
+        "Appendix F Common Support and Renormalization"
+      ],
+      "heading_path_text": "7 Conclusions > Appendix F Common Support and Renormalization",
+      "level": 2,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_061_appendix_f_common_support_and_renormalization_p1.md",
+      "char_count": 2319,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_062",
+      "title": "Table F3 reports diagnostic results for the renormalized common-support decomposition used in",
+      "heading_path": [
+        "7 Conclusions",
+        "Appendix F Common Support and Renormalization",
+        "Table F3 reports diagnostic results for the renormalized common-support decomposition used in"
+      ],
+      "heading_path_text": "7 Conclusions > Appendix F Common Support and Renormalization > Table F3 reports diagnostic results for the renormalized common-support decomposition used in",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_062_table_f3_reports_diagnostic_results_for_the_reno_p1.md",
+      "char_count": 586,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_063",
+      "title": "Table F3: Diagnostic Decomposition Results under Renormalized Common Support",
+      "heading_path": [
+        "7 Conclusions",
+        "Appendix F Common Support and Renormalization",
+        "Table F3: Diagnostic Decomposition Results under Renormalized Common Support"
+      ],
+      "heading_path_text": "7 Conclusions > Appendix F Common Support and Renormalization > Table F3: Diagnostic Decomposition Results under Renormalized Common Support",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_063_table_f3_diagnostic_decomposition_results_under__p1.md",
+      "char_count": 1194,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_064",
+      "title": "Appendix G Additional Results: Symmetric Kitagawa Decompo-",
+      "heading_path": [
+        "7 Conclusions",
+        "Appendix G Additional Results: Symmetric Kitagawa Decompo-"
+      ],
+      "heading_path_text": "7 Conclusions > Appendix G Additional Results: Symmetric Kitagawa Decompo-",
+      "level": 2,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_064_appendix_g_additional_results_symmetric_kitagawa_p1.md",
+      "char_count": 1770,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_065",
+      "title": "Figure G7 reports the results from the symmetric two-fold decomposition. The pattern is",
+      "heading_path": [
+        "7 Conclusions",
+        "Appendix G Additional Results: Symmetric Kitagawa Decompo-",
+        "Figure G7 reports the results from the symmetric two-fold decomposition. The pattern is"
+      ],
+      "heading_path_text": "7 Conclusions > Appendix G Additional Results: Symmetric Kitagawa Decompo- > Figure G7 reports the results from the symmetric two-fold decomposition. The pattern is",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_065_figure_g7_reports_the_results_from_the_symmetric_p1.md",
+      "char_count": 195,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_066",
+      "title": "Figure G7: Symmetric Two-Fold Kitagawa Decomposition of Changes in Aggregate Exposure",
+      "heading_path": [
+        "7 Conclusions",
+        "Appendix G Additional Results: Symmetric Kitagawa Decompo-",
+        "Figure G7: Symmetric Two-Fold Kitagawa Decomposition of Changes in Aggregate Exposure"
+      ],
+      "heading_path_text": "7 Conclusions > Appendix G Additional Results: Symmetric Kitagawa Decompo- > Figure G7: Symmetric Two-Fold Kitagawa Decomposition of Changes in Aggregate Exposure",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_066_figure_g7_symmetric_two_fold_kitagawa_decomposit_p1.md",
+      "char_count": 406,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_067",
+      "title": "Figure G8 presents the results based on the balanced-cell sample. The results remain consistent",
+      "heading_path": [
+        "7 Conclusions",
+        "Appendix G Additional Results: Symmetric Kitagawa Decompo-",
+        "Figure G8 presents the results based on the balanced-cell sample. The results remain consistent"
+      ],
+      "heading_path_text": "7 Conclusions > Appendix G Additional Results: Symmetric Kitagawa Decompo- > Figure G8 presents the results based on the balanced-cell sample. The results remain consistent",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_067_figure_g8_presents_the_results_based_on_the_bala_p1.md",
+      "char_count": 229,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_068",
+      "title": "Appendix H Additional decomposition evidence",
+      "heading_path": [
+        "7 Conclusions",
+        "Appendix H Additional decomposition evidence"
+      ],
+      "heading_path_text": "7 Conclusions > Appendix H Additional decomposition evidence",
+      "level": 2,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_068_appendix_h_additional_decomposition_evidence_p1.md",
+      "char_count": 45,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_069",
+      "title": "Figure H9 plots observed aggregate generative AI exposure together with two counterfactual paths.",
+      "heading_path": [
+        "7 Conclusions",
+        "Appendix H Additional decomposition evidence",
+        "Figure H9 plots observed aggregate generative AI exposure together with two counterfactual paths."
+      ],
+      "heading_path_text": "7 Conclusions > Appendix H Additional decomposition evidence > Figure H9 plots observed aggregate generative AI exposure together with two counterfactual paths.",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_069_figure_h9_plots_observed_aggregate_generative_ai_p1.md",
+      "char_count": 975,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_070",
+      "title": "Figure H9: Aggregate Generative AI Exposure over Time and Counterfactual Paths",
+      "heading_path": [
+        "7 Conclusions",
+        "Appendix H Additional decomposition evidence",
+        "Figure H9: Aggregate Generative AI Exposure over Time and Counterfactual Paths"
+      ],
+      "heading_path_text": "7 Conclusions > Appendix H Additional decomposition evidence > Figure H9: Aggregate Generative AI Exposure over Time and Counterfactual Paths",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_070_figure_h9_aggregate_generative_ai_exposure_over__p1.md",
+      "char_count": 748,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_071",
+      "title": "figure complements the main decomposition by showing the relative importance of each margin",
+      "heading_path": [
+        "7 Conclusions",
+        "Appendix H Additional decomposition evidence",
+        "figure complements the main decomposition by showing the relative importance of each margin"
+      ],
+      "heading_path_text": "7 Conclusions > Appendix H Additional decomposition evidence > figure complements the main decomposition by showing the relative importance of each margin",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_071_figure_complements_the_main_decomposition_by_sho_p1.md",
+      "char_count": 720,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_072",
+      "title": "Figure H10: Relative Contribution of Decomposition Components",
+      "heading_path": [
+        "7 Conclusions",
+        "Appendix H Additional decomposition evidence",
+        "Figure H10: Relative Contribution of Decomposition Components"
+      ],
+      "heading_path_text": "7 Conclusions > Appendix H Additional decomposition evidence > Figure H10: Relative Contribution of Decomposition Components",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_072_figure_h10_relative_contribution_of_decompositio_p1.md",
+      "char_count": 1453,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_073",
+      "title": "Figure H11 summarizes the average quarterly contribution of these four cases. The figure",
+      "heading_path": [
+        "7 Conclusions",
+        "Appendix H Additional decomposition evidence",
+        "Figure H11 summarizes the average quarterly contribution of these four cases. The figure"
+      ],
+      "heading_path_text": "7 Conclusions > Appendix H Additional decomposition evidence > Figure H11 summarizes the average quarterly contribution of these four cases. The figure",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_073_figure_h11_summarizes_the_average_quarterly_cont_p1.md",
+      "char_count": 188,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_074",
+      "title": "Figure H12 decomposes the interaction term for junior postings by the sign of changes in hiring",
+      "heading_path": [
+        "7 Conclusions",
+        "Appendix H Additional decomposition evidence",
+        "Figure H12 decomposes the interaction term for junior postings by the sign of changes in hiring"
+      ],
+      "heading_path_text": "7 Conclusions > Appendix H Additional decomposition evidence > Figure H12 decomposes the interaction term for junior postings by the sign of changes in hiring",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_074_figure_h12_decomposes_the_interaction_term_for_j_p1.md",
+      "char_count": 32,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_075",
+      "title": "Figure H12: Average Quarterly Contribution to The Interaction Term by Sign Pattern: Junior",
+      "heading_path": [
+        "7 Conclusions",
+        "Appendix H Additional decomposition evidence",
+        "Figure H12: Average Quarterly Contribution to The Interaction Term by Sign Pattern: Junior"
+      ],
+      "heading_path_text": "7 Conclusions > Appendix H Additional decomposition evidence > Figure H12: Average Quarterly Contribution to The Interaction Term by Sign Pattern: Junior",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_075_figure_h12_average_quarterly_contribution_to_the_p1.md",
+      "char_count": 8,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_076",
+      "title": "Appendix I Within-Sector Decomposition",
+      "heading_path": [
+        "7 Conclusions",
+        "Appendix I Within-Sector Decomposition"
+      ],
+      "heading_path_text": "7 Conclusions > Appendix I Within-Sector Decomposition",
+      "level": 2,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_076_appendix_i_within_sector_decomposition_p1.md",
+      "char_count": 2111,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_077",
+      "title": "Appendix Figure I13 reports the results. The overall pattern is highly similar to the baseline",
+      "heading_path": [
+        "7 Conclusions",
+        "Appendix Figure I13 reports the results. The overall pattern is highly similar to the baseline"
+      ],
+      "heading_path_text": "7 Conclusions > Appendix Figure I13 reports the results. The overall pattern is highly similar to the baseline",
+      "level": 2,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_077_appendix_figure_i13_reports_the_results_the_over_p1.md",
+      "char_count": 643,
+      "part_index": 1,
+      "body_includes_heading": false
+    },
+    {
+      "chunk_id": "chunk_078",
+      "title": "Figure I13: Within-Sector Decomposition of Changes in Generative AI Exposure",
+      "heading_path": [
+        "7 Conclusions",
+        "Appendix Figure I13 reports the results. The overall pattern is highly similar to the baseline",
+        "Figure I13: Within-Sector Decomposition of Changes in Generative AI Exposure"
+      ],
+      "heading_path_text": "7 Conclusions > Appendix Figure I13 reports the results. The overall pattern is highly similar to the baseline > Figure I13: Within-Sector Decomposition of Changes in Generative AI Exposure",
+      "level": 3,
+      "source_file": "work\\chunks\\generative_ai_labor_demand_pdf_section_v2\\chunk_078_figure_i13_within_sector_decomposition_of_change_p1.md",
+      "char_count": 206,
+      "part_index": 1,
+      "body_includes_heading": false
+    }
+  ]
+}
